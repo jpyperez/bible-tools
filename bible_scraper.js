@@ -26,7 +26,8 @@ var async = require("async"),
     request = require("request"),
     fswf = require("safe-write-file"),
     helper = require("./bible_helpers"),
-    fs = require("fs");
+    fs = require("fs"),
+    htmlEntities = require('html-entities').XmlEntities;
 
 var cursorBook = 0,
     cursorChapter = 0,
@@ -203,8 +204,8 @@ function parseOfflineBible(lang, version, pathPrefix){
         var bookCursor = i.toString().lpad(2),
             bookIndex = fs.readFileSync(pathPrefix+bookCursor+"/1.htm", "utf-8"),
             $ = cheerio.load(bookIndex, {decodeEntities: false}),
-            bookName = $(".textHeader h2").text().customTrim("\n\r ").replace(/ 1$/, ""),
-            numChapters = $("p.ym-noprint").children().length;
+            bookName = $(".textHeader h2").text().customTrim("\n\r\t ").replace(/ 1$/, ""),
+            numChapters = $("p.ym-noprint").children("A, span").length;
 
         var bookInfo = {
             name: bookName,
@@ -212,22 +213,67 @@ function parseOfflineBible(lang, version, pathPrefix){
             chapters: {}
         };
 
+        if (numChapters == 0) {
+            console.log("0 num chapters, book = ", bookCursor);
+        }
+
 
         for (var j = 1; j <= numChapters; j++){
             var chapterContent = fs.readFileSync(pathPrefix+bookCursor+"/" + j + ".htm", "utf-8"),
                 $$ = cheerio.load(chapterContent, {decodeEntities: false}),
                 chapter = {};
 
-            $$(".verse").each(function(verseIndex,verseElement){
-                if ($$(verseElement)[0]
-                    && $$(verseElement)[0].nextSibling
-                    && $$(verseElement)[0].nextSibling.nodeValue
-                ) {
-                    chapter[$$(verseElement).text().customTrim(" ")] = "<span>"+$$(verseElement).text()+"</span> " + $$(verseElement)[0].nextSibling.nodeValue.customTrim("\n\r ");
-                } else if ($$(verseElement)) {
-                    chapter[$$(verseElement).text().customTrim(" ")] = "<span>"+$$(verseElement).text()+"</span>";
+            var buffer = "",
+                cur_verse = 0;
+
+            var sel = ".textBody p";
+
+            if (!$$(sel).length){
+              sel = ".textBody";
+            }
+
+            $$(sel).children().each(function(index, element){
+                if ($$(element).hasClass("verse")) {
+                    if (cur_verse > 0){
+                        chapter[cur_verse.toString()] = "<span>"+cur_verse.toString()+"</span> " + buffer.customTrim(" ");
+                    }
+                    buffer = "";
+                    cur_verse = cur_verse+1;
+                } else {
+                    buffer += $$(element).text().customTrim("\n\r\t ") + " ";
+                }
+
+                if ($$(element)[0].nextSibling && $$(element)[0].nextSibling.nodeValue){
+                    buffer += $$(element)[0].nextSibling.nodeValue.customTrim("\n\r\t ");
                 }
             });
+
+            if (cur_verse==1){
+              cur_verse = 0;
+
+              console.log("0 verses in chapter", j, " of book = ", bookCursor);
+
+              var new_el = "<div><span class='verse'>"+cur_verse.toString()+" </span> " + buffer.customTrim(" ").replace(/(\d)/g, "<span class='verse'>$1</span>")+"</div>";
+
+              buffer = "";
+              $$(new_el).children().each(function(index, element) {
+                if ($$(element).hasClass("verse")) {
+                  if (cur_verse > 0){
+                    chapter[cur_verse.toString()] = "<span>"+cur_verse.toString()+"</span> " + buffer.customTrim(" ");
+                  }
+                  buffer = "";
+                  cur_verse = cur_verse+1;
+                } else {
+                  buffer += $$(element).text().customTrim("\n\r\t ") + " ";
+                }
+
+                if ($$(element)[0].nextSibling && $$(element)[0].nextSibling.nodeValue){
+                  buffer += $$(element)[0].nextSibling.nodeValue.customTrim("\n\r\t ");
+                }
+              });
+            }
+
+            chapter[(cur_verse).toString()] = "<span>"+cur_verse.toString()+"</span> " + buffer.customTrim(" ");
 
             bookInfo.chapters[j.toString()] = chapter;
         }
@@ -260,337 +306,271 @@ function addSynonyms(lang, version, synonyms){
 function reformatBibleJson(lang, version, path){
     var bibleJSON = require(path);
     var bookNames = [
-                {
-                    "id": 1,
-                    "kraci": "I Mojsijeva",
-                    "duzi": "Prva knjiga Mojsijeva"
-                },
-                {
-                    "id": 2,
-                    "kraci": "II Mojsijeva",
-                    "duzi": "Druga knjiga Mojsijeva"
-                },
-                {
-                    "id": 3,
-                    "kraci": "III Mojsijeva",
-                    "duzi": "Tre?a knjiga Mojsijeva"
-                },
-                {
-                    "id": 4,
-                    "kraci": "IV Mojsijeva",
-                    "duzi": "?etvrta knjiga Mojsijeva"
-                },
-                {
-                    "id": 5,
-                    "kraci": "V Mojsijeva",
-                    "duzi": "Peta knjiga Mojsijeva"
-                },
-                {
-                    "id": 6,
-                    "kraci": "Isus Navin",
-                    "duzi": "Knjiga Isusa Navina"
-                },
-                {
-                    "id": 7,
-                    "kraci": "Sudije",
-                    "duzi": "Knjiga o Sudijama"
-                },
-                {
-                    "id": 8,
-                    "kraci": "Ruta",
-                    "duzi": "Knjiga o Ruti"
-                },
-                {
-                    "id": 9,
-                    "kraci": "I Samuilova",
-                    "duzi": "Prva knjiga Samuilova"
-                },
-                {
-                    "id": 10,
-                    "kraci": "II Samuilova",
-                    "duzi": "Druga knjiga Samuilova"
-                },
-                {
-                    "id": 11,
-                    "kraci": "I O carevima",
-                    "duzi": "Prva knjiga o carevima"
-                },
-                {
-                    "id": 12,
-                    "kraci": "II O carevima",
-                    "duzi": "Druga knjiga o carevima"
-                },
-                {
-                    "id": 13,
-                    "kraci": "I Dnevnika",
-                    "duzi": "Prva knjiga dnevnika"
-                },
-                {
-                    "id": 14,
-                    "kraci": "II Dnevnika",
-                    "duzi": "Druga knjiga dnevnika"
-                },
-                {
-                    "id": 15,
-                    "kraci": "Jezdra",
-                    "duzi": "Knjiga Jezdrina"
-                },
-                {
-                    "id": 16,
-                    "kraci": "Nemija",
-                    "duzi": "Knjiga Nemijina"
-                },
-                {
-                    "id": 17,
-                    "kraci": "Jestira",
-                    "duzi": "Knjiga o Jestiri"
-                },
-                {
-                    "id": 18,
-                    "kraci": "Jov",
-                    "duzi": "Knjiga o Jovu"
-                },
-                {
-                    "id": 19,
-                    "kraci": "Psalmi",
-                    "duzi": "Psalmi Davidovi"
-                },
-                {
-                    "id": 20,
-                    "kraci": "Pri?e Solomunove",
-                    "duzi": "Pri?e Solomunove"
-                },
-                {
-                    "id": 21,
-                    "kraci": "Propovjednik",
-                    "duzi": "Knjiga Propovjednikova"
-                },
-                {
-                    "id": 22,
-                    "kraci": "Pjesma nad pjesmama",
-                    "duzi": "Pjesma nad pjesmama"
-                },
-                {
-                    "id": 23,
-                    "kraci": "Isaija",
-                    "duzi": "Knjiga proroka Isaije"
-                },
-                {
-                    "id": 24,
-                    "kraci": "Jeremija",
-                    "duzi": "Knjiga proroka Jeremije"
-                },
-                {
-                    "id": 25,
-                    "kraci": "Pla? Jeremijin",
-                    "duzi": "Pla? Jeremijin"
-                },
-                {
-                    "id": 26,
-                    "kraci": "Jezekilj",
-                    "duzi": "Knjiga proroka Jezekilja"
-                },
-                {
-                    "id": 27,
-                    "kraci": "Danilo",
-                    "duzi": "Knjiga proroka Danila"
-                },
-                {
-                    "id": 28,
-                    "kraci": "Osija",
-                    "duzi": "Knjiga proroka Osije"
-                },
-                {
-                    "id": 29,
-                    "kraci": "Joilo",
-                    "duzi": "Knjiga proroka Joila"
-                },
-                {
-                    "id": 30,
-                    "kraci": "Amos",
-                    "duzi": "Knjiga proroka Amosa"
-                },
-                {
-                    "id": 31,
-                    "kraci": "Avdija",
-                    "duzi": "Knjiga proroka Avdije"
-                },
-                {
-                    "id": 32,
-                    "kraci": "Jona",
-                    "duzi": "Knjiga proroka Jone"
-                },
-                {
-                    "id": 33,
-                    "kraci": "Mihej",
-                    "duzi": "Knjiga proroka Miheja"
-                },
-                {
-                    "id": 34,
-                    "kraci": "Naum",
-                    "duzi": "Knjiga proroka Nauma"
-                },
-                {
-                    "id": 35,
-                    "kraci": "Avakum",
-                    "duzi": "Knjiga proroka Avakuma"
-                },
-                {
-                    "id": 36,
-                    "kraci": "Sofonija",
-                    "duzi": "Knjiga proroka Sofonije"
-                },
-                {
-                    "id": 37,
-                    "kraci": "Agej",
-                    "duzi": "Knjiga proroka Ageja"
-                },
-                {
-                    "id": 38,
-                    "kraci": "Zaharija",
-                    "duzi": "Knjiga proroka Zaharije"
-                },
-                {
-                    "id": 39,
-                    "kraci": "Malahija",
-                    "duzi": "Knjiga proroka Malahije"
-                },
-                {
-                    "id": 40,
-                    "kraci": "Matej",
-                    "duzi": "Evan?elje po Mateju"
-                },
-                {
-                    "id": 41,
-                    "kraci": "Marko",
-                    "duzi": "Evan?elje po Marko"
-                },
-                {
-                    "id": 42,
-                    "kraci": "Luka",
-                    "duzi": "Evan?elje po Luki"
-                },
-                {
-                    "id": 43,
-                    "kraci": "Jovan",
-                    "duzi": "Evan?elje po Jovanu"
-                },
-                {
-                    "id": 44,
-                    "kraci": "Djela apostolska",
-                    "duzi": "Djela apostolska"
-                },
-                {
-                    "id": 45,
-                    "kraci": "Rimljanima",
-                    "duzi": "Poslanica Rimljanima"
-                },
-                {
-                    "id": 46,
-                    "kraci": "I Korin?anima",
-                    "duzi": "Prva poslanica Korin?anima"
-                },
-                {
-                    "id": 47,
-                    "kraci": "II Korin?anima",
-                    "duzi": "Druga poslanica Korin?anima"
-                },
-                {
-                    "id": 48,
-                    "kraci": "Galatima",
-                    "duzi": "Poslanica Galatima"
-                },
-                {
-                    "id": 49,
-                    "kraci": "Efescima",
-                    "duzi": "Poslanica Efescima"
-                },
-                {
-                    "id": 50,
-                    "kraci": "Filibljanima",
-                    "duzi": "Poslanica Filibljanima"
-                },
-                {
-                    "id": 51,
-                    "kraci": "Koloanima",
-                    "duzi": "Poslanica Koloanima"
-                },
-                {
-                    "id": 52,
-                    "kraci": "I Solunjanima",
-                    "duzi": "Prva poslanica Solunjanima"
-                },
-                {
-                    "id": 53,
-                    "kraci": "II Solunjanima",
-                    "duzi": "Druga poslanica Solunjanima"
-                },
-                {
-                    "id": 54,
-                    "kraci": "I Timotiju",
-                    "duzi": "Prva poslanica Timotiju"
-                },
-                {
-                    "id": 55,
-                    "kraci": "II Timotiju",
-                    "duzi": "Druga poslanica Timotiju"
-                },
-                {
-                    "id": 56,
-                    "kraci": "Titu",
-                    "duzi": "Poslanica Titu"
-                },
-                {
-                    "id": 57,
-                    "kraci": "Filimonu",
-                    "duzi": "Poslanica Filimonu"
-                },
-                {
-                    "id": 58,
-                    "kraci": "Jevrejima",
-                    "duzi": "Poslanica Jevrejima"
-                },
-                {
-                    "id": 59,
-                    "kraci": "Jakov",
-                    "duzi": "Poslanica Jakovljeva"
-                },
-                {
-                    "id": 60,
-                    "kraci": "I Petrova",
-                    "duzi": "Prva poslanica Petrova"
-                },
-                {
-                    "id": 61,
-                    "kraci": "II Petrova",
-                    "duzi": "Druga poslanica Petrova"
-                },
-                {
-                    "id": 62,
-                    "kraci": "I Jovanova",
-                    "duzi": "Prva poslanica Jovanova"
-                },
-                {
-                    "id": 63,
-                    "kraci": "II Jovanova",
-                    "duzi": "Druga poslanica Jovanova"
-                },
-                {
-                    "id": 64,
-                    "kraci": "III Jovanova",
-                    "duzi": "Tre?a poslanica Jovanova"
-                },
-                {
-                    "id": 65,
-                    "kraci": "Juda",
-                    "duzi": "Poslanica Judina"
-                },
-                {
-                    "id": 66,
-                    "kraci": "Otkrivenje",
-                    "duzi": "Otkrivenje"
-                }
-            ];
+          {
+            "book_id": 1,
+            "name": "1. Мојсеева"
+          },
+          {
+            "book_id": 2,
+            "name": "2. Мојсеева"
+          },
+          {
+            "book_id": 3,
+            "name": "3. Мојсеева"
+          },
+          {
+            "book_id": 4,
+            "name": "4. Мојсеева"
+          },
+          {
+            "book_id": 5,
+            "name": "5. Мојсеева"
+          },
+          {
+            "book_id": 6,
+            "name": "Исус Навин"
+          },
+          {
+            "book_id": 7,
+            "name": "Судии"
+          },
+          {
+            "book_id": 8,
+            "name": "Рута"
+          },
+          {
+            "book_id": 9,
+            "name": "1. Самоилова"
+          },
+          {
+            "book_id": 10,
+            "name": "2. Самоилова"
+          },
+          {
+            "book_id": 11,
+            "name": "1. Царевите"
+          },
+          {
+            "book_id": 12,
+            "name": "2. Царевите"
+          },
+          {
+            "book_id": 13,
+            "name": "1. Летописи"
+          },
+          {
+            "book_id": 14,
+            "name": "2. Летописи"
+          },
+          {
+            "book_id": 15,
+            "name": "Ездра"
+          },
+          {
+            "book_id": 16,
+            "name": "Неемија"
+          },
+          {
+            "book_id": 17,
+            "name": "Естира"
+          },
+          {
+            "book_id": 18,
+            "name": "За Јов"
+          },
+          {
+            "book_id": 19,
+            "name": "Псалми"
+          },
+          {
+            "book_id": 20,
+            "name": "Мудри изреки"
+          },
+          {
+            "book_id": 21,
+            "name": "Проповедник"
+          },
+          {
+            "book_id": 22,
+            "name": "Песна над песните"
+          },
+          {
+            "book_id": 23,
+            "name": "Исаија"
+          },
+          {
+            "book_id": 24,
+            "name": "Еремија"
+          },
+          {
+            "book_id": 25,
+            "name": "Плачот на Еремија"
+          },
+          {
+            "book_id": 26,
+            "name": "Езекиел"
+          },
+          {
+            "book_id": 27,
+            "name": "Даниел"
+          },
+          {
+            "book_id": 28,
+            "name": "Осија"
+          },
+          {
+            "book_id": 29,
+            "name": "Јоил"
+          },
+          {
+            "book_id": 30,
+            "name": "Амос"
+          },
+          {
+            "book_id": 31,
+            "name": "Авдија"
+          },
+          {
+            "book_id": 32,
+            "name": "Јона"
+          },
+          {
+            "book_id": 33,
+            "name": "Михеј"
+          },
+          {
+            "book_id": 34,
+            "name": "Наум"
+          },
+          {
+            "book_id": 35,
+            "name": "Авакум"
+          },
+          {
+            "book_id": 36,
+            "name": "Софонија"
+          },
+          {
+            "book_id": 37,
+            "name": "Агеј"
+          },
+          {
+            "book_id": 38,
+            "name": "Захарија"
+          },
+          {
+            "book_id": 39,
+            "name": "Малахија"
+          },
+          {
+            "book_id": 40,
+            "name": "Матеј"
+          },
+          {
+            "book_id": 41,
+            "name": "Марко"
+          },
+          {
+            "book_id": 42,
+            "name": "Лука"
+          },
+          {
+            "book_id": 43,
+            "name": "Јован"
+          },
+          {
+            "book_id": 44,
+            "name": "Дела апостолски"
+          },
+          {
+            "book_id": 45,
+            "name": "Јаков"
+          },
+          {
+            "book_id": 46,
+            "name": "1. Петрово"
+          },
+          {
+            "book_id": 47,
+            "name": "2. Петрово"
+          },
+          {
+            "book_id": 48,
+            "name": "1. Јованово"
+          },
+          {
+            "book_id": 49,
+            "name": "2. Јованово"
+          },
+          {
+            "book_id": 50,
+            "name": "3. Јованово"
+          },
+          {
+            "book_id": 51,
+            "name": "Јуда"
+          },
+          {
+            "book_id": 52,
+            "name": "Римјаните"
+          },
+          {
+            "book_id": 53,
+            "name": "1. Коринќаните"
+          },
+          {
+            "book_id": 54,
+            "name": "2. Коринќаните"
+          },
+          {
+            "book_id": 55,
+            "name": "Галатите"
+          },
+          {
+            "book_id": 56,
+            "name": "Ефесјаните"
+          },
+          {
+            "book_id": 57,
+            "name": "Филипјаните"
+          },
+          {
+            "book_id": 58,
+            "name": "Колошаните"
+          },
+          {
+            "book_id": 59,
+            "name": "1. Солуњаните"
+          },
+          {
+            "book_id": 60,
+            "name": "2. Солуњаните"
+          },
+          {
+            "book_id": 61,
+            "name": "1. Тимотеј"
+          },
+          {
+            "book_id": 62,
+            "name": "2. Тимотеј"
+          },
+          {
+            "book_id": 63,
+            "name": "Тит"
+          },
+          {
+            "book_id": 64,
+            "name": "Филимон"
+          },
+          {
+            "book_id": 65,
+            "name": "Евреите"
+          },
+          {
+            "book_id": 66,
+            "name": "Откровение"
+          }
+        ];
 
     var getBookInfo = function(){
         return {
@@ -607,47 +587,263 @@ function reformatBibleJson(lang, version, path){
 
     for(var i = 0; i < bibleJSON.data.length; i++){
 
-        if (chapterCursor !== bibleJSON.data[i].g){
-            if (chapterCursor){
-                bookInfo.chapters[chapterCursor] = chapterInfo;
-                bookInfo.numChapters = chapterCursor;
-                bookInfo.name = bookNames[bookCursor-1].kraci;
-            }
 
-            chapterInfo = {};
-            chapterCursor = bibleJSON.data[i].g;
-        }
 
-        if (bookCursor !== bibleJSON.data[i].k){
+        if (bookCursor !== bibleJSON.data[i].book_id){
             if (bookCursor){
                 fswf("./bibles/" + lang + "/" + version + "/books/" + bookCursor.toString().lpad(2) + ".js", "var book = "+JSON.stringify(bookInfo, null, '\t')+";\nmodule.exports = book;");
             }
 
             bookInfo = getBookInfo();
-            bookCursor = bibleJSON.data[i].k;
+            bookCursor = bibleJSON.data[i].book_id;
+            chapterCursor = -1;
+
+            var _bibleInfo = require("./bibles/"+lang+"/"+version+"/info");
+            _bibleInfo.books.push(
+              {
+                "name": bookNames[bookCursor-1].name,
+                "numChapters": 0,
+                "synonyms": []
+              }
+            );
+            fswf("./bibles/"+lang+"/"+version+"/info.js", "var info = " + JSON.stringify(_bibleInfo, null, '\t') + ";\nmodule.exports = info;");
+        }
+
+        if (chapterCursor !== bibleJSON.data[i].chapter){
+            chapterInfo = {};
+            chapterCursor = bibleJSON.data[i].chapter;
+            if (chapterCursor){
+                bookInfo.chapters[chapterCursor] = chapterInfo;
+                bookInfo.numChapters = chapterCursor;
+                bookInfo.name = bookNames[bookCursor-1].name;
+
+              var _bibleInfo = require("./bibles/"+lang+"/"+version+"/info");
+              _bibleInfo.books[bookCursor-1].numChapters++;
+              fswf("./bibles/"+lang+"/"+version+"/info.js", "var info = " + JSON.stringify(_bibleInfo, null, '\t') + ";\nmodule.exports = info;");
+            }
+
+
         }
 
 
 
-        chapterInfo[bibleJSON.data[i].s] = "<sup>"+bibleJSON.data[i].s+"</sup> " + bibleJSON.data[i].stih;
+        chapterInfo[bibleJSON.data[i].verse] = "<sup>"+bibleJSON.data[i].verse+"</sup> " + bibleJSON.data[i].text;
     }
     bookInfo.chapters[chapterCursor] = chapterInfo;
     bookInfo.numChapters = chapterCursor;
-    bookInfo.name = bookNames[bookCursor-1].kraci;
+    bookInfo.name = bookNames[bookCursor-1].name;
     fswf("./bibles/" + lang + "/" + version + "/books/" + bookCursor + ".js", "var book = "+JSON.stringify(bookInfo, null, '\t')+";\nmodule.exports = book;");
+}
+
+function reformatBibleJsonTwo(lang, version, bookNamesPath, bookVersesPath){
+    var bookNamesJSON = require(bookNamesPath),
+        bibleJSON = require(bookVersesPath);
+
+    var getBookInfo = function(){
+        return {
+            "name": "",
+            "numChapters": 0,
+            "chapters": {}
+        }
+    };
+
+    var bookCursor = 0,
+        bookName = "",
+        bookInfo = getBookInfo(),
+        chapterCursor = 0,
+        chapterInfo = {},
+        verseBaseLen = 0;
+
+    for(var i = 0; i < bibleJSON.length; i++){
+
+        if (bookName !== bibleJSON[i].book){
+            if (bookCursor > 0){
+                console.log(bookCursor)
+                fswf("./bibles/" + lang + "/" + version + "/books/" + bookCursor.toString().lpad(2) + ".js", "var book = "+JSON.stringify(bookInfo, null, '\t')+";\nmodule.exports = book;");
+            }
+
+            bookInfo = getBookInfo();
+            bookCursor++;
+            bookName = bibleJSON[i].book;
+            chapterCursor = -1;
+        }
+
+        var tempChapter = parseInt(bibleJSON[i].verse.substr(0, bibleJSON[i].verse.indexOf(".")));
+
+
+        if (chapterCursor !== tempChapter){
+            verseBaseLen = bibleJSON[i].verse.substr(bibleJSON[i].verse.indexOf(".")+1).length;
+            chapterInfo = {};
+            chapterCursor = tempChapter;
+            if (chapterCursor){
+                bookInfo.chapters[chapterCursor] = chapterInfo;
+                bookInfo.numChapters = chapterCursor;
+                bookInfo.name = bookNamesJSON[bookCursor-1].human;
+            }
+        }
+
+        var tempVerse = bibleJSON[i].verse.substr(bibleJSON[i].verse.indexOf(".")+1);
+
+        if (verseBaseLen - tempVerse.length) {
+            tempVerse += new Array(verseBaseLen - tempVerse.length + 1).join("0");
+        }
+
+        tempVerse = parseInt(tempVerse)
+
+        chapterInfo[tempVerse] = "<sup>"+tempVerse+"</sup> " + bibleJSON[i].unformatted;
+    }
+    bookInfo.chapters[chapterCursor] = chapterInfo;
+    bookInfo.numChapters = chapterCursor;
+    bookInfo.name = bookNamesJSON[bookCursor-1].human;
+
+    fswf("./bibles/" + lang + "/" + version + "/books/" + bookCursor + ".js", "var book = "+JSON.stringify(bookInfo, null, '\t')+";\nmodule.exports = book;");
+
+    var bibleInfo = {
+        "lang": lang,
+        "version": version,
+        "books": []
+    };
+
+    for (var i = 0; i < bookNamesJSON.length; i++){
+        bibleInfo.books.push({
+            "name": bookNamesJSON[i].human,
+            "numChapters": parseInt(bookNamesJSON[i].chapters),
+            "synonyms": [
+                bookNamesJSON[i].osis
+            ]
+        });
+    }
+    fswf("./bibles/" + lang + "/" + version + "/info.js", "var info = " + JSON.stringify(bibleInfo, null, '\t') + ";\nmodule.exports = info;");
 }
 
 function createBibleInfoForSerbian(){
     var ruBibleInfo = require("./bibles/ru/rusv/info");
-    var bibleInfo = require("./bibles/sr/biblija/info");
+    var bibleInfo = require("./bibles/hu/mb1975/info");
 
     for (var i = 0; i < ruBibleInfo.books.length; i++){
         var osisName = ruBibleInfo.books[i].synonyms[ruBibleInfo.books[i].synonyms.length-1];
         bibleInfo.books[i].synonyms = [osisName];
+        console.log(bibleInfo.books[i].name);
     }
 
-    fswf("./bibles/sr/biblija/info.js", "var info = " + JSON.stringify(bibleInfo, null, '\t') + ";\nmodule.exports = info;");
+    fswf("./bibles/hu/mb1975/info.js", "var info = " + JSON.stringify(bibleInfo, null, '\t') + ";\nmodule.exports = info;");
 }
+
+// createBibleInfoForSerbian()
+
+function scrapeBeblia(lang, version){
+  var tasks = [],
+      chapterTasks = [];
+
+  for (var i = 0; i < 66; i++){
+    tasks.push((function(bookId){
+      return function(callback){
+        request(
+          {
+            "url": "http://www.beblia.com/pages/main.aspx?Language=Hungarian&Book="+bookId+"&Chapter=1",
+            "headers" : {
+              "User-Agent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)"
+            }
+          },
+          function(err, response, body) {
+            if (err) {console.log(err);return;}
+
+            var output = "";
+            var $ = cheerio.load(body, {decodeEntities: false});
+
+            setTimeout(function(){callback(null, {
+              "id": bookId,
+              "title": $(".dropDownListBooks").find(":selected").text(),
+              "chapters": $(".dropDownListBookChapters").children().length
+            })}, 800);
+          }
+        );
+      }
+    })(i+1));
+  }
+
+  async.series(tasks, function(err, results){
+    var bibleInfo = {
+      lang: lang,
+      version: version,
+      books: []
+    };
+    for(var i = 0; i < results.length; i++){
+      var bookInfo = {
+        name: htmlEntities.decode(results[i].title),
+        numChapters: results[i].chapters,
+        chapters: {}
+      };
+      fswf("./bibles/"+lang+"/"+version+"/books/" + (i+1).toString().lpad(2) + ".js", "var book = "+JSON.stringify(bookInfo, null, '\t')+";\nmodule.exports = book;");
+      bookInfo.synonyms = [];
+      delete bookInfo.chapters;
+      bibleInfo.books.push(bookInfo);
+
+      for(var j = 0; j < results[i].chapters; j++){
+        chapterTasks.push((function(lang, version, bookId, bookTitle, chapterIterator){
+          return function(callback){
+            var redis_client = redis.createClient();
+            var url = "http://www.beblia.com/pages/main.aspx?Language=Hungarian&Book="+bookId+"&Chapter="+chapterIterator;
+
+            var writer = function(chapterRaw){
+              var chapter = {};
+              var $ = cheerio.load(chapterRaw, {decodeEntities: false});
+
+              var verseIterator = 0;
+
+              $(".verseTextText").each(function(i, e){
+                var verse = $($(".verseTextButton")[verseIterator]).text();
+
+                chapter[parseInt(verse)] = "<span>"+verse+"</span> " + $(e).html();
+                verseIterator++;
+              });
+
+              try {
+                var bookInfo = require("./bibles/"+lang+"/"+version+"/books/" + bookId.toString().lpad(2) + ".js");
+                bookInfo.chapters[chapterIterator] = chapter;
+                fswf("./bibles/"+lang+"/"+version+"/books/" + bookId.toString().lpad(2) + ".js", "var book = "+JSON.stringify(bookInfo, null, '\t')+";\nmodule.exports = book;");
+              } catch (err){
+                console.log(err);
+              }
+            };
+
+            redis_client.get(url, function(err, reply) {
+              if (!reply){
+                request(
+                  {
+                    "url": url,
+                    "headers" : {
+                      "User-Agent": "Mozilla/4.0 (compatible; MSIE 7.0; Windows NT 6.0)"
+                    }
+                  },
+                  function(err, response, body) {
+                    if (err) {console.log(err);return;}
+
+                    redis_client.set(url, body);
+                    redis_client.quit();
+
+                    writer(body);
+
+                    setTimeout(function(){callback(null, 'test')}, 800);
+                  }
+                );
+              } else {
+                redis_client.quit();
+                writer(reply);
+                callback(null, 'test');
+              }
+            });
+          }
+        })(lang, version, results[i].id, results[i].title, j+1));
+      }
+    }
+
+    fswf("./bibles/"+lang+"/"+version+"/info.js", "var info = "+JSON.stringify(bibleInfo, null, '\t')+";\nmodule.exports = info;");
+    async.series(chapterTasks);
+  });
+}
+
+// scrapeBeblia("hu", "mb1975");
 
 // scrapeBibleInfo("en", "nasb", "New-American-Standard-Bible-NASB");
 // scrapeBibleInfo("pt", "arc", "Almeida-Revista-e-Corrigida-2009-ARC");
@@ -677,4 +873,91 @@ function createBibleInfoForSerbian(){
 // scrapeBible("da", "dn1933");
 // scrapeBible("da", "bph");
 
-// parseOfflineBible("da", "bibelen", "/Users/vitalik/Downloads/Bibles/dk/");
+// parseOfflineBible("fj", "fov", "/Users/vitaliy/Downloads/fiji/fj/");
+//
+// function fixNamesCZ(){
+//     var bibleInfo = require("./bibles/zh/ctv/info");
+//
+//     for (var i = 0; i < bibleInfo.books.length; i++){
+//         var bookId = i+1;
+//
+//         var bookInfo = require("./bibles/zh/ctv/books/"+bookId.toString().lpad(2));
+//         bookInfo.name = bibleInfo.books[i].name;
+//         fswf("./bibles/zh/ctv/books/"+bookId.toString().lpad(2) + ".js", "var book = "+JSON.stringify(bookInfo, null, '\t')+";\nmodule.exports = book;");
+//     }
+// }
+//
+// fixNamesCZ()
+
+// createBibleInfoForSerbian()
+// reformatBibleJson("mk", "MKB", "/Users/vitaliy/Sites/Adventech/bible-tools/mk_bible.json");
+// reformatBibleJsonTwo("ne", "ERV", "/Users/vitaliy/Sites/Adventech/bible-tools/books.json", "/Users/vitaliy/Sites/Adventech/bible-tools/ervne.json")
+
+var createBTIBible = function(){
+  var books = require("/Users/vitaliy/Downloads/bti/books.json"),
+      verses = require("/Users/vitaliy/Downloads/bti/verses.json"),
+      bookIterator = 0,
+      bookContent = {},
+      lastBookNumber = "",
+    lastBookInfo = {},
+      bookInfo = {};
+
+  var getBookByID = function(id){
+    for (var i = 0; i < books.length; i++){
+      if (books[i].book_number===id){
+        return books[i];
+      }
+    }
+    return null;
+  };
+
+  var write = function(){
+    if (bookIterator>0){
+      var book = {
+        "name": lastBookInfo.long_name,
+        "numChapters": Object.keys(bookContent).length,
+        "chapters": bookContent
+      };
+
+      fswf("./bibles/ru/bti/books/"+bookIterator.toString().lpad(2) + ".js", "var book = "+JSON.stringify(book, null, '\t')+";\nmodule.exports = book;");
+    }
+  };
+
+  for(var i = 0; i < verses.length; i++){
+    bookInfo = getBookByID(verses[i].book_number);
+
+    if (bookInfo){
+      if (bookInfo.book_number!==lastBookNumber){
+
+        write();
+
+        bookContent = {};
+        bookIterator++;
+        lastBookNumber = bookInfo.book_number;
+        lastBookInfo = bookInfo;
+      }
+
+      if(!bookContent.hasOwnProperty(verses[i].chapter)){
+        bookContent[verses[i].chapter] = {};
+      }
+
+      var verse = verses[i].text;
+
+      verse = verse.replace(/<pb\/> ?/g, "");
+      verse = verse.replace(/<f>.*<\/f>/g, "");
+      verse = verse.replace(/<t>/g, "<div>");
+      verse = verse.replace(/<\/t>/g, "<\/div>");
+      verse = verse.replace(/<e>/g, "<em>");
+      verse = verse.replace(/<\/e>/g, "<\/em>");
+
+      bookContent[verses[i].chapter][verses[i].verse] = "<sup>"+verses[i].verse+"</sup> "+verse;
+    } else {
+      console.log("Warning, null returned from getBookById, ", verses[i].book_number);
+    }
+  }
+  write();
+};
+
+// createBTIBible();
+
+// reformatBibleJsonTwo("ta", "ervta", "/Users/vitaliy/Downloads/books.json", "/Users/vitaliy/Downloads/verses.json");
