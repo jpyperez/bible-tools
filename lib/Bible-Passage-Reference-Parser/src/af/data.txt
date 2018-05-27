@@ -3,8 +3,8 @@ $SECOND	2
 $THIRD	3
 $FOURTH	4
 $AB	[a-e]
-$AND	en
-$CHAPTER	hoofstuk
+$AND	en	asook
+$CHAPTER	hoofstuk	hfst.
 $FF	ff.
 $TITLE	title
 $TRANS	AFR53	AFR83
@@ -30,7 +30,7 @@ Ezra	Esra	Esra
 Neh	Nehemia	Neh
 Esth	Ester	Est
 Job	Job	Job
-Ps	Psalms	Ps
+Ps	Psalms	Ps	Psalm
 Prov	Spreuke	Spr
 Eccl	Prediker	Pred
 Song	Hooglied	Hoogl
@@ -63,8 +63,8 @@ Gal	Galasiërs	Gal
 Eph	Efesiërs	Ef
 Phil	Filippense	Fil
 Col	Kolossense	Kol
-1Thess	1 Tessalonisense	1 Tess
-2Thess	2 Tessalonisense	2 Tess
+1Thess	1 Tessalonisense	1 Tess	1 Tessaonicense
+2Thess	2 Tessalonisense	2 Tess	2 Tessaonicense
 1Tim	1 Timoteus	1 Tim
 2Tim	2 Timoteus	2 Tim
 Titus	Titus	Tit

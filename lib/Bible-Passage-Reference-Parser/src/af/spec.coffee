@@ -480,9 +480,11 @@ describe "Localized book Ps (af)", ->
 	it "should handle book: Ps (af)", ->
 		`
 		expect(p.parse("Psalms 1:1").osis()).toEqual("Ps.1.1")
+		expect(p.parse("Psalm 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("Ps 1:1").osis()).toEqual("Ps.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("PSALMS 1:1").osis()).toEqual("Ps.1.1")
+		expect(p.parse("PSALM 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("PS 1:1").osis()).toEqual("Ps.1.1")
 		`
 		true
@@ -1060,10 +1062,12 @@ describe "Localized book 2Thess (af)", ->
 	it "should handle book: 2Thess (af)", ->
 		`
 		expect(p.parse("2 Tessalonisense 1:1").osis()).toEqual("2Thess.1.1")
+		expect(p.parse("2 Tessaonicense 1:1").osis()).toEqual("2Thess.1.1")
 		expect(p.parse("2 Tess 1:1").osis()).toEqual("2Thess.1.1")
 		expect(p.parse("2Thess 1:1").osis()).toEqual("2Thess.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("2 TESSALONISENSE 1:1").osis()).toEqual("2Thess.1.1")
+		expect(p.parse("2 TESSAONICENSE 1:1").osis()).toEqual("2Thess.1.1")
 		expect(p.parse("2 TESS 1:1").osis()).toEqual("2Thess.1.1")
 		expect(p.parse("2THESS 1:1").osis()).toEqual("2Thess.1.1")
 		`
@@ -1077,10 +1081,12 @@ describe "Localized book 1Thess (af)", ->
 	it "should handle book: 1Thess (af)", ->
 		`
 		expect(p.parse("1 Tessalonisense 1:1").osis()).toEqual("1Thess.1.1")
+		expect(p.parse("1 Tessaonicense 1:1").osis()).toEqual("1Thess.1.1")
 		expect(p.parse("1 Tess 1:1").osis()).toEqual("1Thess.1.1")
 		expect(p.parse("1Thess 1:1").osis()).toEqual("1Thess.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("1 TESSALONISENSE 1:1").osis()).toEqual("1Thess.1.1")
+		expect(p.parse("1 TESSAONICENSE 1:1").osis()).toEqual("1Thess.1.1")
 		expect(p.parse("1 TESS 1:1").osis()).toEqual("1Thess.1.1")
 		expect(p.parse("1THESS 1:1").osis()).toEqual("1Thess.1.1")
 		`
@@ -1342,6 +1348,10 @@ describe "Miscellaneous tests", ->
 	it "should handle chapters (af)", ->
 		expect(p.parse("Titus 1:1, hoofstuk 2").osis()).toEqual "Titus.1.1,Titus.2"
 		expect(p.parse("Matt 3:4 HOOFSTUK 6").osis()).toEqual "Matt.3.4,Matt.6"
+		expect(p.parse("Titus 1:1, hfst. 2").osis()).toEqual "Titus.1.1,Titus.2"
+		expect(p.parse("Matt 3:4 HFST. 6").osis()).toEqual "Matt.3.4,Matt.6"
+		expect(p.parse("Titus 1:1, hfst 2").osis()).toEqual "Titus.1.1,Titus.2"
+		expect(p.parse("Matt 3:4 HFST 6").osis()).toEqual "Matt.3.4,Matt.6"
 	it "should handle verses (af)", ->
 		expect(p.parse("Exod 1:1 vers 3").osis()).toEqual "Exod.1.1,Exod.1.3"
 		expect(p.parse("Phlm VERS 6").osis()).toEqual "Phlm.1.6"
@@ -1350,6 +1360,8 @@ describe "Miscellaneous tests", ->
 	it "should handle 'and' (af)", ->
 		expect(p.parse("Exod 1:1 en 3").osis()).toEqual "Exod.1.1,Exod.1.3"
 		expect(p.parse("Phlm 2 EN 6").osis()).toEqual "Phlm.1.2,Phlm.1.6"
+		expect(p.parse("Exod 1:1 asook 3").osis()).toEqual "Exod.1.1,Exod.1.3"
+		expect(p.parse("Phlm 2 ASOOK 6").osis()).toEqual "Phlm.1.2,Phlm.1.6"
 	it "should handle titles (af)", ->
 		expect(p.parse("Ps 3 title, 4:2, 5:title").osis()).toEqual "Ps.3.1,Ps.4.2,Ps.5.1"
 		expect(p.parse("PS 3 TITLE, 4:2, 5:TITLE").osis()).toEqual "Ps.3.1,Ps.4.2,Ps.5.1"

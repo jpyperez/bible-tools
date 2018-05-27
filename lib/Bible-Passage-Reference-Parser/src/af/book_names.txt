@@ -20,6 +20,7 @@
 1Sam	1 Sam
 1Sam	1Sam
 1Thess	1 Tessalonisense
+1Thess	1 Tessaonicense
 1Thess	1 Tess
 1Thess	1Thess
 1Tim	1 Timoteus
@@ -47,6 +48,7 @@
 2Sam	2 Sam
 2Sam	2Sam
 2Thess	2 Tessalonisense
+2Thess	2 Tessaonicense
 2Thess	2 Tess
 2Thess	2Thess
 2Tim	2 Timoteus
@@ -170,6 +172,7 @@ Prov	Spreuke
 Prov	Prov
 Prov	Spr
 Ps	Psalms
+Ps	Psalm
 Ps	Ps
 Rev	Openbaring
 Rev	Rev
