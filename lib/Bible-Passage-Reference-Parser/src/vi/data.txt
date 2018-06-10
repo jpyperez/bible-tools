@@ -14,7 +14,7 @@ $VERSE	verse
 $UNICODE_BLOCK	Latin
 $COLLAPSE_COMBINING_CHARACTERS	false
 
-Gen	Sáng Thế	Sáng thế ký	Sáng
+Gen	Sáng Thế	Sáng thế ký	Sáng	Sáng-thế Ký
 Exod	Xuất Hành	Xuất Ai Cập Ký	Xuất Ê-díp-tô ký	Xuất Ai-cập	Xuất
 Lev	Lê-vi	Lê-vi ký	Lê	Lê Vi
 Num	Dân Số	Dân số ký	Dân
@@ -24,8 +24,8 @@ Judg	Các Thủ lãnh	Thủ lãnh	Thẩm phán	Các quan xét	Quan án	Quan	Th�
 Ruth	Ruth	Ru-tơ	Ru
 1Sam	$FIRST Samuel	$FIRST Sa-mu-ên	$FIRST Sam?
 2Sam	$SECOND Samuel	$SECOND Sa-mu-ên	$SECOND Sam?
-1Kgs	$FIRST Các Vua	$FIRST Vua
-2Kgs	$SECOND Các Vua	$SECOND Vua
+1Kgs	$FIRST Các Vua	$FIRST Vua	$FIRST Các Vua
+2Kgs	$SECOND Các Vua	$SECOND Vua	$SECOND Các Vua
 1Chr	$FIRST Sử biên niên	$FIRST Sử ký	$FIRST Sử Ký	$FIRST Lịch sử	$FIRST Sử
 2Chr	$SECOND Sử biên niên	$SECOND Sử ký	$SECOND  Sử Ký	$SECOND Lịch sử	$SECOND Sử
 Ezra	Étra	E-xơ-ra	Ê-xơ-ra	Êxra	Êxr
@@ -79,7 +79,7 @@ Jas	Giacôbê	Gia-cơ
 2John	$SECOND Gioan	$SECOND Giăng	$SECOND Gi
 3John	$THIRD Gioan	$THIRD Giăng	$THIRD Gi
 Jude	Giuđa	Giu-đe
-Rev	Khải Huyền của John	Khải Huyền	Khải thị	Khải
+Rev	Khải Huyền của John	Khải Huyền	Khải thị	Khải	Khải Huyền
 Tob	Tob
 Jdt	Jdt
 GkEsth	GkEsth

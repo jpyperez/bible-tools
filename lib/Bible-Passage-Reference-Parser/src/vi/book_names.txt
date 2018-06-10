@@ -343,6 +343,7 @@ Gal	Ga-la-ti
 Gal	Galát
 Gal	Gal
 Gen	Sáng thế ký
+Gen	Sáng-thế Ký
 Gen	Sáng Thế
 Gen	Sáng
 Gen	Gen
