@@ -1,6 +1,7 @@
 1Chr	1 ຂ່າວຄາວ
 1Chr	1Chr
 1Cor	1 ໂກຣິນໂທ
+1Cor	1 ໂກລິນໂທ
 1Cor	1Cor
 1Esd	1Esd
 1John	1 ໂຢຮັນ
@@ -18,6 +19,7 @@
 2Chr	2 ຂ່າວຄາວ
 2Chr	2Chr
 2Cor	2 ໂກຣິນໂທ
+2Cor	2 ໂກລິນໂທ
 2Cor	2Cor
 2Esd	2Esd
 2John	2 ໂຢຮັນ
@@ -34,6 +36,7 @@
 2Tim	2Tim
 3John	3 ໂຢຮັນ
 3John	3John
+Acts	ກິດຈະ ການ
 Acts	ກິດຈະການ
 Acts	Acts
 Amos	ອາໂມດ
@@ -56,6 +59,7 @@ Exod	ອົບພະຍົບ
 Exod	Exod
 Ezek	ເອເຊກີ​ເອນ
 Ezek	ເອຊາກາຽນ
+Ezek	ເອຊາກຽນ
 Ezek	Ezek
 Ezra	ເອັດຊະຣາ
 Ezra	Ezra
@@ -72,6 +76,7 @@ Heb	ເຮັບເຣີ
 Heb	Heb
 Hos	ໂຮເຊອາ
 Hos	Hos
+Isa	ເອຊາຍາ
 Isa	ເອຊາຢາ
 Isa	Isa
 Jas	ຢາໂກໂບ
@@ -125,6 +130,7 @@ Prov	Prov
 Ps	ເພງສັນລະເສີນ
 Ps	Ps
 Rev	ພຣະນິມິດ
+Rev	ພະນິມິດ
 Rev	ພະນີມິດ
 Rev	Rev
 Rom	Rom

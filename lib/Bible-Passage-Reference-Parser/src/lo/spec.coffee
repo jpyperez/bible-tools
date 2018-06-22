@@ -172,10 +172,12 @@ describe "Localized book Rev (lo)", ->
 	it "should handle book: Rev (lo)", ->
 		`
 		expect(p.parse("ພຣະນິມິດ 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("ພະນິມິດ 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("ພະນີມິດ 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("Rev 1:1").osis()).toEqual("Rev.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ພຣະນິມິດ 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("ພະນິມິດ 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("ພະນີມິດ 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("REV 1:1").osis()).toEqual("Rev.1.1")
 		`
@@ -281,9 +283,11 @@ describe "Localized book Isa (lo)", ->
 		p.include_apocrypha true
 	it "should handle book: Isa (lo)", ->
 		`
+		expect(p.parse("ເອຊາຍາ 1:1").osis()).toEqual("Isa.1.1")
 		expect(p.parse("ເອຊາຢາ 1:1").osis()).toEqual("Isa.1.1")
 		expect(p.parse("Isa 1:1").osis()).toEqual("Isa.1.1")
 		p.include_apocrypha(false)
+		expect(p.parse("ເອຊາຍາ 1:1").osis()).toEqual("Isa.1.1")
 		expect(p.parse("ເອຊາຢາ 1:1").osis()).toEqual("Isa.1.1")
 		expect(p.parse("ISA 1:1").osis()).toEqual("Isa.1.1")
 		`
@@ -556,10 +560,12 @@ describe "Localized book Ezek (lo)", ->
 		`
 		expect(p.parse("ເອເຊກີ​ເອນ 1:1").osis()).toEqual("Ezek.1.1")
 		expect(p.parse("ເອຊາກາຽນ 1:1").osis()).toEqual("Ezek.1.1")
+		expect(p.parse("ເອຊາກຽນ 1:1").osis()).toEqual("Ezek.1.1")
 		expect(p.parse("Ezek 1:1").osis()).toEqual("Ezek.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ເອເຊກີ​ເອນ 1:1").osis()).toEqual("Ezek.1.1")
 		expect(p.parse("ເອຊາກາຽນ 1:1").osis()).toEqual("Ezek.1.1")
+		expect(p.parse("ເອຊາກຽນ 1:1").osis()).toEqual("Ezek.1.1")
 		expect(p.parse("EZEK 1:1").osis()).toEqual("Ezek.1.1")
 		`
 		true
@@ -871,9 +877,11 @@ describe "Localized book Acts (lo)", ->
 		p.include_apocrypha true
 	it "should handle book: Acts (lo)", ->
 		`
+		expect(p.parse("ກິດຈະ ການ 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("ກິດຈະການ 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("Acts 1:1").osis()).toEqual("Acts.1.1")
 		p.include_apocrypha(false)
+		expect(p.parse("ກິດຈະ ການ 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("ກິດຈະການ 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("ACTS 1:1").osis()).toEqual("Acts.1.1")
 		`
@@ -902,9 +910,11 @@ describe "Localized book 2Cor (lo)", ->
 	it "should handle book: 2Cor (lo)", ->
 		`
 		expect(p.parse("2 ໂກຣິນໂທ 1:1").osis()).toEqual("2Cor.1.1")
+		expect(p.parse("2 ໂກລິນໂທ 1:1").osis()).toEqual("2Cor.1.1")
 		expect(p.parse("2Cor 1:1").osis()).toEqual("2Cor.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("2 ໂກຣິນໂທ 1:1").osis()).toEqual("2Cor.1.1")
+		expect(p.parse("2 ໂກລິນໂທ 1:1").osis()).toEqual("2Cor.1.1")
 		expect(p.parse("2COR 1:1").osis()).toEqual("2Cor.1.1")
 		`
 		true
@@ -917,9 +927,11 @@ describe "Localized book 1Cor (lo)", ->
 	it "should handle book: 1Cor (lo)", ->
 		`
 		expect(p.parse("1 ໂກຣິນໂທ 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("1 ໂກລິນໂທ 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("1Cor 1:1").osis()).toEqual("1Cor.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("1 ໂກຣິນໂທ 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("1 ໂກລິນໂທ 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("1COR 1:1").osis()).toEqual("1Cor.1.1")
 		`
 		true
