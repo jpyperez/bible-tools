@@ -1,6 +1,6 @@
 var book = {
-	"name": "Ιακώβου",
-	"numChapters": 5,
+	"name": "Ἀμβακούμ",
+	"numChapters": 3,
 	"chapters": {
 		"1": {
 			"1": "<span>1</span> Η ΟΡΑΣΗ, ΤΗΝ ΟΠΟΙΑ ΕΙΔΕ Ο ΑΒΒΑΚΟΥΜ, Ο ΠΡΟΦΗΤΗΣ.",

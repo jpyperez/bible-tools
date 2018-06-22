@@ -32,7 +32,7 @@ Ezra	Étra	E-xơ-ra	Ê-xơ-ra	Êxra	Êxr
 Neh	Nê-hê-mi-a	Nơkhemia	Nê-hê-mi	Nê
 Esth	Esther	Ê-xơ-tê
 Job	Gióp
-Ps	Thánh Thi	Thánh vịnh	Thi Thiên	Thi
+Ps	Thánh Thi	Thánh vịnh	Thi Thiên	Thi	Thi-thiên
 Prov	Châm ngôn	Châm
 Eccl	Giảng Sư	Truyền đạo	Giáo huấn	Giáo
 Song	Diễm ca	Nhã ca	Tình ca	Tình
