@@ -108,7 +108,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Rev"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Khải(?:[\s\xa0]*(?:Huyền(?:[\s\xa0]*của[\s\xa0]*John)?|thị))?|Rev)
+		(?:Khải(?:[\s\xa0]*(?:Huyền(?:[\s\xa0]*của[\s\xa0]*John)?|thị)|\-?huyền)?|Rev)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["PrMan"]
@@ -119,7 +119,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Deut"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Phục(?:[\s\xa0]*(?:truyền[\s\xa0]*luật[\s\xa0]*lệ[\s\xa0]*k\xFD|Truyền(?:[\s\xa0]*Luật[\s\xa0]*Lệ)?))?|(?:Đệ[\s\xa0]*nhị[\s\xa0]*luậ|Deu)t)
+		(?:Phục(?:[\s\xa0]*(?:truyền[\s\xa0]*luật[\s\xa0]*lệ[\s\xa0]*k\xFD|Truyền(?:[\s\xa0]*Luật[\s\xa0]*Lệ)?)|\-?truyền)?|(?:Đệ[\s\xa0]*nhị[\s\xa0]*luậ|Deu)t)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Joel"]
@@ -242,7 +242,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Ps"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Th(?:\xE1nh[\s\xa0]*(?:vịnh|Thi)|i(?:[\s\xa0]*Thi\xEAn)?)|Ps)
+		(?:Th(?:\xE1nh[\s\xa0]*(?:vịnh|Thi)|i(?:(?:\-?t|[\s\xa0]*T)hi\xEAn)?)|Ps)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["PrAzar"]
@@ -253,7 +253,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Prov"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Ch\xE2m(?:[\s\xa0]*ng\xF4n)?|Prov)
+		(?:Ch\xE2m(?:[\s\xa0\-?]*ng\xF4n)?|Prov)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Eccl"]
@@ -359,7 +359,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Acts"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:C\xF4ng(?:[\s\xa0]*(?:vụ[\s\xa0]*(?:c\xE1c[\s\xa0]*Sứ|T\xF4ng)[\s\xa0]*đồ|Vụ))?|Sứ[\s\xa0]*đồ|Acts)
+		(?:C\xF4ng(?:[\s\xa0]*(?:vụ[\s\xa0]*(?:c\xE1c[\s\xa0]*Sứ|T\xF4ng)[\s\xa0]*đồ|Vụ)|\-?vụ)?|Sứ[\s\xa0]*đồ|Acts)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Cor"]
