@@ -218,7 +218,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Prov"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Π(?:αροιμ[ίι](?:ες|αι)|ρμ)|Prov)
+		(?:Π(?:αρ(?:οιμ[ίι](?:ες|αι))?|ρμ)|Prov)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Eccl"]
@@ -279,7 +279,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Mic"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Μ(?:ΙΧΑ(?:Ϊ́|Ί?|Ί)ΑΣ|ιχα[ΐίι]ας|χ)|Mic)
+		(?:Μ(?:ΙΧΑ(?:Ϊ́|Ί?|Ί)ΑΣ|ιχα[ΐίι]ας|ιχ|χ)|Mic)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Nah"]

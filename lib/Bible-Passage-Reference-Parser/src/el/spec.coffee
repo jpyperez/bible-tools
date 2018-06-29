@@ -1433,6 +1433,7 @@ describe "Localized book Prov (el)", ->
 		expect(p.parse("Παροιμιαι 1:1").osis()).toEqual("Prov.1.1")
 		expect(p.parse("Παροιμιες 1:1").osis()).toEqual("Prov.1.1")
 		expect(p.parse("Prov 1:1").osis()).toEqual("Prov.1.1")
+		expect(p.parse("Παρ 1:1").osis()).toEqual("Prov.1.1")
 		expect(p.parse("Πρμ 1:1").osis()).toEqual("Prov.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ΠΑΡΟΙΜΊΑΙ 1:1").osis()).toEqual("Prov.1.1")
@@ -1440,6 +1441,7 @@ describe "Localized book Prov (el)", ->
 		expect(p.parse("ΠΑΡΟΙΜΙΑΙ 1:1").osis()).toEqual("Prov.1.1")
 		expect(p.parse("ΠΑΡΟΙΜΙΕΣ 1:1").osis()).toEqual("Prov.1.1")
 		expect(p.parse("PROV 1:1").osis()).toEqual("Prov.1.1")
+		expect(p.parse("ΠΑΡ 1:1").osis()).toEqual("Prov.1.1")
 		expect(p.parse("ΠΡΜ 1:1").osis()).toEqual("Prov.1.1")
 		`
 		true
@@ -1704,6 +1706,7 @@ describe "Localized book Mic (el)", ->
 		expect(p.parse("Μιχαίας 1:1").osis()).toEqual("Mic.1.1")
 		expect(p.parse("Μιχαιας 1:1").osis()).toEqual("Mic.1.1")
 		expect(p.parse("Mic 1:1").osis()).toEqual("Mic.1.1")
+		expect(p.parse("Μιχ 1:1").osis()).toEqual("Mic.1.1")
 		expect(p.parse("Μχ 1:1").osis()).toEqual("Mic.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ΜΙΧΑΊΑΣ 1:1").osis()).toEqual("Mic.1.1")
@@ -1714,6 +1717,7 @@ describe "Localized book Mic (el)", ->
 		expect(p.parse("ΜΙΧΑΊΑΣ 1:1").osis()).toEqual("Mic.1.1")
 		expect(p.parse("ΜΙΧΑΙΑΣ 1:1").osis()).toEqual("Mic.1.1")
 		expect(p.parse("MIC 1:1").osis()).toEqual("Mic.1.1")
+		expect(p.parse("ΜΙΧ 1:1").osis()).toEqual("Mic.1.1")
 		expect(p.parse("ΜΧ 1:1").osis()).toEqual("Mic.1.1")
 		`
 		true
