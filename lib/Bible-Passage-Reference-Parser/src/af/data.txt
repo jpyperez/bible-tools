@@ -1,7 +1,7 @@
-$FIRST	1
-$SECOND	2
-$THIRD	3
-$FOURTH	4
+$FIRST	1	I
+$SECOND	2	II
+$THIRD	3	III
+$FOURTH	4	IV
 $AB	[a-e]
 $AND	en	asook
 $CHAPTER	hoofstuk	hfst.
@@ -13,10 +13,10 @@ $VERSE	vers	Bybelvers
 $UNICODE_BLOCK	Latin
 
 Gen	Genesis	Gen
-Exod	Eksodus	Eks
-Lev	Levitikus	Lev
+Exod	Eksodus	Eks	Exodus
+Lev	Levitikus	Lev	Levítikus
 Num	Numeri	Num
-Deut	Deuteronomium	Deut
+Deut	Deuteronomium	Deut	Deuteronómium
 Josh	Josua	Jos
 Judg	Rigters	Rig
 Ruth	Rut	Rut
@@ -51,31 +51,31 @@ Zeph	Sefanja	Sef
 Hag	Haggai	Hag
 Zech	Sagaria	Sag
 Mal	Maleagi	Mal
-Matt	Matteus	Matt
+Matt	Matteus	Matt	Matthéüs
 Mark	Markus	Mark
 Luke	Lukas	Luk
 John	Johannes	Joh
 Acts	Handelinge	Hand
 Rom	Romeine	Rom
-1Cor	1 Korintiërs	1 Kor
-2Cor	2 Korintiërs	2 Kor
-Gal	Galasiërs	Gal
-Eph	Efesiërs	Ef
+1Cor	$FIRST Korintiërs	$FIRST Kor	$FIRST Korinthiërs
+2Cor	$SECOND Korintiërs	$SECOND Kor	$SECOND Korinthiërs
+Gal	Galasiërs	Gal	Galásiërs
+Eph	Efesiërs	Ef	Efésiërs
 Phil	Filippense	Fil
 Col	Kolossense	Kol
-1Thess	1 Tessalonisense	1 Tess	1 Tessaonicense
-2Thess	2 Tessalonisense	2 Tess	2 Tessaonicense
-1Tim	1 Timoteus	1 Tim
-2Tim	2 Timoteus	2 Tim
+1Thess	$FIRST Tessalonisense	$FIRST Tess	$FIRST Tessaonicense
+2Thess	$SECOND Tessalonisense	$SECOND Tess	$SECOND Tessaonicense
+1Tim	$FIRST Timoteus	$FIRST Tim
+2Tim	$SECOND Timoteus	$SECOND Tim
 Titus	Titus	Tit
 Phlm	Filemon	Filem
 Heb	Hebreërs	Heb
 Jas	Jakobus	Jak
-1Pet	1 Petrus	1 Pet
-2Pet	2 Petrus	2 Pet
-1John	1 Johannes	1 Joh
-2John	2 Johannes	2 Joh
-3John	3 Johannes	3 Joh
+1Pet	$FIRST Petrus	$FIRST Pet
+2Pet	$SECOND Petrus	$SECOND Pet
+1John	$FIRST Johannes	$FIRST Joh
+2John	$SECOND Johannes	$SECOND Joh
+3John	$THIRD Johannes	$THIRD Joh
 Jude	Judas	Jud
 Rev	Openbaring	Op
 
