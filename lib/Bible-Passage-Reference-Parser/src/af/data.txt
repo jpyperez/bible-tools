@@ -15,7 +15,7 @@ $UNICODE_BLOCK	Latin
 Gen	Genesis	Gen
 Exod	Eksodus	Eks	Exodus
 Lev	Levitikus	Lev	Levítikus
-Num	Numeri	Num
+Num	Numeri	Num	Númeri
 Deut	Deuteronomium	Deut	Deuteronómium
 Josh	Josua	Jos
 Judg	Rigters	Rig
@@ -63,8 +63,8 @@ Gal	Galasiërs	Gal	Galásiërs
 Eph	Efesiërs	Ef	Efésiërs
 Phil	Filippense	Fil
 Col	Kolossense	Kol
-1Thess	$FIRST Tessalonisense	$FIRST Tess	$FIRST Tessaonicense
-2Thess	$SECOND Tessalonisense	$SECOND Tess	$SECOND Tessaonicense
+1Thess	$FIRST Tessalonisense	$FIRST Tess	$FIRST Tessaonicense	$FIRST Thess
+2Thess	$SECOND Tessalonisense	$SECOND Tess	$SECOND Tessaonicense	$SECOND Thess
 1Tim	$FIRST Timoteus	$FIRST Tim
 2Tim	$SECOND Timoteus	$SECOND Tim
 Titus	Titus	Tit

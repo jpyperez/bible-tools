@@ -75,7 +75,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Num"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Num(?:eri)?)
+		(?:N(?:\xFAmeri|um(?:eri)?))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Sir"]
@@ -389,12 +389,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["2Thess"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:II(?:\.[\s\xa0]*Tess(?:a(?:lonis|onic)ense)?|[\s\xa0]*Tess(?:a(?:lonis|onic)ense)?)|2(?:\.[\s\xa0]*Tess(?:a(?:lonis|onic)ense)?|[\s\xa0]*Tess(?:a(?:lonis|onic)ense)?|Thess))
+		(?:II(?:\.[\s\xa0]*T(?:ess(?:a(?:lonis|onic)ense)?|hess)|[\s\xa0]*T(?:ess(?:a(?:lonis|onic)ense)?|hess))|2(?:\.[\s\xa0]*T(?:ess(?:a(?:lonis|onic)ense)?|hess)|[\s\xa0]*T(?:ess(?:a(?:lonis|onic)ense)?|hess)|Thess))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["1Thess"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:I(?:\.[\s\xa0]*Tess(?:a(?:lonis|onic)ense)?|[\s\xa0]*Tess(?:a(?:lonis|onic)ense)?)|1(?:\.[\s\xa0]*Tess(?:a(?:lonis|onic)ense)?|[\s\xa0]*Tess(?:a(?:lonis|onic)ense)?|Thess))
+		(?:I(?:\.[\s\xa0]*T(?:ess(?:a(?:lonis|onic)ense)?|hess)|[\s\xa0]*T(?:ess(?:a(?:lonis|onic)ense)?|hess))|1(?:\.[\s\xa0]*T(?:ess(?:a(?:lonis|onic)ense)?|hess)|[\s\xa0]*T(?:ess(?:a(?:lonis|onic)ense)?|hess)|Thess))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Tim"]
