@@ -1,7 +1,7 @@
-$FIRST	1
-$SECOND	2
-$THIRD	3
-$FOURTH	4
+$FIRST	1	I
+$SECOND	2	II
+$THIRD	3	III
+$FOURTH	4	IV
 $AB	[a-e]
 $AND	le
 $CHAPTER	khaolo
@@ -20,12 +20,12 @@ Deut	Deuteronoma
 Josh	Joshua
 Judg	Baahlodi
 Ruth	Ruthe
-1Sam	I Samuele
-2Sam	II Samuele
-1Kgs	I Marena
-2Kgs	II Marena
-1Chr	I Dikronike
-2Chr	II Dikronike
+1Sam	$FIRST Samuele
+2Sam	$SECOND Samuele
+1Kgs	$FIRST Marena
+2Kgs	$SECOND Marena
+1Chr	$FIRST Dikronike
+2Chr	$SECOND Dikronike
 Ezra	Esdrase
 Neh	Nehemia
 Esth	Esthere
@@ -56,26 +56,26 @@ Mark	Mareka
 Luke	Luka
 John	Johanne
 Acts	Diketso	Liketso
-Rom	Baroma
-1Cor	I Bakorinthe
-2Cor	II Bakorinthe
-Gal	Bagalata
-Eph	Baefese
-Phil	Bafilipi
+Rom	Baroma	Ba-Roma
+1Cor	$FIRST Bakorinthe	$FIRST Ba-Korinthe
+2Cor	$SECOND Bakorinthe	$SECOND Ba-Korinthe
+Gal	Bagalata	Ba-Galata
+Eph	Baefese	Ba-Efese
+Phil	Bafilipi	Ba-Filipi
 Col	Bakolose
-1Thess	I Bathesalonika
-2Thess	II Bathesalonika
-1Tim	I Timothea
-2Tim	II Timothea
+1Thess	$FIRST Bathesalonika	$FIRST Ba-Thesalonika
+2Thess	$SECOND Bathesalonika	$SECOND Ba-Thesalonika
+1Tim	$FIRST Timothea
+2Tim	$SECOND Timothea
 Titus	Tite
 Phlm	Filemone
 Heb	Baheberu
 Jas	Jakobo
-1Pet	I Petrose
-2Pet	II Petrose
-1John	I Johanne
-2John	II Johanne
-3John	III Johanne
+1Pet	$FIRST Petrose
+2Pet	$SECOND Petrose
+1John	$FIRST Johanne
+2John	$SECOND Johanne
+3John	$THIRD Johanne
 Jude	Juda
 Rev	Tshenolo
 Tob	
