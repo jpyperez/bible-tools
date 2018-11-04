@@ -1,335 +1,467 @@
 var info = {
-	"lang": "so",
+	"lang": "st",
 	"version": "sso89",
 	"books": [
 		{
 			"name": "Tšimoloho",
-			"synonyms": [],
+			"synonyms": [
+				"Gen"
+			],
 			"numChapters": 50
 		},
 		{
 			"name": "Phallo",
-			"synonyms": [],
+			"synonyms": [
+				"Exod"
+			],
 			"numChapters": 40
 		},
 		{
 			"name": "Meetlo",
-			"synonyms": [],
+			"synonyms": [
+				"Lev"
+			],
 			"numChapters": 27
 		},
 		{
 			"name": "Lipalo",
-			"synonyms": [],
+			"synonyms": [
+				"Num"
+			],
 			"numChapters": 36
 		},
 		{
 			"name": "Lipolelo",
-			"synonyms": [],
+			"synonyms": [
+				"Deut"
+			],
 			"numChapters": 34
 		},
 		{
 			"name": "Joshua",
-			"synonyms": [],
+			"synonyms": [
+				"Josh"
+			],
 			"numChapters": 24
 		},
 		{
 			"name": "Baahloli",
-			"synonyms": [],
+			"synonyms": [
+				"Judg"
+			],
 			"numChapters": 21
 		},
 		{
 			"name": "Ruthe",
-			"synonyms": [],
+			"synonyms": [
+				"Ruth"
+			],
 			"numChapters": 4
 		},
 		{
 			"name": "1 Samuele",
-			"synonyms": [],
+			"synonyms": [
+				"1Sam"
+			],
 			"numChapters": 31
 		},
 		{
 			"name": "2 Samuele",
-			"synonyms": [],
+			"synonyms": [
+				"2Sam"
+			],
 			"numChapters": 24
 		},
 		{
 			"name": "1 Likhosi",
-			"synonyms": [],
+			"synonyms": [
+				"1Kgs"
+			],
 			"numChapters": 22
 		},
 		{
 			"name": "2 Likhosi",
-			"synonyms": [],
+			"synonyms": [
+				"2Kgs"
+			],
 			"numChapters": 25
 		},
 		{
 			"name": "1 Liketsahalo",
-			"synonyms": [],
+			"synonyms": [
+				"1Chr"
+			],
 			"numChapters": 29
 		},
 		{
 			"name": "2 Liketsahalo",
-			"synonyms": [],
+			"synonyms": [
+				"2Chr"
+			],
 			"numChapters": 36
 		},
 		{
 			"name": "Esera",
-			"synonyms": [],
+			"synonyms": [
+				"Ezra"
+			],
 			"numChapters": 10
 		},
 		{
 			"name": "Nehemia",
-			"synonyms": [],
+			"synonyms": [
+				"Neh"
+			],
 			"numChapters": 13
 		},
 		{
 			"name": "Esetere",
-			"synonyms": [],
+			"synonyms": [
+				"Esth"
+			],
 			"numChapters": 10
 		},
 		{
 			"name": "Jobo",
-			"synonyms": [],
+			"synonyms": [
+				"Job"
+			],
 			"numChapters": 42
 		},
 		{
 			"name": "Lipesalema",
-			"synonyms": [],
+			"synonyms": [
+				"Ps"
+			],
 			"numChapters": 150
 		},
 		{
 			"name": "Maele",
-			"synonyms": [],
+			"synonyms": [
+				"Prov"
+			],
 			"numChapters": 31
 		},
 		{
 			"name": "Moruti",
-			"synonyms": [],
+			"synonyms": [
+				"Eccl"
+			],
 			"numChapters": 12
 		},
 		{
 			"name": "Sefela Sa Lifela",
-			"synonyms": [],
+			"synonyms": [
+				"Song"
+			],
 			"numChapters": 8
 		},
 		{
 			"name": "Esaea",
-			"synonyms": [],
+			"synonyms": [
+				"Isa"
+			],
 			"numChapters": 66
 		},
 		{
 			"name": "Jeremia",
-			"synonyms": [],
+			"synonyms": [
+				"Jer"
+			],
 			"numChapters": 52
 		},
 		{
 			"name": "Koli Ea Malla",
-			"synonyms": [],
+			"synonyms": [
+				"Lam"
+			],
 			"numChapters": 5
 		},
 		{
 			"name": "Esekiele",
-			"synonyms": [],
+			"synonyms": [
+				"Ezek"
+			],
 			"numChapters": 48
 		},
 		{
 			"name": "Daniele",
-			"synonyms": [],
+			"synonyms": [
+				"Dan"
+			],
 			"numChapters": 12
 		},
 		{
 			"name": "Hosea",
-			"synonyms": [],
+			"synonyms": [
+				"Hos"
+			],
 			"numChapters": 14
 		},
 		{
 			"name": "Joele",
-			"synonyms": [],
+			"synonyms": [
+				"Joel"
+			],
 			"numChapters": 3
 		},
 		{
 			"name": "Amose",
-			"synonyms": [],
+			"synonyms": [
+				"Amos"
+			],
 			"numChapters": 9
 		},
 		{
 			"name": "Obadiea",
-			"synonyms": [],
+			"synonyms": [
+				"Obad"
+			],
 			"numChapters": 1
 		},
 		{
 			"name": "Jonase",
-			"synonyms": [],
+			"synonyms": [
+				"Jonah"
+			],
 			"numChapters": 4
 		},
 		{
 			"name": "Mikiea",
-			"synonyms": [],
+			"synonyms": [
+				"Mic"
+			],
 			"numChapters": 7
 		},
 		{
 			"name": "Nahume",
-			"synonyms": [],
+			"synonyms": [
+				"Nah"
+			],
 			"numChapters": 3
 		},
 		{
 			"name": "Habakuke",
-			"synonyms": [],
+			"synonyms": [
+				"Hab"
+			],
 			"numChapters": 3
 		},
 		{
 			"name": "Sofonea",
-			"synonyms": [],
+			"synonyms": [
+				"Zeph"
+			],
 			"numChapters": 3
 		},
 		{
 			"name": "Hagai",
-			"synonyms": [],
+			"synonyms": [
+				"Hag"
+			],
 			"numChapters": 2
 		},
 		{
 			"name": "Sakariea",
-			"synonyms": [],
+			"synonyms": [
+				"Zech"
+			],
 			"numChapters": 14
 		},
 		{
 			"name": "Malakiea",
-			"synonyms": [],
+			"synonyms": [
+				"Mal"
+			],
 			"numChapters": 4
 		},
 		{
 			"name": "Matheu",
-			"synonyms": [],
+			"synonyms": [
+				"Matt"
+			],
 			"numChapters": 28
 		},
 		{
 			"name": "Mareka",
-			"synonyms": [],
+			"synonyms": [
+				"Mark"
+			],
 			"numChapters": 16
 		},
 		{
 			"name": "Luka",
-			"synonyms": [],
+			"synonyms": [
+				"Luke"
+			],
 			"numChapters": 24
 		},
 		{
 			"name": "Johanne",
-			"synonyms": [],
+			"synonyms": [
+				"John"
+			],
 			"numChapters": 21
 		},
 		{
 			"name": "Diketso",
-			"synonyms": [],
+			"synonyms": [
+				"Acts"
+			],
 			"numChapters": 28
 		},
 		{
 			"name": "Baroma",
-			"synonyms": [],
+			"synonyms": [
+				"Rom"
+			],
 			"numChapters": 16
 		},
 		{
 			"name": "1 Bakorinthe",
-			"synonyms": [],
+			"synonyms": [
+				"1Cor"
+			],
 			"numChapters": 16
 		},
 		{
 			"name": "2 Bakorinthe",
-			"synonyms": [],
+			"synonyms": [
+				"2Cor"
+			],
 			"numChapters": 13
 		},
 		{
 			"name": "Bagalata",
-			"synonyms": [],
+			"synonyms": [
+				"Gal"
+			],
 			"numChapters": 6
 		},
 		{
 			"name": "Baefese",
-			"synonyms": [],
+			"synonyms": [
+				"Eph"
+			],
 			"numChapters": 6
 		},
 		{
 			"name": "Bafilipi",
-			"synonyms": [],
+			"synonyms": [
+				"Phil"
+			],
 			"numChapters": 4
 		},
 		{
 			"name": "Bakolose",
-			"synonyms": [],
+			"synonyms": [
+				"Col"
+			],
 			"numChapters": 4
 		},
 		{
 			"name": "1 Bathesalonika",
-			"synonyms": [],
+			"synonyms": [
+				"1Thess"
+			],
 			"numChapters": 5
 		},
 		{
 			"name": "2 Bathesalonika",
-			"synonyms": [],
+			"synonyms": [
+				"2Thess"
+			],
 			"numChapters": 3
 		},
 		{
 			"name": "1 Timothea",
-			"synonyms": [],
+			"synonyms": [
+				"1Tim"
+			],
 			"numChapters": 6
 		},
 		{
 			"name": "2 Timothea",
-			"synonyms": [],
+			"synonyms": [
+				"2Tim"
+			],
 			"numChapters": 4
 		},
 		{
 			"name": "Tite",
-			"synonyms": [],
+			"synonyms": [
+				"Titus"
+			],
 			"numChapters": 3
 		},
 		{
 			"name": "Filemone",
-			"synonyms": [],
+			"synonyms": [
+				"Phlm"
+			],
 			"numChapters": 1
 		},
 		{
 			"name": "Baheberu",
-			"synonyms": [],
+			"synonyms": [
+				"Heb"
+			],
 			"numChapters": 13
 		},
 		{
 			"name": "Jakobo",
-			"synonyms": [],
+			"synonyms": [
+				"Jas"
+			],
 			"numChapters": 5
 		},
 		{
 			"name": "1 Petrose",
-			"synonyms": [],
+			"synonyms": [
+				"1Pet"
+			],
 			"numChapters": 5
 		},
 		{
 			"name": "2 Petrose",
-			"synonyms": [],
+			"synonyms": [
+				"2Pet"
+			],
 			"numChapters": 3
 		},
 		{
 			"name": "1 Johanne",
-			"synonyms": [],
+			"synonyms": [
+				"1John"
+			],
 			"numChapters": 5
 		},
 		{
 			"name": "2 Johanne",
-			"synonyms": [],
+			"synonyms": [
+				"2John"
+			],
 			"numChapters": 1
 		},
 		{
 			"name": "3 Johanne",
-			"synonyms": [],
+			"synonyms": [
+				"3John"
+			],
 			"numChapters": 1
 		},
 		{
 			"name": "Juda",
-			"synonyms": [],
+			"synonyms": [
+				"Jude"
+			],
 			"numChapters": 1
 		},
 		{
 			"name": "Tšenolo",
-			"synonyms": [],
+			"synonyms": [
+				"Rev"
+			],
 			"numChapters": 22
 		}
 	]
