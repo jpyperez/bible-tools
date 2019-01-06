@@ -806,6 +806,7 @@ Mic	Mikieas
 Mic	Miqueas
 Mic	Mikeas
 Mic	Micah
+Mic	Micas
 Mic	Mikah
 Mic	Mikas
 Mic	Mica
@@ -870,6 +871,7 @@ Prov	Prov
 Prov	Kaw
 Ps	Mga Salmo
 Ps	Mga Awit
+Ps	Salmo
 Ps	Awit
 Ps	Ps
 Rev	Apocalipsis ni Juan
