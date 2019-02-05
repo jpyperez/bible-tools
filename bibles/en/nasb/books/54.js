@@ -3,7 +3,7 @@ var book = {
 	"numChapters": 6,
 	"chapters": {
 		"1": {
-			"1": "<sup>1</sup> Misleadings in Doctrine and Living\nPaul, an apostle of Christ Jesus according to the commandment of God our Savior, and of Christ Jesus, who is our hope,",
+			"1": "<sup>1</sup> Paul, an apostle of Christ Jesus according to the commandment of God our Savior, and of Christ Jesus, who is our hope,",
 			"2": "<sup>2</sup> To Timothy, my true child in the faith: Grace, mercy and peace from God the Father and Christ Jesus our Lord.",
 			"3": "<sup>3</sup> As I urged you upon my departure for Macedonia, remain on at Ephesus so that you may instruct certain men not to teach strange doctrines,",
 			"4": "<sup>4</sup> nor to pay attention to myths and endless genealogies, which give rise to mere speculation rather than furthering the administration of God which is by faith.",
@@ -25,7 +25,7 @@ var book = {
 			"20": "<sup>20</sup> Among these are Hymenaeus and Alexander, whom I have handed over to Satan, so that they will be taught not to blaspheme."
 		},
 		"2": {
-			"1": "<sup>1</sup> A Call to Prayer\nFirst of all, then, I urge that entreaties and prayers, petitions and thanksgivings, be made on behalf of all men,",
+			"1": "<sup>1</sup> First of all, then, I urge that entreaties and prayers, petitions and thanksgivings, be made on behalf of all men,",
 			"2": "<sup>2</sup> for kings and all who are in authority, so that we may lead a tranquil and quiet life in all godliness and dignity.",
 			"3": "<sup>3</sup> This is good and acceptable in the sight of God our Savior,",
 			"4": "<sup>4</sup> who desires all men to be saved and to come to the knowledge of the truth.",
@@ -33,7 +33,7 @@ var book = {
 			"6": "<sup>6</sup> who gave Himself as a ransom for all, the testimony given at the proper time.",
 			"7": "<sup>7</sup> For this I was appointed a preacher and an apostle (I am telling the truth, I am not lying) as a teacher of the Gentiles in faith and truth.",
 			"8": "<sup>8</sup> Therefore I want the men in every place to pray, lifting up holy hands, without wrath and dissension.",
-			"9": "<sup>9</sup> Women Instructed\nLikewise, I want women to adorn themselves with proper clothing, modestly and discreetly, not with braided hair and gold or pearls or costly garments,",
+			"9": "<sup>9</sup> Likewise, I want women to adorn themselves with proper clothing, modestly and discreetly, not with braided hair and gold or pearls or costly garments,",
 			"10": "<sup>10</sup> but rather by means of good works, as is proper for women making a claim to godliness.",
 			"11": "<sup>11</sup> A woman must quietly receive instruction with entire submissiveness.",
 			"12": "<sup>12</sup> But I do not allow a woman to teach or exercise authority over a man, but to remain quiet.",
@@ -42,7 +42,7 @@ var book = {
 			"15": "<sup>15</sup> But women will be preserved through the bearing of children if they continue in faith and love and sanctity with self-restraint."
 		},
 		"3": {
-			"1": "<sup>1</sup> Overseers and Deacons\nIt is a trustworthy statement: if any man aspires to the office of overseer, it is a fine work he desires to do.",
+			"1": "<sup>1</sup> It is a trustworthy statement: if any man aspires to the office of overseer, it is a fine work he desires to do.",
 			"2": "<sup>2</sup> An overseer, then, must be above reproach, the husband of one wife, temperate, prudent, respectable, hospitable, able to teach,",
 			"3": "<sup>3</sup> not addicted to wine or pugnacious, but gentle, peaceable, free from the love of money.",
 			"4": "<sup>4</sup> He must be one who manages his own household well, keeping his children under control with all dignity",
@@ -57,15 +57,15 @@ var book = {
 			"13": "<sup>13</sup> For those who have served well as deacons obtain for themselves a high standing and great confidence in the faith that is in Christ Jesus.",
 			"14": "<sup>14</sup> I am writing these things to you, hoping to come to you before long;",
 			"15": "<sup>15</sup> but in case I am delayed, I write so that you will know how one ought to conduct himself in the household of God, which is the church of the living God, the pillar and support of the truth.",
-			"16": "<sup>16</sup> By common confession, great is the mystery of godliness:\nHe who was revealed in the flesh,\nWas vindicated in the Spirit,\nSeen by angels,\nProclaimed among the nations,\nBelieved on in the world,\nTaken up in glory."
+			"16": "<sup>16</sup> By common confession, great is the mystery of godliness: He who was revealed in the flesh, Was vindicated in the Spirit, Seen by angels, Proclaimed among the nations, Believed on in the world, Taken up in glory."
 		},
 		"4": {
-			"1": "<sup>1</sup> Apostasy\nBut the Spirit explicitly says that in later times some will fall away from the faith, paying attention to deceitful spirits and doctrines of demons,",
+			"1": "<sup>1</sup> But the Spirit explicitly says that in later times some will fall away from the faith, paying attention to deceitful spirits and doctrines of demons,",
 			"2": "<sup>2</sup> by means of the hypocrisy of liars seared in their own conscience as with a branding iron,",
 			"3": "<sup>3</sup> men who forbid marriage and advocate abstaining from foods which God has created to be gratefully shared in by those who believe and know the truth.",
 			"4": "<sup>4</sup> For everything created by God is good, and nothing is to be rejected if it is received with gratitude;",
 			"5": "<sup>5</sup> for it is sanctified by means of the word of God and prayer.",
-			"6": "<sup>6</sup> A Good Minister’s Discipline\nIn pointing out these things to the brethren, you will be a good servant of Christ Jesus, constantly nourished on the words of the faith and of the sound doctrine which you have been following.",
+			"6": "<sup>6</sup> In pointing out these things to the brethren, you will be a good servant of Christ Jesus, constantly nourished on the words of the faith and of the sound doctrine which you have been following.",
 			"7": "<sup>7</sup> But have nothing to do with worldly fables fit only for old women. On the other hand, discipline yourself for the purpose of godliness;",
 			"8": "<sup>8</sup> for bodily discipline is only of little profit, but godliness is profitable for all things, since it holds promise for the present life and also for the life to come.",
 			"9": "<sup>9</sup> It is a trustworthy statement deserving full acceptance.",
@@ -78,7 +78,7 @@ var book = {
 			"16": "<sup>16</sup> Pay close attention to yourself and to your teaching; persevere in these things, for as you do this you will ensure salvation both for yourself and for those who hear you."
 		},
 		"5": {
-			"1": "<sup>1</sup> Honor Widows\nDo not sharply rebuke an older man, but rather appeal to him as a father, to the younger men as brothers,",
+			"1": "<sup>1</sup> Do not sharply rebuke an older man, but rather appeal to him as a father, to the younger men as brothers,",
 			"2": "<sup>2</sup> the older women as mothers, and the younger women as sisters, in all purity.",
 			"3": "<sup>3</sup> Honor widows who are widows indeed;",
 			"4": "<sup>4</sup> but if any widow has children or grandchildren, they must first learn to practice piety in regard to their own family and to make some return to their parents; for this is acceptable in the sight of God.",
@@ -87,15 +87,15 @@ var book = {
 			"7": "<sup>7</sup> Prescribe these things as well, so that they may be above reproach.",
 			"8": "<sup>8</sup> But if anyone does not provide for his own, and especially for those of his household, he has denied the faith and is worse than an unbeliever.",
 			"9": "<sup>9</sup> A widow is to be put on the list only if she is not less than sixty years old, having been the wife of one man,",
-			"10": "<sup>10</sup> having a reputation for good works; and if she has brought up children, if she has shown hospitality to strangers, if she has washed the saints’ feet, if she has assisted those in distress, and if she has devoted herself to every good work.",
+			"10": "<sup>10</sup> having a reputation for good works; and if she has brought up children, if she has shown hospitality to strangers, if she has washed the saints' feet, if she has assisted those in distress, and if she has devoted herself to every good work.",
 			"11": "<sup>11</sup> But refuse to put younger widows on the list, for when they feel sensual desires in disregard of Christ, they want to get married,",
 			"12": "<sup>12</sup> thus incurring condemnation, because they have set aside their previous pledge.",
 			"13": "<sup>13</sup> At the same time they also learn to be idle, as they go around from house to house; and not merely idle, but also gossips and busybodies, talking about things not proper to mention.",
 			"14": "<sup>14</sup> Therefore, I want younger widows to get married, bear children, keep house, and give the enemy no occasion for reproach;",
 			"15": "<sup>15</sup> for some have already turned aside to follow Satan.",
 			"16": "<sup>16</sup> If any woman who is a believer has dependent widows, she must assist them and the church must not be burdened, so that it may assist those who are widows indeed.",
-			"17": "<sup>17</sup> Concerning Elders\nThe elders who rule well are to be considered worthy of double honor, especially those who work hard at preaching and teaching.",
-			"18": "<sup>18</sup> For the Scripture says, “You shall not muzzle the ox while he is threshing,” and “The laborer is worthy of his wages.”",
+			"17": "<sup>17</sup> The elders who rule well are to be considered worthy of double honor, especially those who work hard at preaching and teaching.",
+			"18": "<sup>18</sup> For the Scripture says, \"you shall not muzzle the ox while he is threshing,\" and \"The laborer is worthy of his wages.\"",
 			"19": "<sup>19</sup> Do not receive an accusation against an elder except on the basis of two or three witnesses.",
 			"20": "<sup>20</sup> Those who continue in sin, rebuke in the presence of all, so that the rest also will be fearful of sinning.",
 			"21": "<sup>21</sup> I solemnly charge you in the presence of God and of Christ Jesus and of His chosen angels, to maintain these principles without bias, doing nothing in a spirit of partiality.",
@@ -105,7 +105,7 @@ var book = {
 			"25": "<sup>25</sup> Likewise also, deeds that are good are quite evident, and those which are otherwise cannot be concealed."
 		},
 		"6": {
-			"1": "<sup>1</sup> Instructions to Those Who Minister\nAll who are under the yoke as slaves are to regard their own masters as worthy of all honor so that the name of God and our doctrine will not be spoken against.",
+			"1": "<sup>1</sup> All who are under the yoke as slaves are to regard their own masters as worthy of all honor so that the name of God and our doctrine will not be spoken against.",
 			"2": "<sup>2</sup> Those who have believers as their masters must not be disrespectful to them because they are brethren, but must serve them all the more, because those who partake of the benefit are believers and beloved. Teach and preach these principles.",
 			"3": "<sup>3</sup> If anyone advocates a different doctrine and does not agree with sound words, those of our Lord Jesus Christ, and with the doctrine conforming to godliness,",
 			"4": "<sup>4</sup> he is conceited and understands nothing; but he has a morbid interest in controversial questions and disputes about words, out of which arise envy, strife, abusive language, evil suspicions,",
@@ -119,13 +119,13 @@ var book = {
 			"12": "<sup>12</sup> Fight the good fight of faith; take hold of the eternal life to which you were called, and you made the good confession in the presence of many witnesses.",
 			"13": "<sup>13</sup> I charge you in the presence of God, who gives life to all things, and of Christ Jesus, who testified the good confession before Pontius Pilate,",
 			"14": "<sup>14</sup> that you keep the commandment without stain or reproach until the appearing of our Lord Jesus Christ,",
-			"15": "<sup>15</sup> which He will bring about at the proper time—He who is the blessed and only Sovereign, the King of kings and Lord of lords,",
+			"15": "<sup>15</sup> which He will bring about at the proper time-He who is the blessed and only Sovereign, the King of kings and Lord of lords,",
 			"16": "<sup>16</sup> who alone possesses immortality and dwells in unapproachable light, whom no man has seen or can see. To Him be honor and eternal dominion! Amen.",
 			"17": "<sup>17</sup> Instruct those who are rich in this present world not to be conceited or to fix their hope on the uncertainty of riches, but on God, who richly supplies us with all things to enjoy.",
 			"18": "<sup>18</sup> Instruct them to do good, to be rich in good works, to be generous and ready to share,",
 			"19": "<sup>19</sup> storing up for themselves the treasure of a good foundation for the future, so that they may take hold of that which is life indeed.",
-			"20": "<sup>20</sup> O Timothy, guard what has been entrusted to you, avoiding worldly and empty chatter and the opposing arguments of what is falsely called “knowledge”—",
-			"21": "<sup>21</sup> which some have professed and thus gone astray from the faith.\nGrace be with you."
+			"20": "<sup>20</sup> O Timothy, guard what has been entrusted to you, avoiding worldly and empty chatter and the opposing arguments of what is falsely called \"knowledge\"-",
+			"21": "<sup>21</sup> which some have professed and thus gone astray from the faith. Grace be with you."
 		}
 	}
 };

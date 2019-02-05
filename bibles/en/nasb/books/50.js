@@ -3,7 +3,7 @@ var book = {
 	"numChapters": 4,
 	"chapters": {
 		"1": {
-			"1": "<sup>1</sup> Thanksgiving\nPaul and Timothy, bond-servants of Christ Jesus,\nTo all the saints in Christ Jesus who are in Philippi, including the overseers and deacons:",
+			"1": "<sup>1</sup> Paul and Timothy, bond-servants of Christ Jesus, To all the saints in Christ Jesus who are in Philippi, including the overseers and deacons:",
 			"2": "<sup>2</sup> Grace to you and peace from God our Father and the Lord Jesus Christ.",
 			"3": "<sup>3</sup> I thank my God in all my remembrance of you,",
 			"4": "<sup>4</sup> always offering prayer with joy in my every prayer for you all,",
@@ -14,28 +14,28 @@ var book = {
 			"9": "<sup>9</sup> And this I pray, that your love may abound still more and more in real knowledge and all discernment,",
 			"10": "<sup>10</sup> so that you may approve the things that are excellent, in order to be sincere and blameless until the day of Christ;",
 			"11": "<sup>11</sup> having been filled with the fruit of righteousness which comes through Jesus Christ, to the glory and praise of God.",
-			"12": "<sup>12</sup> The Gospel Is Preached\nNow I want you to know, brethren, that my circumstances have turned out for the greater progress of the gospel,",
+			"12": "<sup>12</sup> Now I want you to know, brethren, that my circumstances have turned out for the greater progress of the gospel,",
 			"13": "<sup>13</sup> so that my imprisonment in the cause of Christ has become well known throughout the whole praetorian guard and to everyone else,",
 			"14": "<sup>14</sup> and that most of the brethren, trusting in the Lord because of my imprisonment, have far more courage to speak the word of God without fear.",
 			"15": "<sup>15</sup> Some, to be sure, are preaching Christ even from envy and strife, but some also from good will;",
 			"16": "<sup>16</sup> the latter do it out of love, knowing that I am appointed for the defense of the gospel;",
 			"17": "<sup>17</sup> the former proclaim Christ out of selfish ambition rather than from pure motives, thinking to cause me distress in my imprisonment.",
-			"18": "<sup>18</sup> What then? Only that in every way, whether in pretense or in truth, Christ is proclaimed; and in this I rejoice.\nYes, and I will rejoice,",
+			"18": "<sup>18</sup> What then? Only that in every way, whether in pretense or in truth, Christ is proclaimed; and in this I rejoice. Yes, and I will rejoice,",
 			"19": "<sup>19</sup> for I know that this will turn out for my deliverance through your prayers and the provision of the Spirit of Jesus Christ,",
 			"20": "<sup>20</sup> according to my earnest expectation and hope, that I will not be put to shame in anything, but that with all boldness, Christ will even now, as always, be exalted in my body, whether by life or by death.",
-			"21": "<sup>21</sup> To Live Is Christ\nFor to me, to live is Christ and to die is gain.",
+			"21": "<sup>21</sup> For to me, to live is Christ and to die is gain.",
 			"22": "<sup>22</sup> But if I am to live on in the flesh, this will mean fruitful labor for me; and I do not know which to choose.",
 			"23": "<sup>23</sup> But I am hard-pressed from both directions, having the desire to depart and be with Christ, for that is very much better;",
 			"24": "<sup>24</sup> yet to remain on in the flesh is more necessary for your sake.",
 			"25": "<sup>25</sup> Convinced of this, I know that I will remain and continue with you all for your progress and joy in the faith,",
 			"26": "<sup>26</sup> so that your proud confidence in me may abound in Christ Jesus through my coming to you again.",
 			"27": "<sup>27</sup> Only conduct yourselves in a manner worthy of the gospel of Christ, so that whether I come and see you or remain absent, I will hear of you that you are standing firm in one spirit, with one mind striving together for the faith of the gospel;",
-			"28": "<sup>28</sup> in no way alarmed by your opponents—which is a sign of destruction for them, but of salvation for you, and that too, from God.",
-			"29": "<sup>29</sup> For to you it has been granted for Christ’s sake, not only to believe in Him, but also to suffer for His sake,",
+			"28": "<sup>28</sup> in no way alarmed by your opponents-which is a sign of destruction for them, but of salvation for you, and that too, from God.",
+			"29": "<sup>29</sup> For to you it has been granted for Christ's sake, not only to believe in Him, but also to suffer for His sake,",
 			"30": "<sup>30</sup> experiencing the same conflict which you saw in me, and now hear to be in me."
 		},
 		"2": {
-			"1": "<sup>1</sup> Be Like Christ\nTherefore if there is any encouragement in Christ, if there is any consolation of love, if there is any fellowship of the Spirit, if any affection and compassion,",
+			"1": "<sup>1</sup> Therefore if there is any encouragement in Christ, if there is any consolation of love, if there is any fellowship of the Spirit, if any affection and compassion,",
 			"2": "<sup>2</sup> make my joy complete by being of the same mind, maintaining the same love, united in spirit, intent on one purpose.",
 			"3": "<sup>3</sup> Do nothing from selfishness or empty conceit, but with humility of mind regard one another as more important than yourselves;",
 			"4": "<sup>4</sup> do not merely look out for your own personal interests, but also for the interests of others.",
@@ -53,7 +53,7 @@ var book = {
 			"16": "<sup>16</sup> holding fast the word of life, so that in the day of Christ I will have reason to glory because I did not run in vain nor toil in vain.",
 			"17": "<sup>17</sup> But even if I am being poured out as a drink offering upon the sacrifice and service of your faith, I rejoice and share my joy with you all.",
 			"18": "<sup>18</sup> You too, I urge you, rejoice in the same way and share your joy with me.",
-			"19": "<sup>19</sup> Timothy and Epaphroditus\nBut I hope in the Lord Jesus to send Timothy to you shortly, so that I also may be encouraged when I learn of your condition.",
+			"19": "<sup>19</sup> But I hope in the Lord Jesus to send Timothy to you shortly, so that I also may be encouraged when I learn of your condition.",
 			"20": "<sup>20</sup> For I have no one else of kindred spirit who will genuinely be concerned for your welfare.",
 			"21": "<sup>21</sup> For they all seek after their own interests, not those of Christ Jesus.",
 			"22": "<sup>22</sup> But you know of his proven worth, that he served with me in the furtherance of the gospel like a child serving his father.",
@@ -67,7 +67,7 @@ var book = {
 			"30": "<sup>30</sup> because he came close to death for the work of Christ, risking his life to complete what was deficient in your service to me."
 		},
 		"3": {
-			"1": "<sup>1</sup> The Goal of Life\nFinally, my brethren, rejoice in the Lord. To write the same things again is no trouble to me, and it is a safeguard for you.",
+			"1": "<sup>1</sup> Finally, my brethren, rejoice in the Lord. To write the same things again is no trouble to me, and it is a safeguard for you.",
 			"2": "<sup>2</sup> Beware of the dogs, beware of the evil workers, beware of the false circumcision;",
 			"3": "<sup>3</sup> for we are the true circumcision, who worship in the Spirit of God and glory in Christ Jesus and put no confidence in the flesh,",
 			"4": "<sup>4</sup> although I myself might have confidence even in the flesh. If anyone else has a mind to put confidence in the flesh, I far more:",
@@ -82,7 +82,7 @@ var book = {
 			"13": "<sup>13</sup> Brethren, I do not regard myself as having laid hold of it yet; but one thing I do: forgetting what lies behind and reaching forward to what lies ahead,",
 			"14": "<sup>14</sup> I press on toward the goal for the prize of the upward call of God in Christ Jesus.",
 			"15": "<sup>15</sup> Let us therefore, as many as are perfect, have this attitude; and if in anything you have a different attitude, God will reveal that also to you;",
-			"16": "<sup>16</sup> however, let us keep living by that same standard to which we have attained.",
+			"16": "<sup>16</sup> however, let us keep living by that same  standard to which we have attained.",
 			"17": "<sup>17</sup> Brethren, join in following my example, and observe those who walk according to the pattern you have in us.",
 			"18": "<sup>18</sup> For many walk, of whom I often told you, and now tell you even weeping, that they are enemies of the cross of Christ,",
 			"19": "<sup>19</sup> whose end is destruction, whose god is their appetite, and whose glory is in their shame, who set their minds on earthly things.",
@@ -90,7 +90,7 @@ var book = {
 			"21": "<sup>21</sup> who will transform the body of our humble state into conformity with the body of His glory, by the exertion of the power that He has even to subject all things to Himself."
 		},
 		"4": {
-			"1": "<sup>1</sup> Think of Excellence\nTherefore, my beloved brethren whom I long to see, my joy and crown, in this way stand firm in the Lord, my beloved.",
+			"1": "<sup>1</sup> Therefore, my beloved brethren whom I long to see, my joy and crown, in this way stand firm in the Lord, my beloved.",
 			"2": "<sup>2</sup> I urge Euodia and I urge Syntyche to live in harmony in the Lord.",
 			"3": "<sup>3</sup> Indeed, true companion, I ask you also to help these women who have shared my struggle in the cause of the gospel, together with Clement also and the rest of my fellow workers, whose names are in the book of life.",
 			"4": "<sup>4</sup> Rejoice in the Lord always; again I will say, rejoice!",
@@ -99,7 +99,7 @@ var book = {
 			"7": "<sup>7</sup> And the peace of God, which surpasses all comprehension, will guard your hearts and your minds in Christ Jesus.",
 			"8": "<sup>8</sup> Finally, brethren, whatever is true, whatever is honorable, whatever is right, whatever is pure, whatever is lovely, whatever is of good repute, if there is any excellence and if anything worthy of praise, dwell on these things.",
 			"9": "<sup>9</sup> The things you have learned and received and heard and seen in me, practice these things, and the God of peace will be with you.",
-			"10": "<sup>10</sup> God’s Provisions\nBut I rejoiced in the Lord greatly, that now at last you have revived your concern for me; indeed, you were concerned before, but you lacked opportunity.",
+			"10": "<sup>10</sup> But I rejoiced in the Lord greatly, that now at last you have revived your concern for me; indeed, you were concerned before, but you lacked opportunity.",
 			"11": "<sup>11</sup> Not that I speak from want, for I have learned to be content in whatever circumstances I am.",
 			"12": "<sup>12</sup> I know how to get along with humble means, and I also know how to live in prosperity; in any and every circumstance I have learned the secret of being filled and going hungry, both of having abundance and suffering need.",
 			"13": "<sup>13</sup> I can do all things through Him who strengthens me.",
@@ -111,7 +111,7 @@ var book = {
 			"19": "<sup>19</sup> And my God will supply all your needs according to His riches in glory in Christ Jesus.",
 			"20": "<sup>20</sup> Now to our God and Father be the glory forever and ever. Amen.",
 			"21": "<sup>21</sup> Greet every saint in Christ Jesus. The brethren who are with me greet you.",
-			"22": "<sup>22</sup> All the saints greet you, especially those of Caesar’s household.",
+			"22": "<sup>22</sup> All the saints greet you, especially those of Caesar's household.",
 			"23": "<sup>23</sup> The grace of the Lord Jesus Christ be with your spirit."
 		}
 	}

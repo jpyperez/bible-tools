@@ -3,7 +3,7 @@ var book = {
 	"numChapters": 5,
 	"chapters": {
 		"1": {
-			"1": "<sup>1</sup> Thanksgiving for These Believers\nPaul and Silvanus and Timothy,\nTo the church of the Thessalonians in God the Father and the Lord Jesus Christ: Grace to you and peace.",
+			"1": "<sup>1</sup> Paul and Silvanus and Timothy, To the church of the Thessalonians in God the Father and the Lord Jesus Christ: Grace to you and peace.",
 			"2": "<sup>2</sup> We give thanks to God always for all of you, making mention of you in our prayers;",
 			"3": "<sup>3</sup> constantly bearing in mind your work of faith and labor of love and steadfastness of hope in our Lord Jesus Christ in the presence of our God and Father,",
 			"4": "<sup>4</sup> knowing, brethren beloved by God, His choice of you;",
@@ -15,11 +15,11 @@ var book = {
 			"10": "<sup>10</sup> and to wait for His Son from heaven, whom He raised from the dead, that is Jesus, who rescues us from the wrath to come."
 		},
 		"2": {
-			"1": "<sup>1</sup> Paul’s Ministry\nFor you yourselves know, brethren, that our coming to you was not in vain,",
+			"1": "<sup>1</sup> For you yourselves know, brethren, that our coming to you was not in vain,",
 			"2": "<sup>2</sup> but after we had already suffered and been mistreated in Philippi, as you know, we had the boldness in our God to speak to you the gospel of God amid much opposition.",
 			"3": "<sup>3</sup> For our exhortation does not come from error or impurity or by way of deceit;",
 			"4": "<sup>4</sup> but just as we have been approved by God to be entrusted with the gospel, so we speak, not as pleasing men, but God who examines our hearts.",
-			"5": "<sup>5</sup> For we never came with flattering speech, as you know, nor with a pretext for greed—God is witness—",
+			"5": "<sup>5</sup> For we never came with flattering speech, as you know, nor with a pretext for greed-God is witness-",
 			"6": "<sup>6</sup> nor did we seek glory from men, either from you or from others, even though as apostles of Christ we might have asserted our authority.",
 			"7": "<sup>7</sup> But we proved to be gentle among you, as a nursing mother tenderly cares for her own children.",
 			"8": "<sup>8</sup> Having so fond an affection for you, we were well-pleased to impart to you not only the gospel of God but also our own lives, because you had become very dear to us.",
@@ -31,14 +31,14 @@ var book = {
 			"14": "<sup>14</sup> For you, brethren, became imitators of the churches of God in Christ Jesus that are in Judea, for you also endured the same sufferings at the hands of your own countrymen, even as they did from the Jews,",
 			"15": "<sup>15</sup> who both killed the Lord Jesus and the prophets, and drove us out. They are not pleasing to God, but hostile to all men,",
 			"16": "<sup>16</sup> hindering us from speaking to the Gentiles so that they may be saved; with the result that they always fill up the measure of their sins. But wrath has come upon them to the utmost.",
-			"17": "<sup>17</sup> But we, brethren, having been taken away from you for a short while—in person, not in spirit—were all the more eager with great desire to see your face.",
-			"18": "<sup>18</sup> For we wanted to come to you—I, Paul, more than once—and yet Satan hindered us.",
+			"17": "<sup>17</sup> But we, brethren, having been taken away from you for a short while-in person, not in spirit-were all the more eager with great desire to see your face.",
+			"18": "<sup>18</sup> For we wanted to come to you-I, Paul, more than once-and yet Satan hindered us.",
 			"19": "<sup>19</sup> For who is our hope or joy or crown of exultation? Is it not even you, in the presence of our Lord Jesus at His coming?",
 			"20": "<sup>20</sup> For you are our glory and joy."
 		},
 		"3": {
-			"1": "<sup>1</sup> Encouragement of Timothy’s Visit\nTherefore when we could endure it no longer, we thought it best to be left behind at Athens alone,",
-			"2": "<sup>2</sup> and we sent Timothy, our brother and God’s fellow worker in the gospel of Christ, to strengthen and encourage you as to your faith,",
+			"1": "<sup>1</sup> Therefore when we could endure it no longer, we thought it best to be left behind at Athens alone,",
+			"2": "<sup>2</sup> and we sent Timothy, our brother and God's fellow worker in the gospel of Christ, to strengthen and encourage you as to your faith,",
 			"3": "<sup>3</sup> so that no one would be disturbed by these afflictions; for you yourselves know that we have been destined for this.",
 			"4": "<sup>4</sup> For indeed when we were with you, we kept telling you in advance that we were going to suffer affliction; and so it came to pass, as you know.",
 			"5": "<sup>5</sup> For this reason, when I could endure it no longer, I also sent to find out about your faith, for fear that the tempter might have tempted you, and our labor would be in vain.",
@@ -52,7 +52,7 @@ var book = {
 			"13": "<sup>13</sup> so that He may establish your hearts without blame in holiness before our God and Father at the coming of our Lord Jesus with all His saints."
 		},
 		"4": {
-			"1": "<sup>1</sup> Sanctification and Love\nFinally then, brethren, we request and exhort you in the Lord Jesus, that as you received from us instruction as to how you ought to walk and please God (just as you actually do walk), that you excel still more.",
+			"1": "<sup>1</sup> Finally then, brethren, we request and exhort you in the Lord Jesus, that as you received from us instruction as to how you ought to walk and please God (just as you actually do walk), that you excel still more.",
 			"2": "<sup>2</sup> For you know what commandments we gave you by the authority of the Lord Jesus.",
 			"3": "<sup>3</sup> For this is the will of God, your sanctification; that is, that you abstain from sexual immorality;",
 			"4": "<sup>4</sup> that each of you know how to possess his own vessel in sanctification and honor,",
@@ -64,7 +64,7 @@ var book = {
 			"10": "<sup>10</sup> for indeed you do practice it toward all the brethren who are in all Macedonia. But we urge you, brethren, to excel still more,",
 			"11": "<sup>11</sup> and to make it your ambition to lead a quiet life and attend to your own business and work with your hands, just as we commanded you,",
 			"12": "<sup>12</sup> so that you will behave properly toward outsiders and not be in any need.",
-			"13": "<sup>13</sup> Those Who Died in Christ\nBut we do not want you to be uninformed, brethren, about those who are asleep, so that you will not grieve as do the rest who have no hope.",
+			"13": "<sup>13</sup> But we do not want you to be uninformed, brethren, about those who are asleep, so that you will not grieve as do the rest who have no hope.",
 			"14": "<sup>14</sup> For if we believe that Jesus died and rose again, even so God will bring with Him those who have fallen asleep in Jesus.",
 			"15": "<sup>15</sup> For this we say to you by the word of the Lord, that we who are alive and remain until the coming of the Lord, will not precede those who have fallen asleep.",
 			"16": "<sup>16</sup> For the Lord Himself will descend from heaven with a shout, with the voice of the archangel and with the trumpet of God, and the dead in Christ will rise first.",
@@ -72,9 +72,9 @@ var book = {
 			"18": "<sup>18</sup> Therefore comfort one another with these words."
 		},
 		"5": {
-			"1": "<sup>1</sup> The Day of the Lord\nNow as to the times and the epochs, brethren, you have no need of anything to be written to you.",
+			"1": "<sup>1</sup> Now as to the times and the epochs, brethren, you have no need of anything to be written to you.",
 			"2": "<sup>2</sup> For you yourselves know full well that the day of the Lord will come just like a thief in the night.",
-			"3": "<sup>3</sup> While they are saying, “Peace and safety!” then destruction will come upon them suddenly like labor pains upon a woman with child, and they will not escape.",
+			"3": "<sup>3</sup> While they are saying, \"Peace and safety!\" then destruction will come upon them suddenly like labor pains upon a woman with child, and they will not escape.",
 			"4": "<sup>4</sup> But you, brethren, are not in darkness, that the day would overtake you like a thief;",
 			"5": "<sup>5</sup> for you are all sons of light and sons of day. We are not of night nor of darkness;",
 			"6": "<sup>6</sup> so then let us not sleep as others do, but let us be alert and sober.",
@@ -83,13 +83,13 @@ var book = {
 			"9": "<sup>9</sup> For God has not destined us for wrath, but for obtaining salvation through our Lord Jesus Christ,",
 			"10": "<sup>10</sup> who died for us, so that whether we are awake or asleep, we will live together with Him.",
 			"11": "<sup>11</sup> Therefore encourage one another and build up one another, just as you also are doing.",
-			"12": "<sup>12</sup> Christian Conduct\nBut we request of you, brethren, that you appreciate those who diligently labor among you, and have charge over you in the Lord and give you instruction,",
+			"12": "<sup>12</sup> But we request of you, brethren, that you appreciate those who diligently labor among you, and have charge over you in the Lord and give you instruction,",
 			"13": "<sup>13</sup> and that you esteem them very highly in love because of their work. Live in peace with one another.",
 			"14": "<sup>14</sup> We urge you, brethren, admonish the unruly, encourage the fainthearted, help the weak, be patient with everyone.",
 			"15": "<sup>15</sup> See that no one repays another with evil for evil, but always seek after that which is good for one another and for all people.",
 			"16": "<sup>16</sup> Rejoice always;",
 			"17": "<sup>17</sup> pray without ceasing;",
-			"18": "<sup>18</sup> in everything give thanks; for this is God’s will for you in Christ Jesus.",
+			"18": "<sup>18</sup> in everything give thanks; for this is God's will for you in Christ Jesus.",
 			"19": "<sup>19</sup> Do not quench the Spirit;",
 			"20": "<sup>20</sup> do not despise prophetic utterances.",
 			"21": "<sup>21</sup> But examine everything carefully; hold fast to that which is good;",

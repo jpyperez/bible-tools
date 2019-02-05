@@ -3,7 +3,7 @@ var book = {
 	"numChapters": 1,
 	"chapters": {
 		"1": {
-			"1": "<sup>1</sup> You Walk in the Truth\nThe elder to the beloved Gaius, whom I love in truth.",
+			"1": "<sup>1</sup> The elder to the beloved Gaius, whom I love in truth.",
 			"2": "<sup>2</sup> Beloved, I pray that in all respects you may prosper and be in good health, just as your soul prospers.",
 			"3": "<sup>3</sup> For I was very glad when brethren came and testified to your truth, that is, how you are walking in truth.",
 			"4": "<sup>4</sup> I have no greater joy than this, to hear of my children walking in the truth.",

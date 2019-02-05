@@ -3,7 +3,7 @@ var book = {
 	"numChapters": 1,
 	"chapters": {
 		"1": {
-			"1": "<sup>1</sup> Walk According to His Commandments\nThe elder to the chosen lady and her children, whom I love in truth; and not only I, but also all who know the truth,",
+			"1": "<sup>1</sup> The elder to the chosen lady and her children, whom I love in truth; and not only I, but also all who know the truth,",
 			"2": "<sup>2</sup> for the sake of the truth which abides in us and will be with us forever:",
 			"3": "<sup>3</sup> Grace, mercy and peace will be with us, from God the Father and from Jesus Christ, the Son of the Father, in truth and love.",
 			"4": "<sup>4</sup> I was very glad to find some of your children walking in truth, just as we have received commandment to do from the Father.",
