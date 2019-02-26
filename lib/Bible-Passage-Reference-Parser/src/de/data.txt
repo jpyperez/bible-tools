@@ -72,7 +72,7 @@ Col	Kolosser	Kol
 2Tim	$SECOND Timotheus	2. Tim
 Titus	Titus	Tit
 Phlm	Philemon	Phlm	Phm
-Heb	Hebräer	Hebraeer	Hebr
+Heb	Hebräer	Hebraeer	Hebr  Hbr
 Jas	Jakobusbrief	Jakobus	Jak
 1Pet	$FIRST Petrus	1. Petr
 2Pet	$SECOND Petrus	2. Petr
