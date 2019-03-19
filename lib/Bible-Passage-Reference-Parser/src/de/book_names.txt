@@ -265,6 +265,7 @@ Heb	Hebraeer
 Heb	Hebraer
 Heb	Hebräer
 Heb	Hebr
+Heb	Hbr
 Heb	Heb
 Hos	Hosea
 Hos	Osee

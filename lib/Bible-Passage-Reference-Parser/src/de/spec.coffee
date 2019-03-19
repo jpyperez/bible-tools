@@ -1506,12 +1506,14 @@ describe "Localized book Heb (de)", ->
 		expect(p.parse("Hebraer 1:1").osis()).toEqual("Heb.1.1")
 		expect(p.parse("Hebräer 1:1").osis()).toEqual("Heb.1.1")
 		expect(p.parse("Hebr 1:1").osis()).toEqual("Heb.1.1")
+		expect(p.parse("Hbr 1:1").osis()).toEqual("Heb.1.1")
 		expect(p.parse("Heb 1:1").osis()).toEqual("Heb.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("HEBRAEER 1:1").osis()).toEqual("Heb.1.1")
 		expect(p.parse("HEBRAER 1:1").osis()).toEqual("Heb.1.1")
 		expect(p.parse("HEBRÄER 1:1").osis()).toEqual("Heb.1.1")
 		expect(p.parse("HEBR 1:1").osis()).toEqual("Heb.1.1")
+		expect(p.parse("HBR 1:1").osis()).toEqual("Heb.1.1")
 		expect(p.parse("HEB 1:1").osis()).toEqual("Heb.1.1")
 		`
 		true
