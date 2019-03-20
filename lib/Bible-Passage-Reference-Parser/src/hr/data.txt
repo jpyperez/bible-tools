@@ -33,7 +33,7 @@ Neh	Knjiga Nehemijina	Nehemija	Neh
 Esth	Estera	Est
 Job	Knjiga o Jobu	Job
 Ps	Psalmi	Psalme	Psalam	Ps
-Prov	Mudre izreke	Poslovice	Izr
+Prov	Mudre izreke	Poslovice	Izr	Izreke
 Eccl	Propovjednik	Kohelet	Prop
 Song	Pj	Pjesma nad pjesmama
 Isa	Izaija	Iz
