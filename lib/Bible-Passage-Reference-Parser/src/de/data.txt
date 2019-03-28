@@ -74,8 +74,8 @@ Titus	Titus	Tit
 Phlm	Philemon	Phlm	Phm
 Heb	Hebräer	Hebraeer	Hebr	Hbr
 Jas	Jakobusbrief	Jakobus	Jak
-1Pet	$FIRST Petrus	1. Petr
-2Pet	$SECOND Petrus	2. Petr
+1Pet	$FIRST Petrus	1. Petr	1 Ptr
+2Pet	$SECOND Petrus	2. Petr	2 Ptr
 1John	$FIRST Johannes	1. Joh
 2John	$SECOND Johannes	2. Joh
 3John	$THIRD Johannes	3. Joh
