@@ -52,6 +52,7 @@
 1Pet	1 Petrus
 1Pet	1. Petr
 1Pet	1 Petr
+1Pet	1 Ptr
 1Pet	1Pet
 1Sam	Erste Samuel
 1Sam	1. Samuel
@@ -125,6 +126,7 @@
 2Pet	2 Petrus
 2Pet	2. Petr
 2Pet	2 Petr
+2Pet	2 Ptr
 2Pet	2Pet
 2Sam	Zweite Samuel
 2Sam	2. Samuel
