@@ -266,7 +266,9 @@ PrMan	PrMan
 Prov	Сургаалт үгс
 Prov	Сур. үгс
 Prov	Сур үгс
+Prov	Сур. үг
 Prov	Су. үг
+Prov	Сур үг
 Prov	Су үг
 Prov	Сурүг
 Prov	Prov
