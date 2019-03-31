@@ -54,12 +54,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Gen"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Эх(?:лэл)?|Gen)
+		(?:Эх(?:л(?:эл)?)?|Gen)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Exod"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Ег(?:ипетээс[\s\xa0]*гарсан[\s\xa0]*нь)?|Гэтлэл|Exod|Гэт)
+		(?:Ег(?:ипетээс[\s\xa0]*гарсан[\s\xa0]*нь|\.(?:гар|[\s\xa0]*Г)|гар|га|[\s\xa0]*Г)?|Гэтлэл|Exod|Гэт)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Bel"]
@@ -70,12 +70,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Lev"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Лев(?:ит?)?|Lev)
+		(?:Л(?:ев(?:ит?)?|в)|Lev)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Num"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Тоо(?:ллого)?|Num)
+		(?:То(?:о(?:ллого)?)?|Num)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Sir"]
@@ -114,7 +114,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Deut"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Д(?:эд[\s\xa0]*хууль|х)|Deut)
+		(?:Д(?:эд[\s\xa0]*х(?:ууль)?|\.?[\s\xa0]*Хууль|\.Х|[Хх])|Deut)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Josh"]
@@ -151,37 +151,37 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["2Sam"]
 		regexp: ///(^|[^0-9A-Za-zЀ-ҁ҃-҇Ҋ-ԧⷠ-ⷿꙀ-꙯ꙴ-꙽ꙿ-ꚗꚟ])(
-		(?:2(?:[\s\xa0]*С(?:амуел|м)|Sam))
+		(?:2(?:[\s\xa0]*С(?:ам(?:уел)?|м)|Sam))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["1Sam"]
 		regexp: ///(^|[^0-9A-Za-zЀ-ҁ҃-҇Ҋ-ԧⷠ-ⷿꙀ-꙯ꙴ-꙽ꙿ-ꚗꚟ])(
-		(?:1(?:[\s\xa0]*С(?:амуел|м)|Sam))
+		(?:1(?:[\s\xa0]*С(?:ам(?:уел)?|м)|Sam))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Kgs"]
 		regexp: ///(^|[^0-9A-Za-zЀ-ҁ҃-҇Ҋ-ԧⷠ-ⷿꙀ-꙯ꙴ-꙽ꙿ-ꚗꚟ])(
-		(?:Х(?:аадын[\s\xa0]*)?дэд|2(?:[\s\xa0]*хаад|Kgs|[\s\xa0]*Ха))
+		(?:Х(?:а(?:адын[\s\xa0]*д|\.?[\s\xa0]*Д)|\.[\s\xa0]*Д|[\s\xa0]*Д|д)эд|2(?:[\s\xa0]*Хаад|[\s\xa0]*Ха|Kgs))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["1Kgs"]
 		regexp: ///(^|[^0-9A-Za-zЀ-ҁ҃-҇Ҋ-ԧⷠ-ⷿꙀ-꙯ꙴ-꙽ꙿ-ꚗꚟ])(
-		(?:Х(?:аадын[\s\xa0]*дээд|дээ)|1(?:[\s\xa0]*Хаад|[\s\xa0]*Ха|Kgs))
+		(?:Х(?:а(?:адын[\s\xa0]*д|\.?[\s\xa0]*Д)ээд|\.?[\s\xa0]*Дээд|дээд?)|1(?:[\s\xa0]*Хаад|[\s\xa0]*Ха|Kgs))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Chr"]
 		regexp: ///(^|[^0-9A-Za-zЀ-ҁ҃-҇Ҋ-ԧⷠ-ⷿꙀ-꙯ꙴ-꙽ꙿ-ꚗꚟ])(
-		(?:Ш(?:астирын[\s\xa0]*)?дэд|2(?:[\s\xa0]*Ш(?:астир|с)|Chr))
+		(?:Ш(?:а(?:стирын[\s\xa0]*д|\.?[\s\xa0]*Д)|(?:\.[\s\xa0]*|[\s\xa0]*)?д)эд|2(?:[\s\xa0]*Ш(?:астир|с)|[\s\xa0]*Шас|Chr))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["1Chr"]
 		regexp: ///(^|[^0-9A-Za-zЀ-ҁ҃-҇Ҋ-ԧⷠ-ⷿꙀ-꙯ꙴ-꙽ꙿ-ꚗꚟ])(
-		(?:Ш(?:астирын[\s\xa0]*дээд|дээ)|1(?:[\s\xa0]*Ш(?:астир|с)|Chr))
+		(?:Ш(?:а(?:стирын[\s\xa0]*д|\.?[\s\xa0]*Дэ)ээд|\.[\s\xa0]*дээд|[\s\xa0]*дээд|дээ)|1(?:[\s\xa0]*Ш(?:астир|с)|[\s\xa0]*Шас|Chr))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Ezra"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Езра?|Ezra)
+		(?:Ез(?:ра|р)?|Ezra)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Neh"]
@@ -207,7 +207,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Ps"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Дуу(?:лал)?|Ps)
+		(?:Дуу(?:л(?:ал)?)?|Ps)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["PrAzar"]
@@ -218,12 +218,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Prov"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Сур(?:гаалт[\s\xa0]*үгс)?|Prov)
+		(?:Су(?:р(?:гаалт[\s\xa0]*үгс|\.[\s\xa0]*үгс|[\s\xa0]*үгс|үг)?|\.?[\s\xa0]*үг)|Prov)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Eccl"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Ном(?:логчи[ий]н[\s\xa0]*үгс)?|Eccl)
+		(?:Ном(?:логчи[ий]н[\s\xa0]*үгс|\.?[\s\xa0]*үг)?|Eccl)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["SgThree"]
@@ -234,7 +234,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Song"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:С(?:ол(?:омоны[\s\xa0]*дуун)?|д)|Song)
+		(?:С(?:о(?:л(?:омоны[\s\xa0]*дуун)?|\.[\s\xa0]*дуу|[\s\xa0]*дуун|[\s\xa0]*дуу)|д)|Song)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Jer"]
@@ -244,7 +244,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Ezek"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Ез(?:е(?:киел)?|к)|Ezek)
+		(?:Ез(?:е(?:к(?:иел)?)?|к)|Ezek)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Dan"]
@@ -264,7 +264,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Amos"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Амос?|Amos)
+		(?:Ам(?:ос|о)?|Amos)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Obad"]
@@ -329,17 +329,17 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["1John"]
 		regexp: ///(^|[^0-9A-Za-zЀ-ҁ҃-҇Ҋ-ԧⷠ-ⷿꙀ-꙯ꙴ-꙽ꙿ-ꚗꚟ])(
-		(?:1(?:[\s\xa0]*Ио(?:хан)?|John))
+		(?:1(?:[\s\xa0]*Ио(?:х(?:ан)?)?|John))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2John"]
 		regexp: ///(^|[^0-9A-Za-zЀ-ҁ҃-҇Ҋ-ԧⷠ-ⷿꙀ-꙯ꙴ-꙽ꙿ-ꚗꚟ])(
-		(?:2(?:[\s\xa0]*Ио(?:хан)?|John))
+		(?:2(?:[\s\xa0]*Ио(?:х(?:ан)?)?|John))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["3John"]
 		regexp: ///(^|[^0-9A-Za-zЀ-ҁ҃-҇Ҋ-ԧⷠ-ⷿꙀ-꙯ꙴ-꙽ꙿ-ꚗꚟ])(
-		(?:3(?:[\s\xa0]*Ио(?:хан)?|John))
+		(?:3(?:[\s\xa0]*Ио(?:х(?:ан)?)?|John))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["John"]
@@ -359,12 +359,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["2Cor"]
 		regexp: ///(^|[^0-9A-Za-zЀ-ҁ҃-҇Ҋ-ԧⷠ-ⷿꙀ-꙯ꙴ-꙽ꙿ-ꚗꚟ])(
-		(?:2(?:[\s\xa0]*Ко(?:ринт)?|Cor))
+		(?:2(?:[\s\xa0]*Ко(?:р(?:инт)?)?|Cor))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["1Cor"]
 		regexp: ///(^|[^0-9A-Za-zЀ-ҁ҃-҇Ҋ-ԧⷠ-ⷿꙀ-꙯ꙴ-꙽ꙿ-ꚗꚟ])(
-		(?:1(?:[\s\xa0]*Ко(?:ринт)?|Cor))
+		(?:1(?:[\s\xa0]*Ко(?:р(?:инт)?)?|Cor))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Gal"]
@@ -399,12 +399,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["2Tim"]
 		regexp: ///(^|[^0-9A-Za-zЀ-ҁ҃-҇Ҋ-ԧⷠ-ⷿꙀ-꙯ꙴ-꙽ꙿ-ꚗꚟ])(
-		(?:2(?:[\s\xa0]*Т(?:и(?:мот)?|м)|Tim))
+		(?:2(?:[\s\xa0]*Т(?:и(?:м(?:от)?)?|м)|Tim))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["1Tim"]
 		regexp: ///(^|[^0-9A-Za-zЀ-ҁ҃-҇Ҋ-ԧⷠ-ⷿꙀ-꙯ꙴ-꙽ꙿ-ꚗꚟ])(
-		(?:1(?:[\s\xa0]*Т(?:и(?:мот)?|м)|Tim))
+		(?:1(?:[\s\xa0]*Т(?:и(?:м(?:от)?)?|м)|Tim))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Titus"]
@@ -414,7 +414,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Phlm"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Ф(?:ил(?:емон)?|лм)|Phlm)
+		(?:Ф(?:ил(?:е(?:мон)?)?|лм)|Phlm)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Heb"]
@@ -424,17 +424,17 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Jas"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Иак(?:ов)?|Jas)
+		(?:И(?:ак(?:ов)?|к)|Jas)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Pet"]
 		regexp: ///(^|[^0-9A-Za-zЀ-ҁ҃-҇Ҋ-ԧⷠ-ⷿꙀ-꙯ꙴ-꙽ꙿ-ꚗꚟ])(
-		(?:2(?:[\s\xa0]*П(?:е(?:тр)?|т)|Pet))
+		(?:2(?:[\s\xa0]*П(?:е(?:тр?)?|[рт])|Pet))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["1Pet"]
 		regexp: ///(^|[^0-9A-Za-zЀ-ҁ҃-҇Ҋ-ԧⷠ-ⷿꙀ-꙯ꙴ-꙽ꙿ-ꚗꚟ])(
-		(?:1(?:[\s\xa0]*П(?:е(?:тр)?|т)|Pet))
+		(?:1(?:[\s\xa0]*П(?:е(?:тр?)?|[рт])|Pet))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Jude"]
