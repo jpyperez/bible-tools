@@ -699,7 +699,16 @@ var book = {
 			"18": "<span>18</span> Aramejci se však dali před Izraelem na útěk. David pobil koně od sedmi tisíc aramejských vozů a čtyřicet tisíc pěšáků, usmrtil též Šófaka, velitele vojska.",
 			"19": "<span>19</span> Když Hadad-ezerovi služebníci viděli, že jsou Izraelem poraženi, uzavřeli s Davidem příměří a sloužili mu. Aramejci pak už nikdy nechtěli jít Amónovcům na pomoc."
 		},
-		"20": {},
+		"20": {
+			"1": "<span>1</span> Na přelomu roku, v době, kdy králové táhnou do boje, vedl Jóab vojenskou výpravu, hubil zemi Amónovců a oblehl Rabu. David však zůstal v Jeruzalémě. Jóab udeřil na Rabu a rozbořil ji.",
+			"2": "<span>2</span> David sňal z hlavy jejich Krále korunu. Shledal, že váží talent zlata; byl do ní vsazen drahokam. Bývala pak na hlavě Davidově. Z města odvezl též velké množství kořisti.",
+			"3": "<span>3</span> Lid, který byl v něm, odvedl a přidělil k pilám, železným špičákům a sekyrám. Tak David naložil se všemi městy Amónovců. Pak se David i všechen lid vrátili do Jeruzaléma.",
+			"4": "<span>4</span> O něco později došlo k boji s Pelištejci v Gezeru. Tehdy ubil Sibekaj Chúšatský Sipaje z rodu obrů; ti byli pokořeni.",
+			"5": "<span>5</span> Když se znovu strhl boj s Pelištejci, Elchánan, syn Jaírův, ubil Lachmího, bratra Goliáše Gatského. Násada jeho kopí byla jako tkalcovské vratidlo.",
+			"6": "<span>6</span> A opět se strhl boj v Gatu. Tam byl obrovitý muž, který měl po šesti prstech, celkem čtyřiadvacet prstů. Ten také pocházel z obrů.",
+			"7": "<span>7</span> Když tupil Izraele, ubil ho Jónatan, syn Šimey, Davidova bratra.",
+			"8": "<span>8</span> Ti pocházeli z gatských obrů. Padli do rukou Davida a rukou jeho služebníků."
+    },
 		"21": {
 			"1": "<span>1</span> Proti Izraeli povstal satan a podnítil Davida, aby sečetl Izraele.",
 			"2": "<span>2</span> David poručil Jóabovi a předákům lidu: \"Jděte, spočítejte Izraele od Beer-šeby až k Danu a podejte mi zprávu, chci znát jejich počet.\"",
