@@ -66,8 +66,8 @@ Gal	Galater	Gal
 Eph	Epheser	Eph
 Phil	Philipper	Phil
 Col	Kolosser	Kol
-1Thess	$FIRST Thessalonicher	1. Thess
-2Thess	$SECOND Thessalonicher	2. Thess
+1Thess	$FIRST Thessalonicher	1. Thess	1 Ths
+2Thess	$SECOND Thessalonicher	2. Thess	2 Ths
 1Tim	$FIRST Timotheus	1. Tim
 2Tim	$SECOND Timotheus	2. Tim
 Titus	Titus	Tit
