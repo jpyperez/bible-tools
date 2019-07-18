@@ -66,6 +66,7 @@
 1Thess	1. Thess
 1Thess	1 Thess
 1Thess	1Thess
+1Thess	1 Ths
 1Tim	Erste Timotheus
 1Tim	1. Timotheus
 1Tim	1 Timotheus
@@ -140,6 +141,7 @@
 2Thess	2. Thess
 2Thess	2 Thess
 2Thess	2Thess
+2Thess	2 Ths
 2Tim	Zweite Timotheus
 2Tim	2. Timotheus
 2Tim	2 Timotheus

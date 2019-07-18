@@ -389,12 +389,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["2Thess"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:Zweite[\s\xa0]*Thessalonicher|2(?:\.?[\s\xa0]*Thessalonicher|(?:\.?[\s\xa0]*)?Thess))
+		(?:Zweite[\s\xa0]*Thessalonicher|2(?:\.?[\s\xa0]*Thessalonicher|(?:\.?[\s\xa0]*Thes|Thes|[\s\xa0]*Th)s))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["1Thess"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:Erste[\s\xa0]*Thessalonicher|1(?:\.?[\s\xa0]*Thessalonicher|(?:\.?[\s\xa0]*)?Thess))
+		(?:Erste[\s\xa0]*Thessalonicher|1(?:\.?[\s\xa0]*Thessalonicher|(?:\.?[\s\xa0]*Thes|Thes|[\s\xa0]*Th)s))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Tim"]
