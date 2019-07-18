@@ -199,6 +199,26 @@ describe "Localized book Rev (hi)", ->
 		expect(p.parse("प्रकाशित-वाक्‍य 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("प्रकाशित वाक्य 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("प्रकाशितवाक्य 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("प्रका0 वा0 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("प्रका0 वा० 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("प्रका० वा0 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("प्रका० वा० 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("प्र. व 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("प्र व 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("Rev 1:1").osis()).toEqual("Rev.1.1")
+		`
+		true
+	it "should handle non-Latin digits in book: Rev (hi)", ->
+		p.set_options non_latin_digits_strategy: "replace"
+		`
+		expect(p.parse("Prakashaitavakya 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("प्रकाशित-वाक्‍य 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("प्रकाशित वाक्य 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("प्रकाशितवाक्य 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("प्रका0 वा0 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("प्रका0 वा० 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("प्रका० वा0 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("प्रका० वा० 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("प्र. व 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("प्र व 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("Rev 1:1").osis()).toEqual("Rev.1.1")
@@ -207,6 +227,10 @@ describe "Localized book Rev (hi)", ->
 		expect(p.parse("प्रकाशित-वाक्‍य 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("प्रकाशित वाक्य 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("प्रकाशितवाक्य 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("प्रका0 वा0 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("प्रका0 वा० 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("प्रका० वा0 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("प्रका० वा० 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("प्र. व 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("प्र व 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("REV 1:1").osis()).toEqual("Rev.1.1")
@@ -235,14 +259,37 @@ describe "Localized book Deut (hi)", ->
 		expect(p.parse("व्यवस्था विवरण 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("व्य्वस्थाविवरन 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("व्यवस्थाविवरण 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("व्य0 वि0 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("व्य0 वि० 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("व्यवस्था 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("व्य० वि0 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("व्य० वि० 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("Deut 1:1").osis()).toEqual("Deut.1.1")
+		`
+		true
+	it "should handle non-Latin digits in book: Deut (hi)", ->
+		p.set_options non_latin_digits_strategy: "replace"
+		`
+		expect(p.parse("Vyavasthaavivaran 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("व्यवस्था विवरण 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("व्य्वस्थाविवरन 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("व्यवस्थाविवरण 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("व्य0 वि0 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("व्य0 वि० 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("व्यवस्था 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("व्य० वि0 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("व्य० वि० 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("Deut 1:1").osis()).toEqual("Deut.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("VYAVASTHAAVIVARAN 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("व्यवस्था विवरण 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("व्य्वस्थाविवरन 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("व्यवस्थाविवरण 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("व्य0 वि0 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("व्य0 वि० 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("व्यवस्था 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("व्य० वि0 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("व्य० वि० 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("DEUT 1:1").osis()).toEqual("Deut.1.1")
 		`
 		true
@@ -848,12 +895,28 @@ describe "Localized book Dan (hi)", ->
 		expect(p.parse("Daaniyyel 1:1").osis()).toEqual("Dan.1.1")
 		expect(p.parse("दानिय्येल 1:1").osis()).toEqual("Dan.1.1")
 		expect(p.parse("दानिय्यल 1:1").osis()).toEqual("Dan.1.1")
+		expect(p.parse("दानि0 1:1").osis()).toEqual("Dan.1.1")
+		expect(p.parse("दानि० 1:1").osis()).toEqual("Dan.1.1")
+		expect(p.parse("दानि 1:1").osis()).toEqual("Dan.1.1")
+		expect(p.parse("Dan 1:1").osis()).toEqual("Dan.1.1")
+		`
+		true
+	it "should handle non-Latin digits in book: Dan (hi)", ->
+		p.set_options non_latin_digits_strategy: "replace"
+		`
+		expect(p.parse("Daaniyyel 1:1").osis()).toEqual("Dan.1.1")
+		expect(p.parse("दानिय्येल 1:1").osis()).toEqual("Dan.1.1")
+		expect(p.parse("दानिय्यल 1:1").osis()).toEqual("Dan.1.1")
+		expect(p.parse("दानि0 1:1").osis()).toEqual("Dan.1.1")
+		expect(p.parse("दानि० 1:1").osis()).toEqual("Dan.1.1")
 		expect(p.parse("दानि 1:1").osis()).toEqual("Dan.1.1")
 		expect(p.parse("Dan 1:1").osis()).toEqual("Dan.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("DAANIYYEL 1:1").osis()).toEqual("Dan.1.1")
 		expect(p.parse("दानिय्येल 1:1").osis()).toEqual("Dan.1.1")
 		expect(p.parse("दानिय्यल 1:1").osis()).toEqual("Dan.1.1")
+		expect(p.parse("दानि0 1:1").osis()).toEqual("Dan.1.1")
+		expect(p.parse("दानि० 1:1").osis()).toEqual("Dan.1.1")
 		expect(p.parse("दानि 1:1").osis()).toEqual("Dan.1.1")
 		expect(p.parse("DAN 1:1").osis()).toEqual("Dan.1.1")
 		`
@@ -1261,13 +1324,29 @@ describe "Localized book Rom (hi)", ->
 		expect(p.parse("Romiyon 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("रोमियों 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("रोमियो 1:1").osis()).toEqual("Rom.1.1")
+		expect(p.parse("रोम0 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("रोमी 1:1").osis()).toEqual("Rom.1.1")
+		expect(p.parse("रोम० 1:1").osis()).toEqual("Rom.1.1")
+		expect(p.parse("Rom 1:1").osis()).toEqual("Rom.1.1")
+		`
+		true
+	it "should handle non-Latin digits in book: Rom (hi)", ->
+		p.set_options non_latin_digits_strategy: "replace"
+		`
+		expect(p.parse("Romiyon 1:1").osis()).toEqual("Rom.1.1")
+		expect(p.parse("रोमियों 1:1").osis()).toEqual("Rom.1.1")
+		expect(p.parse("रोमियो 1:1").osis()).toEqual("Rom.1.1")
+		expect(p.parse("रोम0 1:1").osis()).toEqual("Rom.1.1")
+		expect(p.parse("रोमी 1:1").osis()).toEqual("Rom.1.1")
+		expect(p.parse("रोम० 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("Rom 1:1").osis()).toEqual("Rom.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ROMIYON 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("रोमियों 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("रोमियो 1:1").osis()).toEqual("Rom.1.1")
+		expect(p.parse("रोम0 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("रोमी 1:1").osis()).toEqual("Rom.1.1")
+		expect(p.parse("रोम० 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("ROM 1:1").osis()).toEqual("Rom.1.1")
 		`
 		true
@@ -1409,12 +1488,28 @@ describe "Localized book Phil (hi)", ->
 		expect(p.parse("फिलिप्पियों 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("फिलिप्‍पी 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("फिलिप्पि 1:1").osis()).toEqual("Phil.1.1")
+		expect(p.parse("फिलि0 1:1").osis()).toEqual("Phil.1.1")
+		expect(p.parse("फिलि० 1:1").osis()).toEqual("Phil.1.1")
+		expect(p.parse("Phil 1:1").osis()).toEqual("Phil.1.1")
+		`
+		true
+	it "should handle non-Latin digits in book: Phil (hi)", ->
+		p.set_options non_latin_digits_strategy: "replace"
+		`
+		expect(p.parse("Filippaiyon 1:1").osis()).toEqual("Phil.1.1")
+		expect(p.parse("फिलिप्पियों 1:1").osis()).toEqual("Phil.1.1")
+		expect(p.parse("फिलिप्‍पी 1:1").osis()).toEqual("Phil.1.1")
+		expect(p.parse("फिलिप्पि 1:1").osis()).toEqual("Phil.1.1")
+		expect(p.parse("फिलि0 1:1").osis()).toEqual("Phil.1.1")
+		expect(p.parse("फिलि० 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("Phil 1:1").osis()).toEqual("Phil.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("FILIPPAIYON 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("फिलिप्पियों 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("फिलिप्‍पी 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("फिलिप्पि 1:1").osis()).toEqual("Phil.1.1")
+		expect(p.parse("फिलि0 1:1").osis()).toEqual("Phil.1.1")
+		expect(p.parse("फिलि० 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("PHIL 1:1").osis()).toEqual("Phil.1.1")
 		`
 		true

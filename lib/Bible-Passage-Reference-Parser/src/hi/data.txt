@@ -16,7 +16,7 @@ Gen	उत्पत्ति	Utpaati	उत्पाति
 Exod	निर्गमन	Nirgaman
 Lev	लैव्यव्यवस्था	लैव्य	लैव्य्व्य्वस्था	लैव्यवस्था	Laaivyavyavastha	लैव्यव्यवस्थ
 Num	गिनती	Ginatee
-Deut	व्यवस्था विवरण	व्यवस्था	व्य्वस्थाविवरन	व्यवस्थाविवरण	Vyavasthaavivaran
+Deut	व्यवस्था विवरण	व्यवस्था	व्य्वस्थाविवरन	व्यवस्थाविवरण	Vyavasthaavivaran	व्य० वि०
 Josh	यहोशू	यहोशु	Yahoshoo
 Judg	न्यायियों	न्यायिय का विर्तान्त	Nyayiyon
 Ruth	रूत	रुत	Root
@@ -38,7 +38,7 @@ Isa	यशायाह	यशा	yashaayaah	यशाया
 Jer	यिर्मयाह	यिर्म	Yirmayah
 Lam	विलापगीत	विलाप	Vilapageet	विलापगेत
 Ezek	यहेजकेल	यहेज	Yahejakel
-Dan	दानिय्येल	दानि	Daaniyyel	दानिय्यल
+Dan	दानिय्येल	दानि	Daaniyyel	दानिय्यल	दानि०
 Hos	होशे	Hosho
 Joel	योएल	Yoael
 Amos	आमोस	Amos
@@ -56,12 +56,12 @@ Mark	मरकुस	Marakus
 Luke	लूका	Looka
 John	यूहन्ना	Yuhanna	युहत्रा
 Acts	प्रेरितों के काम	प्र. क	मसीह-दूत	Praeriton Ke Kam	प्रेरितों के कामों
-Rom	रोमियों	रोमी	रोमियो	Romiyon
+Rom	रोमियों	रोमी	रोमियो	Romiyon	रोम०
 1Cor	$FIRST कुरिन्थियों?	$FIRST कुरिन्यि़यों	$FIRST कुरिन्थ	$FIRST कुरन्थियों	$FIRST कोरिन्‍थी	$FIRST Kurinthiayon
 2Cor	$SECOND कुरिन्थियों?	$SECOND कुरिन्यि़यों	$SECOND कुरिन्थ	$SECOND कुरन्थियों	$SECOND कोरिन्‍थी	$SECOND Kurinthiayon
 Gal	गलातियों	गलाति	गलाती	Galatiyon	गलतियों
 Eph	इफिसियों	इफिसि	इफिसी	Iafisiyon
-Phil	फिलिप्पियों	फिलिप्पि	फिलिप्‍पी	Filippaiyon
+Phil	फिलिप्पियों	फिलिप्पि	फिलिप्‍पी	Filippaiyon	फिलि०
 Col	कुलुस्सियों	कुलुस्सि	कुलुस्‍सी	Kulussaiyon
 1Thess	$FIRST थिस्सलुनीकियों	$FIRST थिस्स	$FIRST थिसलुनिकी	$FIRST Thaissaluneekiyon
 2Thess	$SECOND थिस्सलुनीकियों	$SECOND थिस्स	$SECOND थिसलुनिकी	$SECOND Thaissaluneekiyon
@@ -77,7 +77,7 @@ Jas	याकूब	Yakoob
 2John	$SECOND यूहन्ना	$SECOND Yoohanna	$SECOND युहत्रा
 3John	$THIRD यूहन्ना	$THIRD Yoohanna	$THIRD युहत्रा
 Jude	यहूदा	Yahooda
-Rev	प्रकाशित वाक्य	प्र. व	प्रकाशित-वाक्‍य	Prakashaitavakya	प्रकाशितवाक्य
+Rev	प्रकाशित वाक्य	प्र. व	प्रकाशित-वाक्‍य	Prakashaitavakya	प्रकाशितवाक्य	प्रका० वा०
 Tob	Tob
 Jdt	Jdt
 GkEsth	GkEsth
