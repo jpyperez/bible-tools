@@ -57,6 +57,7 @@
 3Macc	3Macc
 4Macc	4Macc
 Acts	Mga Binuhatan
+Acts	Binuhatan
 Acts	Acts
 Acts	Bin
 Amos	Amos
@@ -127,6 +128,7 @@ Judg	Hukom
 Judg	Judg
 Judg	Huk
 Lam	Mga Panalabiton
+Lam	Panalabiton
 Lam	Lam
 Lam	Pan
 Lev	Levitico
@@ -165,6 +167,7 @@ PrAzar	PrAzar
 PrMan	PrMan
 Prov	Mga Hulobaton
 Prov	Mga Hulubaton
+Prov	Hulubaton
 Prov	Hulo
 Prov	Prov
 Ps	Mga Salmo

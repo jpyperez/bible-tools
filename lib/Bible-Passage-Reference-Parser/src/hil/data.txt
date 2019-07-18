@@ -31,12 +31,12 @@ Neh	Nehemias	Neh
 Esth	Ester	Est
 Job	Job
 Ps	Mga Salmo	Sal	Salmo
-Prov	Mga Hulubaton	Mga Hulobaton	Hulo
+Prov	Mga Hulubaton	Mga Hulobaton	Hulo	Hulubaton
 Eccl	Manugwali	Manug
 Song	Ambahanon	Amb
 Isa	Isaias	Isa
 Jer	Jeremias	Jer
-Lam	Mga Panalabiton	Pan
+Lam	Mga Panalabiton	Pan	Panalabiton
 Ezek	Ezequiel	Ezeq
 Dan	Daniel	Dan
 Hos	Oseas	Os
@@ -55,7 +55,7 @@ Matt	Mateo	Mat	Mt
 Mark	Marcos	Mar
 Luke	Lucas	Luc
 John	Juan
-Acts	Mga Binuhatan	Bin
+Acts	Mga Binuhatan	Bin	Binuhatan
 Rom	Roma
 1Cor	1 Corinto	1 Mga Taga-Corinto	1 Cor
 2Cor	2 Corinto	2 Mga Taga-Corinto	2 Cor

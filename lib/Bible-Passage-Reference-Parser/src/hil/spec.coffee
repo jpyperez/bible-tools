@@ -148,10 +148,12 @@ describe "Localized book Lam (hil)", ->
 	it "should handle book: Lam (hil)", ->
 		`
 		expect(p.parse("Mga Panalabiton 1:1").osis()).toEqual("Lam.1.1")
+		expect(p.parse("Panalabiton 1:1").osis()).toEqual("Lam.1.1")
 		expect(p.parse("Lam 1:1").osis()).toEqual("Lam.1.1")
 		expect(p.parse("Pan 1:1").osis()).toEqual("Lam.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("MGA PANALABITON 1:1").osis()).toEqual("Lam.1.1")
+		expect(p.parse("PANALABITON 1:1").osis()).toEqual("Lam.1.1")
 		expect(p.parse("LAM 1:1").osis()).toEqual("Lam.1.1")
 		expect(p.parse("PAN 1:1").osis()).toEqual("Lam.1.1")
 		`
@@ -511,11 +513,13 @@ describe "Localized book Prov (hil)", ->
 		`
 		expect(p.parse("Mga Hulobaton 1:1").osis()).toEqual("Prov.1.1")
 		expect(p.parse("Mga Hulubaton 1:1").osis()).toEqual("Prov.1.1")
+		expect(p.parse("Hulubaton 1:1").osis()).toEqual("Prov.1.1")
 		expect(p.parse("Hulo 1:1").osis()).toEqual("Prov.1.1")
 		expect(p.parse("Prov 1:1").osis()).toEqual("Prov.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("MGA HULOBATON 1:1").osis()).toEqual("Prov.1.1")
 		expect(p.parse("MGA HULUBATON 1:1").osis()).toEqual("Prov.1.1")
+		expect(p.parse("HULUBATON 1:1").osis()).toEqual("Prov.1.1")
 		expect(p.parse("HULO 1:1").osis()).toEqual("Prov.1.1")
 		expect(p.parse("PROV 1:1").osis()).toEqual("Prov.1.1")
 		`
@@ -920,10 +924,12 @@ describe "Localized book Acts (hil)", ->
 	it "should handle book: Acts (hil)", ->
 		`
 		expect(p.parse("Mga Binuhatan 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("Binuhatan 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("Acts 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("Bin 1:1").osis()).toEqual("Acts.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("MGA BINUHATAN 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("BINUHATAN 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("ACTS 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("BIN 1:1").osis()).toEqual("Acts.1.1")
 		`
