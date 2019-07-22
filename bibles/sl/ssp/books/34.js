@@ -4,24 +4,24 @@ var book = {
 	"chapters": {
 		"1": {
 			"1": "<sup>1</sup> Izrek o Ninivah. Knjiga videnja Nahuma Elkošána.",
-			"2": "<sup>2</sup> je ljubosumni Bog in maščevalec, je maščevalec in poln srda. se maščuje nad svojimi nasprotniki in vztraja v jezi pred svojimi sovražniki.",
-			"3": "<sup>3</sup> je počasen v jezi in silno močan, toda krivega nikakor ne oprošča. Njegova pot je v viharju in vrtincu, oblak je prah izpod njegovih nog.",
+			"2": "<sup>2</sup> Gospod je ljubosumni Bog in maščevalec, Gospod je maščevalec in poln srda. Gospod se maščuje nad svojimi nasprotniki in vztraja v jezi pred svojimi sovražniki.",
+			"3": "<sup>3</sup> Gospod je počasen v jezi in silno močan, toda krivega Gospod nikakor ne oprošča. Njegova pot je v viharju in vrtincu, oblak je prah izpod njegovih nog.",
 			"4": "<sup>4</sup> Zagrmi nad morjem in ga izsuši, vse reke posuši. Usahnila sta Bašán in Karmel, usahnilo je cvetje Libanona.",
 			"5": "<sup>5</sup> Gore se tresejo pred njim, hribi se opotekajo. Pred njegovim obličjem se vzdiguje zemlja, svet in vsi, ki prebivajo na njem.",
 			"6": "<sup>6</sup> Kdo bo obstal pred njegovim srdom, kdo bo vzdržal pred njegovo srdito jezo? Njegova togota se širi kakor ogenj, skale pokajo pred njim.",
-			"7": "<sup>7</sup> je dober, utrdba ob dnevu stiske, in pozna tiste, ki se zatekajo k njemu.",
+			"7": "<sup>7</sup> Gospod je dober, utrdba ob dnevu stiske, in pozna tiste, ki se zatekajo k njemu.",
 			"8": "<sup>8</sup> Z deročo povodnijo pa bo naredil konec njihovemu kraju, njegove sovražnike bo zasledovala tema.",
-			"9": "<sup>9</sup> Kaj si izmišljate proti ? Naredil bo konec in stiska ne bo vstala dvakrat.",
+			"9": "<sup>9</sup> Kaj si izmišljate proti Gospodu ? Naredil bo konec in stiska ne bo vstala dvakrat.",
 			"10": "<sup>10</sup> Prepleteni kakor trnje in napojeni kakor pijanci bodo požrti kakor strnje, polno suhote.",
-			"11": "<sup>11</sup> Iz tebe je izšel tisti, ki si je izmišljal húdo proti , zlobni svetovalec.",
-			"12": "<sup>12</sup> Tako govori : Čeprav so popolni in tako številni, bodo tako pokošeni in bodo odšli. Če sem te poniževal, te ne bom več poniževal.",
+			"11": "<sup>11</sup> Iz tebe je izšel tisti, ki si je izmišljal húdo proti Gospodu , zlobni svetovalec.",
+			"12": "<sup>12</sup> Tako govori Gospod : Čeprav so popolni in tako številni, bodo tako pokošeni in bodo odšli. Če sem te poniževal, te ne bom več poniževal.",
 			"13": "<sup>13</sup> Zdaj bom zdrobil njegov jarem iznad tebe, tvoje vezi bom raztrgal.",
-			"14": "<sup>14</sup> je ukazal proti tebi: Ne bo se več sejalo iz tvojega imena, iz hiše tvojih bogov bom iztrebil kipe in ulite podobe, pripravil ti bom grob, ker si gnusen."
+			"14": "<sup>14</sup> Gospod je ukazal proti tebi: Ne bo se več sejalo iz tvojega imena, iz hiše tvojih bogov bom iztrebil kipe in ulite podobe, pripravil ti bom grob, ker si gnusen."
 		},
 		"2": {
 			"1": "<sup>1</sup> Glej, na gorah noge glasnika, ki oznanja mir! Praznuj, Juda, svoje praznike, izpolni svoje zaobljube! Kajti ne bo več prišel k tebi zlobnež, povsem je iztrebljen.",
 			"2": "<sup>2</sup> Razbijalec se je vzdignil proti tebi. Bodi na preži, nadzoruj pot, imej opasana ledja, silno utrjuj svojo moč!",
-			"3": "<sup>3</sup> Kajti vrne Jakobovo vzvišenost, kakor Izraelovo vzvišenost, kajti opustošili so ju pustošniki in pokončali njune mladike.",
+			"3": "<sup>3</sup> Kajti Gospod vrne Jakobovo vzvišenost, kakor Izraelovo vzvišenost, kajti opustošili so ju pustošniki in pokončali njune mladike.",
 			"4": "<sup>4</sup> Ščit njegovih junakov je rdeč, bojevniki so odeti v škrlat, v ognju okovja so vozovi na dan, ko jih pripravlja, in cipresovina migeta.",
 			"5": "<sup>5</sup> Po cestah divjajo bojni vozovi, zaletavajo se po trgih, njihove podobe so kakor plamenice, švigajo kakor bliski.",
 			"6": "<sup>6</sup> Spomni se svojih junakov, ki so pripravljeni pasti na svojih potih, poženejo se k njenemu obzidju in zaščitna streha je postavljena.",
@@ -32,14 +32,14 @@ var book = {
 			"11": "<sup>11</sup> Prazna, izpraznjena, opustošena! Srce se krči, kolena se šibijo, bolečina v vseh ledjih, vsi obrazi postajajo rdeči.",
 			"12": "<sup>12</sup> Kje je levji brlog in krmišče za leviče, kjer se je sprehajal lev, kjer je bila levinja z mladiči, ne da bi jih kdo strašil?",
 			"13": "<sup>13</sup> Lev je trgal za svoje mladiče in davil za svoje levinje, z ropom si je polnil brloge in s plenom ležišča.",
-			"14": "<sup>14</sup> Glej, proti tebi sem, govori nad vojskami: tvoj bojni voz bom sežgal v dim in tvoje leviče bo požrl meč; končal bom tvoje ropanje po zemlji, ne bo več slišati glasu tvojih poslancev."
+			"14": "<sup>14</sup> Glej, proti tebi sem, govori Gospod nad vojskami: tvoj bojni voz bom sežgal v dim in tvoje leviče bo požrl meč; končal bom tvoje ropanje po zemlji, ne bo več slišati glasu tvojih poslancev."
 		},
 		"3": {
 			"1": "<sup>1</sup> Gorje krvoločni prestolnici, sama laž je v njej! Polna je nasilja, trganju ni konca!",
 			"2": "<sup>2</sup> Pokanje biča, škripanje kolesa, konj dirja in voz poskakuje!",
 			"3": "<sup>3</sup> Jezdec se poganja, meč se lesketa in sulica se bliska, veliko je pobitih, polno mrtvih, trupel ni konca, spotikajo se ob trupla!",
 			"4": "<sup>4</sup> Vse to zaradi silnega vlačugarstva vlačuge, ljubko mile, spretne čarodejke, ki je narode prodajala s svojim vlačuganjem in s svojim čaranjem rodove.",
-			"5": "<sup>5</sup> Glej, proti tebi sem, govori nad vojskami, vzdignil ti bom krilo na obraz; pokazal bom narodom tvojo nagoto, kraljestvom tvojo sramoto.",
+			"5": "<sup>5</sup> Glej, proti tebi sem, govori Gospod nad vojskami, vzdignil ti bom krilo na obraz; pokazal bom narodom tvojo nagoto, kraljestvom tvojo sramoto.",
 			"6": "<sup>6</sup> Vrgel bom nate ostudnosti, ognusil te bom in te postavil na ogled.",
 			"7": "<sup>7</sup> Kdor te bo zagledal, se bo obrnil od tebe in rekel: »Ninive so razdejane, kdo jih bo objokoval? Od kod naj iščem tolažnike zate?«",
 			"8": "<sup>8</sup> Si mar boljša kakor No Amón, ki je prebivala ob Nilu, obdajale so jo vode, njen branik je bilo morje in njeno obzidje voda.",

@@ -169,7 +169,7 @@ var book = {
 			"3": "<sup>3</sup> »O Gospod, spomni se, prosim, da sem hodil pred teboj v zvestobi in s popolnim srcem, in delal, kar ti je všeč!« In Ezekija je glasno zajokal.",
 			"4": "<sup>4</sup> Tedaj je prišla beseda Gospodova Izaiju:",
 			"5": "<sup>5</sup> »Pojdi in povej Ezekiju: Tako govori Gospod, Bog tvojega očeta Davida: Slišal sem tvojo molitev, videl tvoje solze. Glej, dodal bom tvojim dnem petnajst let.",
-			"6": "<sup>6</sup> Tudi bom iz rok asirskega kralja rešil tebe in to mesto in bom varoval to mesto.« Nato je velel Izaija, naj vzamejo smokvino pogačo in jo namažejo na uljé, da ozdravi. Ezekija je vprašal: »Kaj je znamenje, da pojdem v hišo Gospodovo?«",
+			"6": "<sup>6</sup> Tudi bom iz rok asirskega kralja rešil tebe in to mesto in bom varoval to mesto.« 21 Nato je velel Izaija, naj vzamejo smokvino pogačo in jo namažejo na uljé, da ozdravi. 22 Ezekija je vprašal: »Kaj je znamenje, da pojdem v hišo Gospodovo?«",
 			"7": "<sup>7</sup> Izaija je odgovoril: »To ti bodi znamenje od Gospoda, da bo Gospod to storil, kar je govoril.",
 			"8": "<sup>8</sup> Glej, storil bom, da pojde senca po stopnicah, po katerih je zaradi sonca na Ahazovih stopnicah šla navzdol, za deset stopnic nazaj.« In sonce je šlo deset stopnic nazaj po stopnicah, po katerih je bilo šlo navzdol.",
 			"9": "<sup>9</sup> Pesem Judovega kralja Ezekija, ko je bil bolan in je zopet ozdravel:"

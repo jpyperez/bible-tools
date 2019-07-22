@@ -1,5 +1,5 @@
 var book = {
-	"name": "Apostolska dela",
+	"name": "Apostolska Dela",
 	"numChapters": 28,
 	"chapters": {
 		"1": {

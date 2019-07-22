@@ -1,5 +1,5 @@
 var book = {
-	"name": "II Timoteju",
+	"name": "Ii Timoteju",
 	"numChapters": 4,
 	"chapters": {
 		"1": {
@@ -13,10 +13,10 @@ var book = {
 			"8": "<sup>8</sup> Ne sramuj se torej pričevanja Gospoda našega, ne mene, jetnika njegovega, temveč udeleži se trpljenja za evangelij po moči Boga,",
 			"9": "<sup>9</sup> ki nas je rešil in poklical s svetim poklicem, ne po delih naših, ampak po lastnem sklepu in milosti svoji, ki nam je bila dana v Kristusu Jezusu pred večnimi časi,",
 			"10": "<sup>10</sup> a sedaj je bila razodeta po prihodu Rešitelja našega Kristusa Jezusa, ki je uničil smrt in na svetlo privedel življenje in neminljivost po evangeliju,",
-			"11": "<sup>11</sup> za katerega sem bil jaz postavljen za glasnika in apostola in učitelja",
+			"11": "<sup>11</sup> za katerega sem bil jaz postavljen za glasnika in apostola in učitelja poganov.",
 			"12": "<sup>12</sup> Zategadelj tudi to trpim, toda ni me sram; vem namreč, komu sem veroval, in preverjen sem, da je zmožen hraniti, kar sem mu izročil, za tisti dan.",
 			"13": "<sup>13</sup> Drži se vzora zdravih besed, ki si jih slišal od mene, v veri in ljubezni, ki je v Kristusu Jezusu.",
-			"14": "<sup>14</sup> Dobri ki ti je bil izročen, hrani po svetem Duhu, ki prebiva v nas.",
+			"14": "<sup>14</sup> Dobri zaklad, ki ti je bil izročen, hrani po svetem Duhu, ki prebiva v nas.",
 			"15": "<sup>15</sup> To veš, da so se odvrnili od mene vsi v Aziji, med katerimi sta Figel in Hermogen.",
 			"16": "<sup>16</sup> Usmiljenje daj Gospod hiši Oneziforjevi, ker me je mnogokrat poživil in se ni sramoval spon mojih,",
 			"17": "<sup>17</sup> temveč me je, ko je bil v Rimu, z gorečnostjo iskal in našel",
@@ -30,14 +30,14 @@ var book = {
 			"5": "<sup>5</sup> Ako se pa kdo tudi bojuje, ne dobi venca, ako se ne bojuje postavno.",
 			"6": "<sup>6</sup> Poljedelec, ki se trudi, užije naj prvi pridelkov.",
 			"7": "<sup>7</sup> Premisli, kar pravim; Gospod ti namreč da razum v vsem.",
-			"8": "<sup>8</sup> Spominjaj se Jezusa Kristusa, ki je vstal od mrtvih, iz semena Davidovega, po evangeliju mojem;",
-			"9": "<sup>9</sup> ki v njegovi trpim nadloge in sem celo vklenjen kakor hudodelnik; ali beseda Božja ni vklenjena.",
+			"8": "<sup>8</sup> Spominjaj se Jezusa Kristusa, ki je vstal od mrtvih, ki je iz semena Davidovega, po evangeliju mojem;",
+			"9": "<sup>9</sup> ki v njegovi službi trpim nadloge in sem celo vklenjen kakor hudodelnik; ali beseda Božja ni vklenjena.",
 			"10": "<sup>10</sup> Zato trpim vse zaradi izvoljenih, da tudi oni zadobe zveličanje, ki je v Kristusu Jezusu, z večno slavo.",
 			"11": "<sup>11</sup> Resnična je ta beseda: če smo namreč z njim umrli, bomo tudi z njim živeli;",
 			"12": "<sup>12</sup> če trpimo, bomo tudi z njim kraljevali; če ga zatajimo, nas tudi on zataji;",
 			"13": "<sup>13</sup> če smo nezvesti, on ostane zvest, kajti zatajiti samega sebe ne more.",
-			"14": "<sup>14</sup> Tega jih spominjaj, roteč pred Gospodom, naj se ne prepirajo za besede, kar nič ne koristi, v pogubo poslušajočim.",
-			"15": "<sup>15</sup> Prizadevaj si preizkušenega se izkazati Bogu, delavca, ki se mu ni sramovati, ki prav ravna z besedo resnice.",
+			"14": "<sup>14</sup> Tega jih spominjaj, roteč pred Gospodom, naj se ne prepirajo za besede, kar nič ne koristi, a je v pogubo poslušajočim.",
+			"15": "<sup>15</sup> Prizadevaj si preizkušenega se izkazati Bogu, kot delavca, ki se mu ni sramovati, ki prav ravna z besedo resnice.",
 			"16": "<sup>16</sup> Posvetnega govoričenja pa se ogiblji; zakaj vedno bolj bodo napredovali v brezbožnosti,",
 			"17": "<sup>17</sup> in njih beseda bo razjedala krog sebe kakor rak: izmed katerih sta Himenej in Filet,",
 			"18": "<sup>18</sup> ki sta zgrešila resnico, govoreč, da je že bilo vstajenje, in izpodkopavata nekaterim vero.",
@@ -48,7 +48,7 @@ var book = {
 			"23": "<sup>23</sup> Nespametnih in neslanih prepirov pa se ogibaj, vedoč, da rode boje.",
 			"24": "<sup>24</sup> Hlapec Gospodov pa se ne sme bojevati, ampak krotak bodi do vseh, dober učitelj, strpljiv;",
 			"25": "<sup>25</sup> v krotkosti naj svari nasprotnike, če bi jim morda dal Bog izpokorjenje v spoznanje resnice,",
-			"26": "<sup>26</sup> in bi se iztreznili iz pasti hudičeve, ko jih je bil ujel v voljo svojo."
+			"26": "<sup>26</sup> in bi se iztreznili in ušli iz pasti hudičeve, ko jih je bil ujel v voljo svojo."
 		},
 		"3": {
 			"1": "<sup>1</sup> To pa vedi, da v zadnjih dneh nastanejo nevarni časi.",
@@ -70,7 +70,7 @@ var book = {
 			"17": "<sup>17</sup> da bode popoln človek Božji, docela pripraven za vsako dobro delo."
 		},
 		"4": {
-			"1": "<sup>1</sup> Rotim torej pred Bogom in Kristusom Jezusom, ki bo sodil žive in mrtve, in pri prihodu njegovem in kraljestvu njegovem:",
+			"1": "<sup>1</sup> Rotim te torej pred Bogom in Kristusom Jezusom, ki bo sodil žive in mrtve, in pri prihodu njegovem in kraljestvu njegovem:",
 			"2": "<sup>2</sup> Oznanjaj besedo, ne odnehaj o priliki, nepriliki; prepričuj, kaznuj, opominjaj z vso potrpežljivostjo in s poučevanjem.",
 			"3": "<sup>3</sup> Kajti pride čas, ko ne bodo prenašali zdravega nauka, temveč po lastnem poželenju si kopičili učitelje, po tem, kakor jih ušesa srbe;",
 			"4": "<sup>4</sup> in od resnice bodo odvračali ušesa in se obračali k basnim.",

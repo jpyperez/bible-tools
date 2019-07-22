@@ -3,10 +3,10 @@ var book = {
 	"numChapters": 3,
 	"chapters": {
 		"1": {
-			"1": "<sup>1</sup> Pavel, hlapec Božji, apostol pa Jezusa Kristusa, po veri izvoljencev Božjih in spoznanju resnice, ki k pobožnosti,",
+			"1": "<sup>1</sup> Pavel, hlapec Božji, apostol pa Jezusa Kristusa, po veri izvoljencev Božjih in spoznanju resnice, ki vodi k pobožnosti,",
 			"2": "<sup>2</sup> na podlagi upanja večnega življenja, ki ga je obljubil pred večnimi časi Bog, ki nikoli ne laže,",
 			"3": "<sup>3</sup> a ob svojem času je razodel besedo svojo v oznanilu, ki mi je bilo poverjeno po povelju Rešitelja našega, Boga,",
-			"4": "<sup>4</sup> Titu, pravemu otroku svojemu po skupni veri: Milost in mir od Boga Očeta in Kristusa Jezusa, Zveličarja našega!",
+			"4": "<sup>4</sup> Titu, pravemu otroku svojemu po naši skupni veri: Milost in mir od Boga Očeta in Kristusa Jezusa, Zveličarja našega!",
 			"5": "<sup>5</sup> Zato sem te pustil na Kreti, da urediš, kar je še pomanjkljivega, in nastaviš po mestih starešine, kakor sem ti ukazal:",
 			"6": "<sup>6</sup> če je kdo brez oponosa, ene žene mož, ima verne otroke, ki niso na glasu razuzdanosti ali nepokorni.",
 			"7": "<sup>7</sup> Škof namreč mora biti brez oponosa, kakor oskrbnik Božji; ne samovšečen, ne nagle jeze, ne pijanec, ne pretepač, ne grdega dobička željen;",
@@ -27,9 +27,9 @@ var book = {
 			"4": "<sup>4</sup> da napeljavajo k redu mlajše žene, naj ljubijo može in otroke svoje",
 			"5": "<sup>5</sup> in naj bodo zmerne, čiste, pridne gospodinje, dobrotljive, pokorne svojim možem, da se ne preklinja Božja beseda.",
 			"6": "<sup>6</sup> Mlajše može istotako opominjaj, da naj bodo zmerni;",
-			"7": "<sup>7</sup> stavi sebe v vseh rečeh za zgled dobrih del, v uku tvojem čistost, dostojnost,",
+			"7": "<sup>7</sup> stavi sebe v vseh rečeh za zgled dobrih del, v uku tvojem naj se kaže čistost, dostojnost,",
 			"8": "<sup>8</sup> zdrava beseda, ki se ne more zavreči, da se nasprotnik osramoti, ker nima kaj slabega reči o nas.",
-			"9": "<sup>9</sup> Hlapce naj bodo pokorni svojim gospodarjem, v vsem jim pogodu, naj ne ugovarjajo,",
+			"9": "<sup>9</sup> Hlapce opominjaj, naj bodo pokorni svojim gospodarjem, v vsem jim pogodu, naj ne ugovarjajo,",
 			"10": "<sup>10</sup> ničesar ne izmikajo, ampak kažejo v vsem največjo zvestobo, da tako lepšajo nauk Rešitelja našega Boga v vsem.",
 			"11": "<sup>11</sup> Kajti prikazala se je milost Božja zveličalna vsem ljudem,",
 			"12": "<sup>12</sup> učeč nas, da se odpovejmo brezbožnosti in posvetnim poželenjem ter živimo zmerno in pravično in pobožno v sedanjem svetu,",
@@ -39,7 +39,7 @@ var book = {
 		},
 		"3": {
 			"1": "<sup>1</sup> Spominjaj jih, da naj se pokoravajo poglavarstvom in oblastem, naj bodo poslušni, pripravljeni za vsako dobro delo;",
-			"2": "<sup>2</sup> o nikomer naj grdo ne govore, naj ne bodo prepirljivi, odjenljivi, kažejo naj sleherno krotkost proti vsem ljudem.",
+			"2": "<sup>2</sup> o nikomer naj grdo ne govore, naj ne bodo prepirljivi, ampak odjenljivi, kažejo naj sleherno krotkost proti vsem ljudem.",
 			"3": "<sup>3</sup> Bili smo namreč tudi mi nekdaj nespametni, neposlušni, tavajoči, služeči mnogoteremu poželenju in razveseljevanju, živeči v hudobnosti in zavisti, sovraštva vredni, sovražeč se med seboj.",
 			"4": "<sup>4</sup> Ko se je pa prikazala dobrota in ljudoljubnost Rešitelja našega Boga,",
 			"5": "<sup>5</sup> nas je rešil ne iz del v pravičnosti, ki smo jih mi storili, ampak po usmiljenju svojem, po kopeli preporoda in obnovitve svetega Duha,",

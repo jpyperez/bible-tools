@@ -39,10 +39,10 @@ var book = {
 			"5": "<sup>5</sup> Poslušajte, moji ljubi bratje! Ali ni Bog izbral tistih, ki so revni na svetu, a bogati v veri in dediči kraljestva, ki ga je obljubil vsem, kateri ga ljubijo?",
 			"6": "<sup>6</sup> Vi pa ste osramotili reveža. Ali vas ne zatirajo in vlačijo pred sodišča prav bogati?",
 			"7": "<sup>7</sup> Mar ne sramotijo ravno ti čudovitega imena, ki je bilo klicano nad vas?",
-			"8": "<sup>8</sup> Če torej po Pismu izpolnjujete kraljevsko postavo: , ravnate prav.",
+			"8": "<sup>8</sup> Če torej po Pismu izpolnjujete kraljevsko postavo: Ljubi svojega bližnjega kakor samega sebe , ravnate prav.",
 			"9": "<sup>9</sup> Če pa ste pristranski, delate greh in postava vas razkriva kot kršilce postave.",
 			"10": "<sup>10</sup> Kdor se namreč drži vse postave, krši pa eno zapoved, je kriv za kršitev vseh.",
-			"11": "<sup>11</sup> Kajti tisti, ki je rekel: je rekel tudi: Če torej ne prešuštvuješ, ubijaš pa, si postal kršilec postave.",
+			"11": "<sup>11</sup> Kajti tisti, ki je rekel: Ne prešuštvuj! je rekel tudi: Ne ubijaj! Če torej ne prešuštvuješ, ubijaš pa, si postal kršilec postave.",
 			"12": "<sup>12</sup> Tako govorite in delajte: kot tisti, ki bodo sojeni po postavi svobode.",
 			"13": "<sup>13</sup> Neusmiljena je namreč sodba za tistega, ki ne izkazuje usmiljenja. Usmiljenje pa slavi zmago nad sodbo.",
 			"14": "<sup>14</sup> Kaj pomaga, moji bratje, če kdo pravi, da ima vero, nima pa del? Mar ga lahko vera reši?",
@@ -54,7 +54,7 @@ var book = {
 			"20": "<sup>20</sup> Hočeš spoznati, prazni človek, da je vera brez del neučinkovita?",
 			"21": "<sup>21</sup> Ali ni bil naš oče Abraham opravičen iz del, ker je položil svojega sina Izaka na oltar?",
 			"22": "<sup>22</sup> Vidiš, da je vera sodelovala z njegovimi deli in da je šele zaradi del postala popolna.",
-			"23": "<sup>23</sup> Tako se je izpolnilo Pismo, ki pravi: , in imenovan je bil »Božji prijatelj«.",
+			"23": "<sup>23</sup> Tako se je izpolnilo Pismo, ki pravi: Abraham je verjel Bogu in to mu je bilo šteto v pravičnost , in imenovan je bil »Božji prijatelj«.",
 			"24": "<sup>24</sup> Vidite: človek se opraviči iz del in ne samo iz vere.",
 			"25": "<sup>25</sup> Ali ni bila tudi vlačuga Rahába prav tako opravičena iz del, ker je sprejela poslance in jih odpravila po drugi poti?",
 			"26": "<sup>26</sup> Kakor je namreč telo brez duha mrtvo, tako je mrtva vera brez del."
@@ -85,7 +85,7 @@ var book = {
 			"3": "<sup>3</sup> Prósite, pa ne prejemate, ker slabo prósite – namreč zato, da bi to porabili za svoje naslade.",
 			"4": "<sup>4</sup> Prešuštnice, ali ne veste, da je prijateljstvo s svetom sovraštvo do Boga? Kdor hoče biti prijatelj sveta, postane Božji sovražnik.",
 			"5": "<sup>5</sup> Ali mislite, da Pismo v prazno pravi: »Bog do ljubosumnosti hrepeni po Duhu, ki ga je naselil v nas.«",
-			"6": "<sup>6</sup> Toda on daje večjo milost, zato Pismo pravi:",
+			"6": "<sup>6</sup> Toda on daje večjo milost, zato Pismo pravi: Bog se prevzetnim upira, ponižnim pa daje milost.",
 			"11": "<sup>11</sup> Bratje, ne govorite drug proti drugemu! Kdor govori proti bratu ali svojega brata obsoja, obrekuje postavo in obsoja postavo. Če pa obsojaš postavo, nisi uresničevalec postave, ampak sodnik.",
 			"12": "<sup>12</sup> Zakonodajalec in sodnik je eden, tisti, ki lahko reši in pogubi. Kdo pa si ti, ki obsojaš bližnjega?",
 			"13": "<sup>13</sup> Poslušajte torej vi, ki pravite: »Danes ali jutri odpotujemo v to in to mesto; tam bomo ostali eno leto, trgovali in zaslužili,«",
@@ -114,7 +114,7 @@ var book = {
 			"17": "<sup>17</sup> Elija je bil človek, ki je čutil kakor mi, toda ko je goreče molil, da ne bi deževalo, na zemlji ni deževalo tri leta in šest mesecev.",
 			"18": "<sup>18</sup> Nato je spet molil in nebo je dalo dež in zemlja je rodila svoj sad.",
 			"19": "<sup>19</sup> Moji bratje, če kdo od vas zaide od resnice in ga drug spreobrne,",
-			"20": "<sup>20</sup> vedite, da tisti, ki grešnika spreobrne iz blodnje njegove poti, njegovo dušo reši iz smrti in ."
+			"20": "<sup>20</sup> vedite, da tisti, ki grešnika spreobrne iz blodnje njegove poti, njegovo dušo reši iz smrti in pokrije množico grehov ."
 		}
 	}
 };

@@ -41,7 +41,7 @@ var book = {
 			"16": "<sup>16</sup> Ogiblji pa se posvetnih čenč, saj te še pospešujejo brezbožnost",
 			"17": "<sup>17</sup> in njihov nauk se bo razpasel kakor gangrena. Taka sta Himénaj in Filét.",
 			"18": "<sup>18</sup> Zašla sta od resnice, ko pravita, da je vstajenje že bilo, in podirata vero nekaterih.",
-			"19": "<sup>19</sup> Toda trdni Božji temelj stoji in ima tale pečat: in: »Naj odstopi od krivice vsak, kdor kliče Gospodovo ime«.",
+			"19": "<sup>19</sup> Toda trdni Božji temelj stoji in ima tale pečat: Gospod pozna svoje in: »Naj odstopi od krivice vsak, kdor kliče Gospodovo ime«.",
 			"20": "<sup>20</sup> V veliki hiši ni le zlate in srebrne posode, marveč tudi lesena in lončena, prva za čast, druga za nečast.",
 			"21": "<sup>21</sup> Kdor se bo teh očistil, bo postal posoda za čast, posvečena, gospodarju koristna in pripravljena za vsako dobro delo.",
 			"22": "<sup>22</sup> Béži pred mladostnimi poželenji. Prizadevaj si za pravičnost, vero, ljubezen in mir s tistimi, ki iz čistega srca kličejo Gospoda.",

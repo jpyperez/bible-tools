@@ -1,5 +1,5 @@
 var book = {
-	"name": "Visoka pesem",
+	"name": "Visoka Pesem",
 	"numChapters": 8,
 	"chapters": {
 		"1": {
@@ -15,13 +15,13 @@ var book = {
 			"1": "<sup>1</sup> glej, lepa si; za pajčolanom tvojim; ki je zgrajen za orožnico, dvojčeti gazelini, in sence zbeže, sestra moja, nevesta! z žlahtnim sadjem, z vsakršnim kadilnim drevjem, z vsemi najboljšimi dišavami. in pridi, jug, da kapljajo njega dišave!"
 		},
 		"5": {
-			"1": "<sup>1</sup> golobica moja, popolna moja! kako bi jo oblekla? kako bi jih oblatila?« ki hodijo po mestu, so mi vzeli moje ogrinjalo. ako najdete ljubega mojega, Da sem bolna od ljubezni. črni kakor vran. ob bistrih potokih, lepo posajene. lehe dišečih rastlin; s katerih kaplja tekoča mira. obloženi s topazi, pokrit s safiri. postavljeni na podstavkih iz čistega zlata, odličen je kakor cedre. in ves je ljubezniv."
+			"1": "<sup>1</sup> golobica moja, popolna moja! kako bi jo spet oblekla? kako bi jih zopet oblatila?« ki hodijo po mestu, so mi vzeli moje ogrinjalo. ako najdete ljubega mojega, Da sem bolna od ljubezni. črni kakor vran. ob bistrih potokih, lepo posajene. kakor lehe dišečih rastlin; s katerih kaplja tekoča mira. obloženi s topazi, pokrit s safiri. postavljeni na podstavkih iz čistega zlata, odličen je kakor cedre. in ves je ljubezniv."
 		},
 		"6": {
 			"1": "<sup>1</sup> h gredicam balzamovim, in trgal lilije. in ljubi moj je moj, in osemdeset priležnic me je posadila duša moja"
 		},
 		"7": {
-			"1": "<sup>1</sup> o knežja hči! pri vratih ljudnatega pojdiva ven na polje, če se njen cvet odpira, novega in starega,"
+			"1": "<sup>1</sup> o knežja hči! pri vratih ljudnatega mesta; pojdiva ven na polje, in če se njen cvet odpira, novega in starega,"
 		},
 		"8": {
 			"1": "<sup>1</sup> privedla te v matere svoje hišo, kakor pečat na ramo svojo! in prsi moje so kakor stolpi. kakor ona, ki je našla mir. ali mlademu jelenu"

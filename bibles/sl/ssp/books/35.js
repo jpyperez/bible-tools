@@ -4,7 +4,7 @@ var book = {
 	"chapters": {
 		"1": {
 			"1": "<sup>1</sup> Izrek, ki ga je v videnju prejel prerok Habakúk.",
-			"2": "<sup>2</sup> Doklej, , bom klical na pomoč in ne boš poslušal, vpil k tebi zaradi nasilja in ne boš pomagal?",
+			"2": "<sup>2</sup> Doklej, Gospod , bom klical na pomoč in ne boš poslušal, vpil k tebi zaradi nasilja in ne boš pomagal?",
 			"3": "<sup>3</sup> Zakaj mi daješ gledati zlo in opazuješ stisko? Pred menoj sta pustošenje in nasilje, zato vstaja pritožba in se vzdiguje spor.",
 			"4": "<sup>4</sup> Zaradi tega odmira postava in pravica ne pride do konca, kajti krivični vklepa pravičnega, zato prihaja na dan popačena sodba.",
 			"5": "<sup>5</sup> Ozrite se po narodih in poglejte, začudite se in strmite! Kajti v vaših dneh bom opravil delo; ne bi verjeli, če bi kdo pripovedoval.",
@@ -14,7 +14,7 @@ var book = {
 			"9": "<sup>9</sup> Sleherni prihaja za nasilje, ves njegov obraz je iztegnjen, ujetnike kopiči kakor pesek.",
 			"10": "<sup>10</sup> Norčuje se iz kraljev, oblastniki so mu v posmeh. Smeje se vsaki trdnjavi, naredi nasip in jo zavzame.",
 			"11": "<sup>11</sup> Potem se vrtinči kakor veter in gre dalje, pregreši se: ta njegova moč postane njegov bog.",
-			"12": "<sup>12</sup> Mar nisi ti od nekdaj, ? Moj Bog, moj Sveti, nočemo umreti! O , postavil si ga, da bi sodil, nastavil si ga kot skalo, da bi opominjal.",
+			"12": "<sup>12</sup> Mar nisi ti od nekdaj, Gospod ? Moj Bog, moj Sveti, nočemo umreti! O Gospod , postavil si ga, da bi sodil, nastavil si ga kot skalo, da bi opominjal.",
 			"13": "<sup>13</sup> Tvoje oči so preveč čiste, da bi videl hudobijo, na zatiranja ne moreš gledati: zakaj torej gledaš varljivce in molčiš, ko krivični požira pravičnejšega od sebe?",
 			"14": "<sup>14</sup> Ti delaš, da so ljudje kakor ribe v morju, kakor laznina, ki nima vladarja.",
 			"15": "<sup>15</sup> Vse jih vzdiguje s trnkom, jih spravlja v svojo vršo in jih zbira v svoj sak, zato se veseli in raduje.",
@@ -23,7 +23,7 @@ var book = {
 		},
 		"2": {
 			"1": "<sup>1</sup> Stopil bom na svojo opazovalnico, postavil se bom na stolp. Oprezoval bom, da vidim, kaj mi bo govoril in kaj naj odvrnem na svojo pritožbo.",
-			"2": "<sup>2</sup> mi je odgovoril in rekel: Zapiši videnje in vreži ga na plošče, da bo hitel, kdor ga bo bral.",
+			"2": "<sup>2</sup> Gospod mi je odgovoril in rekel: Zapiši videnje in vreži ga na plošče, da bo hitel, kdor ga bo bral.",
 			"3": "<sup>3</sup> Kajti še je videnje za določeni čas, bliža se svoji izpolnitvi in ne vara. Če odlaša, ga le čakaj, kajti zagotovo pride, ne bo zamudilo.",
 			"4": "<sup>4</sup> Glej, napihnjena je, njegova duša v njem ni prava, pravični pa bo v svoji veri živel.",
 			"5": "<sup>5</sup> Zares, bogastvo je varljivo, predrzen mož ne bo obstal, tisti, ki odpira svoje žrelo kakor podzemlje in se kakor smrt nikoli ne nasiti, vlači k sebi vse narode in kopiči pri sebi vsa ljudstva.",
@@ -34,35 +34,35 @@ var book = {
 			"10": "<sup>10</sup> Svoji hiši si svetoval sramoto, da bi pokončal številne narode; pogubljaš svojo dušo.",
 			"11": "<sup>11</sup> Kajti kamen bo vpil iz zidu in škarnica v ostrešju mu bo odgovarjala.",
 			"12": "<sup>12</sup> Gorje mu, kdor s krvjo zida mesto in s krivico postavlja grad!",
-			"13": "<sup>13</sup> Glej, mar ne prihaja od nad vojskami, da se ljudstva trudijo za ogenj in se narodi utrujajo za prazen nič?",
-			"14": "<sup>14</sup> Kajti zemlja se bo napolnila s spoznanjem veličastva, kakor vode pokrivajo morje.",
+			"13": "<sup>13</sup> Glej, mar ne prihaja od Gospoda nad vojskami, da se ljudstva trudijo za ogenj in se narodi utrujajo za prazen nič?",
+			"14": "<sup>14</sup> Kajti zemlja se bo napolnila s spoznanjem Gospodovega veličastva, kakor vode pokrivajo morje.",
 			"15": "<sup>15</sup> Gorje mu, kdor nalije svojemu bližnjemu, prilije svoj strup in ga opije, da gleda njegovo nagoto!",
-			"16": "<sup>16</sup> Nasitil se boš s sramoto namesto s častjo, napij se tudi ti in se razgali! Čaša desnice se obrača k tebi in sramota bo prišla na tvojo slavo.",
+			"16": "<sup>16</sup> Nasitil se boš s sramoto namesto s častjo, napij se tudi ti in se razgali! Čaša Gospodove desnice se obrača k tebi in sramota bo prišla na tvojo slavo.",
 			"17": "<sup>17</sup> Kajti nasilje nad Libanonom te bo prekrilo, uničevanje živali te bo spodneslo, zaradi človeške krvi in nasilja nad deželo, mestom in vsemi, ki prebivajo v njem.",
 			"18": "<sup>18</sup> Kaj pomaga podoba, če jo upodobi kipar, odlitek, ki uči laži, če kipar zaupa lastnemu kipu, da izdeluje neme malike?",
 			"19": "<sup>19</sup> Gorje mu, kdor pravi lesu: »Zbudi se!« in nememu kamnu: »Vstani!« Mar te bo učil? Glej, prevlečen je z zlatom in s srebrom, a nobenega diha ni v njem.",
-			"20": "<sup>20</sup> pa je v svojem svetem templju, umolkni pred njim, vsa zemlja!"
+			"20": "<sup>20</sup> Gospod pa je v svojem svetem templju, umolkni pred njim, vsa zemlja!"
 		},
 		"3": {
 			"1": "<sup>1</sup> Molitev preroka Habakúka, po napevu žalostink.",
-			"2": "<sup>2</sup> , slišal sem, kar je slišati o tebi, bojim se, o , tvojega delovanja. Ožívi ga v bližnjih letih, daj ga spoznati v bližnjih letih, v jezi se spomni usmiljenja!",
-			"3": "<sup>3</sup> Bog prihaja iz Temána, Sveti z gore Parán. Njegovo veličastvo pokriva nebo, in njegova hvala napolnjuje zemljo.",
+			"2": "<sup>2</sup> Gospod , slišal sem, kar je slišati o tebi, bojim se, o Gospod , tvojega delovanja. Ožívi ga v bližnjih letih, daj ga spoznati v bližnjih letih, v jezi se spomni usmiljenja!",
+			"3": "<sup>3</sup> Bog prihaja iz Temána, Sveti z gore Parán. Sela. Njegovo veličastvo pokriva nebo, in njegova hvala napolnjuje zemljo.",
 			"4": "<sup>4</sup> Svit postaja kakor svetloba, iz njegove roke mu izhajajo žarki, tam je skrivališče njegove moči.",
 			"5": "<sup>5</sup> Pred njim hodi kuga, za njegovimi nogami izhaja kužna bolezen.",
 			"6": "<sup>6</sup> Stopi in strese zemljo, pogleda in splaši narode. Rušijo se večne gore, pogrezajo se starodavni hribi; njegove poti so starodavne.",
 			"7": "<sup>7</sup> Videl sem v bridkosti kušánske šotore, tresejo se zagrinjala midjánske dežele.",
-			"8": "<sup>8</sup> Mar se je na vodotoke razjezil , se je proti vodotokom vnela tvoja jeza ali proti morju tvoj srd, da prihajaš na svojih konjih, na svojih zmagovitih vozovih,",
-			"9": "<sup>9</sup> da do golega razgaljaš svoj lok, izrekaš prisege rodovom? Z vodotoki cepiš zemljo.",
+			"8": "<sup>8</sup> Mar se je na vodotoke razjezil Gospod , se je proti vodotokom vnela tvoja jeza ali proti morju tvoj srd, da prihajaš na svojih konjih, na svojih zmagovitih vozovih,",
+			"9": "<sup>9</sup> da do golega razgaljaš svoj lok, izrekaš prisege rodovom? Sela. Z vodotoki cepiš zemljo.",
 			"10": "<sup>10</sup> Zagledale so te gore in se tresejo, prišel je hudourni naliv: pravodovje je dalo svoj glas, vzdignilo je višino svojih iztokov.",
 			"11": "<sup>11</sup> Sonce in luna stojita v svojem bivališču, pred svetlobo tvojih švigajočih puščic, pred sijem tvoje svetle sulice.",
 			"12": "<sup>12</sup> V togoti stopaš po zemlji, v jezi teptaš narode.",
-			"13": "<sup>13</sup> Prišel si v rešenje svojega ljudstva, v rešenje svojega maziljenca. Razbil si glavo krivičnikove hiše, razgalil si trup do vratu.",
+			"13": "<sup>13</sup> Prišel si v rešenje svojega ljudstva, v rešenje svojega maziljenca. Razbil si glavo krivičnikove hiše, razgalil si trup do vratu. Sela.",
 			"14": "<sup>14</sup> Z njegovimi lastnimi kopji si prebodel glave njegovih bojevnikov; prihrumeli so, da bi nas razgnali, njihovo veselje je na skrivnem požreti ubožca.",
 			"15": "<sup>15</sup> Pognal si v morje svoje konje, v blato velikih voda.",
 			"16": "<sup>16</sup> Poslušam in telo mi trepeta, ustnice mi glasno drgetajo; trohnoba prihaja v moje kosti; tresem se na svojem mestu. Odpočiti se moram za dan stiske, kateri bo prišel nad ljudstvo, ki nas napada.",
 			"17": "<sup>17</sup> Kajti smokva ne bo cvetela in na trtah ne bo grozdja, pridelek oljke bo odpovedal in polja ne bodo dajala živeža, drobnica bo izginila iz staj in v hlevih ne bo živine.",
-			"18": "<sup>18</sup> Vendar se bom veselil v , se radoval v Bogu moje rešitve.",
-			"19": "<sup>19</sup> Gospod je moja moč, dela mi noge kakor košutam in mi daje stopiti na moje višine. (Zborovodju, na godala.)"
+			"18": "<sup>18</sup> Vendar se bom veselil v Gospodu , se radoval v Bogu moje rešitve.",
+			"19": "<sup>19</sup> Gospod Bog je moja moč, dela mi noge kakor košutam in mi daje stopiti na moje višine. (Zborovodju, na godala.)"
 		}
 	}
 };

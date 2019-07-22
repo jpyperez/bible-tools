@@ -1,5 +1,5 @@
 var book = {
-	"name": "Visoka pesem",
+	"name": "Visoka Pesem",
 	"numChapters": 8,
 	"chapters": {
 		"1": {
@@ -125,7 +125,7 @@ var book = {
 			"3": "<sup>3</sup> Njegova levica je pod mojo glavo in njegova desnica me objema.",
 			"4": "<sup>4</sup> Rotim vas, hčere jeruzalemske: Ne budite in ne motite ljubezni, dokler se veseli!",
 			"5": "<sup>5</sup> Kdo je ta, ki prihaja iz puščave in se naslanja na svojega ljubega? Pod jablano sem te zbudila. Tam te je spočela tvoja mati, tam je spočela in te rodila.",
-			"6": "<sup>6</sup> Deni me kot pečat na svoje srce, kot pečat na svoj laket! Zakaj močna kakor smrt je ljubezen, silna kakor podzemlje ljubezenska strast! Njene strele so ognjene strele, plamen.",
+			"6": "<sup>6</sup> Deni me kot pečat na svoje srce, kot pečat na svoj laket! Zakaj močna kakor smrt je ljubezen, silna kakor podzemlje ljubezenska strast! Njene strele so ognjene strele, Gospodov plamen.",
 			"7": "<sup>7</sup> Velike vode ne morejo pogasiti ljubezni in reke je ne morejo preplaviti. Če bi kdo dal za ljubezen vse bogastvo svoje hiše, bi ga še vedno zaničevali.",
 			"8": "<sup>8</sup> Sestrico imamo, nima še prsi. Kaj bomo storili svoji sestri na dan, ko jo bodo snubili?",
 			"9": "<sup>9</sup> Če je zid, sezidamo na njej srebrn branik, če je vrata, jo zapremo s cedrovino.",

@@ -9,7 +9,7 @@ var book = {
 			"4": "<sup>4</sup> Janez sedmim Cerkvam, ki so v Aziji: milost vam in mir od njega, ki je, ki je bil in ki pride, in od sedmih duhov, ki stojijo pred njegovim prestolom,",
 			"5": "<sup>5</sup> in od Jezusa Kristusa, ki je zanesljiva priča, prvorojenec izmed umrlih in vladar nad kralji zemlje. Njemu, ki nas ljubi in nas je s svojo krvjo osvobodil naših grehov",
 			"6": "<sup>6</sup> ter napravil iz nas kraljestvo in duhovnike za svojega Boga in Očeta, njemu slava in oblast na veke vekov. Amen.",
-			"7": "<sup>7</sup> ga vsako oko, tudi tisti, ki so ga",
+			"7": "<sup>7</sup> Glej, prihaja z oblaki in videlo ga bo vsako oko, tudi tisti, ki so ga prebodli, in zaradi njega se bodo bíli na prsi vsi narodi na zemlji.",
 			"8": "<sup>8</sup> Jaz sem Alfa in Omega, govori Gospod Bog, on, ki je, ki je bil in ki pride, vladar vsega.",
 			"9": "<sup>9</sup> Jaz, Janez, vaš brat in z vami soudeležen pri stiski, kraljestvu in stanovitnosti v Jezusu, sem bil zaradi Božje besede in zaradi Jezusovega pričevanja na otoku, ki se imenuje Patmos.",
 			"10": "<sup>10</sup> Na Gospodov dan me je navdal Duh in za seboj sem zaslišal močen glas kakor glas trobente,",
@@ -50,8 +50,8 @@ var book = {
 			"23": "<sup>23</sup> Tudi njene otroke bom udaril s smrtjo. Tako bodo vse Cerkve spoznale, da sem jaz tisti, ki preiskuje obisti in srca, in vsakemu izmed vas bom povrnil po njegovih delih.",
 			"24": "<sup>24</sup> Drugim v Tiatiri, ki se ne držijo tega nauka in niso spoznali satanovih globočin, kakor pravijo, ne bom nalagal drugega bremena.",
 			"25": "<sup>25</sup> Obdržite pa to, kar imate, dokler ne pridem.",
-			"26": "<sup>26</sup> Kdor zmaga in vztraja do konca v mojih delih,",
-			"27": "<sup>27</sup> ."
+			"26": "<sup>26</sup> Kdor zmaga in vztraja do konca v mojih delih, temu bom dal oblast nad narodi;",
+			"27": "<sup>27</sup> pasel jih bo z železno palico, kakor se drobijo lončene posode ."
 		},
 		"3": {
 			"1": "<sup>1</sup> »Angelu Cerkve v Sardah piši: ›To govori on, ki ima sedem Božjih duhov in sedem zvezd. Vem za tvoja dela: imaš ime, da si živ, a si mrtev.",
@@ -79,7 +79,7 @@ var book = {
 			"5": "<sup>5</sup> Od prestola so prihajali bliski, glasovi in gromi. Pred prestolom je plamenelo sedem bakel: te pomenijo sedem Božjih duhov.",
 			"6": "<sup>6</sup> Pred prestolom pa je bilo kakor stekleno morje, podobno kristalu. Sredi pred prestolom in okrog njega so stala štiri živa bitja, spredaj in zadaj polna oči.",
 			"7": "<sup>7</sup> Prvo živo bitje je bilo podobno levu, drugo bitje je bilo podobno juncu, tretje bitje je imelo obličje kakor človek, četrto bitje pa je bilo podobno letečemu orlu.",
-			"8": "<sup>8</sup> Ta štiri bitja so imela vsako po šest perutnic in so bila vsenaokrog in znotraj polna oči. Brez prenehanja so govorila noč in dan: » ki je bil, ki je in ki pride!«",
+			"8": "<sup>8</sup> Ta štiri bitja so imela vsako po šest perutnic in so bila vsenaokrog in znotraj polna oči. Brez prenehanja so govorila noč in dan: » Svet, svet, svet, Gospod Bog, vladar vsega, ki je bil, ki je in ki pride!«",
 			"11": "<sup>11</sup> »Vreden si, naš Gospod in Bog, da prejmeš slavo, čast in moč, ker si ustvaril vse reči, po tvoji volji so bivale in bile ustvarjene.«"
 		},
 		"5": {
@@ -112,8 +112,8 @@ var book = {
 			"13": "<sup>13</sup> in zvezde na nebu so popadale na zemljo, kakor smokva otrese nezrele sadeže, če jo premetava silovit veter.",
 			"14": "<sup>14</sup> Nebo se je odmaknilo, kakor če se zvije zvitek, in vse gore in otoki so se premaknili s svojih mest.",
 			"15": "<sup>15</sup> Kralji zemlje in velikaši, vojaški poveljniki in bogatini, mogočniki in sploh vsi, sužnji in svobodni, so se tedaj poskrili po votlinah in po gorskem skalovju.",
-			"16": "<sup>16</sup> pred obličjem njega, ki sedi na prestolu, in pred Jagnjetovo jezo!",
-			"17": "<sup>17</sup> Kajti prišel je veliki dan njune jeze in kdo bo mogel obstati?"
+			"16": "<sup>16</sup> In so rekli goram in skalovju: »Padite na nas in skrijte nas pred obličjem njega, ki sedi na prestolu, in pred Jagnjetovo jezo!",
+			"17": "<sup>17</sup> Kajti prišel je veliki dan njune jeze in kdo bo mogel obstati? «"
 		},
 		"7": {
 			"1": "<sup>1</sup> Zatem sem videl štiri angele, ki so stali na štirih vogalih zemlje in zadrževali štiri vetrove zemlje, da ne bi pihali ne na zemljo ne na morje ne v katero koli drevo.",
@@ -130,8 +130,8 @@ var book = {
 			"13": "<sup>13</sup> Tedaj je spregovoril nekdo izmed starešin in mi rekel: »Tile, ki so ogrnjeni v bela oblačila, kdo so in od kod so prišli?«",
 			"14": "<sup>14</sup> Rekel sem mu: »Moj gospod, ti veš.« On pa mi je rekel: »To so tisti, ki so prišli iz velike stiske in so oprali svoja oblačila ter jih pobelili z Jagnjetovo krvjo.",
 			"15": "<sup>15</sup> Zato so pred Božjim prestolom in noč in dan služijo Bogu v njegovem svetišču; in on, ki sedi na prestolu, bo razpel svoj šotor nad njimi.",
-			"16": "<sup>16</sup> in in kakršna koli",
-			"17": "<sup>17</sup> Kajti Jagnje, ki sedi na sredi prestola, jih bo paslo in jih vodilo k izvirkom živih vodá; njihovih .«"
+			"16": "<sup>16</sup> Ne bodo več lačni in ne bodo več žejni in nič več jih ne bo žgalo sonce ne kakršna koli pripeka.",
+			"17": "<sup>17</sup> Kajti Jagnje, ki sedi na sredi prestola, jih bo paslo in jih vodilo k izvirkom živih vodá; in Bog bo obrisal vse solze z njihovih oči .«"
 		},
 		"8": {
 			"1": "<sup>1</sup> Ko je Jagnje odtrgalo sedmi pečat, je v nebesih za kake pol ure nastala tišina.",
@@ -194,7 +194,7 @@ var book = {
 			"8": "<sup>8</sup> Njuni trupli bosta obležali na cesti velikega mesta, ki se v duhovnem pomenu imenuje Sódoma in Egipt: tam je bil križan tudi njun Gospod.",
 			"9": "<sup>9</sup> Ljudje iz vseh ljudstev, rodov, jezikov in narodov bodo tri dni in pol gledali njuni trupli in ne bodo pustili, da bi bili njuni trupli položeni v grob.",
 			"10": "<sup>10</sup> Zaradi njiju se bodo prebivalci zemlje veselili in radostili ter si izmenjavali darila, ker sta ta dva preroka mučila prebivalce zemlje.",
-			"11": "<sup>11</sup> Toda po treh dneh in pol iz Boga in navdala z grozo tiste, ki so ju gledali.",
+			"11": "<sup>11</sup> Toda po treh dneh in pol je iz Boga šinil vanju dih življenja: postavila sta se na noge in navdala z grozo tiste, ki so ju gledali.",
 			"12": "<sup>12</sup> Tedaj so iz nebes zaslišali močen glas, ki jima je rekel: »Povzpnita se sèm!« In povzpela sta se v oblaku proti nebu in njuni sovražniki so ju videli.",
 			"13": "<sup>13</sup> V tisti uri je nastal velik potres, deseti del mesta se je zrušil in v potresu je bilo ubitih sedem tisoč ljudi. Preživele pa je prevzela groza in so izkazali čast Bogu nebes.",
 			"14": "<sup>14</sup> Drugo gorje je prešlo. Glej, kmalu pride tretje gorje.",
@@ -247,7 +247,7 @@ var book = {
 			"2": "<sup>2</sup> Z neba sem zaslišal glas kakor glas mnogih vodá in kakor glas silovitega groma. Glas, ki sem ga slišal, je bil kakor glas harfistov, ki brenkajo na svoje harfe.",
 			"3": "<sup>3</sup> Pred prestolom, pred štirimi živimi bitji in pred starešinami so peli kakor novo pesem. Te pesmi pa se ni mogel naučiti nihče, razen tistih sto štiriinštiridesetih tisočev, ki so bili odkupljeni z zemlje.",
 			"4": "<sup>4</sup> To so tisti, ki se niso omadeževali z ženskami: so namreč deviški. To so tisti, ki spremljajo Jagnje, kamor koli gre. Ti so bili odkupljeni izmed ljudi kot prvenci za Boga in za Jagnje.",
-			"5": "<sup>5</sup> : neomadeževani so.",
+			"5": "<sup>5</sup> Na njihovih ustih ni bilo najti laži : neomadeževani so.",
 			"6": "<sup>6</sup> Nato sem videl drugega angela, ki je letel po sredi neba in je imel večni evangelij, da ga oznani prebivalcem zemlje in vsakemu narodu, rodu, jeziku in ljudstvu.",
 			"7": "<sup>7</sup> Z močnim glasom je rekel: »Bojte se Boga in izkažite mu čast, kajti prišla je ura njegove sodbe. Molíte njega, ki je naredil nebo in zemljo, morje in izvirke vodá!«",
 			"8": "<sup>8</sup> Za njim je prišel še drugi angel in rekel: »Padel je, padel véliki Babilon, ki je vsem narodom dal piti vino svojega pobesnelega vlačugarstva.«",
@@ -267,8 +267,8 @@ var book = {
 		"15": {
 			"1": "<sup>1</sup> Nato sem na nebu videl drugo znamenje, veliko in čudovito: sedem angelov, ki so nosili sedem nadlog. Te so poslednje. Kajti z njimi se je dopolnil Božji srd.",
 			"2": "<sup>2</sup> Videl sem tudi nekakšno stekleno morje, pomešano z ognjem. In tisti, ki so premagali zver in njeno podobo ter število njenega imena, so stali na tem steklenem morju, z Božjimi harfami v rokah.",
-			"3": "<sup>3</sup> Peli so pesem Božjega služabnika Mojzesa in pesem Jagnjeta: »",
-			"4": "<sup>4</sup> Zakaj ti edini si svet. ker so se razodele tvoje sodbe.«",
+			"3": "<sup>3</sup> Peli so pesem Božjega služabnika Mojzesa in pesem Jagnjeta: » Velika in čudovita so tvoja dela, Gospod, Bog, vladar vsega. Pravična in resnična so tvoja pota, kralj narodov!",
+			"4": "<sup>4</sup> Kdo se ne bi bal, Gospod, in ne slavil tvojega imena? Zakaj ti edini si svet. Vsi narodi bodo prišli in se poklonili pred tabo, ker so se razodele tvoje sodbe.«",
 			"5": "<sup>5</sup> Zatem sem videl, kako se je v nebesih odprlo svetišče šotora pričevanja.",
 			"6": "<sup>6</sup> Iz svetišča je stopilo sedem angelov, ki so nosili sedem nadlog. Oblečeni so bili v čisto in bleščeče platno, čez prsi pa so bili prepeti z zlatimi pasovi.",
 			"7": "<sup>7</sup> Eno izmed štirih živih bitij je dalo angelom sedem zlatih čaš, napolnjenih s srdom Boga, ki živi na veke vekov.",
@@ -351,7 +351,7 @@ var book = {
 			"12": "<sup>12</sup> Oči so mu kakor ognjen plamen in na glavi nosi veliko diademov; napisano pa ima ime, ki ga ne pozna nihče, le on sam.",
 			"13": "<sup>13</sup> Ogrnjen je v plašč, ki je bil namočen v krvi. Ime mu je Božja Beseda.",
 			"14": "<sup>14</sup> Na belih konjih mu sledijo nebeške vojske, oblečene v belo in čisto tančico.",
-			"15": "<sup>15</sup> Iz ust mu sega oster meč, da z njim udari po narodih. in tlačil stiskalnico z vinom srdite jeze Boga, vladarja vsega.",
+			"15": "<sup>15</sup> Iz ust mu sega oster meč, da z njim udari po narodih. Pasel jih bo z železno palico in tlačil stiskalnico z vinom srdite jeze Boga, vladarja vsega.",
 			"16": "<sup>16</sup> Na plašču in na boku pa ima napisano ime: Kralj kraljev in Gospod gospodov.",
 			"17": "<sup>17</sup> Nato sem videl angela, ki je stal na soncu. Z močnim glasom je zaklical vsem pticam, ki letajo sredi neba: »Zgrnite se semle na veliko Božjo pojedino,",
 			"18": "<sup>18</sup> da boste jedli meso kraljev in meso poveljnikov, meso junakov in meso konj in njihovih jezdecev, meso vseh, svobodnjakov in sužnjev, malih in velikih!«",
@@ -368,7 +368,7 @@ var book = {
 			"6": "<sup>6</sup> Blažen in svet, kdor ima delež pri prvem vstajenju! Nad takimi druga smrt nima nobene oblasti, ampak bodo postali Božji in Kristusovi duhovniki ter bodo kraljevali z njim tisoč let.",
 			"7": "<sup>7</sup> Ko pa se dopolni tisoč let, bo satan izpuščen iz svoje ječe.",
 			"8": "<sup>8</sup> Stopil bo na plan, da bi zapeljal narode, ki so na štirih vogalih zemlje, Goga in Magóga, ter jih zbral na vojsko. Njih število bo, kakor je peska ob morju.",
-			"9": "<sup>9</sup> Šli so v napad po zemeljski širjavi ter obkolili tabor svetih in ljubljeno mesto.",
+			"9": "<sup>9</sup> Šli so v napad po zemeljski širjavi ter obkolili tabor svetih in ljubljeno mesto. A z neba je padel ogenj in jih použil.",
 			"10": "<sup>10</sup> Hudič pa, ki jih je zapeljal, je bil vržen v jezero z ognjem in žveplom, kjer sta tudi zver in lažni prerok. Tam bodo mučeni podnevi in ponoči na veke vekov.",
 			"11": "<sup>11</sup> Zatem sem videl velik bel prestol in njega, ki je sedèl na njem. Zemlja in nebo sta pobegnila izpred njegovega obličja in zanju ni bilo prostora.",
 			"12": "<sup>12</sup> Nato sem videl umrle, velike in majhne, kako stojijo pred prestolom. In odprle so se knjige. Odprla pa se je tudi druga knjiga: knjiga življenja. Umrli so bili sojeni po tem, kar je bilo napisano v knjigah, po svojih delih.",
@@ -380,10 +380,10 @@ var book = {
 			"1": "<sup>1</sup> Nato sem videl novo nebo in novo zemljo. Kajti prvo nebo in prva zemlja sta izginila in morja ni bilo več.",
 			"2": "<sup>2</sup> Videl sem tudi sveto mesto, novi Jeruzalem, ko je prihajal z neba od Boga, pripravljen kakor nevesta, ki se je ozaljšala za svojega ženina.",
 			"3": "<sup>3</sup> In zaslišal sem močen glas, ki je prišel od prestola in rekel: »Glej, prebivališče Boga med ljudmi! In prebival bo z njimi, oni bodo njegova ljudstva in Bog sam bo z njimi, njihov Bog.",
-			"4": "<sup>4</sup> njihovih in smrti ne bo več, pa tudi žalovanja, vpitja in bolečine ne bo več. Kajti prejšnje je minilo.«",
+			"4": "<sup>4</sup> In obrisal bo vse solze z njihovih oči in smrti ne bo več, pa tudi žalovanja, vpitja in bolečine ne bo več. Kajti prejšnje je minilo.«",
 			"5": "<sup>5</sup> Tisti, ki je sedèl na prestolu, pa je rekel: »Glej, vse delam novo!« Rekel je tudi: »Zapiši, kajti te besede so zanesljive in resnične!«",
 			"6": "<sup>6</sup> Nato mi je rekel: »Zgodile so se! Jaz sem Alfa in Omega, začetek in konec. Žejnemu bom dal zastonj od izvirka žive vode.",
-			"7": "<sup>7</sup> Kdor bo zmagal, bo to podedoval in .",
+			"7": "<sup>7</sup> Kdor bo zmagal, bo to podedoval in jaz bom njemu Bog, on pa meni sin .",
 			"8": "<sup>8</sup> Toda strahopetci in neverniki, pokvarjenci in ubijalci, nečistniki in čarovniki, malikovalci in vsi lažnivci bodo dobili svoj delež v jezeru gorečega žvepla. To je druga smrt.«",
 			"9": "<sup>9</sup> Zatem je prišel eden izmed sedmih angelov, ki so držali sedem čaš, napolnjenih s sedmimi poslednjimi nadlogami, in mi je spregovoril: »Pridi, da ti pokažem zaročenko, Jagnjetovo nevesto!«",
 			"10": "<sup>10</sup> Nato me je angel v Duhu odnesel na veliko in visoko goro ter mi pokazal sveto mesto Jeruzalem, ki je prihajalo z neba od Boga",

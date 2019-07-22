@@ -36,10 +36,10 @@ var book = {
 			"1": "<sup>1</sup> zopet ga poiščem!"
 		},
 		"24": {
-			"23": "<sup>23</sup> Tudi to so modrih:"
+			"23": "<sup>23</sup> Tudi to so izreki modrih:"
 		},
 		"25": {
-			"1": "<sup>1</sup> Tudi ti so pregovori Salomonovi, ki so jih zbrali možje Ezekija, kralja Judovega. ali ocet na sodo,"
+			"1": "<sup>1</sup> Tudi ti so pregovori Salomonovi, ki so jih zbrali možje Ezekija, kralja Judovega. ali ocet lije na sodo,"
 		},
 		"26": {
 			"1": "<sup>1</sup> kakor lastovka, ki se izpreletava,"
@@ -52,7 +52,7 @@ var book = {
 		},
 		"29": {},
 		"30": {
-			"1": "<sup>1</sup> Besede Agurja, Jakejevega sina; govor. Govoril je mož Itielu, Itielu in Ukalu: in kočniki njegovi noži, in potrebne izmed ljudi."
+			"1": "<sup>1</sup> Besede Agurja, Jakejevega sina; preroški govor. Govoril je mož Itielu, Itielu in Ukalu: in kočniki njegovi noži, in potrebne izmed ljudi."
 		},
 		"31": {
 			"1": "<sup>1</sup> Besede Lemuela kralja; preroški govor, s katerim ga je poučevala mati njegova. kaj pač, sin telesa mojega, ne kraljem, da pijo vino,"

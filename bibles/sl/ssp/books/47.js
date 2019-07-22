@@ -80,7 +80,7 @@ var book = {
 			"10": "<sup>10</sup> Vedno nosimo v svojem telesu Jezusovo umiranje, da bi se v našem telesu razodelo tudi Jezusovo življenje.",
 			"11": "<sup>11</sup> Čeprav še živimo, nas zaradi Jezusa vedno pošiljajo v smrt, da bi se tudi Jezusovo življenje razodelo v našem umrljivem mesu.",
 			"12": "<sup>12</sup> Tako v nas deluje smrt, v vas pa življenje.",
-			"13": "<sup>13</sup> Ker pa imamo istega duha vere, kakor je pisano: , tudi mi verujemo in zato tudi govorimo.",
+			"13": "<sup>13</sup> Ker pa imamo istega duha vere, kakor je pisano: Veroval sem, zato sem govoril , tudi mi verujemo in zato tudi govorimo.",
 			"14": "<sup>14</sup> Vemo namreč, da bo tisti, ki je obudil Gospoda Jezusa, tudi nas obudil z Jezusom in nas hkrati z vami postavil predse.",
 			"15": "<sup>15</sup> Vse to je namreč zaradi vas, da bi se milost zaradi večje množice pomnožila in s tem obogatila zahvaljevanje v Božjo slavo.",
 			"16": "<sup>16</sup> Zato ne omagujemo. Nasprotno, čeprav naš zunanji človek razpada, se naš notranji iz dneva v dan obnavlja.",
@@ -112,7 +112,7 @@ var book = {
 		},
 		"6": {
 			"1": "<sup>1</sup> Ker smo njegovi sodelavci, vas tudi prosimo, da Božje milosti ne bi prejeli v prazno!",
-			"2": "<sup>2</sup> Pravi namreč: .",
+			"2": "<sup>2</sup> Pravi namreč: Ob času milosti sem te uslišal in na dan rešitve sem ti pomagal .",
 			"3": "<sup>3</sup> V ničemer ne dajemo nobene priložnosti za pohujšanje, da se naša služba ne bi grajala,",
 			"4": "<sup>4</sup> ampak v vsem sebe priporočamo kot Božje služabnike: v veliki stanovitnosti, v nadlogah, v potrebah, v stiskah,",
 			"5": "<sup>5</sup> pod udarci, v ječah, pri uporih, v naporih, v bedenjih, v postih,",
@@ -126,9 +126,9 @@ var book = {
 			"13": "<sup>13</sup> Povrnite – kakor otrokom vam govorim – tudi vi meni z enako širokosrčnostjo!",
 			"14": "<sup>14</sup> Ne dajte se vpregati v jarem z neverniki. Kaj imata namreč skupnega pravičnost in nepostavnost? Kakšno občestvo ima luč s temo?",
 			"15": "<sup>15</sup> Kakšno je soglasje med Kristusom in Beliárjem? Kaj imata skupnega verujoči in neverujoči?",
-			"16": "<sup>16</sup> V čem se Božje svetišče strinja z maliki? Mi smo namreč svetišče živega Boga, kakor je rekel Bog: .",
-			"17": "<sup>17</sup> Zato , govori Gospod,",
-			"18": "<sup>18</sup> in vam vi boste in hčere,"
+			"16": "<sup>16</sup> V čem se Božje svetišče strinja z maliki? Mi smo namreč svetišče živega Boga, kakor je rekel Bog: Prebival bom med njimi in med njimi bom hodil; jaz bom njihov Bog in oni bodo moje ljudstvo .",
+			"17": "<sup>17</sup> Zato pojdite iz njihove srede in se ločite , govori Gospod, in nečistega se ne dotikajte; in jaz vas bom sprejel",
+			"18": "<sup>18</sup> in vam bom Oče in vi boste moji sinovi in hčere, govori Gospod, vladar vsega."
 		},
 		"7": {
 			"1": "<sup>1</sup> Te obljube torej imamo, predragi. Zato se očistimo vseh madežev mesa in duha in v strahu Božjem dopolnjujmo svetost.",
@@ -163,7 +163,7 @@ var book = {
 			"12": "<sup>12</sup> Kdor ima namreč dobro voljo, je dobrodošel s tistim, kar ima, ne glede na to, česar nima.",
 			"13": "<sup>13</sup> Ne gre namreč za to, da bi drugi dosegli olajšanje, vi pa bi živeli v stiski. Za enakost gre.",
 			"14": "<sup>14</sup> V sedanjem času bo vaše obilje lajšalo njihovo pomanjkanje, da bo tudi njihovo obilje lajšalo vaše pomanjkanje. Tako bo prišlo do enakosti,",
-			"15": "<sup>15</sup> kakor je pisano:",
+			"15": "<sup>15</sup> kakor je pisano: Kdor je veliko nabral, ni imel preveč, in kdor malo, ni imel premalo.",
 			"16": "<sup>16</sup> Hvala Bógu, ki je Titu položil v srce enako vnemo za vas,",
 			"17": "<sup>17</sup> da je ustregel moji prošnji. Ker pa je bil že sam zelo vnet, je po svojem nagibu odšel k vam.",
 			"18": "<sup>18</sup> Z njim pošiljamo brata, ki ga zaradi evangelija hvalijo vse Cerkve.",
@@ -181,9 +181,9 @@ var book = {
 			"4": "<sup>4</sup> da glede tega ne bi doživel sramote, saj bi jo tudi vi, če bi namreč z menoj prišli Makedonci in bi vas dobili nepripravljene.",
 			"5": "<sup>5</sup> Zato sem menil, da moram prositi brate, naj gredo pred nami k vam in vnaprej zberejo vaš obljubljeni dar, da bo nabran kot dar in ne kot izsiljevanje.",
 			"6": "<sup>6</sup> To pa rečem: kdor varčno seje, bo tudi varčno žel, kdor pa obilno seje, bo tudi obilno žel.",
-			"7": "<sup>7</sup> Vsakdo naj da, kakor se je v srcu odločil, ne z žalostjo ali na silo, kajti ljubi .",
+			"7": "<sup>7</sup> Vsakdo naj da, kakor se je v srcu odločil, ne z žalostjo ali na silo, kajti Bog ljubi veselega darovalca .",
 			"8": "<sup>8</sup> Bog pa vas more obilno obdariti z vsakršno milostjo, tako da boste v vsem vedno imeli vsega dovolj in boste imeli izobilje za vsako dobro delo,",
-			"9": "<sup>9</sup> kakor je pisano:"
+			"9": "<sup>9</sup> kakor je pisano: Razsul je, dal je ubogim; njegova pravičnost ostane na veke."
 		},
 		"10": {
 			"1": "<sup>1</sup> Jaz sam, Pavel, ki sem sicer ponižen, dokler sem osebno med vami, od daleč pa sem drzen, vas pri krotkosti in prizanesljivosti Kristusa rotim",
@@ -202,6 +202,7 @@ var book = {
 			"14": "<sup>14</sup> Nikakor se namreč ne povzdigujemo čez mero, kot da ne bi prišli do vas. Saj smo vendar s Kristusovim evangelijem dospeli tudi k vam!",
 			"15": "<sup>15</sup> Nismo čez mero ponosni na napore drugih. Upamo pa, da bomo ob vaši rastoči veri še veliko bolj povečali svoje področje,",
 			"16": "<sup>16</sup> tako da bomo oznanili evangelij onkraj vaših meja, ne da bi se ponašali z delom, ki je na tujem področju že opravljeno.",
+			"17": "<sup>17</sup> Kdor se ponaša, naj se ponaša v Gospodu.",
 			"18": "<sup>18</sup> Kajti preizkušen ni tisti, ki sam sebe priporoča, ampak tisti, ki ga priporoča Gospod."
 		},
 		"11": {
@@ -263,7 +264,7 @@ var book = {
 			"21": "<sup>21</sup> Bojim se, da bi me ob ponovnem prihodu moj Bog pred vami ponižal in bi moral žalovati zaradi mnogih, ki so prej grešili, pa se za nečistost in nečistovanje in razuzdanost, ki so jo zagrešili, niso skesali."
 		},
 		"13": {
-			"1": "<sup>1</sup> Zdaj prihajam k vam tretjič.",
+			"1": "<sup>1</sup> Zdaj prihajam k vam tretjič. Vsaka stvar se bo ugotovila po izjavi dveh ali treh prič.",
 			"2": "<sup>2</sup> Napovedal sem že in kakor tedaj, med drugim obiskom, tudi zdaj v odsotnosti napovedujem tistim, ki so prej grešili, in vsem drugim: če spet pridem, ne bom prizanašal,",
 			"3": "<sup>3</sup> saj sami zahtevate dokaz, da v meni govori Kristus. Ta pa do vas ni slaboten, ampak je mogočen med vami.",
 			"4": "<sup>4</sup> Res, križan je bil v slabotnosti, toda živi iz Božje moči. Tudi mi smo slabotni v njem, a pred vami bomo živi z njim zaradi Božje moči.",

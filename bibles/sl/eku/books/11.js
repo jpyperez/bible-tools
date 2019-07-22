@@ -157,11 +157,11 @@ var book = {
 			"19": "<sup>19</sup> Urijev sin Gaber v galaadski deželi, v deželi amorejskega kralja Sehona in basanskega kralja Oga. Bil je en sam upravnik čez to deželo."
 		},
 		"5": {
-			"1": "<sup>1</sup> Salomon pa je gospodoval nad vsemi kraljestvi od veletoka do filistejske dežele in do egiptovske meje. Prinašali so darila in bili Salomonu podložni vse dni njegovega življenja. Salomon je imel štirideset tisoč vprežnih konj za svoje vozove in dvajset tisoč konj za ježo. Oni upravniki so vsak v svojem mesecu oskrbovali z živežem kralja Salomona in vse, ki so hodili h kralju Salomonu na hrano; skrbeli so, da ni nič manjkalo. Tudi ječmen in slamo za konje in vprežne živali so spravljali na mesto, kjer je bil, vsak, kakor je bilo komu naročeno.",
+			"1": "<sup>1</sup> Salomon pa je gospodoval nad vsemi kraljestvi od veletoka do filistejske dežele in do egiptovske meje. Prinašali so darila in bili Salomonu podložni vse dni njegovega življenja. 6 Salomon je imel štirideset tisoč vprežnih konj za svoje vozove in dvajset tisoč konj za ježo. 7 Oni upravniki so vsak v svojem mesecu oskrbovali z živežem kralja Salomona in vse, ki so hodili h kralju Salomonu na hrano; skrbeli so, da ni nič manjkalo. 8 Tudi ječmen in slamo za konje in vprežne živali so spravljali na mesto, kjer je bil, vsak, kakor je bilo komu naročeno.",
 			"2": "<sup>2</sup> Salomonov živež na dan je bil: trideset korov bele moke in šestdeset korov navadne moke,",
 			"3": "<sup>3</sup> deset pitanih volov, dvajset pašnih volov in sto ovac poleg jelenov, gazel, antilop in pitane perutnine.",
 			"4": "<sup>4</sup> Gospodoval je namreč nad vso pokrajino tostran veletoka, od Tafse do Gaze, nad vsemi kralji tostran veletoka, in imel je mir z vsemi sosedi naokrog.",
-			"5": "<sup>5</sup> In dokler je živel Salomon, sta Juda in Izrael prebivala na varnem, vsak pod svojo trto in smokvo, od Dana do Bersabe. Juda in Izrael sta bila številna kakor pesek ob morju; jedli so in pili ter bili dobre volje.",
+			"5": "<sup>5</sup> In dokler je živel Salomon, sta Juda in Izrael prebivala na varnem, vsak pod svojo trto in smokvo, od Dana do Bersabe. 20 Juda in Izrael sta bila številna kakor pesek ob morju; jedli so in pili ter bili dobre volje.",
 			"9": "<sup>9</sup> Bog je dal Salomonu modrost in razumnost v zelo veliki meri ter bogastvo duha, kakor je peska ob morskem obrežju.",
 			"10": "<sup>10</sup> Salomonova modrost je presegla modrost vseh Jutrovcev in vso modrost Egipčanov.",
 			"11": "<sup>11</sup> Bil je modrejši mimo vseh ljudi, modrejši kot Ezrahovec Etan, kot Heman, Halkol in Dorda, Maholovi sinovi. Pri vseh narodih naokrog je bil slaven.",

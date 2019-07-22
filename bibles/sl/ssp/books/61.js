@@ -47,7 +47,7 @@ var book = {
 			"19": "<sup>19</sup> Svobodo jim obljubljajo, pa so sami sužnji pokvarjenosti. Kajti človek je suženj tega, čemur podleže.",
 			"20": "<sup>20</sup> Če se namreč tisti, ki so po spoznanju našega Gospoda in odrešenika Jezusa Kristusa zbežali pred omadeževanostjo sveta, spet zapletejo vanjo in ji podležejo, so končno na slabšem kakor na začetku.",
 			"21": "<sup>21</sup> Za take bi bilo bolje, če ne bi spoznali poti pravičnosti, kakor pa da so jo spoznali, a so se kljub temu obrnili proč od svete zapovedi, ki jim je bila izročena.",
-			"22": "<sup>22</sup> Take doleti, kar pove resničen pregovor: , »Svinja se okopa, pa se spet valja v blatni luži.«"
+			"22": "<sup>22</sup> Take doleti, kar pove resničen pregovor: Pes se vrne k lastnemu izbljuvku , »Svinja se okopa, pa se spet valja v blatni luži.«"
 		},
 		"3": {
 			"1": "<sup>1</sup> Ljubi, to je že drugo pismo, ki vam ga pišem. V obeh sem skušal s tem, da sem vas spominjal, dramiti vaše iskreno razumevanje.",
@@ -62,7 +62,7 @@ var book = {
 			"10": "<sup>10</sup> Prišel pa bo Gospodov dan kakor tat. Tedaj bo nebo s hrumom prešlo, prvine se bodo v ognju razkrojile, zemlja in dela na njej pa bodo razkrita.",
 			"11": "<sup>11</sup> Kako prav je torej, da živite sveto in res pobožno, če se bo vse to razkrojilo,",
 			"12": "<sup>12</sup> da čakate in pospešujete prihod Božjega dne, zaradi katerega bo nebo zaplamenelo in prešlo in se bodo prvine razžarjene topile.",
-			"13": "<sup>13</sup> Mi pa po njegovi obljubi pričakujemo , v katerih biva pravičnost.",
+			"13": "<sup>13</sup> Mi pa po njegovi obljubi pričakujemo nova nebesa in novo zemljo , v katerih biva pravičnost.",
 			"14": "<sup>14</sup> Ljubi, ker to pričakujete, se potrudite, da vas najde v miru brez madeža in brez graje.",
 			"15": "<sup>15</sup> Potrpežljivost našega Gospoda cenite kot rešitev. Tako vam je pisal tudi naš ljubi brat Pavel, seveda v skladu z njemu dano modrostjo,",
 			"16": "<sup>16</sup> kakor piše tudi v vseh pismih, v katerih govori o tem. V njih so nekatere težkó umljive stvari, ki jih taki, ki niso poučeni, in so neutrjeni, zlorabljajo. Tako delajo tudi z drugimi Pismi – v svojo pogubo.",

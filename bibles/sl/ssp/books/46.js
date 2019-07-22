@@ -21,13 +21,13 @@ var book = {
 			"16": "<sup>16</sup> Pač, krstil sem še Stefanájevo družino. Sicer pa ne vem, da bi krstil še koga drugega.",
 			"17": "<sup>17</sup> Kristus me namreč ni poslal krščevat, ampak oznanjat evangelij, in sicer ne z modrostjo besede, da se Kristusov križ ne izvotli.",
 			"18": "<sup>18</sup> Beseda o križu je namreč za tiste, ki so na poti pogubljenja, norost; nam, ki smo na poti rešitve, pa je Božja moč.",
-			"19": "<sup>19</sup> Saj je pisano:",
+			"19": "<sup>19</sup> Saj je pisano: Uničil bom modrost modrih, razumnost razumnih bom zavrgel.",
 			"26": "<sup>26</sup> Glejte, bratje, svojo poklicanost! Ni vas veliko modrih po mesu, ni vas veliko mogočnih, ni vas veliko plemenitih po rodu.",
 			"27": "<sup>27</sup> Nasprotno, Bog si je izbral tisto, kar je v očeh sveta noro, da bi osramotil modre. Bog si je izbral tisto, kar je v očeh sveta slabotno, da bi osramotil tisto, kar je močno.",
 			"28": "<sup>28</sup> Bog si je izbral tisto, kar je na svetu neplemenito po rodu in zaničevano, tisto, kar ni bivajoče, da bi onesposobil bivajoče,",
 			"29": "<sup>29</sup> da se pred Bogom ne bi ponašalo nobeno meso.",
 			"30": "<sup>30</sup> Iz njega pa ste vi v Kristusu Jezusu, ki je za nas postal modrost od Boga, pravičnost, posvečenje in odkupitev,",
-			"31": "<sup>31</sup> da bi se – kakor je pisano – ."
+			"31": "<sup>31</sup> da bi se – kakor je pisano – tisti, ki se ponaša, ponašal v Gospodu ."
 		},
 		"2": {
 			"1": "<sup>1</sup> Bratje, tudi ko sem jaz prišel k vam, nisem prišel zato, da bi vam z vzvišenostjo besede ali modrosti oznanjal Božjo skrivnost.",
@@ -38,8 +38,8 @@ var book = {
 			"6": "<sup>6</sup> Pa vendar oznanjamo modrost, in sicer med popolnimi! Toda ne modrosti tega sveta, tudi ne modrosti voditeljev tega sveta. Ti minevajo.",
 			"7": "<sup>7</sup> Mi oznanjamo Božjo modrost v skrivnosti, tisto prikrito, ki jo je Bog pred veki vnaprej določil za naše veličastvo.",
 			"8": "<sup>8</sup> Te ni spoznal noben mogočnik tega sveta. Kajti ko bi jo spoznali, Gospoda veličastva pač ne bi križali.",
-			"9": "<sup>9</sup> Kakor je pisano: in kar v človekovo srce ni prišlo, kar je Bog pripravil tistim, ki ga ljubijo,",
-			"16": "<sup>16</sup> namreč"
+			"9": "<sup>9</sup> Kakor je pisano: Česar oko ni videlo in uho ni slišalo in kar v človekovo srce ni prišlo, kar je Bog pripravil tistim, ki ga ljubijo,",
+			"16": "<sup>16</sup> Kdo je namreč spoznal Gospodov um, da bi njega učil?"
 		},
 		"3": {
 			"1": "<sup>1</sup> Bratje, nisem vam mogel govoriti kot duhovnim, ampak kot zgolj mesenim bitjem, kot nedoraslim v Kristusu.",
@@ -60,7 +60,7 @@ var book = {
 			"16": "<sup>16</sup> Mar ne veste, da ste Božji tempelj in da Božji Duh prebiva v vas?",
 			"17": "<sup>17</sup> Če pa kdo Božji tempelj uničuje, bo Bog uničil njega. Božji tempelj je namreč svet, in to ste vi.",
 			"18": "<sup>18</sup> Nihče naj se ne vara! Če kdo izmed vas misli, da je moder v tem svetu, naj postane nor, da postane moder,",
-			"19": "<sup>19</sup> kajti modrost tega sveta je pri Bogu norost. Zapisano je namreč: , ; ."
+			"19": "<sup>19</sup> kajti modrost tega sveta je pri Bogu norost. Zapisano je namreč: Modre ujame v njihovi prekanjenosti , Gospod pozna misli modrih ; ve, da so prazne ."
 		},
 		"4": {
 			"1": "<sup>1</sup> Imejte nas vendar za Kristusove služabnike, za oskrbnike Božjih skrivnosti.",
@@ -98,7 +98,7 @@ var book = {
 			"10": "<sup>10</sup> Pa nisem mislil na nečistnike tega sveta ali na lakomnike in roparje in na malikovalce sploh, ker bi vi sicer morali oditi s sveta.",
 			"11": "<sup>11</sup> Ne, pisal sem vam, da se ne smete družiti s takim, ki sebe imenuje brat, pa je nečistnik ali lakomnik ali malikovalec ali obrekljivec ali pijanec ali ropar. S takim niti ne jejte skupaj.",
 			"12": "<sup>12</sup> Sicer pa, čemu naj bi jaz sodil tiste, ki so zunaj? Mar ne sodite vi le tiste, ki so znotraj?",
-			"13": "<sup>13</sup> One zunaj bo sodil Bog."
+			"13": "<sup>13</sup> One zunaj bo sodil Bog. Izločite hudobneža iz svoje srede!"
 		},
 		"6": {
 			"1": "<sup>1</sup> Kako si upa kdo izmed vas, ki ima tožbo zoper drugega, iskati pravico pred krivičnimi in ne pred svetimi?",
@@ -116,7 +116,7 @@ var book = {
 			"13": "<sup>13</sup> Jedi so za trebuh in trebuh je za jedi. Bog pa bo oboje odpravil. Telo ni za nečistovanje, ampak za Gospoda, in Gospod je za telo.",
 			"14": "<sup>14</sup> Bog je obudil Gospoda in bo s svojo močjo obudil tudi nas.",
 			"15": "<sup>15</sup> Ali ne veste, da so vaša telesa deli Kristusovega telesa? Mar bom vzel dele Kristusovega telesa in iz njih napravil dele vlačuginega telesa? Nikakor!",
-			"16": "<sup>16</sup> Mar ne veste, da tisti, ki se druži z vlačugo, postane z njo eno telo? Saj je rečeno: .",
+			"16": "<sup>16</sup> Mar ne veste, da tisti, ki se druži z vlačugo, postane z njo eno telo? Saj je rečeno: Dva bosta eno meso .",
 			"17": "<sup>17</sup> Kdor pa se druži z Gospodom, je z njim en duh.",
 			"18": "<sup>18</sup> Bežite pred nečistovanjem. Vsak greh, ki ga stori človek, je zunaj telesa; kdor pa nečistuje, greši proti lastnemu telesu.",
 			"19": "<sup>19</sup> Mar ne veste, da je vaše telo tempelj Svetega Duha, ki je v vas in ki ga imate od Boga? Ne pripadate sebi,",
@@ -188,7 +188,7 @@ var book = {
 			"6": "<sup>6</sup> Ali samo jaz in Barnaba ne smeva biti oproščena dela?",
 			"7": "<sup>7</sup> Kdo je že kdaj služil vojaščino na svoje stroške? Kdo nasadi vinograd in ne uživa njegovega sadu? Kdo pase čredo in ne uživa mleka od črede?",
 			"8": "<sup>8</sup> Mar govorim po človeško? Mar ne pravi tega tudi postava?",
-			"9": "<sup>9</sup> V Mojzesovi postavi je namreč pisano: . Pa je Bog res za vole v skrbeh?",
+			"9": "<sup>9</sup> V Mojzesovi postavi je namreč pisano: Ne zavezuj gobca volu, kadar vrši žito . Pa je Bog res za vole v skrbeh?",
 			"10": "<sup>10</sup> Mar ne govori predvsem o nas? Da, zaradi nas je bilo zapisano, da mora orač orati v upanju in mlatič upati na delež.",
 			"11": "<sup>11</sup> Če smo torej mi vam sejali duhovne dobrine, ali bi bilo preveč, če bi želi vaše snovne?",
 			"12": "<sup>12</sup> Če so pri vas drugi deležni te pravice, ali je nismo toliko bolj mi? Vendar nismo izkoristili te pravice. Nasprotno, vse prenašamo, da le ne bi povzročili kakšne ovire Kristusovemu evangeliju.",
@@ -215,7 +215,7 @@ var book = {
 			"4": "<sup>4</sup> in vsi so pili isto duhovno pijačo. Pili so namreč iz duhovne skale, ki jih je spremljala. In ta skala je bil Kristus.",
 			"5": "<sup>5</sup> Toda večina izmed njih ni bila Bogu po volji. Popadali so zatorej v puščavi.",
 			"6": "<sup>6</sup> To se je zgodilo nam v zgled, da mi ne bi poželeli hudega, kakor so oni.",
-			"7": "<sup>7</sup> Ne postanite malikovalci, kot so bili nekateri izmed njih, kakor je pisano: .",
+			"7": "<sup>7</sup> Ne postanite malikovalci, kot so bili nekateri izmed njih, kakor je pisano: Ljudje so sedli jest in pit in so vstali, da bi se zabavali .",
 			"8": "<sup>8</sup> Tudi ne nečistujmo, kakor so nečistovali nekateri izmed njih in jih je padlo v enem dnevu triindvajset tisoč.",
 			"9": "<sup>9</sup> Ne preizkušajmo Kristusa, kakor so ga nekateri izmed njih preizkusili in so jih pomorile kače.",
 			"10": "<sup>10</sup> Ne godrnjajte, kakor so nekateri izmed njih godrnjali in jih je pomoril pokončevalec.",
@@ -234,7 +234,7 @@ var book = {
 			"23": "<sup>23</sup> »Vse je dovoljeno,« vendar ni vse koristno! »Vse je dovoljeno,« toda vse ne izgrajuje.",
 			"24": "<sup>24</sup> Nihče naj ne išče svoje koristi, temveč korist drugega.",
 			"25": "<sup>25</sup> Vse, kar je v mesnici naprodaj, jejte in se nič ne sprašujte glede vesti,",
-			"26": "<sup>26</sup> kajti .",
+			"26": "<sup>26</sup> kajti Gospodova je zemlja in kar jo napolnjuje .",
 			"27": "<sup>27</sup> Če vas kdo izmed nevernikov povabi in bi radi šli, jejte vse, kar postavijo pred vas, in se nič ne sprašujte glede vesti!",
 			"28": "<sup>28</sup> Če pa bi vam kdo rekel: »To je sveta žrtev,« ne jejte zaradi tistega, ki vas je opozoril, in zaradi vesti.",
 			"29": "<sup>29</sup> Tu pa ne mislim na vašo vest, ampak vest drugega. Le čemu bi druga vest sodila o moji svobodi?",
@@ -348,7 +348,7 @@ var book = {
 			"18": "<sup>18</sup> Hvala Bogu, bolj kakor vi vsi govorim z darom jezikov,",
 			"19": "<sup>19</sup> toda v Cerkvi raje povem pet besed s svojim umom, da bi poučil tudi druge, kakor pa na tisoče besed z darom jezika.",
 			"20": "<sup>20</sup> Bratje, ne bodite otroci v mišljenju. V hudobiji bodite otroški, v mišljenju pa bodite odrasli.",
-			"21": "<sup>21</sup> V postavi piše: me tako ,",
+			"21": "<sup>21</sup> V postavi piše: Po ljudeh tujih jezikov in po ustnicah tujcev bom govoril temu ljudstvu, pa me tudi tako ne bodo poslušali ,",
 			"26": "<sup>26</sup> Kaj torej, bratje? Kadar se zberete, ima vsakdo od vas nekaj: ta pesem, oni nauk, eden razodetje, drugi dar jezika, tretji razlago. Vse pa naj bo v izgrajevanje.",
 			"27": "<sup>27</sup> Če kdo govori z darom jezika, naj nastopita dva ali kvečjemu trije, in sicer po vrsti, eden pa naj razlaga.",
 			"28": "<sup>28</sup> Če razlagalca ni, naj brat v Cerkvi molči, govori pa naj sebi in Bogu.",
@@ -390,14 +390,14 @@ var book = {
 			"22": "<sup>22</sup> Kakor namreč v Adamu vsi umirajo, tako bodo v Kristusu tudi vsi oživljeni,",
 			"23": "<sup>23</sup> vendar vsak po vrsti: najprej kot prvina Kristus, potem pa tisti, ki so Kristusovi, ob njegovem prihodu.",
 			"24": "<sup>24</sup> Nato bo dovršitev, ko bo kraljevanje izročil Bogu Očetu in uničil vsakršno poglavarstvo ter sleherno oblast in moč.",
-			"25": "<sup>25</sup> Kajti on mora kraljevati, dokler ne vseh .",
+			"25": "<sup>25</sup> Kajti on mora kraljevati, dokler ne položi vseh sovražnikov pod njegove noge .",
 			"26": "<sup>26</sup> Kot zadnji sovražnik bo uničena smrt,",
-			"27": "<sup>27</sup> kajti . Ko pa pravi: »Vse je podvrženo,« je jasno, da razen tistega, ki mu je vse podvrgel.",
+			"27": "<sup>27</sup> kajti vse je položil pod njegove noge . Ko pa pravi: »Vse je podvrženo,« je jasno, da razen tistega, ki mu je vse podvrgel.",
 			"28": "<sup>28</sup> Ko pa mu bo vse podvrženo, se bo tudi Sin sam podvrgel njemu, ki mu je vse podvrgel, da bo Bog vse v vsem.",
 			"29": "<sup>29</sup> Sicer pa, kaj bodo dosegli tisti, ki se dajejo krstiti za mrtve? Če mrtvi sploh ne morejo biti obujeni, čemu se še dajejo krstiti zanje?",
 			"30": "<sup>30</sup> Čemu se tudi mi vsak trenutek izpostavljamo nevarnosti?",
 			"31": "<sup>31</sup> Na ponos, ki ga imam v Kristusu Jezusu, našem Gospodu, nad vami, bratje, prisegam, da dan za dnem umiram.",
-			"32": "<sup>32</sup> Kaj mi koristi, če sem se v Efezu po človeško boril z zvermi? Če mrtvi ne morejo biti obujeni, . Slaba družba pokvari dobre nravi.",
+			"32": "<sup>32</sup> Kaj mi koristi, če sem se v Efezu po človeško boril z zvermi? Če mrtvi ne morejo biti obujeni, jejmo in pijmo, saj bomo jutri umrli . Slaba družba pokvari dobre nravi.",
 			"35": "<sup>35</sup> Pa bo kdo vprašal: »Kako so lahko mrtvi obujeni? S kakšnim telesom pridejo?«",
 			"36": "<sup>36</sup> Neumnež! Kar ti seješ, ne oživi, če ne umre.",
 			"37": "<sup>37</sup> In to, kar vseješ, ni telo, ki bo nastalo, ampak golo zrno, bodisi pšenice ali česa drugega.",
@@ -408,7 +408,7 @@ var book = {
 			"42": "<sup>42</sup> Tako je tudi z vstajenjem mrtvih. Seje se v propadljivosti, obuja pa v nepropadljivosti.",
 			"43": "<sup>43</sup> Kar se seje v nečasti, vstaja v veličastvu. Kar se seje v slabosti, vstaja v moči.",
 			"44": "<sup>44</sup> Seje se duševno telo, vstaja duhovno telo. Če obstaja duševno telo, obstaja tudi duhovno.",
-			"45": "<sup>45</sup> Tako je tudi pisano: Prvi Adam , poslednji Adam pa oživljajoči duh.",
+			"45": "<sup>45</sup> Tako je tudi pisano: Prvi človek Adam je postal živa duša , poslednji Adam pa oživljajoči duh.",
 			"46": "<sup>46</sup> Toda ni najprej to, kar je duhovno, ampak to, kar je duševno, potem to, kar je duhovno.",
 			"47": "<sup>47</sup> Prvi človek je iz prsti, zemeljski, drugi človek pa je iz nebes.",
 			"48": "<sup>48</sup> Kakršen je bil zemeljski, taki so zemeljski, in kakršen je nebeški, taki so tudi nebeški.",
@@ -417,7 +417,8 @@ var book = {
 			"51": "<sup>51</sup> Glejte, skrivnost vam povem: vsi ne bomo zaspali, vsi pa bomo spremenjeni,",
 			"52": "<sup>52</sup> hipoma, kakor bi trenil z očesom, ob glasu poslednje trobente. Zadonela bo namreč in mrtvi bodo vstali nepropadljivi in mi bomo spremenjeni.",
 			"53": "<sup>53</sup> Kajti to, kar je propadljivo, si mora obleči nepropadljivost, in kar je umrljivo, obleči neumrljivost.",
-			"54": "<sup>54</sup> Ko pa si bo to, kar je propadljivo, obleklo nepropadljivost, in to, kar je umrljivo, obleklo neumrljivost, tedaj se bo izpolnila beseda, ki je zapisana: ."
+			"54": "<sup>54</sup> Ko pa si bo to, kar je propadljivo, obleklo nepropadljivost, in to, kar je umrljivo, obleklo neumrljivost, tedaj se bo izpolnila beseda, ki je zapisana: Smrt je použita v zmagi .",
+			"55": "<sup>55</sup> Smrt, kje je tvoja zmaga? Smrt, kje je tvoje želo?"
 		},
 		"16": {
 			"1": "<sup>1</sup> Glede nabirke za svete pa storite tudi vi, kakor sem naročil Cerkvam v Galatiji.",

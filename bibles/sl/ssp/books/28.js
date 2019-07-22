@@ -3,13 +3,13 @@ var book = {
 	"numChapters": 14,
 	"chapters": {
 		"1": {
-			"1": "<sup>1</sup> beseda, ki se je zgodila Ozeju, Beeríjevemu sinu, v dneh Uzíja, Jotáma, Aháza in Ezekíja, Judovih kraljev, in v dneh Jerobeáma, Joáševega sina, Izraelovega kralja.",
-			"2": "<sup>2</sup> Začetek govora Ozeju. je rekel Ozeju: »Pojdi, vzemi si vlačugarsko ženo in vlačugarske otroke, kajti dežela se vlačuga, vlačuga stran od .«",
+			"1": "<sup>1</sup> Gospodova beseda, ki se je zgodila Ozeju, Beeríjevemu sinu, v dneh Uzíja, Jotáma, Aháza in Ezekíja, Judovih kraljev, in v dneh Jerobeáma, Joáševega sina, Izraelovega kralja.",
+			"2": "<sup>2</sup> Začetek Gospodovega govora Ozeju. Gospod je rekel Ozeju: »Pojdi, vzemi si vlačugarsko ženo in vlačugarske otroke, kajti dežela se vlačuga, vlačuga stran od Gospoda .«",
 			"3": "<sup>3</sup> Šel je torej in vzel Gómero, Diblájimovo hčer, ta je spočela in mu rodila sina.",
-			"4": "<sup>4</sup> mu je rekel: »Daj mu ime Jezreél, kajti le še malo in kaznoval bom kri Jezreélovo na hiši Jehújevi in naredil bom konec kraljestvu hiše Izraelove.",
+			"4": "<sup>4</sup> Gospod mu je rekel: »Daj mu ime Jezreél, kajti le še malo in kaznoval bom kri Jezreélovo na hiši Jehújevi in naredil bom konec kraljestvu hiše Izraelove.",
 			"5": "<sup>5</sup> Tisti dan bom zlomil Izraelov lok v dolini Jezreél.«",
 			"6": "<sup>6</sup> Spet je spočela in rodila hčer. Potem mu je rekel: »Daj ji ime Nepomiloščena, kajti ne bom več usmiljen z Izraelovo hišo, da bi jih še prenašal in jim prizanašal.",
-			"7": "<sup>7</sup> Usmiljen pa bom z Judovo hišo: rešil jih bom po , njihovem Bogu, ne bom jih reševal z lokom ne z mečem ne z orožjem ne s konji in ne s konjeniki.«",
+			"7": "<sup>7</sup> Usmiljen pa bom z Judovo hišo: rešil jih bom po Gospodu , njihovem Bogu, ne bom jih reševal z lokom ne z mečem ne z orožjem ne s konji in ne s konjeniki.«",
 			"8": "<sup>8</sup> Ko je odstavila Nepomiloščeno, je spočela in rodila sina.",
 			"9": "<sup>9</sup> Potem mu je rekel: »Daj mu ime Ne-moje-ljudstvo, kajti vi niste moje ljudstvo in jaz ne bom vaš.«"
 		},
@@ -28,22 +28,22 @@ var book = {
 			"12": "<sup>12</sup> Zdaj razodenem njeno sramoto pred očmi njenih ljubimcev in nihče je ne reši iz mojih rok.",
 			"13": "<sup>13</sup> Naredil bom konec vsemu njenemu veselju, njenim praznikom in njenim mlajem, njenim sobotam in vsem njenim shodom.",
 			"14": "<sup>14</sup> Opustošil bom njeno trto in njeno smokvo, o katerih je rekla: »To je moj zaslužek, ki so mi ga dali moji ljubimci.« Naredil jih bom za goščavo, požrle jih bodo poljske živali.",
-			"15": "<sup>15</sup> Kaznoval bom na njej dneve Báalov, ki jim je zažigala kadilo, in se lišpala s svojim prstanom in nakitom in hodila za svojimi ljubimci, mene pa pozabljala, govori .",
+			"15": "<sup>15</sup> Kaznoval bom na njej dneve Báalov, ki jim je zažigala kadilo, in se lišpala s svojim prstanom in nakitom in hodila za svojimi ljubimci, mene pa pozabljala, govori Gospod .",
 			"16": "<sup>16</sup> Zato, glej, jo privabim, popeljem jo v puščavo in ji spregovorim na srce.",
 			"17": "<sup>17</sup> Potem ji od tam dam njene vinograde in dolino Ahór naredim za vrata upanja. Tam bo odgovarjala kakor v dneh svoje mladosti, kakor na dan svojega odhoda iz egiptovske dežele.",
-			"23": "<sup>23</sup> Tisti dan bom uslišal, govori , uslišal bom nebo, in to bo uslišalo zemljo.",
+			"23": "<sup>23</sup> Tisti dan bom uslišal, govori Gospod , uslišal bom nebo, in to bo uslišalo zemljo.",
 			"24": "<sup>24</sup> Zemlja bo uslišala žito, vino in olje, in te reči bodo uslišale Jezreéla.",
 			"25": "<sup>25</sup> Posejem si jo v deželi in pomilostim Nepomiloščeno, Ne-mojemu-ljudstvu rečem: »Ti si moje ljudstvo,« in reklo bo: »Moj Bog.«"
 		},
 		"3": {
-			"1": "<sup>1</sup> mi je rekel: »Pojdi spet in ljubi ženo, ki ljubi drugega in prešuštvuje, kakor ljubi Izraelove sinove, oni pa se obračajo za drugimi bogovi in ljubijo grozdne kolače.«",
+			"1": "<sup>1</sup> Gospod mi je rekel: »Pojdi spet in ljubi ženo, ki ljubi drugega in prešuštvuje, kakor Gospod ljubi Izraelove sinove, oni pa se obračajo za drugimi bogovi in ljubijo grozdne kolače.«",
 			"2": "<sup>2</sup> Pridobil sem si jo za petnajst srebrnikov, za tovor ječmena in pol tovora ječmena.",
 			"3": "<sup>3</sup> Rekel sem ji: »Veliko dni čakaj name, ne vlačugaj se in ne vdajaj se moškemu in tudi jaz bom čakal nate.«",
 			"4": "<sup>4</sup> Kajti veliko dni bodo Izraelovi sinovi ostali brez kralja in brez prvaka, brez klavne daritve in brez oltarja, brez efóda in brez zaščitnikov.",
-			"5": "<sup>5</sup> Potem pa se bodo Izraelovi sinovi spreobrnili in iskali bodo , svojega Boga, in svojega kralja Davida, hrepeneli bodo po in po njegovi dobroti v poslednjih dneh."
+			"5": "<sup>5</sup> Potem pa se bodo Izraelovi sinovi spreobrnili in iskali bodo Gospoda , svojega Boga, in svojega kralja Davida, hrepeneli bodo po Gospodu in po njegovi dobroti v poslednjih dneh."
 		},
 		"4": {
-			"1": "<sup>1</sup> Poslušajte besedo, Izraelovi sinovi, kajti se pravda s prebivalci dežele, ker ni resnice ne dobrote in ne spoznanja Boga v deželi.",
+			"1": "<sup>1</sup> Poslušajte Gospodovo besedo, Izraelovi sinovi, kajti Gospod se pravda s prebivalci dežele, ker ni resnice ne dobrote in ne spoznanja Boga v deželi.",
 			"2": "<sup>2</sup> Množijo se krivo priseganje in laž, uboj, tatvina in prešuštvo, prelivanje krvi zadeva ob prelivanje krvi.",
 			"3": "<sup>3</sup> Zato vene dežela in se suši vse, kar prebiva v njej, živali polja in ptice neba, ginejo tudi ribe v morju.",
 			"4": "<sup>4</sup> Le naj se nihče ne pravda, nihče naj ne opomni, in tvoje ljudstvo bo kakor tožnik duhovniku.",
@@ -52,13 +52,13 @@ var book = {
 			"7": "<sup>7</sup> Več kot jih je, bolj grešijo proti meni, njihovo slavo bom spremenil v sramoto.",
 			"8": "<sup>8</sup> Greh mojega ljudstva jedo, h krivici nosijo njegovo dušo.",
 			"9": "<sup>9</sup> Zgodilo se bo kakor ljudstvu tako duhovniku, kaznoval bom na njem njegove poti in povrnil mu bom njegova dela.",
-			"10": "<sup>10</sup> Jedli bodo, a se ne bodo nasitili, vlačugali se bodo, a se ne bodo množili, ker so se nehali držati .",
+			"10": "<sup>10</sup> Jedli bodo, a se ne bodo nasitili, vlačugali se bodo, a se ne bodo množili, ker so se nehali držati Gospoda .",
 			"11": "<sup>11</sup> Vlačuganje, vino in mošt jemljejo pamet.",
 			"12": "<sup>12</sup> Moje ljudstvo sprašuje svoj les, njegova palica mu oznanja, ker ga je zapeljal duh pohotnosti, da se vlačuga stran od svojega Boga.",
 			"13": "<sup>13</sup> Po vrhovih gora opravljajo daritve in po hribih zažigajo kadilo, pod hrastom in topolom, pod terebinto, kjer je dobra senca. Zato se morajo vlačugati vaše hčere in zato morajo prešuštvovati vaše snahe.",
 			"14": "<sup>14</sup> Ne bom kaznoval vaših hčera, ker se vlačugajo, ne vaših snah, ker prešuštvujejo, kajti oni sami se ločujejo in družijo z vlačugami, opravljajo daritve s posvečenimi vlačugami: ljudstvo, ki ne razume, bo propadlo.",
-			"15": "<sup>15</sup> Če se že ti, Izrael, vlačugaš, naj vsaj Juda ne greši! Nikar ne hodite v Gilgál, ne lazite v Bet Aven in ne prisegajte: »Kakor živi !«",
-			"16": "<sup>16</sup> Kajti Izrael se upira kakor trmasta krava, kako naj jo torej pase kakor jagnje na planjavi?",
+			"15": "<sup>15</sup> Če se že ti, Izrael, vlačugaš, naj vsaj Juda ne greši! Nikar ne hodite v Gilgál, ne lazite v Bet Aven in ne prisegajte: »Kakor živi Gospod !«",
+			"16": "<sup>16</sup> Kajti Izrael se upira kakor trmasta krava, kako naj jo torej pase Gospod kakor jagnje na planjavi?",
 			"17": "<sup>17</sup> Efrájim se druži z maliki, pústi ga pri miru!",
 			"18": "<sup>18</sup> Njihova pijača je zapeljiva, vlačugarsko se vlačugajo, ljubkovaje ljubijo sramoto njeni varuhi.",
 			"19": "<sup>19</sup> Vihar jo je zajel v svoje peruti, osramočeni bodo zaradi svojih daritev."
@@ -67,10 +67,10 @@ var book = {
 			"1": "<sup>1</sup> Poslušajte to, duhovniki, prisluhni, hiša Izraelova, hiša kraljeva, poslušaj, kajti proti vam je sodba: Postali ste past v Micpi, mreža, razpeta na Taboru.",
 			"2": "<sup>2</sup> Zabredli so globoko v pokvarjenost, a jaz bom vse opomnil.",
 			"3": "<sup>3</sup> Jaz poznam Efrájima, Izrael ni zakrit pred menoj: kajti zdaj se vlačugaš, Efrájim, nečist si, Izrael.",
-			"4": "<sup>4</sup> Njihova dela jim ne dopuščajo, da bi se vrnili k svojemu Bogu, kajti duh vlačugarstva je v njihovi sredi, ne poznajo.",
+			"4": "<sup>4</sup> Njihova dela jim ne dopuščajo, da bi se vrnili k svojemu Bogu, kajti duh vlačugarstva je v njihovi sredi, Gospoda ne poznajo.",
 			"5": "<sup>5</sup> Izraelova ošabnost priča proti njemu, Izrael in Efrájim se spotikata ob svojo krivdo, z njima se spotika tudi Juda.",
-			"6": "<sup>6</sup> S svojo drobnico in s svojim govedom hodijo iskat , a ga ne najdejo, umaknil se je od njih.",
-			"7": "<sup>7</sup> so prevarali, kajti rodili so tuje otroke, zdaj bo mlaj požrl nje in njihove deleže.",
+			"6": "<sup>6</sup> S svojo drobnico in s svojim govedom hodijo iskat Gospoda , a ga ne najdejo, umaknil se je od njih.",
+			"7": "<sup>7</sup> Gospoda so prevarali, kajti rodili so tuje otroke, zdaj bo mlaj požrl nje in njihove deleže.",
 			"8": "<sup>8</sup> Zatrobite na rog v Gíbei, na trobento v Rami, vzdignite Bet Aven: za teboj, Benjamin!",
 			"9": "<sup>9</sup> Efrájim bo opustošen na dan, ko bo kaznovan, o Izraelovih rodovih oznanjam, kar je res.",
 			"10": "<sup>10</sup> Judovi prvaki so postali kakor tisti, ki prestavljajo mejnike, izlil bom nadnje svoj bes kakor vodo.",
@@ -81,9 +81,9 @@ var book = {
 			"15": "<sup>15</sup> Odšel bom in se vrnil na svoje mesto, dokler ne bodo priznali krivde in iskali mojega obličja, v stiski hrepeneli po meni."
 		},
 		"6": {
-			"1": "<sup>1</sup> »Pridite, vrnimo se h , kajti on je raztrgal in nas bo ozdravil, udaril je in nas bo obvezal.",
+			"1": "<sup>1</sup> »Pridite, vrnimo se h Gospodu , kajti on je raztrgal in nas bo ozdravil, udaril je in nas bo obvezal.",
 			"2": "<sup>2</sup> V dveh dneh nas bo oživil, tretji dan nas bo vzdignil in bomo živeli pred njegovim obličjem.",
-			"3": "<sup>3</sup> Spoznali bomo in zasledovali, da bi spoznali ; njegov izhod je zanesljiv kakor zarja, prišel bo k nam kakor jesenski dež, kakor spomladanski dež, ki napaja zemljo.«",
+			"3": "<sup>3</sup> Spoznali bomo in zasledovali, da bi spoznali Gospoda ; njegov izhod je zanesljiv kakor zarja, prišel bo k nam kakor jesenski dež, kakor spomladanski dež, ki napaja zemljo.«",
 			"4": "<sup>4</sup> Kaj naj ti storim, Efrájim? Kaj naj ti storim, Juda? Vaša ljubezen je kakor jutranji oblak, kakor rosa, ki zgodaj odide.",
 			"5": "<sup>5</sup> Zato sem jih sekal po prerokih, jih ubijal z izreki svojih ust in moja sodba ti je vzhajala kakor luč.",
 			"6": "<sup>6</sup> Da, dobroto hočem in ne klavne daritve, spoznanja Boga bolj kakor žgalne daritve.",
@@ -103,7 +103,7 @@ var book = {
 			"7": "<sup>7</sup> Vsi so razžarjeni kakor peč in požirajo svoje sodnike. Vsi njihovi kralji padajo, nobeden izmed njih ne kliče k meni.",
 			"8": "<sup>8</sup> Efrájim se meša z ljudstvi, Efrájim je kakor podpepelnik, ki se ne obrača.",
 			"9": "<sup>9</sup> Tujci žro njegovo moč, on pa tega ne spozna, lasje sivijo na njem, on pa tega ne spozna.",
-			"10": "<sup>10</sup> Izraelova ošabnost priča proti njemu, vendar se ne vrnejo h , svojemu Bogu, pri vsem tem ga ne marajo iskati.",
+			"10": "<sup>10</sup> Izraelova ošabnost priča proti njemu, vendar se ne vrnejo h Gospodu , svojemu Bogu, pri vsem tem ga ne marajo iskati.",
 			"11": "<sup>11</sup> Efrájim je kakor golob, zaletav in brez srca: Egipt kličejo in v Asirijo hodijo.",
 			"12": "<sup>12</sup> Kamor koli bodo šli, bom raztegnil čeznje svojo mrežo. Potegnil jih bom dol kakor ptice neba, kaznoval jih bom, kakor sem dal slišati njihovemu zboru.",
 			"13": "<sup>13</sup> Gorje jim, ker so zbežali od mene, pogubljeni bodo, ker so se mi uprli. Jaz sem jih rešil, oni pa proti meni govore laži.",
@@ -112,7 +112,7 @@ var book = {
 			"16": "<sup>16</sup> Obračajo se, pa ne navzgor, postali so kakor ohlapen lok. Njihovi prvaki bodo padli pod mečem, zaradi njihovega predrznega jezika. To jim bo v zasmeh v egiptovski deželi."
 		},
 		"8": {
-			"1": "<sup>1</sup> Naj bo rog na tvojih ustih kakor orel nad hišo , ker so prestopali mojo zavezo in se uprli moji postavi.",
+			"1": "<sup>1</sup> Naj bo rog na tvojih ustih kakor orel nad hišo Gospodovo , ker so prestopali mojo zavezo in se uprli moji postavi.",
 			"2": "<sup>2</sup> K meni vpijejo: Moj Bog, Izrael te pozna.",
 			"3": "<sup>3</sup> Toda Izrael zavrača dobroto, naj ga zasleduje sovražnik.",
 			"4": "<sup>4</sup> Postavljali so si kralje, a ne po meni, nameščali so si prvake, a nisem vedel. Iz svojega srebra in zlata so si delali malike, zato bodo iztrebljeni.",
@@ -124,15 +124,15 @@ var book = {
 			"10": "<sup>10</sup> Ker že najemajo narode, jih bom zdaj zbral, da se bodo nekaj časa zvijali pod bremenom kralja in prvakov.",
 			"11": "<sup>11</sup> Kajti Efrájim je množil oltarje za spravo, postali so mu oltarji za greh.",
 			"12": "<sup>12</sup> Naj mu predpišem kopico zakonov v svoji postavi, imel jih bo za tuje.",
-			"13": "<sup>13</sup> Prinašajo mi klavne daritvene žrtve in jih jedo kot meso, a to ne ugaja . Zdaj se spominja njihove krivde, kaznoval bo njihove grehe in vrnili se bodo v Egipt.",
+			"13": "<sup>13</sup> Prinašajo mi klavne daritvene žrtve in jih jedo kot meso, a to ne ugaja Gospodu . Zdaj se spominja njihove krivde, kaznoval bo njihove grehe in vrnili se bodo v Egipt.",
 			"14": "<sup>14</sup> Izrael je pozabil na svojega Stvarnika in si sezidal dvorce. Juda je povečal število utrjenih mest; toda poslal bom ogenj v njegova mesta in ta bo požrl njegove trdnjave."
 		},
 		"9": {
 			"1": "<sup>1</sup> Ne vesêli se, Izrael, ne raduj se kakor ljudstva! Kajti vlačugal si se proč od svojega Boga, ljubil si vlačugarski zaslužek na vseh mlatiščih za žito.",
 			"2": "<sup>2</sup> Mlatišče in stiskalnica ga ne bosta hranila in mošt ga bo varal.",
-			"3": "<sup>3</sup> Ne bo več prebival v deželi; Efrájim se bo vrnil v Egipt in v Asiriji bo jedel nečisti kruh.",
-			"4": "<sup>4</sup> Vina ne bodo več izlivali in njihove klavne daritve mu ne bodo ugajale. Njihov kruh bo kakor kruh žalujočih, kdor ga bo jedel, bo nečist, kajti njihov kruh bo le za njihovo življenje, v hišo pa ne bo prišel.",
-			"5": "<sup>5</sup> Kaj boste storili na dan slovesnosti, na dan praznika?",
+			"3": "<sup>3</sup> Ne bo več prebival v Gospodovi deželi; Efrájim se bo vrnil v Egipt in v Asiriji bo jedel nečisti kruh.",
+			"4": "<sup>4</sup> Vina ne bodo več izlivali Gospodu in njihove klavne daritve mu ne bodo ugajale. Njihov kruh bo kakor kruh žalujočih, kdor ga bo jedel, bo nečist, kajti njihov kruh bo le za njihovo življenje, v Gospodovo hišo pa ne bo prišel.",
+			"5": "<sup>5</sup> Kaj boste storili na dan slovesnosti, na dan Gospodovega praznika?",
 			"6": "<sup>6</sup> Kajti glej, odšli bodo ob razdejanju, Egipt jih bo zbiral, Memfis jih bo pokopaval. Njihovih srebrnih dragocenosti se bo polastila kopriva, v njihovih šotorih bo trnje.",
 			"7": "<sup>7</sup> Pridejo dnevi obiskanja, pridejo dnevi povračila, Izrael naj to spozna! Prerok je bedak, mož duha je zmeden, zaradi tvoje velike krivde in tvojega velikega nasprotovanja.",
 			"8": "<sup>8</sup> Efrájimov stražar je prerok s svojim Bogom, a zanke so nastavljene na vseh njegovih potih, nasprotovanje je v hiši njegovega Boga.",
@@ -141,7 +141,7 @@ var book = {
 			"11": "<sup>11</sup> Efrájim, kakor ptica bo odletela njihova slava, ne bo poroda ne nosečnosti in ne spočetja.",
 			"12": "<sup>12</sup> In če bi si vendar vzredili otroke, jim jih bom vzel, da bodo brez človeka, da, gorje jim tudi, ker bom odstopil od njih.",
 			"13": "<sup>13</sup> Efrájim je, kakor vidim, zasajen kakor Tir na pašniku; toda Efrájim mora peljati svoje otroke ven k ubijalcu.",
-			"14": "<sup>14</sup> Daj jim, ! Kaj jim daj? Daj jim jalova telesa in suhe prsi!",
+			"14": "<sup>14</sup> Daj jim, Gospod ! Kaj jim daj? Daj jim jalova telesa in suhe prsi!",
 			"15": "<sup>15</sup> Vsa njihova hudobija se je pokazala v Gilgálu, kajti tam sem jih zasovražil. Zaradi hudobije njihovih dejanj jih bom izgnal iz svoje hiše. Ne bom jih več ljubil, vsi njihovi prvaki so uporniki.",
 			"16": "<sup>16</sup> Efrájim je potolčen, njihova korenina je suha, nobenega sadu ne obrodijo. Tudi če bodo rodili, bom usmrtil ljubljence njihovega telesa.",
 			"17": "<sup>17</sup> Moj Bog jih bo zavrgel, ker ga niso poslušali, in klatili se bodo med narodi."
@@ -149,7 +149,7 @@ var book = {
 		"10": {
 			"1": "<sup>1</sup> Izrael je bujna trta in njegov sad je njenemu enak. Čim obilnejši je bil njegov sad, tem bolj je množil oltarje; čim bolje je bilo v deželi, tem boljše stebre so postavljali.",
 			"2": "<sup>2</sup> Njihovo srce je razdeljeno, zdaj se bodo pokorili. Razdrl bo njihove oltarje, porušil bo njihove stebre.",
-			"3": "<sup>3</sup> Zdaj namreč pravijo: »Nimamo kralja, kajti ne bojimo se , in kaj nam more narediti kralj?«",
+			"3": "<sup>3</sup> Zdaj namreč pravijo: »Nimamo kralja, kajti ne bojimo se Gospoda , in kaj nam more narediti kralj?«",
 			"4": "<sup>4</sup> Govorijo besede ničevih pogodb, sklepajo zavezo, in pravo poganja kot strupeno zelišče po brazdah na njivi.",
 			"5": "<sup>5</sup> Za teleta v Bet Avenu se bojijo prebivalci Samarije, njegovo ljudstvo je v strahu zanj, njegovi svečeniki trepetajo zanj, za njegovo slavo, ker bo odšla od njih.",
 			"6": "<sup>6</sup> Tudi to bodo odnesli v Asirijo velikemu kralju v dar. Efrájim si bo privzel sramoto, Izrael se bo sramoval svojega sklepa.",
@@ -158,7 +158,7 @@ var book = {
 			"9": "<sup>9</sup> Od gíbeaških dni dalje si grešil, Izrael; tam so stali, ni jih izučila vojna v Gíbei proti sinovom hudobije.",
 			"10": "<sup>10</sup> Na mojo željo jih bom kaznoval, in narodi se bodo zbrali proti njim, da jih bodo kaznovali za dvojno krivdo.",
 			"11": "<sup>11</sup> Efrájim je razvajena telica, ki rada mlati, jaz pa bom stopil na lepoto njenega vratu. Vpregel bom Efrájima, Juda bo oral, Jakob bo branal.",
-			"12": "<sup>12</sup> Sejte si za pravičnost, žanjite za usta dobrote, prikrčite si novo zemljo; čas je, da iščete , dokler ne pride in vam bo dal deževati pravičnost.",
+			"12": "<sup>12</sup> Sejte si za pravičnost, žanjite za usta dobrote, prikrčite si novo zemljo; čas je, da iščete Gospoda , dokler ne pride in vam bo dal deževati pravičnost.",
 			"13": "<sup>13</sup> Orali ste krivico, želi hudobijo in jedli sad laži, kajti zanašali ste se na svoje poti, na množico svojih vojakov.",
 			"14": "<sup>14</sup> Med tvojim ljudstvom se bo vzdignilo bučanje in vse tvoje utrdbe bodo porušene, kakor je Šalmán razdejal Bet Arbeél na dan boja, ko je bila mati raztreščena na otrocih.",
 			"15": "<sup>15</sup> To vam bo storil Betel zaradi vaše hude hudobije. Ob jutranji zarji bo izginil, izginil bo Izraelov kralj."
@@ -173,31 +173,31 @@ var book = {
 			"7": "<sup>7</sup> Moje ljudstvo je nagnjeno k odvračanju od mene, kličejo ga kvišku, pa se nihče ne vzdigne.",
 			"8": "<sup>8</sup> Kako bi te mogel dati drugemu, Efrájim, kako bi te mogel izročiti drugemu, Izrael! Kako bi te mogel dati kakor Admo, te izročiti kakor Cebojím! Moje srce se obrača v meni, moje sočutje prekipeva.",
 			"9": "<sup>9</sup> Ne bom storil po svoji srditi jezi, ne bom zvrnil Efrájima v pogubo, kajti Bog sem in ne človek, Sveti sem v tvoji sredi in ne prihajam v mesto.",
-			"10": "<sup>10</sup> Hodili bodo za , rjovel bo kakor lev; da, zarjovel bo in prihiteli bodo sinovi od zahoda.",
-			"11": "<sup>11</sup> Prihiteli bodo iz Egipta kakor ptica, iz asirske dežele kakor golob, in namestil jih bom v njihove hiše, govori ."
+			"10": "<sup>10</sup> Hodili bodo za Gospodom , rjovel bo kakor lev; da, zarjovel bo in prihiteli bodo sinovi od zahoda.",
+			"11": "<sup>11</sup> Prihiteli bodo iz Egipta kakor ptica, iz asirske dežele kakor golob, in namestil jih bom v njihove hiše, govori Gospod ."
 		},
 		"12": {
 			"1": "<sup>1</sup> Efrájim me obdaja z lažjo, hiša Izraelova s prevaro, Juda še uhaja Bogu in s svetimi se kaže zvest.",
 			"2": "<sup>2</sup> Efrájim pase veter, cel dan lovi vzhodnik, množi laž in opustošenje, sklepa zvezo z Asirijo in nosi olje v Egipt.",
-			"3": "<sup>3</sup> se pravda z Judom, da bo kaznoval na Jakobu njegove poti in mu povrnil po njegovih delih.",
+			"3": "<sup>3</sup> Gospod se pravda z Judom, da bo kaznoval na Jakobu njegove poti in mu povrnil po njegovih delih.",
 			"4": "<sup>4</sup> V materinem telesu je prijel brata za peto, ko je odrasel, se je bojeval z Bogom.",
 			"5": "<sup>5</sup> Bojeval se je z angelom in vzdržal, jokal je in ga prosil, našel ga je v Betelu, tam je govoril z nami.",
-			"6": "<sup>6</sup> , Bog nad vojskami, je njegov pomnik.",
+			"6": "<sup>6</sup> Gospod , Bog nad vojskami, Gospod je njegov pomnik.",
 			"7": "<sup>7</sup> In ti, vrni se k svojemu Bogu, varuj dobroto in pravico in vselej zaupaj v svojega Boga.",
 			"8": "<sup>8</sup> Kánaanec drži v rokah varljivo tehtnico, rad goljufa.",
 			"9": "<sup>9</sup> Efrájim pravi: »Res, obogatel sem, našel sem si bogastvo. Pri vsem mojem trudu mi ne bodo našli krivde, ki bi bila greh.«",
-			"10": "<sup>10</sup> A jaz sem , tvoj Bog, od egiptovske dežele sèm; še te bom prisilil, da boš prebival v šotorih kakor ob shodnih dnevih.",
+			"10": "<sup>10</sup> A jaz sem Gospod , tvoj Bog, od egiptovske dežele sèm; še te bom prisilil, da boš prebival v šotorih kakor ob shodnih dnevih.",
 			"11": "<sup>11</sup> Govoril sem po prerokih in množil videnja, po prerokih sem razlagal v prilikah.",
 			"12": "<sup>12</sup> Če je bil Gileád prevara, so postali ničevi; če so v Gilgálu žrtvovali bike, so tudi njihovi oltarji postali kakor kupi kamna med brazdami na polju.",
 			"13": "<sup>13</sup> Jakob je zbežal na arámske planjave, Izrael je služil za ženo, za ženo je varoval.",
-			"14": "<sup>14</sup> Po preroku je izpeljal Izraela iz Egipta, po preroku ga je varoval.",
+			"14": "<sup>14</sup> Po preroku je Gospod izpeljal Izraela iz Egipta, po preroku ga je varoval.",
 			"15": "<sup>15</sup> Efrájim pa ga je prebridko izzival, zato bo naložil nanj njegovo krvoprelitje, njegov Gospod mu bo povrnil za njegovo sramotenje."
 		},
 		"13": {
 			"1": "<sup>1</sup> Ko je Efrájim imel besedo, je povzročal strah v Izraelu, toda pregrešil se je z Báalom in umrl.",
 			"2": "<sup>2</sup> Zdaj nadaljujejo z grehom in si delajo ulite podobe, malike iz srebra po svoji zamisli, vse je izdelek rokodelcev. Njim izrekajo moje klavne daritve, ljudje poljubljajo teleta.",
 			"3": "<sup>3</sup> Zato bodo kakor jutranji oblak, kakor rosa, ki zgodaj odide, kakor pleve, ki jih veter odnese z mlatišča, kakor dim, ki se izgubi skoz odprtino.",
-			"4": "<sup>4</sup> Jaz sem , tvoj Bog, od egiptovske dežele sèm; poleg mene ne poznaš Boga, razen mene ni rešitelja.",
+			"4": "<sup>4</sup> Jaz sem Gospod , tvoj Bog, od egiptovske dežele sèm; poleg mene ne poznaš Boga, razen mene ni rešitelja.",
 			"5": "<sup>5</sup> Jaz sem se zavzel zate v puščavi, v izsušeni deželi.",
 			"6": "<sup>6</sup> Bili so kakor na svojem pašniku in se sitili, nasitili so se in njihovo srce se je prevzelo, zato so me pozabili.",
 			"7": "<sup>7</sup> Zato jim bom postal kakor lev, prežal bom na poti kakor panter.",
@@ -208,19 +208,19 @@ var book = {
 			"12": "<sup>12</sup> Efrájimova krivda je zvezana, njegov greh je shranjen.",
 			"13": "<sup>13</sup> Porodne bolečine so prišle zanj, on pa je nespameten otrok, kajti čas je, pa se ne postavi v odprtino za otroke.",
 			"14": "<sup>14</sup> Iz oblasti podzemlja bi jih rešil, iz smrti bi jih odkupil. Kje je tvoja kuga, o smrt, kje je tvoja poguba, o podzemlje? Sočutje je skrito mojim očem.",
-			"15": "<sup>15</sup> Ker uspeva med brati, bo prišel vzhodnik, veter, vzdignil se bo iz puščave, posušil bo njegov vrelec in izpraznil njegov zbiralnik, uplenil bo zaklade, vse dragocene priprave."
+			"15": "<sup>15</sup> Ker uspeva med brati, bo prišel vzhodnik, Gospodov veter, vzdignil se bo iz puščave, posušil bo njegov vrelec in izpraznil njegov zbiralnik, uplenil bo zaklade, vse dragocene priprave."
 		},
 		"14": {
 			"1": "<sup>1</sup> Samarija se bo pokorila, kajti uprla se je svojemu Bogu. Padli bodo pod mečem, njihovi otročiči bodo raztreščeni, njihove spočetnice razparane.",
-			"2": "<sup>2</sup> Vrni se, Izrael, h , svojemu Bogu, kajti padel si po svoji krivdi.",
-			"3": "<sup>3</sup> Vzemite besede s seboj in vrnite se h ! Recite mu: »Odpusti vso krivdo, sprejmi dobroto in bomo nadomestili junce s svojimi ustnicami.",
+			"2": "<sup>2</sup> Vrni se, Izrael, h Gospodu , svojemu Bogu, kajti padel si po svoji krivdi.",
+			"3": "<sup>3</sup> Vzemite besede s seboj in vrnite se h Gospodu ! Recite mu: »Odpusti vso krivdo, sprejmi dobroto in bomo nadomestili junce s svojimi ustnicami.",
 			"4": "<sup>4</sup> Asirec nas ne bo rešil, na konja ne bomo več sedli in temu, kar so izdelale naše roke, ne bomo več rekli: ›Naš Bog‹, kajti pri tebi najde sirota usmiljenje.«",
 			"5": "<sup>5</sup> Ozdravil jih bom njihovega odvračanja, rad jih bom ljubil, kajti moja jeza se je odvrnila od njih.",
 			"6": "<sup>6</sup> Postal bom Izraelu kakor rosa, kakor lilija bo cvetel in poganjal korenine kakor libanonski gozd.",
 			"7": "<sup>7</sup> Njegovi poganjki se bodo razvejali, veličasten bo kakor oljka, dišal bo kakor libanonski gozd.",
 			"8": "<sup>8</sup> Vrnili se bodo in prebivali v njegovi senci, gojili bodo žito in cveteli kakor trta, sloveli bodo kakor libanonsko vino.",
 			"9": "<sup>9</sup> Efrájim, kaj imam še skupnega z maliki? Jaz ga uslišujem in gledam nanj. Kakor zelena cipresa sem, iz mene je najti tvoj sad.",
-			"10": "<sup>10</sup> Kdor je moder, bo te reči razumel, kdor je razumen, jih bo spoznal; kajti poti so ravne, pravični hodijo po njih, uporni pa se na njih spotikajo."
+			"10": "<sup>10</sup> Kdor je moder, bo te reči razumel, kdor je razumen, jih bo spoznal; kajti Gospodove poti so ravne, pravični hodijo po njih, uporni pa se na njih spotikajo."
 		}
 	}
 };
