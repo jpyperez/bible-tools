@@ -1,5 +1,5 @@
 var options = {
-	"punctuation_strategy": "eu"
+	"punctuation_strategy": "us"
 };
 
 module.exports = options;
