@@ -119,7 +119,6 @@ Phil,Phlm
 =Ruth
 =1Esd
 =2Esd
-=Isa
 =2Sam
 =1Sam
 =2Kgs
@@ -140,9 +139,9 @@ Phil,Phlm
 =Jer
 =Ezek
 =Dan
+=Amos
 =Hos
 =Joel
-=Amos
 =Obad
 =Jonah
 =Mic
@@ -186,6 +185,7 @@ Phil,Phlm
 =3Macc
 =4Macc
 =1Macc
+=Isa
 
 # Preferred names
 # OSIS	Long	Short	Shorter	Single (Ps)

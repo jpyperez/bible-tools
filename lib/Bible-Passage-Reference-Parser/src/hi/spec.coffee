@@ -55,11 +55,13 @@ describe "Localized book Gen (hi)", ->
 		expect(p.parse("उत्पत्ति 1:1").osis()).toEqual("Gen.1.1")
 		expect(p.parse("Utpaati 1:1").osis()).toEqual("Gen.1.1")
 		expect(p.parse("उत्पाति 1:1").osis()).toEqual("Gen.1.1")
+		expect(p.parse("उत्प॰ 1:1").osis()).toEqual("Gen.1.1")
 		expect(p.parse("Gen 1:1").osis()).toEqual("Gen.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("उत्पत्ति 1:1").osis()).toEqual("Gen.1.1")
 		expect(p.parse("UTPAATI 1:1").osis()).toEqual("Gen.1.1")
 		expect(p.parse("उत्पाति 1:1").osis()).toEqual("Gen.1.1")
+		expect(p.parse("उत्प॰ 1:1").osis()).toEqual("Gen.1.1")
 		expect(p.parse("GEN 1:1").osis()).toEqual("Gen.1.1")
 		`
 		true
@@ -1296,6 +1298,24 @@ describe "Localized book Acts (hi)", ->
 		expect(p.parse("Praeriton Ke Kam 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("प्रेरितों के काम 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("मसीह-दूत 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("प्रेरि0 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("प्रेरि० 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("प्र. क 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("प्र क 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("प्र.क 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("Acts 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("प्रक 1:1").osis()).toEqual("Acts.1.1")
+		`
+		true
+	it "should handle non-Latin digits in book: Acts (hi)", ->
+		p.set_options non_latin_digits_strategy: "replace"
+		`
+		expect(p.parse("प्रेरितों के कामों 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("Praeriton Ke Kam 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("प्रेरितों के काम 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("मसीह-दूत 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("प्रेरि0 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("प्रेरि० 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("प्र. क 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("प्र क 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("प्र.क 1:1").osis()).toEqual("Acts.1.1")
@@ -1306,6 +1326,8 @@ describe "Localized book Acts (hi)", ->
 		expect(p.parse("PRAERITON KE KAM 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("प्रेरितों के काम 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("मसीह-दूत 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("प्रेरि0 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("प्रेरि० 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("प्र. क 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("प्र क 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("प्र.क 1:1").osis()).toEqual("Acts.1.1")

@@ -54,7 +54,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Gen"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:उत्प(?:त्|ा)ति|Utpaati|Gen)
+		(?:उत्प(?:त्ति|ाति|॰)|Utpaati|Gen)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Exod"]
@@ -348,8 +348,8 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Acts"]
-		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:प्र(?:ेरितों[\s\xa0]*के[\s\xa0]*काम(?:ों)?|(?:\.[\s\xa0]*?|[\s\xa0]*)?क)|Praeriton[\s\xa0]*Ke[\s\xa0]*Kam|मसीह\-?दूत|Acts)
+		regexp: ///(^|[^0-9A-Za-zऀ-ंऄ-ऺ़-ऽु-ै्ॐ-ॣॱ-ॷॹ-ॿ꣠-ꣷꣻ])(
+		(?:प्र(?:ेरि(?:तों[\s\xa0]*के[\s\xa0]*काम(?:ों)?|[0०])|(?:\.[\s\xa0]*?|[\s\xa0]*)?क)|Praeriton[\s\xa0]*Ke[\s\xa0]*Kam|मसीह\-?दूत|Acts)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Rom"]

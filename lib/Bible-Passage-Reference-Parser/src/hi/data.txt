@@ -12,7 +12,7 @@ $TO	to
 $VERSE	verse
 $UNICODE_BLOCK	Devanagari
 
-Gen	उत्पत्ति	Utpaati	उत्पाति
+Gen	उत्पत्ति	Utpaati	उत्पाति	उत्प॰	उत्प०
 Exod	निर्गमन	Nirgaman
 Lev	लैव्यव्यवस्था	लैव्य	लैव्य्व्य्वस्था	लैव्यवस्था	Laaivyavyavastha	लैव्यव्यवस्थ
 Num	गिनती	Ginatee
@@ -55,7 +55,7 @@ Matt	मत्ती	Mattee
 Mark	मरकुस	Marakus
 Luke	लूका	Looka
 John	यूहन्ना	Yuhanna	युहत्रा
-Acts	प्रेरितों के काम	प्र. क	मसीह-दूत	Praeriton Ke Kam	प्रेरितों के कामों
+Acts	प्रेरितों के काम	प्र. क	मसीह-दूत	Praeriton Ke Kam	प्रेरितों के कामों	प्रेरि०
 Rom	रोमियों	रोमी	रोमियो	Romiyon	रोम०
 1Cor	$FIRST कुरिन्थियों?	$FIRST कुरिन्यि़यों	$FIRST कुरिन्थ	$FIRST कुरन्थियों	$FIRST कोरिन्‍थी	$FIRST Kurinthiayon
 2Cor	$SECOND कुरिन्थियों?	$SECOND कुरिन्यि़यों	$SECOND कुरिन्थ	$SECOND कुरन्थियों	$SECOND कोरिन्‍थी	$SECOND Kurinthiayon

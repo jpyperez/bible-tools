@@ -291,23 +291,6 @@ describe "Localized book 2Esd (ka)", ->
 		expect(p.parse("2Esd 1:1").osis()).toEqual("2Esd.1.1")
 		`
 		true
-describe "Localized book Isa (ka)", ->
-	p = {}
-	beforeEach ->
-		p = new bcv_parser
-		p.set_options book_alone_strategy: "ignore",book_sequence_strategy: "ignore",osis_compaction_strategy: "bc",captive_end_digits_strategy: "delete"
-		p.include_apocrypha true
-	it "should handle book: Isa (ka)", ->
-		`
-		expect(p.parse("ესაია 1:1").osis()).toEqual("Isa.1.1")
-		expect(p.parse("Isa 1:1").osis()).toEqual("Isa.1.1")
-		expect(p.parse("ეს 1:1").osis()).toEqual("Isa.1.1")
-		p.include_apocrypha(false)
-		expect(p.parse("ესაია 1:1").osis()).toEqual("Isa.1.1")
-		expect(p.parse("ISA 1:1").osis()).toEqual("Isa.1.1")
-		expect(p.parse("ეს 1:1").osis()).toEqual("Isa.1.1")
-		`
-		true
 describe "Localized book 2Sam (ka)", ->
 	p = {}
 	beforeEach ->
@@ -630,6 +613,23 @@ describe "Localized book Dan (ka)", ->
 		expect(p.parse("დან 1:1").osis()).toEqual("Dan.1.1")
 		`
 		true
+describe "Localized book Amos (ka)", ->
+	p = {}
+	beforeEach ->
+		p = new bcv_parser
+		p.set_options book_alone_strategy: "ignore",book_sequence_strategy: "ignore",osis_compaction_strategy: "bc",captive_end_digits_strategy: "delete"
+		p.include_apocrypha true
+	it "should handle book: Amos (ka)", ->
+		`
+		expect(p.parse("ამოსი 1:1").osis()).toEqual("Amos.1.1")
+		expect(p.parse("Amos 1:1").osis()).toEqual("Amos.1.1")
+		expect(p.parse("ამოს 1:1").osis()).toEqual("Amos.1.1")
+		p.include_apocrypha(false)
+		expect(p.parse("ამოსი 1:1").osis()).toEqual("Amos.1.1")
+		expect(p.parse("AMOS 1:1").osis()).toEqual("Amos.1.1")
+		expect(p.parse("ამოს 1:1").osis()).toEqual("Amos.1.1")
+		`
+		true
 describe "Localized book Hos (ka)", ->
 	p = {}
 	beforeEach ->
@@ -662,23 +662,6 @@ describe "Localized book Joel (ka)", ->
 		expect(p.parse("იოველი 1:1").osis()).toEqual("Joel.1.1")
 		expect(p.parse("JOEL 1:1").osis()).toEqual("Joel.1.1")
 		expect(p.parse("იოელ 1:1").osis()).toEqual("Joel.1.1")
-		`
-		true
-describe "Localized book Amos (ka)", ->
-	p = {}
-	beforeEach ->
-		p = new bcv_parser
-		p.set_options book_alone_strategy: "ignore",book_sequence_strategy: "ignore",osis_compaction_strategy: "bc",captive_end_digits_strategy: "delete"
-		p.include_apocrypha true
-	it "should handle book: Amos (ka)", ->
-		`
-		expect(p.parse("ამოსი 1:1").osis()).toEqual("Amos.1.1")
-		expect(p.parse("Amos 1:1").osis()).toEqual("Amos.1.1")
-		expect(p.parse("ამოს 1:1").osis()).toEqual("Amos.1.1")
-		p.include_apocrypha(false)
-		expect(p.parse("ამოსი 1:1").osis()).toEqual("Amos.1.1")
-		expect(p.parse("AMOS 1:1").osis()).toEqual("Amos.1.1")
-		expect(p.parse("ამოს 1:1").osis()).toEqual("Amos.1.1")
 		`
 		true
 describe "Localized book Obad (ka)", ->
@@ -1362,6 +1345,23 @@ describe "Localized book 1Macc (ka)", ->
 	it "should handle book: 1Macc (ka)", ->
 		`
 		expect(p.parse("1Macc 1:1").osis()).toEqual("1Macc.1.1")
+		`
+		true
+describe "Localized book Isa (ka)", ->
+	p = {}
+	beforeEach ->
+		p = new bcv_parser
+		p.set_options book_alone_strategy: "ignore",book_sequence_strategy: "ignore",osis_compaction_strategy: "bc",captive_end_digits_strategy: "delete"
+		p.include_apocrypha true
+	it "should handle book: Isa (ka)", ->
+		`
+		expect(p.parse("ესაია 1:1").osis()).toEqual("Isa.1.1")
+		expect(p.parse("Isa 1:1").osis()).toEqual("Isa.1.1")
+		expect(p.parse("ეს 1:1").osis()).toEqual("Isa.1.1")
+		p.include_apocrypha(false)
+		expect(p.parse("ესაია 1:1").osis()).toEqual("Isa.1.1")
+		expect(p.parse("ISA 1:1").osis()).toEqual("Isa.1.1")
+		expect(p.parse("ეს 1:1").osis()).toEqual("Isa.1.1")
 		`
 		true
 

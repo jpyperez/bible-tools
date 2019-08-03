@@ -144,11 +144,6 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 		(?:2Esd)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
-		osis: ["Isa"]
-		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ეს(?:აია)?|Isa)
-			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
-	,
 		osis: ["2Sam"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
 		(?:2(?:[\s\xa0]*მეფეთა|მეფ|Sam))
@@ -252,6 +247,11 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 		(?:დან(?:იელი)?|Dan)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
+		osis: ["Amos"]
+		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
+		(?:ამოსი?|Amos)
+			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
+	,
 		osis: ["Hos"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
 		(?:ოს(?:ია)?|Hos)
@@ -260,11 +260,6 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 		osis: ["Joel"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
 		(?:იო(?:ველი|ელ)|Joel)
-			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
-	,
-		osis: ["Amos"]
-		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ამოსი?|Amos)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Obad"]
@@ -488,6 +483,11 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 		apocrypha: true
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
 		(?:1Macc)
+			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
+	,
+		osis: ["Isa"]
+		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
+		(?:ეს(?:აია)?|Isa)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	]
 	# Short-circuit the look if we know we want all the books.

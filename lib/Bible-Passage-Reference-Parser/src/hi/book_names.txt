@@ -171,6 +171,8 @@ Acts	प्रेरितों के कामों
 Acts	Praeriton Ke Kam
 Acts	प्रेरितों के काम
 Acts	मसीह-दूत
+Acts	प्रेरि0
+Acts	प्रेरि०
 Acts	प्र. क
 Acts	प्र क
 Acts	प्र.क
@@ -235,6 +237,7 @@ Gal	Gal
 Gen	उत्पत्ति
 Gen	Utpaati
 Gen	उत्पाति
+Gen	उत्प॰
 Gen	Gen
 GkEsth	GkEsth
 Hab	Habakkook
