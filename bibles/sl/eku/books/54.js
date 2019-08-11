@@ -57,7 +57,7 @@ var book = {
 			"13": "<sup>13</sup> Ti namreč, ki diakonsko službo dobro opravljajo, dosežejo lepo stopnjo in veliko srčnost v veri, ki je v Kristusu Jezusu.",
 			"14": "<sup>14</sup> To ti pišem v upanju, da skoro pridem k tebi;",
 			"15": "<sup>15</sup> če bi se pa zamudil, da veš, kako se je treba vesti v božji hiši, ki je Cerkev živega Boga, steber in temelj resnice.",
-			"16": "<sup>16</sup> In velika je, kar se splošno priznava, skrivnost pobožnosti:"
+			"16": "<sup>16</sup> In velika je, kar se splošno priznava, skrivnost pobožnosti: On, ki se je prikazal v telesu, je bil pravičen v Duhu; razodet angelom, oznanjen narodom; v veri sprejet na svetu, vzet v slavo."
 		},
 		"4": {
 			"1": "<sup>1</sup> Duh pa razločno pravi, da bodo v poznejših časih nekateri od vere odpadli, ker se bodo vdali zapeljivim duhovom in demonskim naukom onih,",

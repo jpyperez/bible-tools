@@ -140,10 +140,42 @@ var book = {
 			"23": "<sup>23</sup> Tako govori Gospod nad vojskami: Tiste dni bo deset mož iz narodov vseh jezikov prijelo judovskega moža za rob suknje in bodo rekli: »Z vami pojdemo, zakaj slišali smo, da je Bog z vami!«"
 		},
 		"9": {
-			"1": "<sup>1</sup> Prerokovanje."
+			"1": "<sup>1</sup> Prerokovanje. Gospod gre čez deželo Hadrah, Damask mu je počivališče, zakaj Gospodova so mesta Arama, kakor vsi Izraelovi rodovi,",
+			"2": "<sup>2</sup> tudi Emat, ki meji nanj. In Tir in Sidon, ki sta tako modra.",
+			"3": "<sup>3</sup> Tir si je sezidal trdnjavo, nakopičil srebra ko prahu in čistega zlata ko blata na cesti.",
+			"4": "<sup>4</sup> Glej, Gospod se ga polasti, zruši v morje njegovo obzidje in njega samega použije ogenj.",
+			"5": "<sup>5</sup> To bo videl Askalon in se prestraši, tudi Gaza bo silno trepetala, in Ekron, ker mu upanje splava po vodi. Iz Gaze izgine kralj, Askalon je brez prebivalcev,",
+			"6": "<sup>6</sup> v Asdodu biva ljudstvo mešancev. Ko uničim prevzetnost Filistejca",
+			"7": "<sup>7</sup> in odstranim njegovo kri iz njegovih ust, njegovo gnusobo izmed njegovih zob, bo tudi on ostanek za našega Boga, bo kakor eden izmed judovskih rodov, in Ekron postane enak Jebusejcem.",
+			"8": "<sup>8</sup> Kot straža se utaborim pred svojo hišo, proti njemu, ki odhaja in se vrača: zatiralec jih ne bo več napadel, zdaj namreč bedim s svojimi očmi!",
+			"9": "<sup>9</sup> Močno se raduj, hči sionska, od veselja vriskaj, hči jeruzalemska! Glej, k tebi prihaja tvoj kralj: pravičen je in zmagoslaven, krotak, na osliču jezdi, na žrebetu oslice.",
+			"10": "<sup>10</sup> Uničil bo vozove v Efraimu in konje v Jeruzalemu; uničil bo bojne loke in bo oznanil narodom mir. Njegovo kraljestvo bo segalo od morja do morja, od veletoka do kraja zemlje.",
+			"11": "<sup>11</sup> Zavoljo krvi zaveze s teboj izpustim ujetnike iz jame, ki v njej ni vode.",
+			"12": "<sup>12</sup> Vrnite se k skali, ujetniki, zaprti za upanje! Že danes oznanjam: »Dvojno ti bom povrnil!«",
+			"13": "<sup>13</sup> Da, napel sem si Juda kot lok, pripravil sem Efraima kot orožje; Sion, zbudil sem tvoje sinove zoper tvoje sinove, o Javan, naredil te bom kot junakov meč.",
+			"14": "<sup>14</sup> Gospod se nad njimi prikaže, kot blisk šine njegova puščica. Gospod Bog bo zatrobil na rog in se pognal z južnim viharjem.",
+			"15": "<sup>15</sup> Gospod nad vojskami jih bo čuval. S kamni iz prač bodo uničevali sovražnika; pili bodo njihovo kri kakor vino; polni so je kot čaša, kot rogovi oltarja.",
+			"16": "<sup>16</sup> Jahve, njih Bog, jih bo ta dan rešil, ker so čreda njegovega ljudstva; kakor dragulji na kroni se bodo zalesketali na zemlji.",
+			"17": "<sup>17</sup> O, kako srečen bo, kako lep! Žito bo dajalo mladeničem rast, sladko vino devicam."
 		},
-		"10": {},
+		"10": {
+			"1": "<sup>1</sup> Prosite Gospoda za dež ob času poznega dežja. Gospod dela hudourne oblake in pošilja dež, daje kruh za ljudi, zelišče na polju!",
+			"2": "<sup>2</sup> Maliki pa govorijo laži in vedeževalci vidijo slepila, pripovedujejo nične sanje, dajejo prazno tolažbo; zato tavajo kakor čreda, blodijo, ker ni pastirja.",
+			"3": "<sup>3</sup> Zoper pastirje se vnema moja jeza, s kaznijo obiščem koštrune. Da, Gospod nad vojskami obišče svojo čredo, postavi jo kakor častnega konja v bitki;",
+			"4": "<sup>4</sup> iz nje pride vogelni kamen, iz nje šotorski klin, iz nje bojni lok, iz nje vsi vodniki.",
+			"5": "<sup>5</sup> Vsi skupaj bodo kakor junaki, ki gazijo v boju po blatu na cestah. Zmagali bodo, ker je Gospod z njimi, osramočeni bodo jahači na konjih.",
+			"6": "<sup>6</sup> Napravil bom hišo Judovo močno in hiši Jožefovi podelim zmago; nazaj jih pripeljem, ker sem se jih usmilil. Bodo, kot bi ne bili nikoli zavrnjeni, zakaj Jahve, njihov Bog sem, in jih uslišim.",
+			"7": "<sup>7</sup> Efraimski možje bodo kakor junak, njih srce se bo veselilo kakor ob vinu: njih sinovi bodo to videli in bodo veseli, njih srce se bo radovalo v Gospodu.",
+			"8": "<sup>8</sup> Zažvižgal jim bom in jih zbral, ker sem njihov rešitelj; pomnožil jih bom, kot so bili nekdaj.",
+			"9": "<sup>9</sup> Med narodi jih bom sejal, a v daljini se me bodo spominjali, vzgojili bodo svoje sinove in se vrnili.",
+			"10": "<sup>10</sup> Pripeljem jih nazaj iz egiptovske dežele in zberem jih iz Asirije; privedem jih v pokrajino Galaada in Libanona, pa jim ne bo zadosti prostora.",
+			"11": "<sup>11</sup> Šli bodo čez morje Egipta, udaril bom morske valove, posušijo se vse globočine reke. Ponižana bo prevzetnost Asurja in žezlo bo iz Egipta odstranjeno.",
+			"12": "<sup>12</sup> V Gospodu bo njihova moč, z njegovim imenom se bodo ponašali, govori Gospod."
+		},
 		"11": {
+			"1": "<sup>1</sup> Odpri svoja vrata, o Libanon, tvoje cedre naj ogenj použije!",
+			"2": "<sup>2</sup> Tarnaj, cipresa, ker je padla cedra, na tla so vrženi velikani. Tarnajte, hrasti v Basanu, ker je posekan nepredirni gozd.",
+			"3": "<sup>3</sup> Razlega se vpitje pastirjev, ker so uničeni njihovi krasni pašniki; sliši se rjovenje mladih levov, ker je opustošeno Jordanovo razkošje.",
 			"4": "<sup>4</sup> Tako (mi) je govoril Gospod, moj Bog: »Pasi drobnico, namenjeno v zakol.",
 			"5": "<sup>5</sup> Njeni kupci jo koljejo, ne da bi se za to pokorili; tisti, ki jo prodajajo, govore: ‚Hvaljen bodi Gospod! Obogatel sem!‘ In njeni pastirji ji ne prizanašajo.",
 			"6": "<sup>6</sup> Zato ne bom več imel sočutja s prebivalci dežele, govori Gospod, temveč izročim vsakega v pest njegovega bližnjega in v pest njegovega kralja; ti bodo deželo uničili, in jih ne bom rešil iz njihovih rok.«",
@@ -156,7 +188,8 @@ var book = {
 			"13": "<sup>13</sup> Gospod pa mi je rekel: »Vrzi jo v zakladnico, krasno ceno, za katero so me ocenili!« Vzel sem torej trideset srebrnikov in sem jih vrgel v hišo Gospodovo, v zakladnico.",
 			"14": "<sup>14</sup> Nato sem zlomil svojo drugo palico, »Edinost«, da razderem bratovsko edinost med Judom in Izraelom.",
 			"15": "<sup>15</sup> Tedaj mi je Gospod rekel: Vzemi si še enkrat opremo pastirja, ničvrednega pastirja.",
-			"16": "<sup>16</sup> Zakaj glej, obudil bom v tej deželi pastirja: kar v čredi propada, za to ga ne bo skrb; kar se izgubi, tega ne bo šel iskat; kar je ranjeno, tega ne bo zdravil, kar je lačno, temu ne bo dal jesti. Pač pa bo jedel meso pitanih (živali) in trgal njihove parklje."
+			"16": "<sup>16</sup> Zakaj glej, obudil bom v tej deželi pastirja: kar v čredi propada, za to ga ne bo skrb; kar se izgubi, tega ne bo šel iskat; kar je ranjeno, tega ne bo zdravil, kar je lačno, temu ne bo dal jesti. Pač pa bo jedel meso pitanih (živali) in trgal njihove parklje.",
+			"17": "<sup>17</sup> Gorje ničvrednemu pastirju, ki zapusti čredo! Meč naj pride nad njegovo roko in nad njegovo desno oko! Njegova roka naj se do kraja posuši, njegovo desno oko naj oslepi!"
 		},
 		"12": {
 			"1": "<sup>1</sup> Prerokovanje. Beseda Gospodova o Izraelu. Tako govori Gospod, ki je razprostrl nebo in utemeljil zemljo in človeku oblikoval duha v njem.",
@@ -169,7 +202,10 @@ var book = {
 			"8": "<sup>8</sup> Tisti dan bo Gospod ščit jeruzalemskim prebivalcem; najslabotnejši med njimi bo kakor David, in hiša Davidova kakor božje bitje, kakor angel Gospodov pred njimi.",
 			"9": "<sup>9</sup> Tisti dan se bom potrudil, da pokončam vsa ljudstva, ki gredo zoper Jeruzalem.",
 			"10": "<sup>10</sup> Nad hišo Davidovo in prebivalci Jeruzalema pa bom razlil duha milosti in molitve. Ozirali se bodo nanj, ki je bil preboden in žalovali bodo za njim, kakor žalujejo za sinom edincem, in bridko bodo jokali, kakor jočejo za prvorojencem.",
-			"11": "<sup>11</sup> Tisti dan bo veliko žalovanje v Jeruzalemu, kakor žalovanje za Hadad-Rimon na megidski ravnini."
+			"11": "<sup>11</sup> Tisti dan bo veliko žalovanje v Jeruzalemu, kakor žalovanje za Hadad-Rimon na megidski ravnini.",
+			"12": "<sup>12</sup> Žalovala bo dežela, vsaka rodovina posebej, rodovina hiše Davidove posebej in njihove žene posebej; rodovina hiše Natanove posebej in njihove žene posebej;",
+			"13": "<sup>13</sup> rodovina hiše Levijeve posebej in njihove žene posebej; rodovina hiše Simeonove posebej in njihove žene posebej.",
+			"14": "<sup>14</sup> Tako vse druge rodovine, vsaka rodovina posebej in njihove žene posebej."
 		},
 		"13": {
 			"1": "<sup>1</sup> Tisti dan bo studenec odprt hiši Davidovi in jeruzalemskim prebivalcem v očiščenje greha in nečistosti.",
@@ -177,7 +213,10 @@ var book = {
 			"3": "<sup>3</sup> Če bo kdo še nastopal kot prerok, mu poreko njegovi lastni starši, oče in mati: »Ne smeš več živeti, kajti laž govoriš v imenu Gospodovem.« In njegov oče in njegova mati, ki sta ga rodila, ga prebodeta, ker nastopa kot prerok.",
 			"4": "<sup>4</sup> Tisti dan bodo vsi prerokovalci doživeli sramoto vsak s svojim prerokovalskim videnjem; tudi se ne bodo ogrinjali v raševinast plašč, da bi varali.",
 			"5": "<sup>5</sup> Vsak bo dejal: »Nisem prerok, kmetovalec sem; od mladih nog me zaposluje zemlja.«",
-			"6": "<sup>6</sup> In če ga kdo vpraša: »Od kod te brazgotine na tvojih prsih?« poreče: »Ranjen sem bil v hiši onih, ki me ljubijo.«"
+			"6": "<sup>6</sup> In če ga kdo vpraša: »Od kod te brazgotine na tvojih prsih?« poreče: »Ranjen sem bil v hiši onih, ki me ljubijo.«",
+			"7": "<sup>7</sup> Meč, dvigni se zoper mojega pastirja, zoper moža, ki je moj družabnik, govori Gospod nad vojskami. Udari pastirja, da se razkrope ovce in bom obrnil svojo roko proti slabotnim.",
+			"8": "<sup>8</sup> Zgodi se v vsej deželi, govori Gospod: dva dela v njej se zbrišeta in pogineta, tretji del v njej pa bo ostal.",
+			"9": "<sup>9</sup> Ta tretji del povedem skozi ogenj, jih očistim, kakor se očiščuje srebro, jih preizkusim, kakor se preizkusi zlato. Klical bo moje ime in jaz ga uslišim, rekel bom: »Moje ljudstvo je,« in on bo dejal: »Gospod je moj Bog.«"
 		},
 		"14": {
 			"1": "<sup>1</sup> Glej, pride dan za Gospoda, in tvoj vojni plen se razdeli sredi tebe.",

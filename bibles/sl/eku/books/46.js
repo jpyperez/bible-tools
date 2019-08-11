@@ -21,7 +21,7 @@ var book = {
 			"16": "<sup>16</sup> Krstil sem tudi Stefánasovo hišo, sicer pa ne vem, če sem koga drugega krstil.",
 			"17": "<sup>17</sup> Ni me namreč Kristus poslal krščevat, ampak evangelij oznanjat; in sicer ne z modrostjo govora, da Kristusov križ moči ne izgubi.",
 			"18": "<sup>18</sup> Kajti beseda o križu je tistim, ki se pogubljajo, nespamet, nam pa, kateri smo na poti zveličanja, božja moč.",
-			"19": "<sup>19</sup> Zakaj pisano je:",
+			"19": "<sup>19</sup> Zakaj pisano je: »Uničil bom modrost modrih in razumnost razumnih bom zavrgel.«",
 			"20": "<sup>20</sup> Kje je modrijan, kje pismouk, kje učenjak tega sveta? Ali ni Bog modrosti tega sveta obrnil v nespamet?",
 			"21": "<sup>21</sup> Ker namreč svet po svoji modrosti ni spoznal Boga v njegovi modrosti, je Bog sklenil verujoče rešiti po nespameti oznanjevanja.",
 			"22": "<sup>22</sup> Kajti Judje zahtevajo znamenj in Grki iščejo modrosti,",
@@ -44,7 +44,7 @@ var book = {
 			"6": "<sup>6</sup> Modrost pa oznanjamo med popolnimi, toda ne modrosti tega sveta, tudi ne poglavarjev tega sveta, ki preminevajo,",
 			"7": "<sup>7</sup> marveč oznanjamo skrivnostno modrost božjo, ki jo je Bog pred veki naprej določil v naše poveličanje;",
 			"8": "<sup>8</sup> ki je ni spoznal nobeden izmed prvakov tega sveta; ko bi jo bili namreč spoznali, bi Gospoda veličastva ne bili križali,",
-			"9": "<sup>9</sup> ampak, kakor je pisano:"
+			"9": "<sup>9</sup> ampak, kakor je pisano: »Kar oko ni videlo in uho ni slišalo in kar v človekovo srce ni prišlo, kar je Bog pripravil njim, ki ga ljubijo,«"
 		},
 		"3": {
 			"1": "<sup>1</sup> In jaz, bratje, vam nisem mogel govoriti kakor duhovnim, temveč kakor mesenim, kakor nedoraslim v Kristusu.",

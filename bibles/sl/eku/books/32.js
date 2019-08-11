@@ -23,6 +23,14 @@ var book = {
 		"2": {
 			"1": "<sup>1</sup> Gospod je poslal veliko ribo, da je Jona požrla. Jona je ostal v ribjem trebuhu tri dni in tri noči.",
 			"2": "<sup>2</sup> Jona je molil h Gospodu, svojemu Bogu, v ribjem trebuhu, rekoč:",
+			"3": "<sup>3</sup> V svoji stiski sem klical h Gospodu, in mi je odgovoril; iz osrčja podzemlja sem vpil, ti si uslišal moj glas.",
+			"4": "<sup>4</sup> Vrgel si me v globino, v sredo morja, in obdalo me je vodovje. Vsi tvoji tokovi in tvoji valovi so se čezme razlili.",
+			"5": "<sup>5</sup> Že sem dejal: Zavržen sem izpred tvojih oči. Kako bom še kdaj videl tvoj sveti tempelj?",
+			"6": "<sup>6</sup> Vode so me zagrnile do grla, brezno me je obdalo. Morska trava se mi je ovila okrog glave,",
+			"7": "<sup>7</sup> do temeljev gora sem se pogreznil, zemlja je za menoj zaprla svoje zapahe za vselej. A ti, o Gospod, moj Bog, si potegnil moje življenje iz jame.",
+			"8": "<sup>8</sup> Ko je moja duša v meni medlela, sem se spomnil Gospoda, in moja molitev je prišla k tebi v tvoj sveti tempelj.",
+			"9": "<sup>9</sup> Kateri časte nične malike, zametujejo svojo milost.",
+			"10": "<sup>10</sup> Jaz pa ti bom opravljal daritve z glasnim zahvaljevanjem, izpolnil bom, kar sem obljubil. Pri Gospodu je rešitev.",
 			"11": "<sup>11</sup> Tedaj je Gospod ribi ukazal, in vrgla je Jona na kopno."
 		},
 		"3": {

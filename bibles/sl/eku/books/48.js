@@ -109,7 +109,7 @@ var book = {
 			"24": "<sup>24</sup> To pa je rečeno v podobi; to sta namreč dve zavezi: ena s Sinajske gore, ki rodi za hlapčevanje, in taka je Agára.",
 			"25": "<sup>25</sup> Sinaj je namreč gora v Arabiji, zlaga se pa s sedanjim Jeruzalemom, hlapčuje namreč s svojimi otroki.",
 			"26": "<sup>26</sup> Oni Jeruzalem pa, ki je gori, je svoboden in taka je naša mati.",
-			"27": "<sup>27</sup> Zakaj pisano je:",
+			"27": "<sup>27</sup> Zakaj pisano je: »Razveseli se, nerodovitna, ki ne rodiš; zavriskaj in vzklikni, katera nisi v porodnih bolečinah; zakaj veliko otrok ima zapuščena, več ko tista, ki ima moža.«",
 			"28": "<sup>28</sup> Mi pa, bratje, smo kakor Izak otroci obljube.",
 			"29": "<sup>29</sup> Toda kakor je takrat tisti, ki je bil rojen po mesu, preganjal onega, ki je bil po duhu, tako tudi zdaj.",
 			"30": "<sup>30</sup> A kaj pravi pismo? »Izženi deklo in njenega sina; kajti sin dekle nikakor ne bo dedič s sinom svobodne.«",

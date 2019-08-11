@@ -22,7 +22,15 @@ var book = {
 		},
 		"2": {
 			"1": "<sup>1</sup> In Gospod je pripravil veliko ribo, da bi požrla Jona. In Jona je bil v ribjem trebuhu tri dni in tri noči.",
-			"2": "<sup>2</sup> In molil je Jona h Gospodu , svojemu Bogu, iz ribjega trebuha in rekel: v sredino morja, so drli čezme. Pahnjen sem izpred tvojih oči; proti templju svetosti tvoje. o Gospod , Bog moj! sem se spominjal Gospoda , v hram svetosti tvoje. z glasom zahvaljevanja;",
+			"2": "<sup>2</sup> In molil je Jona h Gospodu , svojemu Bogu, iz ribjega trebuha in rekel:",
+			"3": "<sup>3</sup> H Gospodu sem klical v stiski svoji, in mi je odgovoril; iz krila smrtnega kraja sem vpil, ti si uslišal glas moj.",
+			"4": "<sup>4</sup> Kajti vrgel si me v globočino, v sredino morja, da so me vode objemale; vsi valovi in zagoni tvoji so drli čezme.",
+			"5": "<sup>5</sup> In rekel sem: Pahnjen sem izpred tvojih oči; vendar bom zopet gledal proti templju svetosti tvoje.",
+			"6": "<sup>6</sup> Vode so me zagrnile do duše, globočina me je objela, morska trava se mi je ovijala okrog glave.",
+			"7": "<sup>7</sup> Pogrezal sem se do podzidja gorá, zapahi zemlje so bili zaprti nad menoj za vekomaj. Tedaj si potegnil iz jame življenje moje, o Gospod , Bog moj!",
+			"8": "<sup>8</sup> Ko je v meni hirala duša moja, sem se spominjal Gospoda , in molitev moja je prišla k tebi, v hram svetosti tvoje.",
+			"9": "<sup>9</sup> Kateri časté ničemurnosti prazne, opuščajo Boga, milost svojo.",
+			"10": "<sup>10</sup> Ali jaz ti bom daroval z glasom zahvaljevanja; izpolnim, kar sem obljubil. Pri Gospodu je rešitev!",
 			"11": "<sup>11</sup> In Gospod je velel ribi, in izbljuvala je Jona na kopno."
 		},
 		"3": {

@@ -87,7 +87,8 @@ var book = {
 			"5": "<sup>5</sup> In iz prestola izhajajo bliski in glasovi in gromi; in sedem bakel ognjenih gorí pred prestolom, katere so sedmeri Duhovi Božji.",
 			"6": "<sup>6</sup> In pred prestolom je kakor morje stekleno, podobno kristalu, in sredi prestola in okrog prestola štiri živali , polne očes spredaj in zadaj.",
 			"7": "<sup>7</sup> In prva žival je podobna levu, in druga žival podobna teletu, in tretja žival ima obličje kakor človek, in četrta žival podobna orlu letečemu.",
-			"8": "<sup>8</sup> In četvere živali, vsaka zase, imajo po šest peruti in so naokolo in znotraj polne očes; in pokoja nimajo noč in dan, govoreč:"
+			"8": "<sup>8</sup> In četvere živali, vsaka zase, imajo po šest peruti in so naokolo in znotraj polne očes; in pokoja nimajo noč in dan, govoreč: Svet, svet, svet, Gospod Bog, Vsegamogočni, ki je bil in ki je in ki prihaja!",
+			"11": "<sup>11</sup> Vreden si, Gospod in Bog naš, prejemati slavo in čast in moč, zakaj ti si ustvaril vse, in zaradi volje tvoje je bilo vse in je bilo ustvarjeno."
 		},
 		"5": {
 			"1": "<sup>1</sup> In videl sem v desnici sedečega na prestolu knjigo popisano znotraj in zadaj, zapečateno s sedmimi pečati.",
@@ -98,7 +99,8 @@ var book = {
 			"6": "<sup>6</sup> In videl sem sredi prestola in četverih živali in sredi starešin Jagnje stoječe, kakor zaklano, ki je imelo sedem rogov in očes sedem, katera so sedmeri Duhovi Božji, poslani na vso zemljo.",
 			"7": "<sup>7</sup> In pride in vzame knjigo iz desnice sedečega na prestolu.",
 			"8": "<sup>8</sup> In ko je vzelo knjigo, padejo četvere živali in štiriindvajseteri starešine pred Jagnjetom, imajoč vsak strune in zlate čaše, polne kadil, ki so molitve svetnikov.",
-			"9": "<sup>9</sup> In pojo pesem novo, govoreč: in si jih odkupilo Bogu s krvjo svojo",
+			"9": "<sup>9</sup> In pojo pesem novo, govoreč: Vredno si prejeti knjigo in odpreti pečate njene; kajti bilo si zaklano in si jih odkupilo Bogu s krvjo svojo iz vsakega rodu in jezika in ljudstva in naroda,",
+			"10": "<sup>10</sup> in si jih storilo našemu Bogu v kraljestvo in za duhovnike, in kraljevali bodo na zemlji.",
 			"11": "<sup>11</sup> In videl sem in slišal sem glas mnogih angelov okrog prestola in živali in starešin, in njih število je bilo miriad miriade in tisočev tisoči,",
 			"12": "<sup>12</sup> govorečih z velikim glasom: Vredno je Jagnje, ki je bilo zaklano, prejeti moč in bogastvo in modrost in krepkost in čast in slavo in blagoslov.",
 			"13": "<sup>13</sup> In vsako stvar, ki je v nebesih in na zemlji in pod zemljo in na morju, in vse, kar je v njih, sem čul govoreče: Sedečemu na prestolu in Jagnjetu blagoslov in čast in slava in moč na vekov veke!",
@@ -128,6 +130,10 @@ var book = {
 			"2": "<sup>2</sup> In videl sem drugega angela, stopajočega gori od sončnega vzhoda, ki je imel pečat Boga živega; in je zaklical z glasom velikim četverim angelom, ki jim je bilo dano kaziti zemljo in morje,",
 			"3": "<sup>3</sup> rekoč: Ne kazite zemlje, ne morja, ne dreves, dokler ne zapečatimo hlapcev Boga našega na njih čelih.",
 			"4": "<sup>4</sup> In slišal sem število zapečatenih: stoinštiriinštirideset tisoč zapečatenih iz vseh rodov sinov Izraelovih.",
+			"5": "<sup>5</sup> Iz rodu Judovega dvanajst tisoč zapečatenih, iz rodu Rubenovega dvanajst tisoč, iz rodu Gadovega dvanajst tisoč,",
+			"6": "<sup>6</sup> iz rodu Aserjevega dvanajst tisoč, iz rodu Neftalimovega dvanajst tisoč, iz rodu Manasejevega dvanajst tisoč,",
+			"7": "<sup>7</sup> iz rodu Simeonovega dvanajst tisoč, iz rodu Levijevega dvanajst tisoč, iz rodu Isaharjevega dvanajst tisoč,",
+			"8": "<sup>8</sup> iz rodu Zabulonovega dvanajst tisoč, iz rodu Jožefovega dvanajst tisoč, iz rodu Benjaminovega dvanajst tisoč zapečatenih.",
 			"9": "<sup>9</sup> Potem sem videl, in glej: velika množica, ki je nihče ni mogel sešteti, iz vsakega naroda in iz vseh rodov in ljudstev in jezikov, stoječe pred prestolom in pred Jagnjetom, oblečene z belimi oblačili in palme v njih rokah,",
 			"10": "<sup>10</sup> in kličejo z glasom velikim, rekoč: Zveličanje Bogu našemu, sedečemu na prestolu, in Jagnjetu!",
 			"11": "<sup>11</sup> In vsi angeli so stali okrog prestola in starešin in četverih živali in so padli pred prestolom na obličje in so molili Boga,",
@@ -275,7 +281,8 @@ var book = {
 		"15": {
 			"1": "<sup>1</sup> In videl sem drugo znamenje v nebesih, veliko in čudovito: sedem angelov, imajočih sedmero šib poslednjih, ker se je v njih dopolnila jeza Božja.",
 			"2": "<sup>2</sup> In videl sem kakor morje stekleno, namešano z ognjem, in zmagovalce nad zverjo in nad podobo njeno in nad številom njenega imena, stoječe ob morju steklenem s citrami Božjimi.",
-			"3": "<sup>3</sup> In pojo pesem Mojzesa, hlapca Božjega, in pesem Jagnjetovo, govoreč: in ne slavil tvojega imena? in molili pred teboj,",
+			"3": "<sup>3</sup> In pojo pesem Mojzesa, hlapca Božjega, in pesem Jagnjetovo, govoreč: Velika in čudovita so dela tvoja, o Gospod Bog, Vsegamogočni, pravična in resnična pota tvoja, o Kralj narodov!",
+			"4": "<sup>4</sup> Kdo bi se te ne bal, Gospod, in ne slavil tvojega imena? ker sam si svet; kajti vsi narodi bodo prišli in molili pred teboj, ker razodela so se pravična dela tvoja.",
 			"5": "<sup>5</sup> In potem sem videl, in odpre se svetišče šotora pričevanja v nebesih,",
 			"6": "<sup>6</sup> in pridejo iz svetišča sedmeri angeli, ki imajo sedmero šib, oblečeni v platno čisto in svetlo ter opasani okoli prsi z zlatimi pasi.",
 			"7": "<sup>7</sup> In ena iz četverih živali dá sedmerim angelom sedem čaš zlatih, polnih jeze Boga živega na vekov veke.",

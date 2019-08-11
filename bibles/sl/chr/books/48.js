@@ -109,7 +109,7 @@ var book = {
 			"24": "<sup>24</sup> To pa je v prispodobi govorjeno: ti dve ženi sta namreč dve zavezi, ena z gore Sinajske, ki rodi za sužnost, in ta je Agara.",
 			"25": "<sup>25</sup> Agara pa pomeni goro Sinaj v Arabiji in stoji v eni vrsti s sedanjim Jeruzalemom, ki sužnjuje z otroki svojimi.",
 			"26": "<sup>26</sup> A gornji Jeruzalem je svobodnica, in ta je naša mati.",
-			"27": "<sup>27</sup> Kajti pisano je:"
+			"27": "<sup>27</sup> Kajti pisano je: »Razveseli se, nerodovitna, ki ne porajaš; zaukaj in kliči, ki nisi v porodnih bolečinah; zakaj mnogo več je otrok te, ki je osamljena, nego one, ki ima moža.«"
 		},
 		"5": {
 			"2": "<sup>2</sup> Glejte, jaz Pavel vam pravim: ako sprejmete obrezo, vam Kristus ne bo nič pomagal.",

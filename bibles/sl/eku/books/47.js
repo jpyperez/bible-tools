@@ -126,7 +126,9 @@ var book = {
 			"13": "<sup>13</sup> Da z enakim meni povrnete – govorim kakor otrokom – se razširite tudi vi.",
 			"14": "<sup>14</sup> Ne dajte se vpregati v jarem z neverniki. Kaj imata namreč skupnega pravica in krivica? Ali kakšno zvezo ima luč s temo?",
 			"15": "<sup>15</sup> Kakšno je soglasje med Kristusom in Belialom? Ali kakšen delež ima vernik z nevernikom?",
-			"16": "<sup>16</sup> Kaj ima božje svetišče skupnega z maliki? Vi ste namreč svetišče živega Boga, kakor je Bog rekel:"
+			"16": "<sup>16</sup> Kaj ima božje svetišče skupnega z maliki? Vi ste namreč svetišče živega Boga, kakor je Bog rekel: »Prebival bom med njimi in med njimi bom hodil in bom njihov Bog in oni bodo moje ljudstvo.",
+			"17": "<sup>17</sup> Zato odidite iz njihove srede ter se ločite, pravi Gospod, in nečistega se ne dotikajte. In jaz vas bom sprejel",
+			"18": "<sup>18</sup> ter vam bom Oče in vi boste meni sinovi in hčere, govori vsemogočni Gospod.«"
 		},
 		"7": {
 			"1": "<sup>1</sup> Ker imamo torej take obljube predragi, se očistimo vseh madežev mesa in duha in dopolnjujmo v božjem strahu svetost.",
@@ -181,7 +183,7 @@ var book = {
 			"6": "<sup>6</sup> Pomnite: Kdor malo seje, bo tudi malo žel; in kdor obilno seje, bo tudi obilno žel.",
 			"7": "<sup>7</sup> Vsak, kakor je v srcu namenil, ne z žalostjo ali po sili; zakaj veselega darovavca Bog ljubi.",
 			"8": "<sup>8</sup> More pa vam Bog vsako milost v obilni meri podeliti, da boste imeli v vsem vedno vsega dovolj in vam bo še obilo ostajalo za vsako dobro delo,",
-			"9": "<sup>9</sup> kakor je pisano:",
+			"9": "<sup>9</sup> kakor je pisano: »Razdelil je, dal ubogim, pravičnost njegova ostane vekomaj.«",
 			"10": "<sup>10</sup> Oni pa, ki daje sejavcu seme in kruha za živež, bo dal in pomnožil vaše seme ter povečal sadove vaše pravičnosti,",
 			"11": "<sup>11</sup> da boste v vsem bogateli za vsako radodarnost; ta namreč po nas pripravlja Bogu zahvalo.",
 			"12": "<sup>12</sup> Zakaj izvrševanje te službe ne dopolnjuje samo, kar nedostaja svetim, marveč se po mnogih zahvalah naproti Bogu tudi odlikuje.",

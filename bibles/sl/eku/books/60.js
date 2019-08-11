@@ -26,7 +26,8 @@ var book = {
 			"21": "<sup>21</sup> Vi po njem vérujete v Boga, ki ga je obudil od mrtvih in mu dal veličastvo, da je vaša vera tudi upanje v Boga.",
 			"22": "<sup>22</sup> Ker ste svoje duše v poslušnosti do resnice očistili za nehlinjeno bratoljubje, se goreče, iz srca med seboj vzljubite,",
 			"23": "<sup>23</sup> prerojeni ne iz minljivega semena, temveč iz neminljivega: po božji besedi, ki živi in ostane.",
-			"24": "<sup>24</sup> Zakaj"
+			"24": "<sup>24</sup> Zakaj »Vse človeštvo je kakor trava in vsa njegova slava kakor cvetlica v travi; trava se posuši in cvetlica uvene,",
+			"25": "<sup>25</sup> beseda Gospodova pa ostane vekomaj.«"
 		},
 		"2": {
 			"1": "<sup>1</sup> Odložite torej vsako hudobijo in vso zvijačnost in hinavščino in nevoščljivost in vse opravljanje.",
@@ -34,7 +35,7 @@ var book = {
 			"3": "<sup>3</sup> ko ste vendar okusili, da je Gospod dober.",
 			"4": "<sup>4</sup> K njemu, živemu kamnu, ki so ga ljudje zavrgli, pri Bogu pa je izbran in dragocen, pridite",
 			"5": "<sup>5</sup> in se dajte tudi sami vzidati kot živi kamni v duhovno hišo, za sveto duhovništvo, da boste darovali duhovne daritve, Bogu prijetne po Jezusu Kristusu.",
-			"6": "<sup>6</sup> Zatorej se bere v pismu:",
+			"6": "<sup>6</sup> Zatorej se bere v pismu: »Glej, polagam na Sionu vogelni kamen, izbran, dragocen, in kdor vanj veruje, ne bo osramočen.«",
 			"7": "<sup>7</sup> Vam torej, ki verujete, je čast; njim pa, ki ne verujejo: »kamen, ki so ga zidarji zavrgli, ta je postal vogelni kamen«",
 			"8": "<sup>8</sup> in kamen spotike ter skala pohujšanja. Ob njem se spotikajo, ker niso poslušni besedi; zato so bili tudi določeni.",
 			"9": "<sup>9</sup> Vi pa ste izvoljen rod, kraljevo duhovništvo, svet narod, pridobljeno ljudstvo, da bi oznanjali slavna dela njega, ki vas je poklical iz teme v svojo čudovito luč,",
@@ -65,6 +66,9 @@ var book = {
 			"7": "<sup>7</sup> Enako, možje, živite s svojimi ženami kakor s slabotnejšim spolom po pameti in, ker so tudi one z vami deležne milosti življenja, jih imejte v časti, da ne bo ovire za vaše molitve.",
 			"8": "<sup>8</sup> Končno pa bodite vsi enih misli, sočutni, bratoljubni, usmiljeni, ponižni.",
 			"9": "<sup>9</sup> Ne vračajte hudega za hudo, ne sramotenja za sramotenje, marveč blagoslavljajte, ker ste bili v to poklicani, da postanete deležni blagoslova.",
+			"10": "<sup>10</sup> Zakaj »kdor hoče ljubiti življenje in videti dobre dni, zadržuj svoj jezik od hudega in usta, da ne bodo govorila zvijače;",
+			"11": "<sup>11</sup> ogiblji se hudega in delaj dobro; išči miru in hodi za njim:",
+			"12": "<sup>12</sup> zakaj Gospodove oči so obrnjene v pravične in njegova ušesa k njih prošnjam, obraz Gospodov pa je zoper hudodelce.«",
 			"13": "<sup>13</sup> In kdo vam bo škodoval, če boste vneti za dobro?",
 			"14": "<sup>14</sup> Pa če bi zaradi pravice tudi trpeli, blagor vam! Njih grožnje se ne bojte in ne dajte se zbegati,",
 			"15": "<sup>15</sup> marveč Gospoda Kristusa slavite v svojih srcih, vedno pripravljeni, da boste vsakemu, kdor hoče vedeti razlog za vaše upanje, dali odgovor,",

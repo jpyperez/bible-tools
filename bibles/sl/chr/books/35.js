@@ -44,7 +44,25 @@ var book = {
 			"20": "<sup>20</sup> Ali Gospod je v templju svetosti svoje – môlči pred njim, vsa zemlja!"
 		},
 		"3": {
-			"1": "<sup>1</sup> Molitev preroka Habakuka, z godbo na strune. in se bojim;"
+			"1": "<sup>1</sup> Molitev preroka Habakuka, z godbo na strune.",
+			"2": "<sup>2</sup> Gospod , slišal sem tvoje poročilo in se bojim; Gospod , ožívi delo svoje sredi let, sredi let daj, da bo očitno; v jezi se spominjaj usmiljenja!",
+			"3": "<sup>3</sup> Bog prihaja s Temana in Svetnik z gore Parana. (Sela.) Veličastvo njegovo pokriva nebesa in zemlja je polna hvale njegove.",
+			"4": "<sup>4</sup> In svetloba nastaja kakor sončna luč; žarki se mu iskré iz roke, in ondi je skrita njegova moč.",
+			"5": "<sup>5</sup> Pred njim gre kuga in tik za njim pomor.",
+			"6": "<sup>6</sup> Postal je in potresel je zemljo, pogledal je in ustrašil narode; in razdrobile so se večne gore, starodavni hribi so se pogreznili; pota njegova so večna.",
+			"7": "<sup>7</sup> V bridkosti sem videl šotore Kušanove, tresle so se preproge šotorov v deželi Madianovi.",
+			"8": "<sup>8</sup> Jezen li je Gospod nad rekami? je li mar jeza tvoja nad rekami, srd tvoj nad morjem, da jezdiš na svojih konjih, na vozovih zveličalnih?",
+			"9": "<sup>9</sup> Gol, pripravljen je lok tvoj. Šibe v strahovanje si prisegel z besedo svojo. (Sela.) Zemljo si razklal z rekami.",
+			"10": "<sup>10</sup> Videle so te gore in se tresle; usula se je ploha, brezno je grmelo, visoko je vzdigovalo roke svoje.",
+			"11": "<sup>11</sup> Sonce in mesec sta stopila v svoje bivališče ob luči tvojih pšic, ko so frčale, ob svetlosti tvoje bliskajoče se sulice.",
+			"12": "<sup>12</sup> V togoti si stopal po zemlji, v srdu si teptal narode.",
+			"13": "<sup>13</sup> Izšel si v rešenje svojega ljudstva, v rešenje maziljenca svojega; razbil si glavo iz hiše brezbožneža, odgrnivši ga od tal do vratu. (Sela.)",
+			"14": "<sup>14</sup> Prebodel si z lastnimi mu sulicami glave njegovih vojščakov, ki so prihruli kakor vihar, da bi me razkropili; njih veselje je bilo požreti ubožca na skrivnem.",
+			"15": "<sup>15</sup> Na morje si stopil s konji svojimi, med roj velikih vodá.",
+			"16": "<sup>16</sup> Slišal sem to, in treslo se mi je telo; ustne moje so trepetale ob tistem glasu; trhloba mi je prešinila kosti in tresem se na svojem mestu: da naj počivam ob dnevi stiske, kadar pride zoper ljudstvo tisti, ki ga hoče napasti.",
+			"17": "<sup>17</sup> Kajti smokva ne bo cvetla in pridelka ne bode nič na trtah, oljkova rast bo varala in žitno polje ne donese užitka, iz ograje izgine drobnica in govedi ne bo nič v hlevih:",
+			"18": "<sup>18</sup> a jaz se bom vendar radoval v Gospodu , veselil se bom, da je Bog rešenje moje.",
+			"19": "<sup>19</sup> Jehova, Gospod, je moja moč, on dela, da so moje noge kakor jelenje, in stori, da bom hodil po višavah svojih."
 		}
 	}
 };

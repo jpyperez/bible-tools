@@ -21,7 +21,7 @@ var book = {
 			"16": "<sup>16</sup> Krstil sem pa tudi Štefanovo družino; sicer ne vem, če sem še koga krstil.",
 			"17": "<sup>17</sup> Zakaj Kristus me ni poslal krščevat, temveč oznanjevat evangelij, ne v modrosti besede, da se ne uniči moč križa Kristusovega.",
 			"18": "<sup>18</sup> Kajti beseda o križu je tistim, ki gredo v pogubo, neumnost, nam pa, ki se zveličujemo, je moč Božja.",
-			"19": "<sup>19</sup> Kajti pisano je:",
+			"19": "<sup>19</sup> Kajti pisano je: »Pogubim modrost modrih in razumnost razumnih zavržem.«",
 			"26": "<sup>26</sup> Kajti glejte poklic svoj, bratje, da ni poklicanih mnogo modrih po mesu, ne mnogo mogočnih, ne mnogo imenitnih;",
 			"27": "<sup>27</sup> marveč kar je neumnega na tem svetu, to si je Bog izbral, da osramoti modre, in kar je slabotnega na tem svetu, to si je Bog izbral, da osramoti, kar je mogočnega;",
 			"28": "<sup>28</sup> in kar je neimenitno na tem svetu in zaničevano, si je izbral Bog in to, česar ni, da uniči to, kar je:",
@@ -38,7 +38,7 @@ var book = {
 			"6": "<sup>6</sup> Vendar pa modrost govorimo med popolnimi, a ne modrosti tega sveta niti poglavarjev tega sveta, kateri ginejo;",
 			"7": "<sup>7</sup> marveč govorimo modrost Božjo v skrivnosti, tisto skrito modrost, ki jo je naprej odločil Bog pred veki za našo slavo,",
 			"8": "<sup>8</sup> ki je ni nihče izmed poglavarjev tega sveta spoznal; ker ko bi jo bili spoznali, ne bi bili Gospoda slave razpeli na križ;",
-			"9": "<sup>9</sup> temveč kakor je pisano:"
+			"9": "<sup>9</sup> temveč kakor je pisano: »Česar oko ni videlo in uho ni slišalo in kar v srce človeku ni prišlo, to je pripravil Bog tem, kateri ga ljubijo.«"
 		},
 		"3": {
 			"1": "<sup>1</sup> Tudi jaz, bratje, nisem mogel govoriti vam kakor duhovnim, temveč kakor mesenim, kakor nedoraslim v Kristusu.",

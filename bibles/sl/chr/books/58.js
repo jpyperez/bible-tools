@@ -7,7 +7,10 @@ var book = {
 			"2": "<sup>2</sup> nam je v teh zadnjih dneh govoril po Sinu, ki ga je postavil za dediča vseh stvari, ki je po njem naredil tudi svetove,",
 			"3": "<sup>3</sup> ki je odsvit slave in podoba bitja njegovega in vzdržuje vse z besedo moči svoje; ki je, potem ko je po sebi izvršil očiščenje grehov naših, sedel na desnico veličastva v višavah",
 			"4": "<sup>4</sup> in je tolikanj višji postal od angelov, kolikor odličnejše ime je podedoval mimo njih.",
-			"5": "<sup>5</sup> Kajti kateremu izmed angelov je kdaj rekel:"
+			"5": "<sup>5</sup> Kajti kateremu izmed angelov je kdaj rekel: »Sin moj si ti, jaz sem te danes rodil,« »Jaz mu bodem za očeta in on mi bode za sina«? »In molijo naj ga vsi angeli Božji.« »On dela angele svoje za vetrove in služabnike svoje za ognja plamen,« »Prestol tvoj, o Bog, na veka vek. Pravičnosti žezlo je kraljestva tvojega žezlo.",
+			"9": "<sup>9</sup> Ljubil si pravico in sovražil krivico. Zato te je pomazilil Bog, Bog tvoj, z oljem veselja bolj nego sodeležnike tvoje.« »Ti si v začetku, Gospod, ustanovil zemljo, in rok tvojih dela so nebesa;",
+			"11": "<sup>11</sup> njih bode konec, ti pa ostaneš; in vsa se bodo postarala kakor obleka,",
+			"12": "<sup>12</sup> in kakor plašč jih boš zvil, in izpremenila se bodo; ti pa si isti, in let tvojih ne bode konec.« »Sedi na desnico mojo, dokler ne položim sovražnikov tvojih za podnožje nogam tvojim«?"
 		},
 		"2": {
 			"1": "<sup>1</sup> Zato nam je treba tolikanj bolj paziti na to, kar smo slišali, da ne zgrešimo zveličanja.",
@@ -15,7 +18,10 @@ var book = {
 			"3": "<sup>3</sup> kako uidemo mi, pustivši vnemar toliko zveličanje? ki ga je iz početka oznanjal Gospod, in oni, ki so čuli, so nam ga potrdili,",
 			"4": "<sup>4</sup> pri čemer je tudi Bog z njimi vred pričal z znamenji in čudeži in mnogoterimi močmi in s podeljevanjem svetega Duha po volji svoji.",
 			"5": "<sup>5</sup> Kajti angelom ni podložil sveta prihodnjega, o katerem govorimo.",
-			"6": "<sup>6</sup> Pričal pa je nekdo nekje, govoreč:"
+			"6": "<sup>6</sup> Pričal pa je nekdo nekje, govoreč: »Kaj je človek, da se ga spominjaš, ali sin človekov, da ga obiskuješ?",
+			"7": "<sup>7</sup> Za malo časa si ga ponižal pod angele; s slavo in častjo si ga venčal [in postavil si ga nad dela rok svojih];",
+			"8": "<sup>8</sup> vse si podložil pod noge njegove.«",
+			"12": "<sup>12</sup> »Oznanjal bom ime tvoje bratom svojim, sredi zbora ti bom peval hvalo.« »Nanj naslonim upanje svoje;« »Glej, jaz in otročiči, katere mi je dal Bog.«"
 		},
 		"3": {
 			"1": "<sup>1</sup> Zatorej, bratje sveti, poklica nebeškega deležni, pazljivo glejte na poslanca in velikega duhovnika naše veroizpovedi, Jezusa,",
@@ -24,12 +30,16 @@ var book = {
 			"4": "<sup>4</sup> Kajti vsako hišo napravi kdo; on pa, ki je vse napravil, je Bog.",
 			"5": "<sup>5</sup> In Mojzes je bil zvest v vsej hiši njegovi kakor služabnik, v pričanje tistega, kar se je imelo pozneje oznanjati;",
 			"6": "<sup>6</sup> Kristus pa je zvest kakor Sin, vladajoč hiši svoji; čigar hiša smo mi, ako srčno zaupnost in hvalo upanja ohranimo trdno do konca.",
-			"7": "<sup>7</sup> Zatorej, kakor govori sveti Duh:"
+			"7": "<sup>7</sup> Zatorej, kakor govori sveti Duh: »Danes, ko začujete glas njegov,",
+			"8": "<sup>8</sup> ne zakrknite src svojih, kakor v razdražbi ob dnevi izkušnjave v puščavi,",
+			"9": "<sup>9</sup> kjer so me izkušali očetje vaši s preizkušanjem in gledali dela moja",
+			"10": "<sup>10</sup> štirideset let. Zato sem se razsrdil nad tem rodom in rekel: Vedno tavajo v srcu; ali oni niso spoznali potov mojih,",
+			"11": "<sup>11</sup> tako da sem prisegel v jezi svoji: Ne pridejo v pokoj moj!« »Danes, ko začujete glas njegov, ne zakrknite src svojih kakor v razdražbi.«"
 		},
 		"4": {
 			"1": "<sup>1</sup> Bojmo se torej, da se, ko še ostaja obljuba, da pridemo v pokoj njegov, ne vidi, da je kdo izmed vas zaostal.",
 			"2": "<sup>2</sup> Kajti blagovestje smo prejeli mi kakor tudi oni; ali onim ni koristila slišana beseda, ker ni bila združena z vero njih, ki so jo slišali.",
-			"3": "<sup>3</sup> Kajti v pokoj prihajamo mi, ki smo vero sprejeli; kakor je rekel:",
+			"3": "<sup>3</sup> Kajti v pokoj prihajamo mi, ki smo vero sprejeli; kakor je rekel: »V jezi svoji sem prisegel: Ne pridejo v pokoj moj!« »Ne pridejo v pokoj moj.« »Danes, ko začujete glas njegov, ne zakrknite src svojih.«",
 			"12": "<sup>12</sup> Živa je namreč beseda Božja in krepka in ostrejša nego vsak dvorezen meč, in prodira prav do ločitve duše in duha, členovja in mozga, in je sodnik naklepov in misli srca;",
 			"13": "<sup>13</sup> in stvari ni skrite pred njim, temveč vse je golo in razodeto očem njega, ki imamo z njim opravek.",
 			"14": "<sup>14</sup> Ker imamo torej tako vzvišenega velikega duhovnika, ki je šel skozi nebesa, Jezusa, Sinu Božjega, držimo se svoje veroizpovedi!",
@@ -41,7 +51,7 @@ var book = {
 			"2": "<sup>2</sup> ki more potrpljenje imeti z nevednimi in tavajočimi, ker je tudi sam obdan s slabostjo,",
 			"3": "<sup>3</sup> in zaradi te mora kakor za ljudstvo tako tudi zase darovati za grehe.",
 			"4": "<sup>4</sup> In sam si nihče ne prisvaja te časti, nego kdor je poklican od Boga, kakor tudi Aron.",
-			"5": "<sup>5</sup> Tako tudi Kristus ni sam sebe počastil, da bi postal veliki duhovnik, nego on, ki mu je govoril:",
+			"5": "<sup>5</sup> Tako tudi Kristus ni sam sebe počastil, da bi postal veliki duhovnik, nego on, ki mu je govoril: »Sin moj si ti, jaz sem te danes rodil.« »Ti si duhovnik na vek po redu Melhizedekovem.«",
 			"11": "<sup>11</sup> O tem bi nam bilo mnogo govoriti, a je težko pojasniti, ker ste počasni postali na sluhu.",
 			"12": "<sup>12</sup> Zakaj po času bi morali biti že učitelji, pa je treba, da vas kdo zopet uči, katere so začetne prvine izrekov Božjih, in postali ste mleka potrebni in ne močne hrane.",
 			"13": "<sup>13</sup> Kajti vsak, kdor dobiva mleka, je nevešč besedi pravičnosti, ker je dete.",
@@ -86,7 +96,7 @@ var book = {
 			"14": "<sup>14</sup> Kajti znano je, da se je rodil Gospod naš iz Jude, kateremu rodu ni Mojzes ničesar govoril zastran duhovništva.",
 			"15": "<sup>15</sup> In ta premena se še jasneje vidi, če je po podobi Melhizedekovi postavljen drugačen duhovnik,",
 			"16": "<sup>16</sup> ki ni postal duhovnik po pravilu mesene zapovedi, temveč po moči neminljivega življenja;",
-			"17": "<sup>17</sup> kajti priča se o njem:",
+			"17": "<sup>17</sup> kajti priča se o njem: »Ti si duhovnik na vekomaj po redu Melhizedekovem.« »Prisegel je Gospod in ne bo se kesal: Ti si duhovnik na vek [po redu Melhizedekovem]«),",
 			"26": "<sup>26</sup> Kajti tak veliki duhovnik se nam je tudi spodobil: svet, nedolžen, brezmadežen, ločen od grešnikov in vzvišen nad nebesa;",
 			"27": "<sup>27</sup> ki mu ni vsak dan potreba, kakor onim velikim duhovnikom, darovati žrtve najprej za svoje, potem za ljudstva grehe: kajti to je storil enkrat za vselej, ko je samega sebe daroval.",
 			"28": "<sup>28</sup> Postava namreč postavlja za velike duhovnike ljudi, podvržene slabostim, beseda prisege, storjene šele po postavi, pa Sina, popolnoma dovršenega za vekomaj."
@@ -99,7 +109,11 @@ var book = {
 			"5": "<sup>5</sup> Oni služijo podobi in senci stvari nebeških; kakor je bilo Mojzesu ukazano, ko je napravljal šotor; kajti: »Glej,« veli, »da narediš vse po zgledu, pokazanem ti na gori.«",
 			"6": "<sup>6</sup> Sedaj pa je Jezus dobil tem odličnejšo službo, kolikor boljša je zaveza, ki je njen srednik, ki je zakonito ustanovljena tudi na boljših obljubah.",
 			"7": "<sup>7</sup> Ako bi namreč ona prva zaveza bila brez pogreška, ne bi se iskalo mesto drugi.",
-			"8": "<sup>8</sup> Kajti grajajoč jim pravi:"
+			"8": "<sup>8</sup> Kajti grajajoč jim pravi: »Glej, dnevi pridejo, govori Gospod, in s hišo Izraelovo in s hišo Judovo sklenem novo zavezo;",
+			"9": "<sup>9</sup> ne po zavezi, ki sem jo storil z njih očeti, ko sem jih prijel za roko, da bi jih izpeljal iz zemlje Egiptovske; ker oni niso ostali v zavezi moji, in jaz sem jih vnemar pustil, govori Gospod.",
+			"10": "<sup>10</sup> Kajti to je zaveza, ki jo sklenem s hišo Izraelovo po tistih dneh, govori Gospod: Postave svoje dam v njih misli in v njih srca jih napišem, in bodem jim za Boga, in oni mi bodo za ljudstvo.",
+			"11": "<sup>11</sup> In naj ne uče vsak svojega bližnjega in vsak svojega brata, rekoč: Spoznaj Gospoda! zakaj poznali me bodo vsi, od njih malega do njih velikega.",
+			"12": "<sup>12</sup> Kajti milosten bodem njih krivicam in njih grehov in pregreškov se ne bom spominjal več.«"
 		},
 		"9": {
 			"1": "<sup>1</sup> Imela je pač tudi prva zaveza predpise za službo božjo in pozemeljsko svetišče.",
@@ -136,8 +150,12 @@ var book = {
 			"2": "<sup>2</sup> Ali bi jih sicer ne nehali darovati, ker bi službo opravljajoči, enkrat očiščeni, več ne imeli zavesti grehov?",
 			"3": "<sup>3</sup> A prav s temi žrtvami se obnovi spomin grehov vsako leto.",
 			"4": "<sup>4</sup> Nemogoče je namreč, da bi kri bikov in kozlov odvzemala grehe.",
-			"5": "<sup>5</sup> Zato govori Kristus, prihajajoč na svet:",
+			"5": "<sup>5</sup> Zato govori Kristus, prihajajoč na svet: »Žrtve in daru nisi hotel, telo pa si mi pripravil;",
+			"6": "<sup>6</sup> žgalne daritve in daritve za grehe ti niso bile po volji,",
+			"7": "<sup>7</sup> tedaj sem rekel: Glej, prihajam (na čelu knjige je pisano o meni), da izpolnim, o Bog, voljo tvojo.«",
 			"15": "<sup>15</sup> Izpričuje nam pa to tudi sveti Duh; ko je bil namreč rekel:",
+			"16": "<sup>16</sup> »To je zaveza, ki jo bom sklenil z njimi po tistih dneh,« govori Gospod: »Postave svoje dam v njih srca in v njih misli jih zapišem",
+			"17": "<sup>17</sup> in njih grehov in pregreškov se ne bom spominjal več.«",
 			"19": "<sup>19</sup> Ker imamo torej, bratje, trdno zaupanje, da nam je prost vhod v svetišče po krvi Jezusovi,",
 			"20": "<sup>20</sup> kateri vhod nam je posvetil kakor novo in živo pot skozi zagrinjalo, to je meso svoje,",
 			"21": "<sup>21</sup> in ker imamo duhovnika velikega čez hišo Božjo:",
@@ -156,7 +174,8 @@ var book = {
 			"34": "<sup>34</sup> Kajti tudi z jetniki ste imeli sočutje in rop imetja svojega ste z veseljem trpeli, vedoč, da imate boljše imetje in stalno v nebesih.",
 			"35": "<sup>35</sup> Ne mečite torej od sebe srčne zaupnosti svoje, ki ima veliko plačilo.",
 			"36": "<sup>36</sup> Stanovitnosti vam je namreč potreba, da dobite obljubo, storivši voljo Božjo.",
-			"37": "<sup>37</sup> Kajti"
+			"37": "<sup>37</sup> Kajti »malo, malo še, in pride on, ki ima priti, in ne bo se mudil.",
+			"38": "<sup>38</sup> Pravičnik moj pa bo živel iz vere,« in: »Ako se umakne, duši moji ne bode po volji.«"
 		},
 		"11": {
 			"1": "<sup>1</sup> Vera pa je trdno pričakovanje tistega, kar upamo, uverjenje o stvareh, ki jih ne vidimo.",
@@ -205,7 +224,8 @@ var book = {
 			"2": "<sup>2</sup> ozirajoč se v začetnika in dovrševalca vere, v Jezusa, ki je za namenjeno mu veselje pretrpel križ, ne meneč se za sramoto, in je sedel na desnico Božjega prestola.",
 			"3": "<sup>3</sup> Pomislite vendar nanj, ki je prestal od grešnikov toliko nasprotovanja proti sebi, da ne omagate, pešajoč v dušah svojih.",
 			"4": "<sup>4</sup> Niste se še do krvi ustavljali v boju z grehom,",
-			"5": "<sup>5</sup> in pozabili ste tolažbe, ki govori z vami kakor s sinovi:",
+			"5": "<sup>5</sup> in pozabili ste tolažbe, ki govori z vami kakor s sinovi: »Sin moj, ne preziraj strahovanja Gospodovega in ne omaguj, ko te kara.",
+			"6": "<sup>6</sup> Kogar namreč ljubi Gospod, tega strahuje in tepe vsakega sina, katerega sprejema.«",
 			"14": "<sup>14</sup> Iščite miru z vsemi in posvečenja, brez katerega ne bo nihče videl Gospoda;",
 			"15": "<sup>15</sup> pazite, da se kdo ne odvrne od milosti Božje in da ne požene kaka korenina bridkosti in ne dela napotja in jih mnogo ne oskruni;",
 			"16": "<sup>16</sup> da ne bode kdo nečistnik ali skrunilec svetega kakor Ezav, ki je za eno jed prodal prvorojenstvo svoje.",
@@ -229,7 +249,7 @@ var book = {
 			"3": "<sup>3</sup> Spominjajte se jetnikov, kakor da ste sojetniki, teh, ki se jim krivica godi, kakor da tudi sami še živite v telesu.",
 			"4": "<sup>4</sup> Častit bodi zakon pri vseh in postelja neoskrunjena; kajti nečistnike in prešuštnike bo sodil Bog.",
 			"5": "<sup>5</sup> Življenje bodi brez lakomnosti; zadovoljni bodite s tem, kar imate; kajti on je rekel: »Ne odtegnem se ti in ne zapustim te.«",
-			"6": "<sup>6</sup> Tako da lahko smelo govorimo:",
+			"6": "<sup>6</sup> Tako da lahko smelo govorimo: »Gospod mi je pomočnik, ne bom se bal; kaj mi bo storil človek?«",
 			"7": "<sup>7</sup> Spominjajte se vodnikov svojih, ki so vam oznanjali besedo Božjo; ozirajoč se v izhod njih življenja, posnemajte njih vero.",
 			"8": "<sup>8</sup> Jezus Kristus je isti včeraj in danes in na veke.",
 			"9": "<sup>9</sup> Mnogoterim in tujim naukom se ne dajte motiti; kajti dobro je, da se srce utrjuje z milostjo, ne z jedmi, od katerih niso imeli koristi, ki so se z njimi pečali.",

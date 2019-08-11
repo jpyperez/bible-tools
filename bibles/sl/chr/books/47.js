@@ -112,13 +112,15 @@ var book = {
 		},
 		"6": {
 			"1": "<sup>1</sup> A kakor sodelavci Božji vas tudi opominjamo, da bi ne bili zaman prejeli milosti Božje –",
-			"2": "<sup>2</sup> govori namreč:",
+			"2": "<sup>2</sup> govori namreč: »Ob času prijetnem sem te uslišal in v dan zveličanja sem ti pomogel.«",
 			"11": "<sup>11</sup> Naša usta so odprta k vam, Korinčani, srce naše je razširjeno.",
 			"12": "<sup>12</sup> Vam ni tesno v nas, ali vam je tesno v srcih vaših;",
 			"13": "<sup>13</sup> a da nam isto povrnete (kakor svojim otrokom govorim), razširite se tudi vi.",
 			"14": "<sup>14</sup> Ne vlecite tujega jarma z neverniki. Kako se namreč druži pravica s krivico? ali kakšno tovarištvo ima svetlost s temo?",
 			"15": "<sup>15</sup> Kakšno pa soglasje Kristusa z Belijalom? ali kakšen delež ima vernik z nevernikom?",
-			"16": "<sup>16</sup> A kakšna je zveza templja Božjega z maliki? Kajti mi smo tempelj Boga živega, kakor je rekel Bog:"
+			"16": "<sup>16</sup> A kakšna je zveza templja Božjega z maliki? Kajti mi smo tempelj Boga živega, kakor je rekel Bog: »Prebival bom v njih in med njimi bom hodil, in bodem njih Bog in oni bodo moje ljudstvo.",
+			"17": "<sup>17</sup> Zato odidite izmed njih in se ločite, govori Gospod, in nečistega se ne dotikujte, in jaz vas sprejmem,",
+			"18": "<sup>18</sup> in bodem vam Oče in vi bodete meni sinovi in hčere, pravi Gospod Vsemogočni.«"
 		},
 		"7": {
 			"1": "<sup>1</sup> Ker imamo torej te obljube, ljubljeni, očistimo se vsakega madeža mesa in duha ter dopolnjujmo svetost v strahu Božjem!",
@@ -173,7 +175,7 @@ var book = {
 			"6": "<sup>6</sup> To pa pomnite: Kdor skopo seje, bo tudi skopo žel, in kdor seje bogato, bo tudi bogato žel.",
 			"7": "<sup>7</sup> Vsak naj da, kakor je v srcu namenil, ne z žalostjo ali po sili; kajti veselega dajalca ljubi Bog.",
 			"8": "<sup>8</sup> Bog pa more čez vas razliti obilo vsake milosti, da imate v vsem vsekdar vso obilost in ste bogati za vsako dobro delo,",
-			"9": "<sup>9</sup> kakor je pisano:"
+			"9": "<sup>9</sup> kakor je pisano: »Razsipal je, dal je ubogim, njegova pravičnost ostane na vek.«"
 		},
 		"10": {
 			"1": "<sup>1</sup> Jaz Pavel sam pa vas opominjam po krotkosti in tihosti Kristusovi, ki sem vpričo vas resda ponižen med vami, a kadar me ni pri vas, pa drzen proti vam.",

@@ -457,7 +457,19 @@ var book = {
 		},
 		"19": {
 			"1": "<sup>1</sup> Ti pa zapoj žalostinko nad knezi Izraelovimi",
-			"2": "<sup>2</sup> in reci: v deželo Egiptovsko. na gorah Izraelovih. pripravne za palice vladarjem, med košatimi mladicami, zaradi mnogih mladik njenih. To je žalostinka in bodi za žalostinko."
+			"2": "<sup>2</sup> in reci: Kaj je bila mati tvoja? Levinja; med levi je ležala, sredi levičev je redila mladino svojo.",
+			"3": "<sup>3</sup> In vzredila je enega mladičev svojih, ta je postal mlad lev in se je navadil plen loviti, požiral je ljudi.",
+			"4": "<sup>4</sup> In slišali so o njem narodi; ujet je bil v njih jami in peljali so ga z obroči v nosnicah v deželo Egiptovsko.",
+			"5": "<sup>5</sup> In ko je videla, da zaman čaka, da je izginila nada njena, vzame drugega mladičev svojih in stori iz njega mladega leva.",
+			"6": "<sup>6</sup> Ta je hodil med levi in postal mlad lev in se je navadil plen loviti, požiral je ljudi.",
+			"7": "<sup>7</sup> In podiral je njih palače in pustošil njih mesta; in opustošena je bila dežela in kar je bilo v njej od glasu njegovega rjovenja.",
+			"8": "<sup>8</sup> Tedaj so se postavili zoper njega narodi iz sosednjih pokrajin in so razpeli mrežo nad njim, v njih jami je bil ujet.",
+			"9": "<sup>9</sup> In dejali so ga z obroči v nosnicah v kletko ter ga pripeljali h kralju babilonskemu; spravili so ga v trdnjavo, da bi se ne slišal več glas njegov na gorah Izraelovih.",
+			"10": "<sup>10</sup> Mati tvoja je bila kakor vinska trta, kakor ti pri vodi zasajena; rodovitna je bila in bogata z mladikami, ker je rasla ob obilih vodah.",
+			"11": "<sup>11</sup> In je zaredila močne veje, pripravne za palice vladarjem, in nje rast se je visoko vzpenjala med košatimi mladicami, in daleč jo je bilo videti zaradi visokosti njene, zaradi mnogih mladik njenih.",
+			"12": "<sup>12</sup> A izruvana je bila v togoti, na tla vržena, in vzhodni veter je posušil njen sad: močne veje njene so se zlomile in usahnile, ogenj jih je požgal.",
+			"13": "<sup>13</sup> In sedaj je zasajena v puščavi, v suhi in žejni zemlji.",
+			"14": "<sup>14</sup> In ogenj je švignil iz mladičja njenih vej in požrl nje sad, da ni na njej nobene močne veje, pripravne za palico vladarjem. To je žalostinka in bodi za žalostinko."
 		},
 		"20": {
 			"1": "<sup>1</sup> In zgodi se v sedmem letu, deseti dan petega meseca, da so prišli nekateri iz starešin Izraelovih vpraševat Gospoda in so sedli predme.",

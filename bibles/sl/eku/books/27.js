@@ -219,8 +219,12 @@ var book = {
 			"6": "<sup>6</sup> Nato sem videl, glej, druga žival, bila je kakor panter; imela je štiri ptičje peruti na svojem hrbtu, in štiri glave je imela, in oblast ji je bila dana.",
 			"7": "<sup>7</sup> Potem sem gledal v svojih nočnih videnjih, in glej, četrta žival, grozna in strašna in silno močna. Imela je mogočne železne zobe; žrla je, drobila, in kar je ostalo, je pomendrala s svojimi nogami. Razlikovala se je od vseh živali pred njo in je imela deset rogov.",
 			"8": "<sup>8</sup> Ko sem opazoval rogove, glej, je vzrastel med njimi drug, majhen rog; trije prejšnjih rogov so bili pred njim izdrti. In glej, na tem rogu so bile oči kakor človeške, in usta, ki so govorila drzne reči.",
+			"9": "<sup>9</sup> Opazoval sem; tedaj so bili postavljeni prestoli in Staroletni se je usedel. Njegovo oblačilo je bilo belo kakor sneg in lasje njegove glave kakor čista volna; njegov prestol so bili ognjeni plameni, in njegova kolesa goreč ogenj.",
+			"10": "<sup>10</sup> Ognjena reka je tekla in se izlivala iz njega. Tisočkrat tisoči so mu stregli, deset tisočkrat deset tisoči so stali pred njim. Sodni dvor je sedel in knjige so se odprle.",
 			"11": "<sup>11</sup> Gledal sem tedaj, zaradi hrupa drznih besed, ki jih je rog govoril, in ko sem gledal, je bila žival umorjena, njeno truplo uničeno in izročeno požigu ognja.",
 			"12": "<sup>12</sup> Ostalim živalim je bila njih oblast odvzeta in dolgost njih življenja jim je bila dana do določenega časa in roka.",
+			"13": "<sup>13</sup> Gledal sem v nočnih videnjih. Glej, na oblakih neba je prišel sin človekov; dospel je do Staroletnega, in privedli so ga predenj.",
+			"14": "<sup>14</sup> Dana mu je bila oblast, čast in kraljestvo, in vsa ljudstva, narodi in jeziki so mu služili. Njegova oblast je večna, neminljiva oblast in njegovo kraljestvo neuničljivo.",
 			"15": "<sup>15</sup> Jaz, Danijel, sem bil v svoji duši pretresen in videnja moje glave so me zmedla.",
 			"16": "<sup>16</sup> Pristopil sem k enemu tam stoječih in ga prosil o vsem tem zanesljivega pojasnila. Odgovoril mi je in pojasnil pomen prigodb:",
 			"17": "<sup>17</sup> »Te velike živali, štiri po številu, pomenijo: Štirje kralji vstanejo na zemlji,",
@@ -288,7 +292,11 @@ var book = {
 			"20": "<sup>20</sup> Ko sem še govoril in molil in priznaval svoj greh in greh svojega ljudstva Izraela, in Gospodu, svojemu Bogu, svojo milo prošnjo za sveto goro svojega Boga polagal pred njegovo obličje,",
 			"21": "<sup>21</sup> ko sem še opravljal svojo molitev, je mož Gabrijel, ki sem ga poprej gledal v videnju, naglo priletel k meni, ob času večerne daritve.",
 			"22": "<sup>22</sup> Prišel je, mi govoril in naznanil: »Danijel, zdaj sem prišel, da ti dam pravo razsodnost!",
-			"23": "<sup>23</sup> V začetku tvoje mile prošnje je izšla božja beseda, in prišel sem, da ti jo oznanim; kajti ljubljenec božji si. Pazi torej na besedo in razumi videnje."
+			"23": "<sup>23</sup> V začetku tvoje mile prošnje je izšla božja beseda, in prišel sem, da ti jo oznanim; kajti ljubljenec božji si. Pazi torej na besedo in razumi videnje.",
+			"24": "<sup>24</sup> Sedemdeset tednov je določenih nad tvojim ljudstvom in nad tvojim svetim mestom, da preneha hudodelstvo, da se zapečati greh, da se doseže sprava za krivdo, in da se uvede večna pravičnost, da se zapečati videnje in prerokba ter se mazili Presveto.",
+			"25": "<sup>25</sup> Vedi torej in razumi: Od časa, ko izide beseda, da se zopet pozida Jeruzalem, do Maziljenca-kneza, bo sedem tednov. In za dvainšestdeset tednov bo zopet pozidan trg in jarek; potem pride konec časov.",
+			"26": "<sup>26</sup> Po dvainšestdesetih tednih bo Maziljenec odstranjen, dasi ni krivde na njem. Mesto in svetišče bo razdejal knez, ki bo prišel. Njegov konec pride s poplavo, in do konca bo vojna ter sklenjeno opustošenje.",
+			"27": "<sup>27</sup> Trdno zavezo sklene z mnogimi za čas enega tedna; v polovici tedna odpravi klavno in jedilno daritev; in v svetišču Gospodovem ostane gnusoba opustošenja do določenega konca, ki zadene pustošnika.«"
 		},
 		"10": {
 			"1": "<sup>1</sup> V tretjem letu perzijskega kralja Cira je bila beseda razodeta Danijelu, ki se je imenoval Baltazar. Zanesljiva je beseda; govori o veliki vojni stiski. Hotel je umeti besedo in je dobil razumnost v videnju.",

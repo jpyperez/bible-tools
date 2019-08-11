@@ -82,7 +82,7 @@ var book = {
 			"5": "<sup>5</sup> en Gospod, ena vera, en krst;",
 			"6": "<sup>6</sup> en Bog in Oče vseh, ki je nad vsemi in po vseh in v vseh nas.",
 			"7": "<sup>7</sup> Vsakemu pa izmed nas je dana milost po meri daru Kristusovega.",
-			"8": "<sup>8</sup> Zato pravi:",
+			"8": "<sup>8</sup> Zato pravi: »Šel je v višavo, ujete pripeljal jetnike, dal je dari ljudem.«",
 			"17": "<sup>17</sup> To torej pravim in pričam v Gospodu, da ne živite več tako, kakor žive tudi pogani v ničemurnosti srca svojega,",
 			"18": "<sup>18</sup> otemnjeni v razumu, odtujeni življenju Božjemu zaradi nevednosti, ki je v njih, vsled otrplosti njih srca,",
 			"19": "<sup>19</sup> ki so se, ko so postali brezčutni, vdali razuzdanosti, da strežejo sleherni nečistosti z lakomnostjo.",
