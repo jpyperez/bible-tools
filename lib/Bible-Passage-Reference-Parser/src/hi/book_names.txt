@@ -21,6 +21,8 @@
 1Cor	1 कोरिन्‍थी
 1Cor	1. कुरिन्थ
 1Cor	1 कुरिन्थ
+1Cor	1कुरि0
+1Cor	1कुरि०
 1Cor	1Cor
 1Esd	1Esd
 1John	1. Yoohanna
@@ -57,6 +59,8 @@
 1Sam	1 शमूएल
 1Sam	1. शमू
 1Sam	1 शमू
+1Sam	1शमू0
+1Sam	1शमू०
 1Sam	1Sam
 1Thess	1. Thaissaluneekiyon
 1Thess	1 Thaissaluneekiyon
@@ -101,6 +105,8 @@
 2Cor	2 कोरिन्‍थी
 2Cor	2. कुरिन्थ
 2Cor	2 कुरिन्थ
+2Cor	2कुरि0
+2Cor	2कुरि०
 2Cor	2Cor
 2Esd	2Esd
 2John	2. Yoohanna
@@ -137,6 +143,8 @@
 2Sam	2 शमूएल
 2Sam	2. शमू
 2Sam	2 शमू
+2Sam	2शमू0
+2Sam	2शमू०
 2Sam	2Sam
 2Thess	2. Thaissaluneekiyon
 2Thess	2 Thaissaluneekiyon
@@ -200,12 +208,18 @@ Deut	व्य्वस्थाविवरन
 Deut	व्यवस्थाविवरण
 Deut	व्य0 वि0
 Deut	व्य0 वि०
+Deut	व्यव0वि0
+Deut	व्यव0वि०
 Deut	व्यवस्था
+Deut	व्यव०वि0
+Deut	व्यव०वि०
 Deut	व्य० वि0
 Deut	व्य० वि०
 Deut	Deut
 Eccl	Sabhopadeshak
 Eccl	सभोपदेशक
+Eccl	सभोप0
+Eccl	सभोप०
 Eccl	Eccl
 Eccl	सभो
 EpJer	EpJer
@@ -213,6 +227,8 @@ Eph	Iafisiyon
 Eph	इफिसियों
 Eph	इफिसि
 Eph	इफिसी
+Eph	इफि0
+Eph	इफि०
 Eph	Eph
 Esth	Aester
 Esth	एस्तेर
@@ -220,6 +236,8 @@ Esth	ऐस्तेर
 Esth	Esth
 Exod	Nirgaman
 Exod	निर्गमन
+Exod	निर्ग0
+Exod	निर्ग०
 Exod	Exod
 Ezek	Yahejakel
 Ezek	यहेजकेल
@@ -237,6 +255,8 @@ Gal	Gal
 Gen	उत्पत्ति
 Gen	Utpaati
 Gen	उत्पाति
+Gen	उत्प0
+Gen	उत्प०
 Gen	उत्प॰
 Gen	Gen
 GkEsth	GkEsth
@@ -259,6 +279,8 @@ Hos	Hos
 Isa	yashaayaah
 Isa	यशायाह
 Isa	यशाया
+Isa	यशा0
+Isa	यशा०
 Isa	Isa
 Isa	यशा
 Jas	Yakoob
@@ -304,6 +326,10 @@ Lev	लैव्य्व्य्वस्था
 Lev	लैव्यव्यवस्था
 Lev	लैव्यव्यवस्थ
 Lev	लैव्यवस्था
+Lev	लै0व्य0
+Lev	लै0व्य०
+Lev	लै०व्य0
+Lev	लै०व्य०
 Lev	लैव्य
 Lev	Lev
 Luke	Looka
@@ -314,6 +340,7 @@ Mal	मलाकी
 Mal	Mal
 Mark	Marakus
 Mark	मरकुस
+Mark	मार्क
 Mark	Mark
 Matt	Mattee
 Matt	मत्ती
@@ -357,10 +384,16 @@ Prov	Neetivachan
 Prov	नीति वचन
 Prov	नीतिबचन
 Prov	नीतिवचन
+Prov	नीति व
+Prov	नीतिव
 Prov	Prov
 Prov	नीति
+Ps	पढ़ें भजन सं0
+Ps	पढ़ें भजन सं०
 Ps	भजन-सहिन्ता
 Ps	भजन संहिता
+Ps	भजन स0
+Ps	भजन स०
 Ps	Bhjan
 Ps	भजन
 Ps	Ps
@@ -378,6 +411,8 @@ Rev	Rev
 Rom	Romiyon
 Rom	रोमियों
 Rom	रोमियो
+Rom	रोमि0
+Rom	रोमि०
 Rom	रोम0
 Rom	रोमी
 Rom	रोम०
