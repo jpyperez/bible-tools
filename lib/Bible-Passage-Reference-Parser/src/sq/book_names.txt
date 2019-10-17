@@ -261,6 +261,7 @@ Ezek	Ezekieli
 Ezek	Ezek
 Ezek	Eze
 Ezra	Esdra
+Ezra	Ezdra
 Ezra	Ezra
 Ezra	Esd
 Gal	Galatasve

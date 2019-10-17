@@ -26,7 +26,7 @@ Ruth	Ruthi	Ruth
 2Kgs	$SECOND Mbretërve	$FOURTH Mbretërve	2 Mb
 1Chr	$FIRST Kronikave	$FIRST Kronika	1 Kr
 2Chr	$SECOND Kronikave	$SECOND Kronika	2 Kr
-Ezra	Esdra	Esd
+Ezra	Esdra	Esd	Ezdra
 Neh	Nehemia	Neh
 Esth	Ester	Est
 Job	Jobi	Hiobi	Job
