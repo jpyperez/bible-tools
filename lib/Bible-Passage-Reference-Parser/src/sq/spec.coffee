@@ -597,10 +597,12 @@ describe "Localized book Ezra (sq)", ->
 	it "should handle book: Ezra (sq)", ->
 		`
 		expect(p.parse("Esdra 1:1").osis()).toEqual("Ezra.1.1")
+		expect(p.parse("Ezdra 1:1").osis()).toEqual("Ezra.1.1")
 		expect(p.parse("Ezra 1:1").osis()).toEqual("Ezra.1.1")
 		expect(p.parse("Esd 1:1").osis()).toEqual("Ezra.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ESDRA 1:1").osis()).toEqual("Ezra.1.1")
+		expect(p.parse("EZDRA 1:1").osis()).toEqual("Ezra.1.1")
 		expect(p.parse("EZRA 1:1").osis()).toEqual("Ezra.1.1")
 		expect(p.parse("ESD 1:1").osis()).toEqual("Ezra.1.1")
 		`
