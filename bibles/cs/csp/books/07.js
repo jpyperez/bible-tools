@@ -155,7 +155,7 @@ var book = {
 			"28": "<span>28</span> Za oknem vyhlížela, za [okenní] mříží naříkala Síserova matka: Proč otálí jeho vůz s příjezdem, proč se opozdila kola jeho válečných vozů?",
 			"29": "<span>29</span> Její moudré kněžny jí odpovědí, ona si také bude připomínat své řeči.",
 			"30": "<span>30</span> Cožpak nenaleznou [a ne]budou dělit kořist? Souložnici [nebo] dvě pro každého předáka, kořist – barvené šaty pro Síseru, kořist – utkané barvené šaty, utkané barvené šaty na šíje, kořist.",
-			"31": "<span>31</span> Tak ať zahynou všichni tví nepřátelé, Hospodine, ale ti, kdo jej milují, [budou] jako slunce vycházející ve své síle. Země měla čtyřicet let klid. •"
+			"31": "<span>31</span> Tak ať zahynou všichni tví nepřátelé, Hospodine, ale ti, kdo jej milují, [budou] jako slunce vycházející ve své síle. Země měla čtyřicet let klid."
 		},
 		"6": {
 			"1": "<span>1</span> Synové Izraele pak páchali to, co [je] zlé v Hospodinových očích a Hospodin je vydal do ruky Midjánců [na] sedm let.",
