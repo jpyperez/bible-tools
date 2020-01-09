@@ -187,11 +187,11 @@ var book = {
 			"7": "<span>7</span> Kéž by byla Izraeli dána spása ze Sijónu! Až Hospodin změní úděl svého lidu, bude Jákob jásat, Izrael se bude radovat!"
 		},
 		"15": {
-			"1": "<span>1</span> Davidův žalm. Hospodine, kdo bude hostem ve tvém stanu? Kdo bude přebývat na tvé svaté hoře? •",
+			"1": "<span>1</span> Davidův žalm. Hospodine, kdo bude hostem ve tvém stanu? Kdo bude přebývat na tvé svaté hoře?",
 			"2": "<span>2</span> Ten, kdo žije bezúhonně, činí spravedlnost a mluví pravdu v srdci,",
 			"3": "<span>3</span> [kdo] svým jazykem nepomlouvá, nečiní svému druhovi zlo a nekydá na svého blízkého hanu,",
 			"4": "<span>4</span> pohrdá ve svých očích zavrženíhodným, váží si však těch, kdo se bojí Hospodina. Odpřisáhl-li [něco] ke [své] škodě, nezmění [to];",
-			"5": "<span>5</span> své peníze nedává na lichvu, úplatek proti nevinnému nepřijímá. Kdo takto jedná, nepohne se až navěky. •"
+			"5": "<span>5</span> své peníze nedává na lichvu, úplatek proti nevinnému nepřijímá. Kdo takto jedná, nepohne se až navěky."
 		},
 		"16": {
 			"1": "<span>1</span> Davidův pamětní zápis. Chraň mě, Bože, neboť v tobě hledám útočiště.",
@@ -1515,7 +1515,7 @@ var book = {
 			"17": "<span>17</span> Krmil by ho tou nejlepší pšenicí a sytil bych tě medem ze skály."
 		},
 		"82": {
-			"1": "<span>1</span> Asafův žalm. Bůh povstane ve shromáždění bohů, mezi bohy vynese soud: •",
+			"1": "<span>1</span> Asafův žalm. Bůh povstane ve shromáždění bohů, mezi bohy vynese soud:",
 			"2": "<span>2</span> Jak dlouho budete soudit špatně a stranit ničemům? Sela.",
 			"3": "<span>3</span> Zjednejte právo bezmocnému a sirotkovi, nuznému a chudému zjednejte spravedlnost!",
 			"4": "<span>4</span> Vytrhněte chudého a nuzného vysvoboďte z ruky ničemů.",
@@ -1901,7 +1901,7 @@ var book = {
 			"19": "<span>19</span> Hospodin upevnil svůj trůn na nebesích a jeho kralování vládne všemu.",
 			"20": "<span>20</span> Dobrořečte Hospodinu, jeho andělé, [vy] mocní hrdinové, kteří činíte jeho slovo, poslušní jeho slova!",
 			"21": "<span>21</span> Dobrořečte Hospodinu všechny jeho zástupy, [vy], kdo mu sloužíte [a] činíte, [v čem] má zalíbení.",
-			"22": "<span>22</span> Dobrořečte Hospodinu všechny jeho skutky – na všech místech jeho vlády! Dobrořeč, má duše, Hospodinu! •"
+			"22": "<span>22</span> Dobrořečte Hospodinu všechny jeho skutky – na všech místech jeho vlády! Dobrořeč, má duše, Hospodinu!"
 		},
 		"104": {
 			"1": "<span>1</span> Dobrořeč, má duše, Hospodinu! Hospodine, můj Bože, jsi velmi veliký! Oblékls nádheru a důstojnost.",
@@ -2490,7 +2490,7 @@ var book = {
 			"2": "<span>2</span> [Jako] je Jeruzalém obklopen horami, [tak] Hospodin obklopuje svůj lid – od nynějška až na věky.",
 			"3": "<span>3</span> Žezlo ničemnosti nesetrvá nad losem spravedlivých, aby spravedliví nevztáhli své ruce k zvrácenosti.",
 			"4": "<span>4</span> Hospodine, prokaž dobro dobrým, [těm, kdo] jsou přímí v srdci.",
-			"5": "<span>5</span> Ty, [kdo] se uchylují [na] své křivolaké stezky, zavede Hospodin mezi činitele nepravosti. Pokoj s Izraelem! •"
+			"5": "<span>5</span> Ty, [kdo] se uchylují [na] své křivolaké stezky, zavede Hospodin mezi činitele nepravosti. Pokoj s Izraelem!"
 		},
 		"126": {
 			"1": "<span>1</span> Píseň stupňů. Když Hospodin vrátil sijónské navrátilce, bylo nám jak ve snách.",
@@ -2513,7 +2513,7 @@ var book = {
 			"3": "<span>3</span> Tvá žena [bude] jako úrodná réva uvnitř tvého domu, tví synové jako výhonky oliv kolem tvého stolu.",
 			"4": "<span>4</span> Hle, takto bude požehnáno muži, který se bojí Hospodina.",
 			"5": "<span>5</span> [Kéž] ti požehná Hospodin ze Sijónu – pak budeš hledět na dobro Jeruzaléma [po] všechny dny svého života",
-			"6": "<span>6</span> a uvidíš syny svých synů. Pokoj nad Izraelem! •"
+			"6": "<span>6</span> a uvidíš syny svých synů. Pokoj nad Izraelem!"
 		},
 		"129": {
 			"1": "<span>1</span> Píseň stupňů. Velice mě sužovali od mého mládí – Izrael ať řekne –",
@@ -2770,7 +2770,7 @@ var book = {
 			"7": "<span>7</span> [On] zjednává právo utlačovaným [a] dává chléb hladovým. Hospodin osvobozuje vězně.",
 			"8": "<span>8</span> Hospodin otvírá [oči] slepým, Hospodin pozvedá sklíčené, Hospodin miluje spravedlivé.",
 			"9": "<span>9</span> Hospodin chrání cizince, podpírá sirotka a vdovu, maří však cestu ničemů.",
-			"10": "<span>10</span> Hospodin bude kralovat věčně, tvůj Bůh, Sijóne, po všechna pokolení. Haleluja! •"
+			"10": "<span>10</span> Hospodin bude kralovat věčně, tvůj Bůh, Sijóne, po všechna pokolení. Haleluja!"
 		},
 		"147": {
 			"1": "<span>1</span> Haleluja! Jak dobré [je] opěvovat našeho Boha, jak líbezná, krásná [je] chvála!",
@@ -2792,7 +2792,7 @@ var book = {
 			"17": "<span>17</span> Vrhá [celé] kousky ledu – kdo obstojí před jeho mrazem?",
 			"18": "<span>18</span> Pošle své slovo a taje, vyžene svůj vítr [a] vody se řinou.",
 			"19": "<span>19</span> Oznámil své slovo Jákobovi, svá ustanovení a nařízení Izraeli.",
-			"20": "<span>20</span> Tak žádnému národu neučinil – [jeho] nařízení nepoznaly. Haleluja! •"
+			"20": "<span>20</span> Tak žádnému národu neučinil – [jeho] nařízení nepoznaly. Haleluja!"
 		},
 		"148": {
 			"1": "<span>1</span> Haleluja! Chvalte Hospodina z nebes! Chvalte jej na výšinách!",
@@ -2808,7 +2808,7 @@ var book = {
 			"11": "<span>11</span> králové země a všechny národy, knížata i všichni, kdo soudí zemi,",
 			"12": "<span>12</span> mládenci i panny, staří i mladí.",
 			"13": "<span>13</span> Ať chválí Hospodinovo jméno, neboť jen jeho jméno je vyvýšené, jeho velebnost [je] nad zemí i nebem.",
-			"14": "<span>14</span> Vyvýšil roh svého lidu, chválu všech svých věrných, synů Izraele, lidu, který je mu blízký. Haleluja! •"
+			"14": "<span>14</span> Vyvýšil roh svého lidu, chválu všech svých věrných, synů Izraele, lidu, který je mu blízký. Haleluja!"
 		},
 		"149": {
 			"1": "<span>1</span> Haleluja! Zpívejte Hospodinu novou píseň, jeho chválu v shromáždění věrných!",
@@ -2819,7 +2819,7 @@ var book = {
 			"6": "<span>6</span> Ať svým hrdlem vyvyšují Boha – [s] oboustranným mečem v rukách",
 			"7": "<span>7</span> – aby vykonali pomstu nad pohany, tresty nad národy,",
 			"8": "<span>8</span> aby řetězy spoutali jejich krále a jejich slovutné železnými okovy,",
-			"9": "<span>9</span> aby na nich vykonali soud, [jak byl] zapsán. Je [to] čest pro všechny jeho věrné. Haleluja! •"
+			"9": "<span>9</span> aby na nich vykonali soud, [jak byl] zapsán. Je [to] čest pro všechny jeho věrné. Haleluja!"
 		},
 		"150": {
 			"1": "<span>1</span> Haleluja! Chvalte Boha v jeho svatyni! Chvalte ho na nebeské klenbě, [plné] jeho moci!",
@@ -2827,7 +2827,7 @@ var book = {
 			"3": "<span>3</span> Chvalte ho dutím [na] beraní roh, chvalte ho na harfu a lyru!",
 			"4": "<span>4</span> Chvalte ho tamburínou a tancem, chvalte ho strunami a píšťalou!",
 			"5": "<span>5</span> Chvalte ho činely hlasitými, chvalte ho činely zvučnými!",
-			"6": "<span>6</span> Vše, co dýchá, ať chválí Hospodina! Haleluja! •"
+			"6": "<span>6</span> Vše, co dýchá, ať chválí Hospodina! Haleluja!"
 		}
 	}
 };
