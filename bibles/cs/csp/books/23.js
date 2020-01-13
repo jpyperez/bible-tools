@@ -1357,7 +1357,7 @@ var book = {
 			"16": "<span>16</span> Vždyť ty [jsi] náš otec, neboť Abraham nás nezná a Izrael si nás nevšímá. Ty, Hospodine, [jsi] náš otec, tvé jméno [je] od věčnosti: Náš vykupitel.",
 			"17": "<span>17</span> Proč nás, Hospodine, necháváš bloudit od svých cest, zatvrzuješ naše srdce, abychom se tě nebáli? Navrať kvůli svým otrokům kmeny svého dědictví!",
 			"18": "<span>18</span> Nakrátko [ji] vlastnil tvůj svatý lid, [než] tvou svatyni pošlapali naši protivníci.",
-			"19": "<span>19</span> Jsme [tvoji] odedávna, nad nimi jsi nevládl, oni se nenazývali tvým jménem. Kéž bys roztrhl nebesa [a] sestoupil, aby se před tebou hory zapotácely! •"
+			"19": "<span>19</span> Jsme [tvoji] odedávna, nad nimi jsi nevládl, oni se nenazývali tvým jménem. Kéž bys roztrhl nebesa [a] sestoupil, aby se před tebou hory zapotácely!"
 		},
 		"64": {
 			"1": "<span>1</span> Jako oheň zapaluje suché roští [a] oheň uvádí do varu vodu, dej poznat svým protivníkům své jméno [a] národy se před tebou budou třást.",

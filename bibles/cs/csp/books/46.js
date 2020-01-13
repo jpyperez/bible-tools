@@ -326,7 +326,7 @@ var book = {
 			"28": "<span>28</span> A v církvi Bůh ustanovil nejprve apoštoly, za druhé proroky, za třetí učitele, potom [projevy ]moci, potom dary uzdravování, pomoci, vedení, druhy jazyků.",
 			"29": "<span>29</span> [Jsou] snad všichni apoštolové? [Jsou] snad všichni proroci? [Jsou] snad všichni učitelé? [Mají] snad všichni [projevy] moci?",
 			"30": "<span>30</span> Mají snad všichni dary uzdravování? Mluví snad všichni jazyky? [Nebo je] snad všichni vykládají?",
-			"31": "<span>31</span> [Vy] však usilujte o větší dary milosti. A ukazuji vám ještě mnohem vzácnější cestu. •"
+			"31": "<span>31</span> [Vy] však usilujte o větší dary milosti. A ukazuji vám ještě mnohem vzácnější cestu."
 		},
 		"13": {
 			"1": "<span>1</span> Kdybych mluvil jazyky lidskými i andělskými, a lásku bych neměl, jsem [jako] dunící kov nebo zvučící činel.",
