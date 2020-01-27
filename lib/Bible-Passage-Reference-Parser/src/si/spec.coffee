@@ -209,10 +209,12 @@ describe "Localized book Deut (si)", ->
 		p.include_apocrypha true
 	it "should handle book: Deut (si)", ->
 		`
+		expect(p.parse("ද්විතීය කථාව 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("ද්වීතීය කථාව 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("Deut 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("ද්වි 1:1").osis()).toEqual("Deut.1.1")
 		p.include_apocrypha(false)
+		expect(p.parse("ද්විතීය කථාව 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("ද්වීතීය කථාව 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("DEUT 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("ද්වි 1:1").osis()).toEqual("Deut.1.1")
@@ -835,10 +837,12 @@ describe "Localized book Matt (si)", ->
 	it "should handle book: Matt (si)", ->
 		`
 		expect(p.parse("ශු මතෙව් 1:1").osis()).toEqual("Matt.1.1")
+		expect(p.parse("මතෙව් 1:1").osis()).toEqual("Matt.1.1")
 		expect(p.parse("Matt 1:1").osis()).toEqual("Matt.1.1")
 		expect(p.parse("මතෙ 1:1").osis()).toEqual("Matt.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ශු මතෙව් 1:1").osis()).toEqual("Matt.1.1")
+		expect(p.parse("මතෙව් 1:1").osis()).toEqual("Matt.1.1")
 		expect(p.parse("MATT 1:1").osis()).toEqual("Matt.1.1")
 		expect(p.parse("මතෙ 1:1").osis()).toEqual("Matt.1.1")
 		`
@@ -852,10 +856,12 @@ describe "Localized book Mark (si)", ->
 	it "should handle book: Mark (si)", ->
 		`
 		expect(p.parse("ශු මාර්ක් 1:1").osis()).toEqual("Mark.1.1")
+		expect(p.parse("මාර්ක් 1:1").osis()).toEqual("Mark.1.1")
 		expect(p.parse("Mark 1:1").osis()).toEqual("Mark.1.1")
 		expect(p.parse("මාක් 1:1").osis()).toEqual("Mark.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ශු මාර්ක් 1:1").osis()).toEqual("Mark.1.1")
+		expect(p.parse("මාර්ක් 1:1").osis()).toEqual("Mark.1.1")
 		expect(p.parse("MARK 1:1").osis()).toEqual("Mark.1.1")
 		expect(p.parse("මාක් 1:1").osis()).toEqual("Mark.1.1")
 		`
@@ -937,10 +943,12 @@ describe "Localized book John (si)", ->
 	it "should handle book: John (si)", ->
 		`
 		expect(p.parse("ශු යොහන් 1:1").osis()).toEqual("John.1.1")
+		expect(p.parse("යොහන් 1:1").osis()).toEqual("John.1.1")
 		expect(p.parse("John 1:1").osis()).toEqual("John.1.1")
 		expect(p.parse("යොහ 1:1").osis()).toEqual("John.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ශු යොහන් 1:1").osis()).toEqual("John.1.1")
+		expect(p.parse("යොහන් 1:1").osis()).toEqual("John.1.1")
 		expect(p.parse("JOHN 1:1").osis()).toEqual("John.1.1")
 		expect(p.parse("යොහ 1:1").osis()).toEqual("John.1.1")
 		`
@@ -954,9 +962,11 @@ describe "Localized book Acts (si)", ->
 	it "should handle book: Acts (si)", ->
 		`
 		expect(p.parse("ක්‍රියා 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("ක්රියා 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("Acts 1:1").osis()).toEqual("Acts.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ක්‍රියා 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("ක්රියා 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("ACTS 1:1").osis()).toEqual("Acts.1.1")
 		`
 		true

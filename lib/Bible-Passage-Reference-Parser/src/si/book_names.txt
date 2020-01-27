@@ -56,6 +56,7 @@
 3Macc	3Macc
 4Macc	4Macc
 Acts	ක්‍රියා
+Acts	ක්රියා
 Acts	Acts
 Amos	ආමොස්
 Amos	Amos
@@ -68,6 +69,7 @@ Col	Col
 Dan	දානියෙල්
 Dan	දානි
 Dan	Dan
+Deut	ද්විතීය කථාව
 Deut	ද්වීතීය කථාව
 Deut	Deut
 Deut	ද්වි
@@ -124,6 +126,7 @@ Joel	යෝවෙල්
 Joel	Joel
 Joel	යෝවෙ
 John	ශු යොහන්
+John	යොහන්
 John	John
 John	යොහ
 Jonah	Jonah
@@ -150,9 +153,11 @@ Mal	මලාකි
 Mal	Mal
 Mal	මලා
 Mark	ශු මාර්ක්
+Mark	මාර්ක්
 Mark	Mark
 Mark	මාක්
 Matt	ශු මතෙව්
+Matt	මතෙව්
 Matt	Matt
 Matt	මතෙ
 Mic	මීකා
