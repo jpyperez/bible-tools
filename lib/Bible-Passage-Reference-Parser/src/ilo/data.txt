@@ -63,7 +63,7 @@ Rom	Taga Roma	Roma	Rom
 2Cor	$SECOND Taga Corinto	$SECOND Corinto	$SECOND Cor
 Gal	Taga Galacia	Galacia	Gal
 Eph	Taga Efeso	Efeso	Efe
-Phil	Taga Filipos	Filipos	Fili
+Phil	Taga Filipos	Filipos	Fili	Fil
 Col	Taga Colosas	Colosas	Col
 1Thess	$FIRST Tesalonica	$FIRST Tes
 2Thess	$SECOND Tesalonica	$SECOND Tes

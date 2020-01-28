@@ -1169,11 +1169,13 @@ describe "Localized book Phil (ilo)", ->
 		expect(p.parse("Filipos 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("Fili 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("Phil 1:1").osis()).toEqual("Phil.1.1")
+		expect(p.parse("Fil 1:1").osis()).toEqual("Phil.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("TAGA FILIPOS 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("FILIPOS 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("FILI 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("PHIL 1:1").osis()).toEqual("Phil.1.1")
+		expect(p.parse("FIL 1:1").osis()).toEqual("Phil.1.1")
 		`
 		true
 describe "Localized book Col (ilo)", ->

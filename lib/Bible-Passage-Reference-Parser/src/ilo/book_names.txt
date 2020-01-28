@@ -261,6 +261,7 @@ Phil	Taga Filipos
 Phil	Filipos
 Phil	Fili
 Phil	Phil
+Phil	Fil
 Phlm	Filemon
 Phlm	File
 Phlm	Phlm
