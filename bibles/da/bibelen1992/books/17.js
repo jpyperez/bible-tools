@@ -191,4 +191,4 @@ var book = {
 		}
 	}
 };
-module.exports = info;
+module.exports = book;
