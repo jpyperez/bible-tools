@@ -192,4 +192,4 @@ bcv_parser::translations =
 			"2Cor": [24,17,18,18,21,18,16,24,15,18,33,21,13]
 			"Rev": [20,29,22,11,14,17,17,13,21,11,19,18,18,20,8,21,18,24,21,15,27,21]
 
-bcv_parser::languages = ["ctd"]
+bcv_parser::languages = ["my"]
