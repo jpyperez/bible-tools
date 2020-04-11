@@ -1,5 +1,5 @@
 var book = {
-	"name": "Послание В Эфес",
+	"name": "Послание в Эфес",
 	"numChapters": 6,
 	"chapters": {
 		"1": {

@@ -1,5 +1,5 @@
 var book = {
-	"name": "II Послание В Коринф",
+	"name": "II Послание в Коринф",
 	"numChapters": 13,
 	"chapters": {
 		"1": {

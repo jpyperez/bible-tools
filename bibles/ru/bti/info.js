@@ -150,7 +150,7 @@ var info = {
 			"numChapters": 12
 		},
 		{
-			"name": "Песнь Песней",
+			"name": "Песнь песней",
 			"synonyms": [
 				"Song"
 			],
@@ -201,35 +201,35 @@ var info = {
 		{
 			"name": "Амос",
 			"synonyms": [
-				"Joel"
+				"Amos"
 			],
 			"numChapters": 9
 		},
 		{
 			"name": "Михей",
 			"synonyms": [
-				"Amos"
+				"Mic"
 			],
 			"numChapters": 7
 		},
 		{
 			"name": "Иоиль",
 			"synonyms": [
-				"Obad"
+				"Joel"
 			],
 			"numChapters": 3
 		},
 		{
 			"name": "Авдий",
 			"synonyms": [
-				"Jonah"
+				"Obad"
 			],
 			"numChapters": 1
 		},
 		{
 			"name": "Иона",
 			"synonyms": [
-				"Mic"
+				"Jonah"
 			],
 			"numChapters": 4
 		},
@@ -367,56 +367,56 @@ var info = {
 			"numChapters": 16
 		},
 		{
-			"name": "I Послание В Коринф",
+			"name": "I Послание в Коринф",
 			"synonyms": [
 				"1Cor"
 			],
 			"numChapters": 16
 		},
 		{
-			"name": "II Послание В Коринф",
+			"name": "II Послание в Коринф",
 			"synonyms": [
 				"2Cor"
 			],
 			"numChapters": 13
 		},
 		{
-			"name": "Послание В Галатию",
+			"name": "Послание в Галатию",
 			"synonyms": [
 				"Gal"
 			],
 			"numChapters": 6
 		},
 		{
-			"name": "Послание В Эфес",
+			"name": "Послание в Эфес",
 			"synonyms": [
 				"Eph"
 			],
 			"numChapters": 6
 		},
 		{
-			"name": "Послание В Филиппы",
+			"name": "Послание в Филиппы",
 			"synonyms": [
 				"Phil"
 			],
 			"numChapters": 4
 		},
 		{
-			"name": "Послание В Колоссы",
+			"name": "Послание в Колоссы",
 			"synonyms": [
 				"Col"
 			],
 			"numChapters": 4
 		},
 		{
-			"name": "I Послание В Фессалонику",
+			"name": "I Послание в Фессалонику",
 			"synonyms": [
 				"1Thess"
 			],
 			"numChapters": 5
 		},
 		{
-			"name": "II Послание В Фессалонику",
+			"name": "II Послание в Фессалонику",
 			"synonyms": [
 				"2Thess"
 			],
@@ -451,7 +451,7 @@ var info = {
 			"numChapters": 1
 		},
 		{
-			"name": "Послание К Евреям",
+			"name": "Послание к евреям",
 			"synonyms": [
 				"Heb"
 			],

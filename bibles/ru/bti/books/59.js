@@ -1,5 +1,5 @@
 var book = {
-	"name": "I Послание В Фессалонику",
+	"name": "I Послание в Фессалонику",
 	"numChapters": 5,
 	"chapters": {
 		"1": {
