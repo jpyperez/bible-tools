@@ -165,11 +165,4 @@ var bibleTools = {
     search: search
 };
 
-console.log(
-  bibleTools.search('ka', 'orthodox', 'დაბ. 2:7-23')
-)
-
-// console.log(
-//   bibleTools.search('da', 'bibelen', '1 Mosebog 1,3')
-// )
 module.exports = bibleTools;
