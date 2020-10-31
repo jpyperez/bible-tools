@@ -12,7 +12,7 @@ $TO	to
 $VERSE	verse
 $UNICODE_BLOCK	Devanagari
 
-Gen	उत्पत्ति	Utpaati	उत्पाति	उत्प॰	उत्प०
+Gen	उत्पत्ति	Utpaati	उत्पाति	उत्प॰	उत्प०	उत्त्पत्ति
 Exod	निर्गमन	Nirgaman	निर्ग०
 Lev	लैव्यव्यवस्था	लैव्य	लैव्य्व्य्वस्था	लैव्यवस्था	Laaivyavyavastha	लैव्यव्यवस्थ	लै०व्य०
 Num	गिनती	Ginatee
@@ -31,14 +31,14 @@ Neh	नहेमायाह	नहेमा	न्हेम्याह	Nahemya
 Esth	एस्तेर	ऐस्तेर	Aester
 Job	अय्यूब	अययुब	Ayyoob
 Ps	भजन संहिता	भजन	भजन-सहिन्ता	Bhjan	पढ़ें भजन सं०	भजन स०
-Prov	नीतिवचन	नीति	नीति वचन	Neetivachan	नीतिबचन	नीति ?व
+Prov	नीतिवचन	नीति	नीति वचन	Neetivachan	नीतिबचन	नीति ?व	नीति व०
 Eccl	सभोपदेशक	सभो	Sabhopadeshak	सभोप०
 Song	श्रेष्ठगीत	श्रेष्ठ	स्रेस्ट गीत	Reshthageet
 Isa	यशायाह	यशा	yashaayaah	यशाया	यशा०
-Jer	यिर्मयाह	यिर्म	Yirmayah
+Jer	यिर्मयाह	यिर्म	Yirmayah	यिर्म०
 Lam	विलापगीत	विलाप	Vilapageet	विलापगेत
 Ezek	यहेजकेल	यहेज	Yahejakel
-Dan	दानिय्येल	दानि	Daaniyyel	दानिय्यल	दानि०
+Dan	दानिय्येल	दानि	Daaniyyel	दानिय्यल	दानि०	दानियेल
 Hos	होशे	Hosho
 Joel	योएल	Yoael
 Amos	आमोस	Amos
@@ -56,17 +56,17 @@ Mark	मरकुस	Marakus	मार्क
 Luke	लूका	Looka
 John	यूहन्ना	Yuhanna	युहत्रा
 Acts	प्रेरितों के काम	प्र. क	मसीह-दूत	Praeriton Ke Kam	प्रेरितों के कामों	प्रेरि०
-Rom	रोमियों	रोमी	रोमियो	Romiyon	रोम०	रोमि०
+Rom	रोमियों	रोमी	रोमियो	Romiyon	रोम०	रोमि०	रोमन
 1Cor	$FIRST कुरिन्थियों?	$FIRST कुरिन्यि़यों	$FIRST कुरिन्थ	$FIRST कुरन्थियों	$FIRST कोरिन्‍थी	$FIRST Kurinthiayon	1कुरि०
 2Cor	$SECOND कुरिन्थियों?	$SECOND कुरिन्यि़यों	$SECOND कुरिन्थ	$SECOND कुरन्थियों	$SECOND कोरिन्‍थी	$SECOND Kurinthiayon	2कुरि०
 Gal	गलातियों	गलाति	गलाती	Galatiyon	गलतियों
 Eph	इफिसियों	इफिसि	इफिसी	Iafisiyon	इफि०
 Phil	फिलिप्पियों	फिलिप्पि	फिलिप्‍पी	Filippaiyon	फिलि०
 Col	कुलुस्सियों	कुलुस्सि	कुलुस्‍सी	Kulussaiyon
-1Thess	$FIRST थिस्सलुनीकियों	$FIRST थिस्स	$FIRST थिसलुनिकी	$FIRST Thaissaluneekiyon
-2Thess	$SECOND थिस्सलुनीकियों	$SECOND थिस्स	$SECOND थिसलुनिकी	$SECOND Thaissaluneekiyon
-1Tim	$FIRST तीमुथियुस	$FIRST तीम	$FIRST तिमुथियुस	$FIRST Teemuathaiyus	$FIRST तीमुाथैयुस
-2Tim	$SECOND तीमुथियुस	$SECOND तीम	$SECOND तिमुथियुस	$SECOND Teemuathaiyus	$SECOND तीमुाथैयुस
+1Thess	$FIRST थिस्सलुनीकियों	$FIRST थिस्स	$FIRST थिसलुनिकी	$FIRST Thaissaluneekiyon	$FIRST थिस्स०
+2Thess	$SECOND थिस्सलुनीकियों	$SECOND थिस्स	$SECOND थिसलुनिकी	$SECOND Thaissaluneekiyon	$SECOND थिस्स०
+1Tim	$FIRST तीमुथियुस	$FIRST तीम	$FIRST तिमुथियुस	$FIRST Teemuathaiyus	$FIRST तीमुाथैयुस	$FIRST तीमु०
+2Tim	$SECOND तीमुथियुस	$SECOND तीम	$SECOND तिमुथियुस	$SECOND Teemuathaiyus	$SECOND तीमुाथैयुस	$SECOND तीमु०
 Titus	तीतुस	Teetus
 Phlm	फिलेमोन	फले	Filemon
 Heb	इब्रानियों	इब्रानि	इब्रानी	Ibraaaniyon

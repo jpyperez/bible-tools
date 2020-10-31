@@ -54,7 +54,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Gen"]
 		regexp: ///(^|[^0-9A-Za-zऀ-ंऄ-ऺ़-ऽु-ै्ॐ-ॣॱ-ॷॹ-ॿ꣠-ꣷꣻ])(
-		(?:उत्प(?:त्ति|ाति|[0०॰])|Utpaati|Gen)
+		(?:उत्(?:त्पत्ति|प(?:त्ति|ाति|[0०॰]))|Utpaati|Gen)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Exod"]
@@ -217,8 +217,8 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Prov"]
-		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Neetivachan|नीति(?:[\s\xa0]*व|[बव])चन|नीति(?:[\s\xa0]*व|व)?|Prov)
+		regexp: ///(^|[^0-9A-Za-zऀ-ंऄ-ऺ़-ऽु-ै्ॐ-ॣॱ-ॷॹ-ॿ꣠-ꣷꣻ])(
+		(?:Neetivachan|नीति(?:[\s\xa0]*व(?:चन|[0०])|[बव]चन)|नीति(?:[\s\xa0]*व|व)?|Prov)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Eccl"]
@@ -238,8 +238,8 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Jer"]
-		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:यिर्मयाह|Yirmayah|यिर्म|Jer)
+		regexp: ///(^|[^0-9A-Za-zऀ-ंऄ-ऺ़-ऽु-ै्ॐ-ॣॱ-ॷॹ-ॿ꣠-ꣷꣻ])(
+		(?:यिर्म(?:याह|[0०])|Yirmayah|यिर्म|Jer)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Ezek"]
@@ -249,7 +249,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Dan"]
 		regexp: ///(^|[^0-9A-Za-zऀ-ंऄ-ऺ़-ऽु-ै्ॐ-ॣॱ-ॷॹ-ॿ꣠-ꣷꣻ])(
-		(?:दानि(?:य्ये?ल|[0०])?|Da(?:aniyyel|n))
+		(?:दानि(?:य(?:्ये?|े)ल|[0०])?|Da(?:aniyyel|n))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Hos"]
@@ -354,7 +354,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Rom"]
 		regexp: ///(^|[^0-9A-Za-zऀ-ंऄ-ऺ़-ऽु-ै्ॐ-ॣॱ-ॷॹ-ॿ꣠-ꣷꣻ])(
-		(?:रोम(?:ि(?:यों|[0०])|ियो|[0ी०])|Rom(?:iyon)?)
+		(?:रोम(?:ि(?:यों|[0०])|ियो|[0नी०])|Rom(?:iyon)?)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Cor"]
@@ -389,22 +389,22 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["2Thess"]
 		regexp: ///(^|[^0-9A-Za-zऀ-ंऄ-ऺ़-ऽु-ै्ॐ-ॣॱ-ॷॹ-ॿ꣠-ꣷꣻ])(
-		(?:2(?:\.[\s\xa0]*(?:Thaissaluneekiyon|थिस(?:्सलुनीकियों|लुनिकी|्स))|[\s\xa0]*(?:Thaissaluneekiyon|थिस(?:्सलुनीकियों|लुनिकी|्स))|Thess))
+		(?:2(?:\.[\s\xa0]*(?:Thaissaluneekiyon|थिस(?:्स(?:लुनीकियों|[0०])|लुनिकी|्स))|[\s\xa0]*(?:Thaissaluneekiyon|थिस(?:्स(?:लुनीकियों|[0०])|लुनिकी|्स))|Thess))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["1Thess"]
 		regexp: ///(^|[^0-9A-Za-zऀ-ंऄ-ऺ़-ऽु-ै्ॐ-ॣॱ-ॷॹ-ॿ꣠-ꣷꣻ])(
-		(?:1(?:\.[\s\xa0]*(?:Thaissaluneekiyon|थिस(?:्सलुनीकियों|लुनिकी|्स))|[\s\xa0]*(?:Thaissaluneekiyon|थिस(?:्सलुनीकियों|लुनिकी|्स))|Thess))
+		(?:1(?:\.[\s\xa0]*(?:Thaissaluneekiyon|थिस(?:्स(?:लुनीकियों|[0०])|लुनिकी|्स))|[\s\xa0]*(?:Thaissaluneekiyon|थिस(?:्स(?:लुनीकियों|[0०])|लुनिकी|्स))|Thess))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Tim"]
 		regexp: ///(^|[^0-9A-Za-zऀ-ंऄ-ऺ़-ऽु-ै्ॐ-ॣॱ-ॷॹ-ॿ꣠-ꣷꣻ])(
-		(?:2(?:\.[\s\xa0]*(?:Teemuathaiyus|त(?:(?:ीमु(?:ाथै|थि)|िमुथि)युस|ीम))|[\s\xa0]*(?:Teemuathaiyus|त(?:(?:ीमु(?:ाथै|थि)|िमुथि)युस|ीम))|Tim))
+		(?:2(?:\.[\s\xa0]*(?:Teemuathaiyus|त(?:ीमु(?:ाथैयुस|थियुस|[0०])|िमुथियुस|ीम))|[\s\xa0]*(?:Teemuathaiyus|त(?:ीमु(?:ाथैयुस|थियुस|[0०])|िमुथियुस|ीम))|Tim))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["1Tim"]
 		regexp: ///(^|[^0-9A-Za-zऀ-ंऄ-ऺ़-ऽु-ै्ॐ-ॣॱ-ॷॹ-ॿ꣠-ꣷꣻ])(
-		(?:1(?:\.[\s\xa0]*(?:Teemuathaiyus|त(?:(?:ीमु(?:ाथै|थि)|िमुथि)युस|ीम))|[\s\xa0]*(?:Teemuathaiyus|त(?:(?:ीमु(?:ाथै|थि)|िमुथि)युस|ीम))|Tim))
+		(?:1(?:\.[\s\xa0]*(?:Teemuathaiyus|त(?:ीमु(?:ाथैयुस|थियुस|[0०])|िमुथियुस|ीम))|[\s\xa0]*(?:Teemuathaiyus|त(?:ीमु(?:ाथैयुस|थियुस|[0०])|िमुथियुस|ीम))|Tim))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Titus"]

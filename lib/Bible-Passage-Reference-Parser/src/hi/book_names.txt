@@ -68,6 +68,10 @@
 1Thess	1 थिस्सलुनीकियों
 1Thess	1. थिसलुनिकी
 1Thess	1 थिसलुनिकी
+1Thess	1. थिस्स0
+1Thess	1. थिस्स०
+1Thess	1 थिस्स0
+1Thess	1 थिस्स०
 1Thess	1. थिस्स
 1Thess	1 थिस्स
 1Thess	1Thess
@@ -79,6 +83,10 @@
 1Tim	1. तीमुथियुस
 1Tim	1 तिमुथियुस
 1Tim	1 तीमुथियुस
+1Tim	1. तीमु0
+1Tim	1. तीमु०
+1Tim	1 तीमु0
+1Tim	1 तीमु०
 1Tim	1. तीम
 1Tim	1 तीम
 1Tim	1Tim
@@ -152,6 +160,10 @@
 2Thess	2 थिस्सलुनीकियों
 2Thess	2. थिसलुनिकी
 2Thess	2 थिसलुनिकी
+2Thess	2. थिस्स0
+2Thess	2. थिस्स०
+2Thess	2 थिस्स0
+2Thess	2 थिस्स०
 2Thess	2. थिस्स
 2Thess	2 थिस्स
 2Thess	2Thess
@@ -163,6 +175,10 @@
 2Tim	2. तीमुथियुस
 2Tim	2 तिमुथियुस
 2Tim	2 तीमुथियुस
+2Tim	2. तीमु0
+2Tim	2. तीमु०
+2Tim	2 तीमु0
+2Tim	2 तीमु०
 2Tim	2. तीम
 2Tim	2 तीम
 2Tim	2Tim
@@ -198,6 +214,7 @@ Col	Col
 Dan	Daaniyyel
 Dan	दानिय्येल
 Dan	दानिय्यल
+Dan	दानियेल
 Dan	दानि0
 Dan	दानि०
 Dan	दानि
@@ -252,6 +269,7 @@ Gal	गलतियों
 Gal	गलाति
 Gal	गलाती
 Gal	Gal
+Gen	उत्त्पत्ति
 Gen	उत्पत्ति
 Gen	Utpaati
 Gen	उत्पाति
@@ -289,6 +307,8 @@ Jas	Jas
 Jdt	Jdt
 Jer	Yirmayah
 Jer	यिर्मयाह
+Jer	यिर्म0
+Jer	यिर्म०
 Jer	यिर्म
 Jer	Jer
 Job	Ayyoob
@@ -382,6 +402,8 @@ PrAzar	PrAzar
 PrMan	PrMan
 Prov	Neetivachan
 Prov	नीति वचन
+Prov	नीति व0
+Prov	नीति व०
 Prov	नीतिबचन
 Prov	नीतिवचन
 Prov	नीति व
@@ -414,6 +436,7 @@ Rom	रोमियो
 Rom	रोमि0
 Rom	रोमि०
 Rom	रोम0
+Rom	रोमन
 Rom	रोमी
 Rom	रोम०
 Rom	Rom
