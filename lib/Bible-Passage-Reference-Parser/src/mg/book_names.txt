@@ -232,8 +232,8 @@ Rev	Apokalipsỳ
 Rev	Apokalypsy
 Rev	Apôkalipsy
 Rev	Apôkalipsỳ
-Rev	Apok/Apok
-Rev	Apôk/Apok
+Rev	Apok
+Rev	Apôk
 Rev	Rev
 Rom	Romanina
 Rom	Rômanina

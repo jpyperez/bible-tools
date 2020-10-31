@@ -77,7 +77,7 @@ Jas	Jakoba	Jak
 2John	2 Jaona	2 Jôhany	2 Jao
 3John	3 Jaona	3 Jôhany	3 Jao
 Jude	Joda
-Rev	Apokalypsy	Apôkalipsỳ	Apôk/Apok
+Rev	Apokalypsy	Apôkalipsỳ	Apôk	Apok
 Tob
 Jdt
 GkEsth

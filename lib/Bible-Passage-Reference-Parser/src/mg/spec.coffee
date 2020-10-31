@@ -194,8 +194,8 @@ describe "Localized book Rev (mg)", ->
 		expect(p.parse("Apokalypsy 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("Apôkalipsy 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("Apôkalipsỳ 1:1").osis()).toEqual("Rev.1.1")
-		expect(p.parse("Apok/Apok 1:1").osis()).toEqual("Rev.1.1")
-		expect(p.parse("Apôk/Apok 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("Apok 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("Apôk 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("Rev 1:1").osis()).toEqual("Rev.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("APOKALIPSY 1:1").osis()).toEqual("Rev.1.1")
@@ -203,8 +203,8 @@ describe "Localized book Rev (mg)", ->
 		expect(p.parse("APOKALYPSY 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("APÔKALIPSY 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("APÔKALIPSỲ 1:1").osis()).toEqual("Rev.1.1")
-		expect(p.parse("APOK/APOK 1:1").osis()).toEqual("Rev.1.1")
-		expect(p.parse("APÔK/APOK 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("APOK 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("APÔK 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("REV 1:1").osis()).toEqual("Rev.1.1")
 		`
 		true
