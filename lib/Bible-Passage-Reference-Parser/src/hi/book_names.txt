@@ -21,8 +21,10 @@
 1Cor	1 कोरिन्‍थी
 1Cor	1. कुरिन्थ
 1Cor	1 कुरिन्थ
-1Cor	1कुरि0
-1Cor	1कुरि०
+1Cor	1. कुरि0
+1Cor	1. कुरि०
+1Cor	1 कुरि0
+1Cor	1 कुरि०
 1Cor	1Cor
 1Esd	1Esd
 1John	1. Yoohanna
@@ -113,8 +115,10 @@
 2Cor	2 कोरिन्‍थी
 2Cor	2. कुरिन्थ
 2Cor	2 कुरिन्थ
-2Cor	2कुरि0
-2Cor	2कुरि०
+2Cor	2. कुरि0
+2Cor	2. कुरि०
+2Cor	2 कुरि0
+2Cor	2 कुरि०
 2Cor	2Cor
 2Esd	2Esd
 2John	2. Yoohanna

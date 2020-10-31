@@ -57,8 +57,8 @@ Luke	लूका	Looka
 John	यूहन्ना	Yuhanna	युहत्रा
 Acts	प्रेरितों के काम	प्र. क	मसीह-दूत	Praeriton Ke Kam	प्रेरितों के कामों	प्रेरि०
 Rom	रोमियों	रोमी	रोमियो	Romiyon	रोम०	रोमि०	रोमन
-1Cor	$FIRST कुरिन्थियों?	$FIRST कुरिन्यि़यों	$FIRST कुरिन्थ	$FIRST कुरन्थियों	$FIRST कोरिन्‍थी	$FIRST Kurinthiayon	1कुरि०
-2Cor	$SECOND कुरिन्थियों?	$SECOND कुरिन्यि़यों	$SECOND कुरिन्थ	$SECOND कुरन्थियों	$SECOND कोरिन्‍थी	$SECOND Kurinthiayon	2कुरि०
+1Cor	$FIRST कुरिन्थियों?	$FIRST कुरिन्यि़यों	$FIRST कुरिन्थ	$FIRST कुरन्थियों	$FIRST कोरिन्‍थी	$FIRST Kurinthiayon	$FIRST कुरि०
+2Cor	$SECOND कुरिन्थियों?	$SECOND कुरिन्यि़यों	$SECOND कुरिन्थ	$SECOND कुरन्थियों	$SECOND कोरिन्‍थी	$SECOND Kurinthiayon	$SECOND कुरि०
 Gal	गलातियों	गलाति	गलाती	Galatiyon	गलतियों
 Eph	इफिसियों	इफिसि	इफिसी	Iafisiyon	इफि०
 Phil	फिलिप्पियों	फिलिप्पि	फिलिप्‍पी	Filippaiyon	फिलि०
