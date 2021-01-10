@@ -22,8 +22,13 @@
 
 require("./bible_helpers");
 
-var getBookByOSIS = function(lang, version, book_osis){
-    var bibleInfo = require("./bibles/" + lang + "/" + version + "/info");
+var getBookByOSIS = function(lang, version, book_osis, unload){
+    var bibleInfo = null
+    if (!unload) {
+        require("./bibles/" + lang + "/" + version + "/info");
+    } else {
+        delete require.cache["./bibles/" + lang + "/" + version + "/info"]
+    }
 
     for (var bookIterator = 0; bookIterator < bibleInfo.books.length; bookIterator++) {
         var bookRegExp = "^("+bibleInfo.books[bookIterator].name.bibleSynonymOptimization() + "|";
@@ -34,7 +39,11 @@ var getBookByOSIS = function(lang, version, book_osis){
         bookRegExp = bookRegExp.customTrim("| ") + ")$";
 
         if (book_osis.match(new RegExp(bookRegExp, "g"))) {
-            return require("./bibles/" + lang + "/" + version + "/books/" + (bookIterator + 1).toString().lpad(2));
+            if (!unload) {
+                return require("./bibles/" + lang + "/" + version + "/books/" + (bookIterator + 1).toString().lpad(2));
+            } else {
+                delete require.cache["./bibles/" + lang + "/" + version + "/books/" + (bookIterator + 1).toString().lpad(2)]
+            }
         }
     }
 };
@@ -145,6 +154,9 @@ var search = function(lang, version, text) {
                     break;
                 }
             }
+
+            bibleBook = null
+            getBookByOSIS(lang, version, book_osis, true)
         }
 
         if (match_verses){
