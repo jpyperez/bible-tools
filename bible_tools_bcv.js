@@ -19,16 +19,13 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  */
+"use strict";
 
 require("./bible_helpers");
+let fs = require('fs');
 
-var getBookByOSIS = function(lang, version, book_osis, unload){
-    var bibleInfo = null
-    if (!unload) {
-        require("./bibles/" + lang + "/" + version + "/info");
-    } else {
-        delete require.cache["./bibles/" + lang + "/" + version + "/info"]
-    }
+var getBookByOSIS = function(lang, version, book_osis, b){
+    var bibleInfo = require("./bibles/" + lang + "/" + version + "/info");
 
     for (var bookIterator = 0; bookIterator < bibleInfo.books.length; bookIterator++) {
         var bookRegExp = "^("+bibleInfo.books[bookIterator].name.bibleSynonymOptimization() + "|";
@@ -38,11 +35,20 @@ var getBookByOSIS = function(lang, version, book_osis, unload){
         }
         bookRegExp = bookRegExp.customTrim("| ") + ")$";
 
+
         if (book_osis.match(new RegExp(bookRegExp, "g"))) {
-            if (!unload) {
-                return require("./bibles/" + lang + "/" + version + "/books/" + (bookIterator + 1).toString().lpad(2));
-            } else {
-                delete require.cache["./bibles/" + lang + "/" + version + "/books/" + (bookIterator + 1).toString().lpad(2)]
+            let book = fs.readFileSync(__dirname+"/bibles/" + lang + "/" + version + "/books/" + (bookIterator + 1).toString().lpad(2) + ".js", 'utf-8');
+            book = book.replace(/};/gm, "}");
+            book = book.replace(/module.exports = book;/gm, "");
+            book = book.replace(/var book = /gm, '');
+            book = book.replace(/,\n( |\t)*}/gm, '}');
+
+            try {
+                return JSON.parse(book, 'utf-8');
+            } catch (e) {
+                console.error(book)
+                console.error(__dirname+"/bibles/" + lang + "/" + version + "/books/" + (bookIterator + 1).toString().lpad(2) + ".js")
+                return
             }
         }
     }
@@ -56,7 +62,7 @@ var search = function(lang, version, text) {
 
     try {
         var bcv_parser = require("./lib/Bible-Passage-Reference-Parser/js/"+lang+"_bcv_parser").bcv_parser,
-            bcv = new bcv_parser;
+          bcv = new bcv_parser;
     } catch (err) {
         var e = new Error();
         e.sender = "bibleParserBCVMissingLanguage";
@@ -66,13 +72,13 @@ var search = function(lang, version, text) {
     bcv.set_options(options);
 
     var parsed_entitites = bcv.parse(text).parsed_entities(),
-        output = text,
-        verses = [],
-        cv_delimeter = (options && options["punctuation_strategy"] && options["punctuation_strategy"] === "eu") ? "," : ":";
+      output = text,
+      verses = [],
+      cv_delimeter = (options && options["punctuation_strategy"] && options["punctuation_strategy"] === "eu") ? "," : ":";
 
     for (var i = parsed_entitites.length-1; i >= 0; i--){
         var match = parsed_entitites[i],
-            verse = match.osis.replace(/\./g, '');
+          verse = match.osis.replace(/\./g, '');
 
         output = [output.slice(0, match["indices"][1]), "</a>", output.slice(match["indices"][1])].join('');
         output = [output.slice(0, match["indices"][0]), "<a class=\"verse\" verse=\""+verse+"\">", output.slice(match["indices"][0])].join('');
@@ -81,7 +87,7 @@ var search = function(lang, version, text) {
 
         for (var j = 0; j < match.entities.length; j++){
             var entity = match.entities[j],
-                book_osis = entity.start.b;
+              book_osis = entity.start.b;
 
             var bibleBook = getBookByOSIS(lang, version, book_osis);
 
@@ -90,9 +96,10 @@ var search = function(lang, version, text) {
             switch(entity.type) {
                 case "cv": {
                     for (var _verseIterator = entity.start.v; _verseIterator <= entity.end.v; _verseIterator++){
+                        if (!bibleBook.chapters[_chapter]) continue;
                         var _verse = _verseIterator.toString().customTrim(" "),
-                            _chapter = entity.start.c.toString().customTrim(" "),
-                            _header = "<h2>" + bibleBook.name + " " + _chapter + cv_delimeter + _verse + "</h2>";
+                          _chapter = entity.start.c.toString().customTrim(" "),
+                          _header = "<h2>" + bibleBook.name + " " + _chapter + cv_delimeter + _verse + "</h2>";
 
                         if (_verse in bibleBook.chapters[_chapter]){
 
@@ -106,7 +113,7 @@ var search = function(lang, version, text) {
                 case "bc": {
                     for (var _chapterIterator = entity.start.c; _chapterIterator <= entity.end.c; _chapterIterator++){
                         var _chapter = _chapterIterator.toString().customTrim(" "),
-                            _header = "<h2>" + bibleBook.name + " " + _chapter + "</h2>";
+                          _header = "<h2>" + bibleBook.name + " " + _chapter + "</h2>";
 
                         match_verses += _header;
 
@@ -140,10 +147,11 @@ var search = function(lang, version, text) {
                     match_verses += _header;
 
                     for (var chapterIterator = entity.start.c; chapterIterator <= entity.end.c; chapterIterator++){
+                        if (!bibleBook.chapters[_chapter]) continue;
                         var _chapter = chapterIterator.toString().customTrim(" "),
-                            verseIteratorStart = (chapterIterator === entity.start.c) ? entity.start.v : 1,
-                            verseIteratorEnd =  (chapterIterator === entity.end.c) ? entity.end.v : Object.keys(bibleBook.chapters[_chapter]).length,
-                            _verse = verseIteratorStart.toString().customTrim(" ");
+                          verseIteratorStart = (chapterIterator === entity.start.c) ? entity.start.v : 1,
+                          verseIteratorEnd =  (chapterIterator === entity.end.c) ? entity.end.v : Object.keys(bibleBook.chapters[_chapter]).length,
+                          _verse = verseIteratorStart.toString().customTrim(" ");
 
                         for (var key in bibleBook.chapters[_chapter]) {
                             if (parseInt(key) >= verseIteratorStart && parseInt(key) <= verseIteratorEnd){
@@ -156,7 +164,6 @@ var search = function(lang, version, text) {
             }
 
             bibleBook = null
-            getBookByOSIS(lang, version, book_osis, true)
         }
 
         if (match_verses){
