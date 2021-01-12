@@ -22,7 +22,7 @@
 "use strict";
 
 require("./bible_helpers");
-let fs = require('fs');
+const fs = require('fs')
 
 var getBookByOSIS = function(lang, version, book_osis, b){
     var bibleInfo = require("./bibles/" + lang + "/" + version + "/info");
@@ -96,7 +96,6 @@ var search = function(lang, version, text) {
             switch(entity.type) {
                 case "cv": {
                     for (var _verseIterator = entity.start.v; _verseIterator <= entity.end.v; _verseIterator++){
-                        if (!bibleBook.chapters[_chapter]) continue;
                         var _verse = _verseIterator.toString().customTrim(" "),
                           _chapter = entity.start.c.toString().customTrim(" "),
                           _header = "<h2>" + bibleBook.name + " " + _chapter + cv_delimeter + _verse + "</h2>";
@@ -147,7 +146,6 @@ var search = function(lang, version, text) {
                     match_verses += _header;
 
                     for (var chapterIterator = entity.start.c; chapterIterator <= entity.end.c; chapterIterator++){
-                        if (!bibleBook.chapters[_chapter]) continue;
                         var _chapter = chapterIterator.toString().customTrim(" "),
                           verseIteratorStart = (chapterIterator === entity.start.c) ? entity.start.v : 1,
                           verseIteratorEnd =  (chapterIterator === entity.end.c) ? entity.end.v : Object.keys(bibleBook.chapters[_chapter]).length,
