@@ -12,7 +12,7 @@ $TO	tot
 $VERSE	vers	Bybelvers
 $UNICODE_BLOCK	Latin
 
-Gen	Genesis	Gen
+Gen	Genesis	Gen	Génesis
 Exod	Eksodus	Eks	Exodus
 Lev	Levitikus	Lev	Levítikus
 Num	Numeri	Num	Númeri
@@ -39,7 +39,7 @@ Jer	Jeremia	Jer
 Lam	Klaagliedere	Klaagl
 Ezek	Esegiël	Eseg
 Dan	Daniël	Dan
-Hos	Hosea	Hos
+Hos	Hosea	Hos	Hoséa
 Joel	Joël	Joël
 Amos	Amos	Am
 Obad	Obadja	Ob
@@ -65,8 +65,8 @@ Phil	Filippense	Fil
 Col	Kolossense	Kol
 1Thess	$FIRST Tessalonisense	$FIRST Tess	$FIRST Tessaonicense	$FIRST Thess
 2Thess	$SECOND Tessalonisense	$SECOND Tess	$SECOND Tessaonicense	$SECOND Thess
-1Tim	$FIRST Timoteus	$FIRST Tim
-2Tim	$SECOND Timoteus	$SECOND Tim
+1Tim	$FIRST Timoteus	$FIRST Tim	$FIRST Timótheüs
+2Tim	$SECOND Timoteus	$SECOND Tim	$SECOND Timótheüs
 Titus	Titus	Tit
 Phlm	Filemon	Filem
 Heb	Hebreërs	Heb

@@ -65,7 +65,23 @@
 1Thess	1 Tess
 1Thess	1Thess
 1Thess	I Tess
+1Tim	1. Timotheus
+1Tim	1. Timotheüs
+1Tim	1. Timótheus
+1Tim	1. Timótheüs
+1Tim	I. Timotheus
+1Tim	I. Timotheüs
+1Tim	I. Timótheus
+1Tim	I. Timótheüs
+1Tim	1 Timotheus
+1Tim	1 Timotheüs
+1Tim	1 Timótheus
+1Tim	1 Timótheüs
 1Tim	1. Timoteus
+1Tim	I Timotheus
+1Tim	I Timotheüs
+1Tim	I Timótheus
+1Tim	I Timótheüs
 1Tim	I. Timoteus
 1Tim	1 Timoteus
 1Tim	I Timoteus
@@ -141,7 +157,23 @@
 2Thess	II Tess
 2Thess	2 Tess
 2Thess	2Thess
+2Tim	II. Timotheus
+2Tim	II. Timotheüs
+2Tim	II. Timótheus
+2Tim	II. Timótheüs
+2Tim	2. Timotheus
+2Tim	2. Timotheüs
+2Tim	2. Timótheus
+2Tim	2. Timótheüs
+2Tim	II Timotheus
+2Tim	II Timotheüs
+2Tim	II Timótheus
+2Tim	II Timótheüs
 2Tim	II. Timoteus
+2Tim	2 Timotheus
+2Tim	2 Timotheüs
+2Tim	2 Timótheus
+2Tim	2 Timótheüs
 2Tim	2. Timoteus
 2Tim	II Timoteus
 2Tim	2 Timoteus
@@ -206,6 +238,7 @@ Gal	Galásiers
 Gal	Galásiërs
 Gal	Gal
 Gen	Genesis
+Gen	Génesis
 Gen	Gen
 GkEsth	GkEsth
 Hab	Habakuk
@@ -216,6 +249,7 @@ Heb	Hebreers
 Heb	Hebreërs
 Heb	Heb
 Hos	Hosea
+Hos	Hoséa
 Hos	Hos
 Isa	Jesaja
 Isa	Isa

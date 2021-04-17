@@ -54,7 +54,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Gen"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Gen(?:esis)?)
+		(?:G(?:\xE9nesis|en(?:esis)?))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Exod"]
@@ -254,7 +254,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Hos"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Hos(?:ea)?)
+		(?:Hos(?:[e\xE9]a)?)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Joel"]
@@ -399,12 +399,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["2Tim"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:II(?:\.[\s\xa0]*Tim(?:oteus)?|[\s\xa0]*Tim(?:oteus)?)|2(?:\.[\s\xa0]*Tim(?:oteus)?|[\s\xa0]*Tim(?:oteus)?|Tim))
+		(?:II(?:\.[\s\xa0]*Tim(?:\xF3the[u\xFC]s|ot(?:he[u\xFC]|eu)s)?|[\s\xa0]*Tim(?:\xF3the[u\xFC]s|ot(?:he[u\xFC]|eu)s)?)|2(?:\.[\s\xa0]*Tim(?:\xF3the[u\xFC]s|ot(?:he[u\xFC]|eu)s)?|[\s\xa0]*Tim(?:\xF3the[u\xFC]s|ot(?:he[u\xFC]|eu)s)?|Tim))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["1Tim"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:I(?:\.[\s\xa0]*Tim(?:oteus)?|[\s\xa0]*Tim(?:oteus)?)|1(?:\.[\s\xa0]*Tim(?:oteus)?|[\s\xa0]*Tim(?:oteus)?|Tim))
+		(?:I(?:\.[\s\xa0]*Tim(?:\xF3the[u\xFC]s|ot(?:he[u\xFC]|eu)s)?|[\s\xa0]*Tim(?:\xF3the[u\xFC]s|ot(?:he[u\xFC]|eu)s)?)|1(?:\.[\s\xa0]*Tim(?:\xF3the[u\xFC]s|ot(?:he[u\xFC]|eu)s)?|[\s\xa0]*Tim(?:\xF3the[u\xFC]s|ot(?:he[u\xFC]|eu)s)?|Tim))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Titus"]
