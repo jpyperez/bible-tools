@@ -75,7 +75,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Num"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Mga[\s\xa0]*Bilang|B(?:[ae]midbar|il)|Num|Blg)
+		(?:Mga[\s\xa0]*Bilang|B[ae]midbar|Bilang|Bil|Num|Blg)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Sir"]

@@ -17,7 +17,7 @@ $UNICODE_BLOCK	Latin
 Gen	[GH]enesis	Gen
 Exod	Exodo	Exodus	Exo	Ex
 Lev	Le[bv]itico	Lebitikus	Le[bv]
-Num	Mga Bilang	B[ae]midbar	Bil	Blg
+Num	Mga Bilang	B[ae]midbar	Bil	Blg	Bilang
 Deut	Deuteronomiy?o	D[ei]?yuteronomyo	Deuteronomi?y?a	Deuteronomio?	Dt	Deut
 Josh	Josué	Joshua	Jos
 Judg	Mga Hukom	Huk	Hukom
@@ -260,7 +260,7 @@ Ezek,Ezra	Ez
 *Wis	Karunungan	Kar
 *Sir	Sirac	Sir
 *Bar	Baruc	Bar
-*PrAzar	Panalangin ni Azarias	
+*PrAzar	Panalangin ni Azarias
 *Sus	Susana	Su
 *Bel	Bel at ang Dragon	Bel
 *SgThree	Awit ng Tatlong Kabataan	Aw ng 3 Kab
@@ -271,4 +271,4 @@ Ezek,Ezra	Ez
 *4Macc	4 Mga Macabeo	4 Mcb
 *1Esd	1 Esdras	1 Esd
 *2Esd	2 Esdras	2 Esd
-*PrMan	Panalangin ni Manases	
+*PrMan	Panalangin ni Manases
