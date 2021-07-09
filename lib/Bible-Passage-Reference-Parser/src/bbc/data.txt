@@ -30,12 +30,12 @@ Ezra	Esra	Esr
 Neh	Nehemia	Neh
 Esth	Ester	Est
 Job	Job
-Ps	Psalmen	Ps	Pslm
+Ps	Psalmen	Ps	Pslm	Psl
 Prov	Poda	Poda sipaingot	Poda
 Eccl	Parjamita	Pjm
 Song	Angka Ende	Ende
-Isa	Jesaya	Jes	Yes
-Jer	Jeremia	Jer	Yer
+Isa	Jesaya	Jes	Yes	Yesaya
+Jer	Jeremia	Jer	Yer	Yeremia
 Lam	Andung-andung	Andungandung	And
 Ezek	Hesekiel	Hes
 Dan	Daniel	Dan

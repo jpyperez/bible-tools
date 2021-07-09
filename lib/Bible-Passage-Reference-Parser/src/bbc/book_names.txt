@@ -130,6 +130,7 @@ Heb	Heb
 Hos	Hosea
 Hos	Hos
 Isa	Jesaya
+Isa	Yesaya
 Isa	Isa
 Isa	Jes
 Isa	Yes
@@ -138,6 +139,7 @@ Jas	Jak
 Jas	Jas
 Jdt	Jdt
 Jer	Jeremia
+Jer	Yeremia
 Jer	Jer
 Jer	Yer
 Job	Job
@@ -206,6 +208,7 @@ Prov	Poda
 Prov	Prov
 Ps	Psalmen
 Ps	Pslm
+Ps	Psl
 Ps	Ps
 Rev	Pangungkapon
 Rev	Pgk
