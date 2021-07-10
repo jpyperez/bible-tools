@@ -59,7 +59,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Exod"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:E(?:ksoda|xod))
+		(?:E(?:ksoda|xoda?))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Bel"]
@@ -103,7 +103,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Rev"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Tshenolo|Rev)
+		(?:T(?:s(?:henolo|en)|šen)|Rev)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["PrMan"]
@@ -146,17 +146,17 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Isa"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:(?:Esai|Is)a)
+		(?:Esa(?:ia)?|Isa)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Sam"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:II\.?[\s\xa0]*Samuele|2(?:\.[\s\xa0]*Samuele|[\s\xa0]*Samuele|Sam))
+		(?:II(?:\.[\s\xa0]*Sam(?:uele)?|[\s\xa0]*Sam(?:uele)?)|2(?:\.[\s\xa0]*Sam(?:uele)?|[\s\xa0]*Sam(?:uele)?|Sam))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["1Sam"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:I\.?[\s\xa0]*Samuele|1(?:\.[\s\xa0]*Samuele|[\s\xa0]*Samuele|Sam))
+		(?:I(?:\.[\s\xa0]*Sam(?:uele)?|[\s\xa0]*Sam(?:uele)?)|1(?:\.[\s\xa0]*Sam(?:uele)?|[\s\xa0]*Sam(?:uele)?|Sam))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Kgs"]
@@ -207,7 +207,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Ps"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Dipesaleme|Ps)
+		(?:Dipesaleme|Pe?s)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["PrAzar"]
@@ -359,12 +359,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["2Cor"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:II(?:\.[\s\xa0]*Ba(?:\-?K|k)|[\s\xa0]*Ba(?:\-?K|k))orinthe|2(?:\.[\s\xa0]*Ba(?:\-?K|k)orinthe|[\s\xa0]*Ba(?:\-?K|k)orinthe|Cor))
+		(?:II(?:\.[\s\xa0]*Ba(?:\-?Kor(?:inthe)?|k(?:orinthe|r))|[\s\xa0]*Ba(?:\-?Kor(?:inthe)?|k(?:orinthe|r)))|2(?:\.[\s\xa0]*Ba(?:\-?Kor(?:inthe)?|k(?:orinthe|r))|[\s\xa0]*Ba(?:\-?Kor(?:inthe)?|k(?:orinthe|r))|Cor))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["1Cor"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:I(?:\.[\s\xa0]*Ba(?:\-?K|k)|[\s\xa0]*Ba(?:\-?K|k))orinthe|1(?:\.[\s\xa0]*Ba(?:\-?K|k)orinthe|[\s\xa0]*Ba(?:\-?K|k)orinthe|Cor))
+		(?:I(?:\.[\s\xa0]*Ba(?:\-?Kor(?:inthe)?|k(?:orinthe|r))|[\s\xa0]*Ba(?:\-?Kor(?:inthe)?|k(?:orinthe|r)))|1(?:\.[\s\xa0]*Ba(?:\-?Kor(?:inthe)?|k(?:orinthe|r))|[\s\xa0]*Ba(?:\-?Kor(?:inthe)?|k(?:orinthe|r))|Cor))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Gal"]
@@ -374,12 +374,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Eph"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Ba(?:\-?E|e)fese|Eph)
+		(?:Ba(?:\-?Efe(?:se)?|efese)|Eph)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Phil"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Ba(?:\-?F|f)ilipi|Phil)
+		(?:Ba(?:\-?Fil(?:ipi)?|filipi)|Phil)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Col"]
@@ -429,12 +429,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["2Pet"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:II\.?[\s\xa0]*Petrose|2(?:\.[\s\xa0]*Petrose|[\s\xa0]*Petrose|Pet))
+		(?:II(?:\.[\s\xa0]*Pet(?:rose)?|[\s\xa0]*Pet(?:rose)?)|2(?:\.[\s\xa0]*Pet(?:rose)?|[\s\xa0]*Pet(?:rose)?|Pet))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["1Pet"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:I\.?[\s\xa0]*Petrose|1(?:\.[\s\xa0]*Petrose|[\s\xa0]*Petrose|Pet))
+		(?:I(?:\.[\s\xa0]*Pet(?:rose)?|[\s\xa0]*Pet(?:rose)?)|1(?:\.[\s\xa0]*Pet(?:rose)?|[\s\xa0]*Pet(?:rose)?|Pet))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Jude"]

@@ -13,15 +13,15 @@ $VERSE	temana
 $UNICODE_BLOCK	Latin
 
 Gen	Genese
-Exod	Eksoda
+Exod	Eksoda	Exoda
 Lev	Levitike
 Num	Numere
 Deut	Deuteronoma
 Josh	Joshua
 Judg	Baahlodi
 Ruth	Ruthe
-1Sam	$FIRST Samuele
-2Sam	$SECOND Samuele
+1Sam	$FIRST Samuele	$FIRST Sam
+2Sam	$SECOND Samuele	$SECOND Sam
 1Kgs	$FIRST Marena
 2Kgs	$SECOND Marena
 1Chr	$FIRST Dikronike
@@ -30,11 +30,11 @@ Ezra	Esdrase
 Neh	Nehemia
 Esth	Esthere
 Job	Jobo
-Ps	Dipesaleme
+Ps	Dipesaleme	Pes
 Prov	Diproverbia
 Eccl	Moeklesia
 Song	Sefela Sa Salomone
-Isa	Esaia
+Isa	Esaia	Esa
 Jer	Jeremia
 Lam	Dillo Tsa Jeremia
 Ezek	Esekiele
@@ -57,11 +57,11 @@ Luke	Luka
 John	Johanne
 Acts	Diketso	Liketso
 Rom	Baroma	Ba-Roma
-1Cor	$FIRST Bakorinthe	$FIRST Ba-Korinthe
-2Cor	$SECOND Bakorinthe	$SECOND Ba-Korinthe
+1Cor	$FIRST Bakorinthe	$FIRST Ba-Korinthe	$FIRST Bakr	$FIRST Ba-Kor
+2Cor	$SECOND Bakorinthe	$SECOND Ba-Korinthe	$SECOND Bakr	$SECOND Ba-Kor
 Gal	Bagalata	Ba-Galata
-Eph	Baefese	Ba-Efese
-Phil	Bafilipi	Ba-Filipi
+Eph	Baefese	Ba-Efese	Ba-Efe
+Phil	Bafilipi	Ba-Filipi	Ba-Fil
 Col	Bakolose
 1Thess	$FIRST Bathesalonika	$FIRST Ba-Thesalonika
 2Thess	$SECOND Bathesalonika	$SECOND Ba-Thesalonika
@@ -71,35 +71,35 @@ Titus	Tite
 Phlm	Filemone
 Heb	Baheberu
 Jas	Jakobo
-1Pet	$FIRST Petrose
-2Pet	$SECOND Petrose
+1Pet	$FIRST Petrose	$FIRST Pet
+2Pet	$SECOND Petrose	$SECOND Pet
 1John	$FIRST Johanne
 2John	$SECOND Johanne
 3John	$THIRD Johanne
 Jude	Juda
-Rev	Tshenolo
-Tob	
-Jdt	
-GkEsth	
-Wis	
-Sir	
-Bar	
-PrAzar	
-Sus	
-Bel	
-SgThree	
-EpJer	
-1Macc	
-2Macc	
-3Macc	
-4Macc	
-1Esd	
-2Esd	
-PrMan	
+Rev	Tshenolo	Tšen
+Tob
+Jdt
+GkEsth
+Wis
+Sir
+Bar
+PrAzar
+Sus
+Bel
+SgThree
+EpJer
+1Macc
+2Macc
+3Macc
+4Macc
+1Esd
+2Esd
+PrMan
 
-Jonah,Job,Josh,Joel	
-Judg,Jude	
-Phil,Phlm	
+Jonah,Job,Josh,Joel
+Judg,Jude
+Phil,Phlm
 
 # Order
 =Gen
@@ -189,87 +189,87 @@ Phil,Phlm
 
 # Preferred names
 # OSIS	Long	Short	Shorter	Single (Ps)
-*Gen	
-*Exod	
-*Lev	
-*Num	
-*Deut	
-*Josh	
-*Judg	
-*Ruth	
-*1Sam	
-*2Sam	
-*1Kgs	
-*2Kgs	
-*1Chr	
-*2Chr	
-*Ezra	
-*Neh	
-*Esth	
-*Job	
-*Ps	
-*Prov	
-*Eccl	
-*Song	
-*Isa	
-*Jer	
-*Lam	
-*Ezek	
-*Dan	
-*Hos	
-*Joel	
-*Amos	
-*Obad	
-*Jonah	
-*Mic	
-*Nah	
-*Hab	
-*Zeph	
-*Hag	
-*Zech	
-*Mal	
-*Matt	
-*Mark	
-*Luke	
-*John	
-*Acts	
-*Rom	
-*1Cor	
-*2Cor	
-*Gal	
-*Eph	
-*Phil	
-*Col	
-*1Thess	
-*2Thess	
-*1Tim	
-*2Tim	
-*Titus	
-*Phlm	
-*Heb	
-*Jas	
-*1Pet	
-*2Pet	
-*1John	
-*2John	
-*3John	
-*Jude	
-*Rev	
-*Tob	
-*Jdt	
-*GkEsth	
-*Wis	
-*Sir	
-*Bar	
-*PrAzar	
-*Sus	
-*Bel	
-*SgThree	
-*EpJer	
-*1Macc	
-*2Macc	
-*3Macc	
-*4Macc	
-*1Esd	
-*2Esd	
-*PrMan	
+*Gen
+*Exod
+*Lev
+*Num
+*Deut
+*Josh
+*Judg
+*Ruth
+*1Sam
+*2Sam
+*1Kgs
+*2Kgs
+*1Chr
+*2Chr
+*Ezra
+*Neh
+*Esth
+*Job
+*Ps
+*Prov
+*Eccl
+*Song
+*Isa
+*Jer
+*Lam
+*Ezek
+*Dan
+*Hos
+*Joel
+*Amos
+*Obad
+*Jonah
+*Mic
+*Nah
+*Hab
+*Zeph
+*Hag
+*Zech
+*Mal
+*Matt
+*Mark
+*Luke
+*John
+*Acts
+*Rom
+*1Cor
+*2Cor
+*Gal
+*Eph
+*Phil
+*Col
+*1Thess
+*2Thess
+*1Tim
+*2Tim
+*Titus
+*Phlm
+*Heb
+*Jas
+*1Pet
+*2Pet
+*1John
+*2John
+*3John
+*Jude
+*Rev
+*Tob
+*Jdt
+*GkEsth
+*Wis
+*Sir
+*Bar
+*PrAzar
+*Sus
+*Bel
+*SgThree
+*EpJer
+*1Macc
+*2Macc
+*3Macc
+*4Macc
+*1Esd
+*2Esd
+*PrMan

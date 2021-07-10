@@ -11,6 +11,14 @@
 1Cor	I. Bakorinthe
 1Cor	1 Bakorinthe
 1Cor	I Bakorinthe
+1Cor	1. Ba-Kor
+1Cor	I. Ba-Kor
+1Cor	1 Ba-Kor
+1Cor	I Ba-Kor
+1Cor	1. Bakr
+1Cor	I. Bakr
+1Cor	1 Bakr
+1Cor	I Bakr
 1Cor	1Cor
 1Esd	1Esd
 1John	1. Johanne
@@ -28,11 +36,19 @@
 1Pet	I. Petrose
 1Pet	1 Petrose
 1Pet	I Petrose
+1Pet	1. Pet
+1Pet	I. Pet
+1Pet	1 Pet
+1Pet	I Pet
 1Pet	1Pet
 1Sam	1. Samuele
 1Sam	I. Samuele
 1Sam	1 Samuele
 1Sam	I Samuele
+1Sam	1. Sam
+1Sam	I. Sam
+1Sam	1 Sam
+1Sam	I Sam
 1Sam	1Sam
 1Thess	1. Ba-Thesalonika
 1Thess	I. Ba-Thesalonika
@@ -61,6 +77,14 @@
 2Cor	2. Bakorinthe
 2Cor	II Bakorinthe
 2Cor	2 Bakorinthe
+2Cor	II. Ba-Kor
+2Cor	2. Ba-Kor
+2Cor	II Ba-Kor
+2Cor	2 Ba-Kor
+2Cor	II. Bakr
+2Cor	2. Bakr
+2Cor	II Bakr
+2Cor	2 Bakr
 2Cor	2Cor
 2Esd	2Esd
 2John	II. Johanne
@@ -78,11 +102,19 @@
 2Pet	2. Petrose
 2Pet	II Petrose
 2Pet	2 Petrose
+2Pet	II. Pet
+2Pet	2. Pet
+2Pet	II Pet
+2Pet	2 Pet
 2Pet	2Pet
 2Sam	II. Samuele
 2Sam	2. Samuele
 2Sam	II Samuele
 2Sam	2 Samuele
+2Sam	II. Sam
+2Sam	2. Sam
+2Sam	II Sam
+2Sam	2 Sam
 2Sam	2Sam
 2Thess	II. Ba-Thesalonika
 2Thess	2. Ba-Thesalonika
@@ -123,10 +155,12 @@ Eccl	Eccl
 EpJer	EpJer
 Eph	Ba-Efese
 Eph	Baefese
+Eph	Ba-Efe
 Eph	Eph
 Esth	Esthere
 Esth	Esth
 Exod	Eksoda
+Exod	Exoda
 Exod	Exod
 Ezek	Esekiele
 Ezek	Ezek
@@ -147,6 +181,7 @@ Heb	Heb
 Hos	Hosea
 Hos	Hos
 Isa	Esaia
+Isa	Esa
 Isa	Isa
 Jas	Jakobo
 Jas	Jas
@@ -191,6 +226,7 @@ Obad	Obadia
 Obad	Obad
 Phil	Ba-Filipi
 Phil	Bafilipi
+Phil	Ba-Fil
 Phil	Phil
 Phlm	Filemone
 Phlm	Phlm
@@ -199,8 +235,11 @@ PrMan	PrMan
 Prov	Diproverbia
 Prov	Prov
 Ps	Dipesaleme
+Ps	Pes
 Ps	Ps
 Rev	Tshenolo
+Rev	Tsen
+Rev	Tšen
 Rev	Rev
 Rom	Ba-Roma
 Rom	Baroma
