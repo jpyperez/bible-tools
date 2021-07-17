@@ -19,7 +19,7 @@ bcv_parser::regexps.escaped_passage = ///
 				    /\d+\x1f				#special Psalm chapters
 				  | [\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014]
 				  | title (?! [a-z] )		#could be followed by a number
-				  | ಅಧ್ಯಾಯ | ಮತ್ತು | ಪದ್ಯ | ff | ಗೆ
+				  | ಅಧ್ಯಾಯಗಳು | ಅಧ್ಯಾಯ | ಮತ್ತು | ರಿಂದ | ಪದ್ಯ | ff | ಗೆ
 				  | [a-e] (?! \w )			#a-e allows 1:1a
 				  | $						#or the end of the string
 				 )+
@@ -39,8 +39,8 @@ bcv_parser::regexps.pre_book = "[^A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-�
 bcv_parser::regexps.first = "(?:1|[೧1])\\.?#{bcv_parser::regexps.space}*"
 bcv_parser::regexps.second = "(?:2|[೨2])\\.?#{bcv_parser::regexps.space}*"
 bcv_parser::regexps.third = "(?:3|[೩3])\\.?#{bcv_parser::regexps.space}*"
-bcv_parser::regexps.range_and = "(?:[&\u2013\u2014-]|ಮತ್ತು|ಗೆ)"
-bcv_parser::regexps.range_only = "(?:[\u2013\u2014-]|ಗೆ)"
+bcv_parser::regexps.range_and = "(?:[&\u2013\u2014-]|ಮತ್ತು|(?:ಗೆ|ರಿಂದ))"
+bcv_parser::regexps.range_only = "(?:[\u2013\u2014-]|(?:ಗೆ|ರಿಂದ))"
 # Each book regexp should return two parenthesized objects: an optional preliminary character and the book itself.
 bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	books = [
@@ -54,12 +54,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Gen"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ಆ(?:ದಿ(?:ಕಾಂಡ)?|\.?ಕಾ)|Gen)
+		(?:ಆ(?:ದಿ(?:ಕಾಂಡ)?|\.?ಕಾಂಡ|\.?ಕಾ)|Gen)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Exod"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ವಿ(?:ಮೋ(?:ಚನಕಾಂಡ)?|\.?ಕಾ)|Exod)
+		(?:ವಿ(?:ಮೋ(?:ಚನಕಾಂಡ)?|\.?ಕಾಂಡ|\.?ಕಾ)|Exod)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Bel"]
@@ -75,7 +75,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Num"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ಸಂಖ್ಯಾಕಾಂಡ|ಅರಣ್ಯಕಾಂಡ|ಅರಣ್ಯ|Num)
+		(?:ಸಂಖ್ಯಾಕಾಂಡ|ಅರಣ್ಯಕಾಂಡ|ಯಾಕಾಂಡ|ಅರಣ್ಯ|Num)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Sir"]
@@ -114,7 +114,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Deut"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ಧ(?:ರ್ಮೋ(?:ಪದೇಶಕಾಂಡ)?|\.?ಕಾ)|Deut)
+		(?:ಧ(?:ರ್ಮೋ(?:ಪದೇಶಕಾಂಡ)?|\.?ಕಾಂಡ|\.?ಕಾ)|Deut)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Josh"]
@@ -151,12 +151,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["2Sam"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:೨[\s\xa0]*ಸಮುವೇಲನು|2(?:[\s\xa0]*ಸಮು(?:ವೇಲನು)?|Sam))
+		(?:೨[\s\xa0]*ಸಮುವೇಲನು|2(?:[\s\xa0]*ಸಮು(?:ವೇಲ(?:ನು)?)?|Sam))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["1Sam"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:೧[\s\xa0]*ಸಮುವೇಲನು|1(?:[\s\xa0]*ಸಮು(?:ವೇಲನು)?|Sam))
+		(?:೧[\s\xa0]*ಸಮುವೇಲನು|1(?:[\s\xa0]*ಸಮು(?:ವೇಲ(?:ನು)?)?|Sam))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Kgs"]
@@ -369,7 +369,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Gal"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ಗಲಾ(?:ತ್ಯ(?:ದವ)?ರಿಗೆ)?|Gal)
+		(?:ಗಲಾ(?:ತ್ಯ(?:ದವರಿಗೆ|ರಿಗೆ)?)?|Gal)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Eph"]
@@ -379,7 +379,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Phil"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ಫಿಲಿಪ್ಪಿ(?:ಯವ?ರಿಗೆ)?|Phil)
+		(?:ಫಿಲಿ(?:ಪ್ಪಿ(?:ಯವ?ರಿಗೆ)?)?|Phil)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Col"]

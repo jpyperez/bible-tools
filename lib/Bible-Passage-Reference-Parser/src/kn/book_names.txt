@@ -43,6 +43,7 @@
 1Pet	1Pet
 1Sam	1 ಸಮುವೇಲನು
 1Sam	೧ ಸಮುವೇಲನು
+1Sam	1 ಸಮುವೇಲ
 1Sam	1 ಸಮು
 1Sam	1Sam
 1Thess	1 ಥೆಸಲೋನಿಕದವರಿಗೆ
@@ -103,6 +104,7 @@
 2Pet	2Pet
 2Sam	2 ಸಮುವೇಲನು
 2Sam	೨ ಸಮುವೇಲನು
+2Sam	2 ಸಮುವೇಲ
 2Sam	2 ಸಮು
 2Sam	2Sam
 2Thess	2 ಥೆಸಲೋನಿಕದವರಿಗೆ
@@ -148,6 +150,8 @@ Dan	ದಾನಿಯೇಲನು
 Dan	ದಾನಿ
 Dan	Dan
 Deut	ಧರ್ಮೋಪದೇಶಕಾಂಡ
+Deut	ಧ.ಕಾಂಡ
+Deut	ಧಕಾಂಡ
 Deut	ಧರ್ಮೋ
 Deut	Deut
 Deut	ಧ.ಕಾ
@@ -165,6 +169,8 @@ Esth	ಎಸ್ತೇರಳು
 Esth	ಎಸ್ತೇ
 Esth	Esth
 Exod	ವಿಮೋಚನಕಾಂಡ
+Exod	ವಿ.ಕಾಂಡ
+Exod	ವಿಕಾಂಡ
 Exod	ವಿ.ಕಾ
 Exod	Exod
 Exod	ವಿಕಾ
@@ -178,9 +184,12 @@ Ezra	Ezra
 Ezra	ಎಜ್ರ
 Gal	ಗಲಾತ್ಯದವರಿಗೆ
 Gal	ಗಲಾತ್ಯರಿಗೆ
+Gal	ಗಲಾತ್ಯ
 Gal	Gal
 Gal	ಗಲಾ
 Gen	ಆದಿಕಾಂಡ
+Gen	ಆ.ಕಾಂಡ
+Gen	ಆಕಾಂಡ
 Gen	ಆ.ಕಾ
 Gen	Gen
 Gen	ಆಕಾ
@@ -268,6 +277,7 @@ Neh	ನೆಹೆ
 Neh	Neh
 Num	ಸಂಖ್ಯಾಕಾಂಡ
 Num	ಅರಣ್ಯಕಾಂಡ
+Num	ಯಾಕಾಂಡ
 Num	ಅರಣ್ಯ
 Num	Num
 Obad	ಪ್ರವಾದಿ ಓಬದ್ಯನ ಗ್ರಂಥ
@@ -278,6 +288,7 @@ Phil	ಫಿಲಿಪ್ಪಿಯವರಿಗೆ
 Phil	ಫಿಲಿಪ್ಪಿಯರಿಗೆ
 Phil	ಫಿಲಿಪ್ಪಿ
 Phil	Phil
+Phil	ಫಿಲಿ
 Phlm	ಫಿಲೆಮೋನನಿಗೆ
 Phlm	Phlm
 Phlm	ಫಿಲೆ
