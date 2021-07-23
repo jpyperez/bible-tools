@@ -13,7 +13,7 @@ $VERSE	verse
 $UNICODE_BLOCK	Latin
 
 Gen	[GH]enesis
-Exod	Eksodo	Exodus	Exo
+Exod	Eksodo	Exodus	Exo	Exodo
 Lev	Lebitiko	Leviticus
 Num	Mga Numeros?	Numeros?
 Deut	Dyuteronomyo	Deuteronomio	Deu
@@ -51,9 +51,9 @@ Zeph	Sofonías	Zefania
 Hag	Ageo	Hageo
 Zech	Zacarías
 Mal	Malaquías	Malakias
-Matt	Mateo	Sulat ni San Mateo	Mt
-Mark	Marcos	Sulat ni San Marcos	M[ck]
-Luke	Lucas	Sulat ni San Lucas	Lu
+Matt	Mateo	Sulat ni San Mateo	Mt	Mat
+Mark	Marcos	Sulat ni San Marcos	M[ck]	Markos
+Luke	Lucas	Sulat ni San Lucas	Lu	Lukas
 John	Juan	Sulat ni San Juan	Jn
 Acts	Buhat sa mga Apostoles	Ang Mga Binuhatan	Binuhatan	Bin
 Rom	Mga Taga-Roma	Roma
@@ -61,7 +61,7 @@ Rom	Mga Taga-Roma	Roma
 2Cor	$SECOND Mga Taga-Corinto	$SECOND Taga-Corinto	$SECOND Corinto	2 Cor?
 Gal	Taga-Galacia	Mga Taga-Galacia	Galacia
 Eph	Taga-Éfeso	Mga Taga-Éfeso	Éfeso
-Phil	Taga-Filipos	Mga Taga-Filipos	Filipos
+Phil	Taga-Filipos	Mga Taga-Filipos	Filipos	Fil
 Col	Taga-Colosas	Mga Taga-Colosas	Colosas
 1Thess	$FIRST Mga Taga-Tesalóni[ck]a	$FIRST Taga-Tesalóni[ck]a	$FIRST Tesalóni[ck]a
 2Thess	$SECOND Mga Taga-Tesalóni[ck]a	$SECOND Taga-Tesalóni[ck]a	$SECOND Tesalóni[ck]a
@@ -77,7 +77,7 @@ Jas	Jacobo	Santiago
 2John	$SECOND Juan	2 Jn
 3John	$THIRD Juan	3 Jn
 Jude	Judas
-Rev	Gipadayag
+Rev	Gipadayag	Pin
 Tob	Tob
 Jdt	Jdt
 GkEsth	GkEsth

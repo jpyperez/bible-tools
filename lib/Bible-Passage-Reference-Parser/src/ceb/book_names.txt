@@ -191,6 +191,7 @@ Esth	Ester
 Esth	Esth
 Exod	Eksodo
 Exod	Exodus
+Exod	Exodo
 Exod	Exod
 Exod	Exo
 Ezek	Ezequiel
@@ -256,6 +257,7 @@ Lev	Lebitiko
 Lev	Lev
 Luke	Sulat ni San Lucas
 Luke	Lucas
+Luke	Lukas
 Luke	Luke
 Luke	Lu
 Mal	Malaquias
@@ -264,12 +266,14 @@ Mal	Malakias
 Mal	Mal
 Mark	Sulat ni San Marcos
 Mark	Marcos
+Mark	Markos
 Mark	Mark
 Mark	Mc
 Mark	Mk
 Matt	Sulat ni San Mateo
 Matt	Mateo
 Matt	Matt
+Matt	Mat
 Matt	Mt
 Mic	Miqueas
 Mic	Mika
@@ -293,6 +297,7 @@ Phil	Mga Taga-Filipos
 Phil	Taga-Filipos
 Phil	Filipos
 Phil	Phil
+Phil	Fil
 Phlm	Kang Filemon
 Phlm	Kang Filemón
 Phlm	Filemon
@@ -308,6 +313,7 @@ Ps	Salmo
 Ps	Sal
 Ps	Ps
 Rev	Gipadayag
+Rev	Pin
 Rev	Rev
 Rom	Mga Taga-Roma
 Rom	Roma
