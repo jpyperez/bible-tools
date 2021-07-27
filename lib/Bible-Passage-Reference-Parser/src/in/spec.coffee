@@ -1206,9 +1206,11 @@ describe "Localized book Eph (in)", ->
 		`
 		expect(p.parse("Efesus 1:1").osis()).toEqual("Eph.1.1")
 		expect(p.parse("Eph 1:1").osis()).toEqual("Eph.1.1")
+		expect(p.parse("Ef 1:1").osis()).toEqual("Eph.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("EFESUS 1:1").osis()).toEqual("Eph.1.1")
 		expect(p.parse("EPH 1:1").osis()).toEqual("Eph.1.1")
+		expect(p.parse("EF 1:1").osis()).toEqual("Eph.1.1")
 		`
 		true
 describe "Localized book Phil (in)", ->

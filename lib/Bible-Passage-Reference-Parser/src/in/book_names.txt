@@ -188,6 +188,7 @@ Eccl	Pkh
 EpJer	EpJer
 Eph	Efesus
 Eph	Eph
+Eph	Ef
 Esth	Ester
 Esth	Esth
 Esth	Est

@@ -62,7 +62,7 @@ Rom	Roma	Rm
 1Cor	$FIRST Korintus	$FIRST Kor
 2Cor	$SECOND Korintus	$SECOND Kor
 Gal	Galatia	Gal
-Eph	Efesus	Eph
+Eph	Efesus	Eph	Ef
 Phil	Filipi	Flp	Phil
 Col	Kolose	Kol
 1Thess	$FIRST Tesalonika	$FIRST Tes
