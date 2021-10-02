@@ -1359,6 +1359,7 @@ Deut	V Mojzisova
 Deut	V Mojzišova
 Deut	V Mojžisova
 Deut	V Mojžišova
+Deut	5Moj
 Deut	Deut
 Deut	5 M
 Deut	Dt
@@ -1639,7 +1640,9 @@ Jude	Judov List
 Jude	Júdov List
 Jude	Judov
 Jude	Júdov
+Jude	Juda
 Jude	Jude
+Jude	Júda
 Jude	Jud
 Jude	Júd
 Judg	K. sudcov
@@ -1755,6 +1758,7 @@ Mark	Evanjelium Podľa Marka
 Mark	Marek
 Mark	Marka
 Mark	Mark
+Mark	Mar
 Mark	Mk
 Matt	Evanjelium Podla Matusa
 Matt	Evanjelium Podla Matuša
