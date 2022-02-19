@@ -113,15 +113,7 @@ Dan	దాని
 Dan	Dan
 Deut	ద్వితీయోపదేశ కాండము
 Deut	ద్వితీయోపదేశకాండము
-Deut	ద్వితిA
-Deut	ద్వితిB
-Deut	ద్వితిT
-Deut	ద్వితి}
-Deut	ద్వితిత
-Deut	ద్వితిద
-Deut	ద్వితివ
-Deut	ద్వితిి
-Deut	ద్వితి్
+Deut	ద్వితి
 Deut	ద్వితీ
 Deut	Deut
 Eccl	ప్రసంగి
@@ -167,6 +159,7 @@ Hag	Hag
 Heb	హెబ్రీయులకు రాసిన పత్రిక
 Heb	హెబ్రీ పత్రిక
 Heb	హెబ్రీయులకు
+Heb	హెబ్రి
 Heb	హెబ్రీ
 Heb	Heb
 Hos	హోషేయ
@@ -181,6 +174,7 @@ Jas	యాకోబు
 Jas	యాకో
 Jas	Jas
 Jdt	Jdt
+Jer	యిర్మియా
 Jer	యిర్మీయా
 Jer	యిర్మి
 Jer	యిర్మీ
@@ -245,11 +239,9 @@ Num	Num
 Obad	ఓబద్యా
 Obad	Obad
 Phil	ఫిలిప్పీయులకు రాసిన పత్రిక
-Phil	ఫిలిప్పీAఫిలిప్పి
-Phil	ఫిలిప్పీBఫిలిప్పి
-Phil	ఫిలిప్పీTఫిలిప్పి
 Phil	ఫిలిప్పీ పత్రిక
 Phil	ఫిలిప్పీయులకు
+Phil	ఫిలిప్పి
 Phil	ఫిలిప్పీ
 Phil	Phil
 Phlm	ఫిలేమోనుకు రాసిన పత్రిక

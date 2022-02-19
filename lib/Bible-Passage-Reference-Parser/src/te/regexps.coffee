@@ -114,7 +114,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Deut"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ద్విత(?:ీ(?:యోపదేశ[\s\xa0]*?కాండము)?|ి[ABT\}తదవి్])|Deut)
+		(?:ద్విత(?:ీ(?:యోపదేశ[\s\xa0]*?కాండము)?|ి)|Deut)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Josh"]
@@ -239,7 +239,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Jer"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:యిర్మ(?:ీ(?:యా)?|ి)|Jer)
+		(?:యిర్మ[ిీ](?:యా)?|Jer)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Ezek"]
@@ -379,7 +379,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Phil"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ఫిలిప్పీ(?:యులకు(?:[\s\xa0]*రాసిన[\s\xa0]*పత్రిక)?|[ABT]ఫిలిప్పి|[\s\xa0]*పత్రిక)?|Phil)
+		(?:ఫిలిప్ప(?:ీ(?:యులకు(?:[\s\xa0]*రాసిన[\s\xa0]*పత్రిక)?|[\s\xa0]*పత్రిక)?|ి)|Phil)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Col"]
@@ -419,7 +419,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Heb"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:హెబ్రీ(?:యులకు(?:[\s\xa0]*రాసిన[\s\xa0]*పత్రిక)?|[\s\xa0]*పత్రిక)?|Heb)
+		(?:హెబ్ర(?:ీ(?:యులకు(?:[\s\xa0]*రాసిన[\s\xa0]*పత్రిక)?|[\s\xa0]*పత్రిక)?|ి)|Heb)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Jas"]
