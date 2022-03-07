@@ -1,142 +1,236 @@
-1Chr	Khang Thangthu Masa
+1Chr	ရာ ဇ ဝင် ချုပ် ပ ထ မ စောင်။
 1Chr	1Chr
-1Cor	Korin Masa
+1Chr	5 ရာ
+1Chr	၅ ရာ
+1Cor	ကော ရိ န္သု ဩ ဝါ ဒ စာ ပ ထ မ စောင်။
+1Cor	1 ကော
+1Cor	၁ ကော
 1Cor	1Cor
 1Esd	1Esd
-1John	Johan Masa
+1John	ရှင် ယော ဟန် ဩ ဝါ ဒ စာ ပ ထ မ စောင်။
+1John	1 ယော
 1John	1John
-1Kgs	Kumpi Masate
+1John	၁ ယော
+1Kgs	ဓ မ္မ ရာ ဇ ဝင် တ တိ ယ စောင်။
 1Kgs	1Kgs
+1Kgs	3 ရာ
+1Kgs	၃ ရာ
 1Macc	1Macc
-1Pet	Peter Masa
+1Pet	ရှင် ပေ တ ရု သြ ဝါ ဒ စာ ပ ထ မ စောင်။
+1Pet	1 ပေ
 1Pet	1Pet
-1Sam	Samuel Masa
+1Pet	၁ ပေ
+1Sam	ဓ မ္မ ရာ ဇ ဝင် ပ ထ မ စောင်။
+1Sam	1 ရာ
 1Sam	1Sam
-1Thess	Thesalonika Masa
+1Sam	၁ ရာ
+1Thess	သက် သာ လော နိတ် ဩ ဝါ ဒ စာ ပ ထ မ စောင်။
 1Thess	1Thess
-1Tim	Timoti Masa
+1Thess	1 သက်
+1Thess	၁ သက်
+1Tim	တိ မော သေ ဩ ဝါ ဒ စာ ပ ထ မ စောင်။
+1Tim	1 တိ
 1Tim	1Tim
-2Chr	Khang Thangthu Nihna
+1Tim	၁ တိ
+2Chr	ရာ ဇ ဝင် ချုပ် ဒု တိ ယ စောင်။
 2Chr	2Chr
-2Cor	Korin Nihna
+2Chr	6 ရာ
+2Chr	၆ ရာ
+2Cor	ကော ရိ န္သု ဩ ဝါ ဒ စာ ဒု တိ ယ စောင်။
+2Cor	2 ကော
+2Cor	၂ ကော
 2Cor	2Cor
 2Esd	2Esd
-2John	Johan Nihna
+2John	ရှင် ယော ဟန် ဩ ဝါ ဒ စာ ဒု တိ ယ စောင်။
+2John	2 ယော
 2John	2John
-2Kgs	Kumpi Nihnate
+2John	၂ ယော
+2Kgs	ဓ မ္မ ရာ ဇ ဝင် စ တု တ္ထ စောင်။
 2Kgs	2Kgs
+2Kgs	4 ရာ
+2Kgs	၄ ရာ
 2Macc	2Macc
-2Pet	Peter Nihna
+2Pet	ရှင် ပေ တ ရု ဩ ဝါ ဒ စာ ဒု တိ ယ စောင်။
+2Pet	2 ပေ
 2Pet	2Pet
-2Sam	Samuel Nihna
+2Pet	၂ ပေ
+2Sam	ဓ မ္မ ရာ ဇ ဝင် ဒု တိ ယ စောင်။
+2Sam	2 ရာ
 2Sam	2Sam
-2Thess	Thesalonika Nihna
+2Sam	၂ ရာ
+2Thess	သက် သာ လော နိတ် ဩ ဝါ ဒ စာ ဒု တိ ယ စောင်။
 2Thess	2Thess
-2Tim	Timoti Nihna
+2Thess	2 သက်
+2Thess	၂ သက်
+2Tim	တိ မော သေ ဩ ဝါ ဒ စာ ဒု တိ ယ စောင်။
+2Tim	2 တိ
 2Tim	2Tim
-3John	Johan Thumna
+2Tim	၂ တိ
+3John	ရှင် ယော ဟန် ဩ ဝါ ဒ စာ တ တိ ယ စောင်။
+3John	3 ယော
 3John	3John
+3John	၃ ယော
 3Macc	3Macc
 4Macc	4Macc
-Acts	Sawltak Tangthu
+Acts	တ မန် တော် ဝ တ္ထု။
 Acts	Acts
+Acts	တ
+Amos	အာ မုတ် အ နာ ဂ တ္တိ ကျမ်း။
 Amos	Amos
+Amos	အာ
 Bar	Bar
 Bel	Bel
-Col	Kolose
+Col	ကော လော သဲ ဩ ဝါ ဒ စာ။
 Col	Col
-Dan	Daniel
+Col	ကော
+Dan	ဒံ ယေ လ အ နာ ဂ တ္တိ ကျမ်း။
 Dan	Dan
-Deut	Thu Hilhkikna
+Dan	ဒံ
+Deut	တ ရား ဟော ရာ ကျမ်း။
 Deut	Deut
-Eccl	Thuhilhna
+Deut	တရား
+Eccl	ဒေ သ နာ ကျမ်း။
 Eccl	Eccl
+Eccl	ဒေ
 EpJer	EpJer
-Eph	Efesa
+Eph	ဧ ဖက် ဩ ဝါ ဒ စာ။
 Eph	Eph
-Esth	Esther
+Eph	ဧ
+Esth	ဧ သ တာ ဝ တ္ထု။
 Esth	Esth
-Exod	Paikhiatna
+Esth	ဧသ
+Exod	ထွက် မြောက် ရာ ကျမ်း။
 Exod	Exod
-Ezek	Ezekiel
+Exod	ထွ
+Ezek	ယေ ဇ ကျေ လ အ နာ ဂ တ္တိ ကျမ်း။
 Ezek	Ezek
+Ezek	ယေဇ
+Ezra	ဧ ဇ ရ မှတ် စာ။
 Ezra	Ezra
-Gal	Galati
+Ezra	ဧဇ
+Gal	ဂ လာ တိ ဩ ဝါ ဒ စာ။
 Gal	Gal
-Gen	Piancilna
+Gal	ဂ လ
+Gen	က မ္ဘာ ဥး ကျမ်း။
+Gen	က မ္ဘာ ဦး ကျမ်း။
 Gen	Gen
+Gen	က
 GkEsth	GkEsth
-Hab	Habakkuk
+Hab	ဟ ဗ က္ကုတ် အ နာ ဂ တ္တိ ကျမ်း။
 Hab	Hab
-Hag	Haggai
+Hab	ဟဗ
+Hag	ဟ ဂ္ဂဲ အ နာ ဂ တ္တိ ကျမ်း။
+Hag	ဟ ဂ္ဂဲ
 Hag	Hag
-Heb	Hebru
+Heb	ဟေ ဗြဲ ဩ ဝါ ဒ စာ။
+Heb	ဟေ ဗြဲ
+Heb	ဟေဗြဲ၊
 Heb	Heb
-Hos	Hosea
+Hos	ဟော ရှေ အ နာ ဂ တ္တိ ကျမ်း။
 Hos	Hos
-Isa	Isaiah
+Hos	ဟော
+Isa	ဟေ ရှာ ယ အ နာ ဂ တ္တိ ကျမ်း။
+Isa	ဟေရှာ
 Isa	Isa
-Jas	James
+Jas	ရှင် ယာ ကုပ် ဩ ဝါ ဒ စာ။
 Jas	Jas
+Jas	ယာ
 Jdt	Jdt
-Jer	Jeremiah
+Jer	ယေ ရ မိ အ နာ ဂ တ္တိ ကျမ်း။
 Jer	Jer
+Jer	ယေ
+Job	ယော ဘ ဝ တ္တု။
+Job	ယောဘ
 Job	Job
+Joel	ယော လ အ နာ ဂ တ္တိ ကျမ်း။
 Joel	Joel
-John	Johan
+Joel	ယောလ
+John	ရှင် ယော ဟန် ခ ရစ် ဝင်။
 John	John
+John	ယော
+Jonah	ယော န ဝ တ္ထု။
 Jonah	Jonah
-Josh	Joshua
+Jonah	ယောန
+Josh	ယော ရှု မှတ် စာ။
+Josh	ယောရှု
 Josh	Josh
+Jude	ရှင် ယု ဒ ဩ ဝါ ဒ စာ။
 Jude	Jude
-Judg	Thukhente
+Jude	ယု
+Judg	တ ရား သူ ကြီး မှတ် စာ။
+Judg	သူကြီး
 Judg	Judg
-Lam	Kah La
+Lam	ယေ ရ မိ မြည် တမ်း စ ကား။
+Lam	မြည်
 Lam	Lam
-Lev	Siampi Laibu
+Lev	ဝတ် ပြု ရာ ကျမ်း။
 Lev	Lev
-Luke	Luka
+Lev	ဝတ်
+Luke	ရှင် လု ကာ ခ ရစ် ဝင်။
 Luke	Luke
-Mal	Malakhi
+Luke	လုကာ
+Luke	လု
+Mal	မာ လ ခိ အ နာ ဂ တ္တိ ကျမ်း။
 Mal	Mal
-Mark	Marka
+Mal	မာလ
+Mark	ရှင် မာ ကု ခ ရစ် ဝင်။
 Mark	Mark
-Matt	Matthai
+Mark	မာ
+Matt	ရှင် မဿဲ ခ ရစ် ဝင်။
 Matt	Matt
-Mic	Mikah
+Matt	မ
+Mic	မိ က္ခာ အ နာ ဂ တ္တိ ကျမ်း။
 Mic	Mic
-Nah	Nahum
+Mic	မိ
+Nah	နာ ဟုံ အ နာ ဂ တ္တိ ကျမ်း။
 Nah	Nah
-Neh	Nehemiah
+Nah	နာ
+Neh	နေ ဟ မိ မှတ် စာ။
 Neh	Neh
-Num	Gamlak Vakna
+Neh	နေ
+Num	တော လည် ရာ ကျမ်း။
 Num	Num
-Obad	Obadiah
+Num	တော
+Obad	ဩ ဗ ဒိ ဗျာ ဒိတ် ရူ ပါ ရုံ။
 Obad	Obad
-Phil	Filippi
+Obad	ဩ
+Phil	ဖိ လိ ပ္ပိ ဩ ဝါ ဒ စာ။
 Phil	Phil
-Phlm	Filemon
+Phil	ဖိ
+Phlm	ဖိ လေ မုန် ဩ ဝါ ဒ စာ။
 Phlm	Phlm
+Phlm	ဖိလေ
 PrAzar	PrAzar
 PrMan	PrMan
-Prov	Paunak
+Prov	သု တ္တံ ကျမ်း။
 Prov	Prov
-Ps	Late
+Prov	သု
+Ps	ဆာ လံ ကျမ်း။
 Ps	Ps
-Rev	Maangmuhna
+Ps	ဆာ
+Rev	ဗျာ ဒိတ် ကျမ်း။
 Rev	Rev
-Rom	Rom Laikhak
+Rev	ဗျာ
+Rom	ရော မ ဩ ဝါ ဒ စာ။
 Rom	Rom
+Rom	ရော
+Ruth	ရု​သ​ဝ​တ္တု။
 Ruth	Ruth
+Ruth	ရု
 SgThree	SgThree
 Sir	Sir
-Song	Solomon La
+Song	ရှော လ မုန် သီ ချင်း။
 Song	Song
+Song	သီ
 Sus	Sus
+Titus	တိ တု ဩ ဝါ ဒ စာ။
 Titus	Titus
+Titus	တိ
 Tob	Tob
 Wis	Wis
-Zech	Zekhariah
+Zech	ဇာ ခ ရိ အ နာ ဂ တ္တိ ကျမ်း။
 Zech	Zech
-Zeph	Zefaniah
+Zech	ဇာ
+Zeph	ဇေ ဖ နိ အ နာ ဂ တ္တိ ကျမ်း။
 Zeph	Zeph
+Zeph	ဇေ
