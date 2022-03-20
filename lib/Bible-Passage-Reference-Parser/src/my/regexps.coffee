@@ -54,12 +54,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Gen"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:က(?:[\s\xa0]*မ္ဘာ[\s\xa0]*[ဥဦ]း[\s\xa0]*ကျမ်း။)?|Gen)
+		(?:က(?:[\s\xa0]*မ္ဘာ[\s\xa0]*[ဥဦ]း[\s\xa0]*ကျမ်း။|၊)?|Gen)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Exod"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ထွ(?:က်[\s\xa0]*မြောက်[\s\xa0]*ရာ[\s\xa0]*ကျမ်း။)?|Exod)
+		(?:ထ(?:ွ(?:က်[\s\xa0]*မြောက်[\s\xa0]*ရာ[\s\xa0]*ကျမ်း။)?|ကွ[\s\xa0]*၊်)|Exod)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Bel"]
@@ -70,12 +70,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Lev"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ဝတ်(?:[\s\xa0]*ပြု[\s\xa0]*ရာ[\s\xa0]*ကျမ်း။)?|Lev)
+		(?:ဝတ်(?:[\s\xa0]*ပြု[\s\xa0]*ရာ[\s\xa0]*ကျမ်း။|၊)?|Lev)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Num"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:တော(?:[\s\xa0]*လည်[\s\xa0]*ရာ[\s\xa0]*ကျမ်း။)?|Num)
+		(?:တော(?:[\s\xa0]*လည်[\s\xa0]*ရာ[\s\xa0]*ကျမ်း။|၊)?|Num)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Sir"]
@@ -114,7 +114,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Deut"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:တ(?:[\s\xa0]*ရား[\s\xa0]*ဟော[\s\xa0]*ရာ[\s\xa0]*ကျမ်း။|ရား)|Deut)
+		(?:တ(?:[\s\xa0]*ရား[\s\xa0]*ဟော[\s\xa0]*ရာ[\s\xa0]*ကျမ်း။|ရား(?:‌ဟော)?)|Deut)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Josh"]
@@ -146,7 +146,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Isa"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ဟေ(?:[\s\xa0]*ရှာ[\s\xa0]*ယ[\s\xa0]*အ[\s\xa0]*နာ[\s\xa0]*ဂ[\s\xa0]*တ္တိ[\s\xa0]*ကျမ်း။|ရှာ)|Isa)
+		(?:ဟေ(?:[\s\xa0]*ရှာ[\s\xa0]*ယ[\s\xa0]*အ[\s\xa0]*နာ[\s\xa0]*ဂ[\s\xa0]*တ္တိ[\s\xa0]*ကျမ်း။|ရှာ)|‌ဟေရာှ|Isa)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Sam"]
@@ -166,7 +166,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["1Kgs"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:ဓ[\s\xa0]*မ္မ[\s\xa0]*ရာ[\s\xa0]*ဇ[\s\xa0]*ဝင်[\s\xa0]*တ[\s\xa0]*တိ[\s\xa0]*ယ[\s\xa0]*စောင်။|[3၃][\s\xa0]*ရာ|1Kgs)
+		(?:ဓ[\s\xa0]*မ္မ[\s\xa0]*ရာ[\s\xa0]*ဇ[\s\xa0]*ဝင်[\s\xa0]*တ[\s\xa0]*တိ[\s\xa0]*ယ[\s\xa0]*စောင်။|[3၃](?:ရာ၊|[\s\xa0]*ရာ)|1Kgs)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Chr"]
@@ -207,7 +207,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Ps"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ဆာ(?:[\s\xa0]*လံ[\s\xa0]*ကျမ်း။)?|Ps)
+		(?:ဆာ(?:[\s\xa0]*လံ[\s\xa0]*ကျမ်း။|၊)?|Ps)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["PrAzar"]
@@ -239,17 +239,17 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Jer"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ယေ(?:[\s\xa0]*ရ[\s\xa0]*မိ[\s\xa0]*အ[\s\xa0]*နာ[\s\xa0]*ဂ[\s\xa0]*တ္တိ[\s\xa0]*ကျမ်း။)?|Jer)
+		(?:ယေ(?:[\s\xa0]*ရ[\s\xa0]*မိ[\s\xa0]*အ[\s\xa0]*နာ[\s\xa0]*ဂ[\s\xa0]*တ္တိ[\s\xa0]*ကျမ်း။|ရမိ)?|Jer)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Ezek"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ယေ(?:[\s\xa0]*ဇ[\s\xa0]*ကျေ[\s\xa0]*လ[\s\xa0]*အ[\s\xa0]*နာ[\s\xa0]*ဂ[\s\xa0]*တ္တိ[\s\xa0]*ကျမ်း။|ဇ)|Ezek)
+		(?:ယေ(?:[\s\xa0]*ဇ[\s\xa0]*ကျေ[\s\xa0]*လ[\s\xa0]*အ[\s\xa0]*နာ[\s\xa0]*ဂ[\s\xa0]*တ္တိ[\s\xa0]*ကျမ်း။|ဇ(?:‌ကျေလ)?)|Ezek)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Dan"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ဒံ(?:[\s\xa0]*ယေ[\s\xa0]*လ[\s\xa0]*အ[\s\xa0]*နာ[\s\xa0]*ဂ[\s\xa0]*တ္တိ[\s\xa0]*ကျမ်း။)?|Dan)
+		(?:ဒံ(?:[\s\xa0]*ယေ[\s\xa0]*လ[\s\xa0]*အ[\s\xa0]*နာ[\s\xa0]*ဂ[\s\xa0]*တ္တိ[\s\xa0]*ကျမ်း။|‌ယေလ)?|Dan)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Hos"]
@@ -299,7 +299,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Hag"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ဟ[\s\xa0]*ဂ္ဂဲ(?:[\s\xa0]*အ[\s\xa0]*နာ[\s\xa0]*ဂ[\s\xa0]*တ္တိ[\s\xa0]*ကျမ်း။)?|Hag)
+		(?:ဟ(?:[\s\xa0]*ဂ္ဂဲ(?:[\s\xa0]*အ[\s\xa0]*နာ[\s\xa0]*ဂ[\s\xa0]*တ္တိ[\s\xa0]*ကျမ်း။)?|ဂ္)|Hag)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Zech"]
@@ -314,7 +314,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Matt"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ရှင်[\s\xa0]*မဿဲ[\s\xa0]*ခ[\s\xa0]*ရစ်[\s\xa0]*ဝင်။|Matt|မ)
+		(?:ရှင်[\s\xa0]*မဿဲ[\s\xa0]*ခ[\s\xa0]*ရစ်[\s\xa0]*ဝင်။|Matt|မဿဲ|မ)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Mark"]
@@ -354,7 +354,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Rom"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ရော(?:[\s\xa0]*မ[\s\xa0]*ဩ[\s\xa0]*ဝါ[\s\xa0]*ဒ[\s\xa0]*စာ။)?|Rom)
+		(?:ရော(?:[\s\xa0]*မ[\s\xa0]*ဩ[\s\xa0]*ဝါ[\s\xa0]*ဒ[\s\xa0]*စာ။|မ)?|Rom)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Cor"]
@@ -364,17 +364,17 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["1Cor"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:ကော[\s\xa0]*ရိ[\s\xa0]*န္သု[\s\xa0]*ဩ[\s\xa0]*ဝါ[\s\xa0]*ဒ[\s\xa0]*စာ[\s\xa0]*ပ[\s\xa0]*ထ[\s\xa0]*မ[\s\xa0]*စောင်။|၁[\s\xa0]*ကော|1(?:[\s\xa0]*ကော|Cor))
+		(?:ကော[\s\xa0]*ရိ[\s\xa0]*န္သု[\s\xa0]*ဩ[\s\xa0]*ဝါ[\s\xa0]*ဒ[\s\xa0]*စာ[\s\xa0]*ပ[\s\xa0]*ထ[\s\xa0]*မ[\s\xa0]*စောင်။|၁(?:‌ကော၊|[\s\xa0]*ကော)|1(?:‌ကော၊|[\s\xa0]*ကော|Cor))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Gal"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ဂ[\s\xa0]*လ(?:ာ[\s\xa0]*တိ[\s\xa0]*ဩ[\s\xa0]*ဝါ[\s\xa0]*ဒ[\s\xa0]*စာ။)?|Gal)
+		(?:ဂလာတိ)|(?:ဂ[\s\xa0]*လ(?:ာ[\s\xa0]*တိ[\s\xa0]*ဩ[\s\xa0]*ဝါ[\s\xa0]*ဒ[\s\xa0]*စာ။)?|Gal)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Eph"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ဧ(?:[\s\xa0]*ဖက်[\s\xa0]*ဩ[\s\xa0]*ဝါ[\s\xa0]*ဒ[\s\xa0]*စာ။)?|Eph)
+		(?:ဧ(?:[\s\xa0]*ဖက်[\s\xa0]*ဩ[\s\xa0]*ဝါ[\s\xa0]*ဒ[\s\xa0]*စာ။|ဖက်)?|Eph)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Phil"]
@@ -384,7 +384,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Col"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ကော(?:[\s\xa0]*လော[\s\xa0]*သဲ[\s\xa0]*ဩ[\s\xa0]*ဝါ[\s\xa0]*ဒ[\s\xa0]*စာ။)?|Col)
+		(?:ကော(?:[\s\xa0]*လော[\s\xa0]*သဲ[\s\xa0]*ဩ[\s\xa0]*ဝါ[\s\xa0]*ဒ[\s\xa0]*စာ။|‌လောသဲ)?|Col)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Thess"]
@@ -419,7 +419,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Heb"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ဟေဗြဲ၊)|(?:ဟေ[\s\xa0]*ဗြဲ(?:[\s\xa0]*ဩ[\s\xa0]*ဝါ[\s\xa0]*ဒ[\s\xa0]*စာ။)?|Heb)
+		(?:ဟေဗြဲ၊)|(?:ဟေ(?:[\s\xa0]*ဗြဲ(?:[\s\xa0]*ဩ[\s\xa0]*ဝါ[\s\xa0]*ဒ[\s\xa0]*စာ။)?|ဗြဲ)|Heb)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Jas"]
@@ -434,7 +434,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["1Pet"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:ရှင်[\s\xa0]*ပေ[\s\xa0]*တ[\s\xa0]*ရု[\s\xa0]*သြ[\s\xa0]*ဝါ[\s\xa0]*ဒ[\s\xa0]*စာ[\s\xa0]*ပ[\s\xa0]*ထ[\s\xa0]*မ[\s\xa0]*စောင်။|၁[\s\xa0]*ပေ|1(?:Pet|[\s\xa0]*ပေ))
+		(?:ရှင်[\s\xa0]*ပေ[\s\xa0]*တ[\s\xa0]*ရု[\s\xa0]*သြ[\s\xa0]*ဝါ[\s\xa0]*ဒ[\s\xa0]*စာ[\s\xa0]*ပ[\s\xa0]*ထ[\s\xa0]*မ[\s\xa0]*စောင်။|၁(?:‌ပေ၊|[\s\xa0]*ပေ)|1(?:‌ပေ၊|Pet|[\s\xa0]*ပေ)|[1၁]‌ပေ)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Jude"]
