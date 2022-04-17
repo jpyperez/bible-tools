@@ -1,5 +1,5 @@
 var info = {
-	"lang": "my",
+	"lang": "ctd",
 	"version": "tdb",
 	"books": [
 		{
