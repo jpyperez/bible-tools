@@ -229,6 +229,7 @@ Prov	သု တ္တံ ကျမ်း။
 Prov	Prov
 Prov	သု
 Ps	ဆာ လံ ကျမ်း။
+Ps	ဆာလံ၊
 Ps	ဆာ၊
 Ps	Ps
 Ps	ဆာ
@@ -236,6 +237,7 @@ Rev	ဗျာ ဒိတ် ကျမ်း။
 Rev	Rev
 Rev	ဗျာ
 Rom	ရော မ ဩ ဝါ ဒ စာ။
+Rom	ရောမ၊
 Rom	ရောမ
 Rom	Rom
 Rom	ရော

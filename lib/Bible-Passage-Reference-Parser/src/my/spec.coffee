@@ -584,11 +584,13 @@ describe "Localized book Ps (my)", ->
 	it "should handle book: Ps (my)", ->
 		`
 		expect(p.parse("ဆာ လံ ကျမ်း။ 1:1").osis()).toEqual("Ps.1.1")
+		expect(p.parse("ဆာလံ၊ 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("ဆာ၊ 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("Ps 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("ဆာ 1:1").osis()).toEqual("Ps.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ဆာ လံ ကျမ်း။ 1:1").osis()).toEqual("Ps.1.1")
+		expect(p.parse("ဆာလံ၊ 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("ဆာ၊ 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("PS 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("ဆာ 1:1").osis()).toEqual("Ps.1.1")
@@ -1112,11 +1114,13 @@ describe "Localized book Rom (my)", ->
 	it "should handle book: Rom (my)", ->
 		`
 		expect(p.parse("ရော မ ဩ ဝါ ဒ စာ။ 1:1").osis()).toEqual("Rom.1.1")
+		expect(p.parse("ရောမ၊ 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("ရောမ 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("Rom 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("ရော 1:1").osis()).toEqual("Rom.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ရော မ ဩ ဝါ ဒ စာ။ 1:1").osis()).toEqual("Rom.1.1")
+		expect(p.parse("ရောမ၊ 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("ရောမ 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("ROM 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("ရော 1:1").osis()).toEqual("Rom.1.1")
@@ -1633,6 +1637,8 @@ describe "Miscellaneous tests", ->
 	it "should handle chapters (my)", ->
 		expect(p.parse("Titus 1:1, အခန်း 2").osis()).toEqual "Titus.1.1,Titus.2"
 		expect(p.parse("Matt 3:4 အခန်း 6").osis()).toEqual "Matt.3.4,Matt.6"
+		expect(p.parse("Titus 1:1, း 2").osis()).toEqual "Titus.1.1,Titus.2"
+		expect(p.parse("Matt 3:4 း 6").osis()).toEqual "Matt.3.4,Matt.6"
 	it "should handle verses (my)", ->
 		expect(p.parse("Exod 1:1 အခန်းငယ် 3").osis()).toEqual "Exod.1.1,Exod.1.3"
 		expect(p.parse("Phlm အခန်းငယ် 6").osis()).toEqual "Phlm.1.6"

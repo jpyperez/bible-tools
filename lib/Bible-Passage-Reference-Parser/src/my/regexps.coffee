@@ -19,7 +19,7 @@ bcv_parser::regexps.escaped_passage = ///
 				    /\d+\x1f				#special Psalm chapters
 				  | [\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014]
 				  | title (?! [a-z] )		#could be followed by a number
-				  | အခန်းငယ် | အခန်း | နှင့် | ff | မှ | ၊
+				  | အခန်းငယ် | အခန်း | နှင့် | ff | မှ | း | ၊
 				  | [a-e] (?! \w )			#a-e allows 1:1a
 				  | $						#or the end of the string
 				 )+
@@ -207,7 +207,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Ps"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ဆာ(?:[\s\xa0]*လံ[\s\xa0]*ကျမ်း။|၊)?|Ps)
+		(?:ဆာ(?:[\s\xa0]*လံ[\s\xa0]*ကျမ်း။|(?:လံ)?၊)?|Ps)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["PrAzar"]
@@ -354,7 +354,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Rom"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ရော(?:[\s\xa0]*မ[\s\xa0]*ဩ[\s\xa0]*ဝါ[\s\xa0]*ဒ[\s\xa0]*စာ။|မ)?|Rom)
+		(?:ရော(?:[\s\xa0]*မ[\s\xa0]*ဩ[\s\xa0]*ဝါ[\s\xa0]*ဒ[\s\xa0]*စာ။|မ၊|မ)?|Rom)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Cor"]
