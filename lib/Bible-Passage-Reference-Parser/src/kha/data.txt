@@ -12,7 +12,7 @@ $TO	sha
 $VERSE	dkhot
 $UNICODE_BLOCK	Latin
 
-Gen	Jenesis	Jen
+Gen	Jenesis	Jen	Genesis
 Exod	Eksodos	Eksod
 Lev	Lebitikos	Leb
 Num	Jingkhein	Jingkheiñ	Jingk
@@ -35,26 +35,26 @@ Prov	Ki Proberb	Proberb	Prob
 Eccl	U Eklesiastis	Ekklesiastis	Ekle
 Song	Ka Jingrwai U Solomon	Jingrwai Solomon	Jingrwai
 Isa	Isaiah	Isaïah	Isa
-Jer	Jeremaiah	Jeremaïah	Jer
+Jer	Jeremaiah	Jeremaïah	Jer	Jeremiah
 Lam	Ka JIngrwai Sngewsynei	Sngewsynei	Sngewsynei
 Ezek	Esekiel	Ezek
 Dan	Daniel	Dan
-Hos	Hosia	Hos
+Hos	Hosia	Hos	Hosea
 Joel	Joel	Joel
 Amos	Amos	Amos
 Obad	Obadaiah	Obadaïah	Obad
 Jonah	Jonah	Jon
 Mic	Mikah	Mik
 Nah	Nahum	Nah
-Hab	Habakkuk	Hab
+Hab	Habakkuk	Hab	Habakuk
 Zeph	Sephanaiah	Sephanaïah	Seph
 Hag	Haggai	Hag
-Zech	Sekharaiah	Sekharaïah	Sekh
+Zech	Sekharaiah	Sekharaïah	Sekh	Sekhariah
 Mal	Malakhi	Mal
 Matt	Mathaios	Mathaïos	Mt
 Mark	Markos	Mk
-Luke	Loukas	Lk
-John	Ioannis	Ïoannis	Io
+Luke	Loukas	Lk	Lukas
+John	Ioannis	Ïoannis	Io	Ioanis
 Acts	Ki Kam Ki Apostol	Ki Kam	Ki Kam
 Rom	Ka Shithi Sha Ki Nongrom	Rom	Rom
 1Cor	1 Sha Ki Nong Korinth	1 ?Korinth	1 ?Kor
@@ -62,7 +62,7 @@ Rom	Ka Shithi Sha Ki Nongrom	Rom	Rom
 Gal	Sha ki Galatia	Galatia	Gal
 Eph	Sha Ki Ephesos	Ephesos	Eph
 Phil	Sha Ki Philipi	Philippi	Phil
-Col	Sha Ki Kolosai	Kolossai	Kol
+Col	Sha Ki Kolosai	Kolossai	Kol	Kolosai
 1Thess	1 Sha Ki Thessaloni	1 Thessaloni	1 Thes
 2Thess	2 Sha Ki Thessaloni	2 Thessaloni	2 Thes
 1Tim	1 Sha U Timothi	1 ?Timothi	1 ?Tim

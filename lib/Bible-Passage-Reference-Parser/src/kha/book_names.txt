@@ -99,6 +99,7 @@ Bar	Bar
 Bel	Bel
 Col	Sha Ki Kolosai
 Col	Kolossai
+Col	Kolosai
 Col	Col
 Col	Kol
 Dan	Daniel
@@ -125,17 +126,20 @@ Ezra	Ezra
 Gal	Sha ki Galatia
 Gal	Galatia
 Gal	Gal
+Gen	Genesis
 Gen	Jenesis
 Gen	Gen
 Gen	Jen
 GkEsth	GkEsth
 Hab	Habakkuk
+Hab	Habakuk
 Hab	Hab
 Hag	Haggai
 Hag	Hag
 Heb	Sha Ki Hebru
 Heb	Hebru
 Heb	Heb
+Hos	Hosea
 Hos	Hosia
 Hos	Hos
 Isa	Isaiah
@@ -148,11 +152,13 @@ Jas	Jkb
 Jdt	Jdt
 Jer	Jeremaiah
 Jer	Jeremaïah
+Jer	Jeremiah
 Jer	Jer
 Job	Job
 Joel	Joel
 John	Ioannis
 John	Ïoannis
+John	Ioanis
 John	John
 John	Io
 Jonah	Jonah
@@ -174,6 +180,7 @@ Lev	Lebitikos
 Lev	Leb
 Lev	Lev
 Luke	Loukas
+Luke	Lukas
 Luke	Luke
 Luke	Lk
 Mal	Malakhi
@@ -239,6 +246,7 @@ Tob	Tob
 Wis	Wis
 Zech	Sekharaiah
 Zech	Sekharaïah
+Zech	Sekhariah
 Zech	Sekh
 Zech	Zech
 Zeph	Sephanaiah
