@@ -12,20 +12,20 @@ $TO	to
 $VERSE	verse
 $UNICODE_BLOCK	Latin
 
-Gen	Piancilna
-Exod	Paikhiatna
+Gen	Piancilna	Piancil
+Exod	Paikhiatna	Pai
 Lev	Siampi Laibu
 Num	Gamlak Vakna
 Deut	Thu Hilhkikna
 Josh	Joshua
 Judg	Thukhente
 Ruth	Ruth
-1Sam	Samuel Masa
-2Sam	Samuel Nihna
+1Sam	Samuel Masa	1 ?Sam	1 ?Samuel
+2Sam	Samuel Nihna	2 ?Sam	2 ?Samuel
 1Kgs	Kumpi Masate
 2Kgs	Kumpi Nihnate
-1Chr	Khang Thangthu Masa
-2Chr	Khang Thangthu Nihna
+1Chr	Khang Thangthu Masa	1 ?Khang
+2Chr	Khang Thangthu Nihna	2 ?Khang
 Ezra	Ezra
 Neh	Nehemiah
 Esth	Esther
@@ -51,16 +51,16 @@ Zeph	Zefaniah
 Hag	Haggai
 Zech	Zekhariah
 Mal	Malakhi
-Matt	Matthai
+Matt	Matthai	Mate
 Mark	Marka
 Luke	Luka
 John	Johan
-Acts	Sawltak Tangthu
+Acts	Sawltak Tangthu	Sawl
 Rom	Rom Laikhak
-1Cor	Korin Masa
-2Cor	Korin Nihna
+1Cor	Korin Masa	1 ?Cor	1 ?Corinth
+2Cor	Korin Nihna	2 ?Cor	2 ?Corinth
 Gal	Galati
-Eph	Efesa
+Eph	Efesa	Ephet
 Phil	Filippi
 Col	Kolose
 1Thess	Thesalonika Masa
@@ -71,8 +71,8 @@ Titus	Titus
 Phlm	Filemon
 Heb	Hebru
 Jas	James
-1Pet	Peter Masa
-2Pet	Peter Nihna
+1Pet	Peter Masa	1 ?Pet	1 ?Peter
+2Pet	Peter Nihna	2 ?Pet	2 ?Peter
 1John	Johan Masa
 2John	Johan Nihna
 3John	Johan Thumna
