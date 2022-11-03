@@ -2011,6 +2011,8 @@ describe "Miscellaneous tests", ->
 	it "should handle verses (kar)", ->
 		expect(p.parse("Exod 1:1 အဆၢ 3").osis()).toEqual "Exod.1.1,Exod.1.3"
 		expect(p.parse("Phlm အဆၢ 6").osis()).toEqual "Phlm.1.6"
+		expect(p.parse("Exod 1:1 း 3").osis()).toEqual "Exod.1.1,Exod.1.3"
+		expect(p.parse("Phlm း 6").osis()).toEqual "Phlm.1.6"
 	it "should handle 'and' (kar)", ->
 		expect(p.parse("Exod 1:1 and 3").osis()).toEqual "Exod.1.1,Exod.1.3"
 		expect(p.parse("Phlm 2 AND 6").osis()).toEqual "Phlm.1.2,Phlm.1.6"

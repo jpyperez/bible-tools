@@ -19,7 +19,7 @@ bcv_parser::regexps.escaped_passage = ///
 				    /\d+\x1f				#special Psalm chapters
 				  | [\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014]
 				  | kar (?! [a-z] )		#could be followed by a number
-				  | တၢ်မၤလိ | and | အဆၢ | ff | -
+				  | တၢ်မၤလိ | and | အဆၢ | ff | - | း
 				  | [ကခ] (?! \w )			#a-e allows 1:1a
 				  | $						#or the end of the string
 				 )+

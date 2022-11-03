@@ -10,7 +10,7 @@ $FF	ff
 $TITLE	kar
 $TRANS	kswc
 $TO	-
-$VERSE	အဆၢ
+$VERSE	အဆၢ	း
 $UNICODE_BLOCK	Myanmar	Latin
 
 Gen	လံာ်တၢ်ကဲထီၣ်အခီၣ်ထံး	$FIRST ?မိၤၡ့	လံၥ်စီၤမိၤၡ့အခီၣ်ထံးတဘ့ၣ်	$FIST မိၤ
