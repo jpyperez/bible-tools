@@ -11,8 +11,8 @@ $FF	ff
 $TITLE	title
 $TRANS	trans
 $TO	မှ
-$VERSE	အခန်းငယ်
-$UNICODE_BLOCK	Latin
+$VERSE	အခန်းငယ်	း
+$UNICODE_BLOCK	Myanmar	Latin
 
 Gen	က မ္ဘာ ဦး ကျမ်း။	က	က၊	ကမ္ဘာ၊
 Exod	ထွက် မြောက် ရာ ကျမ်း။	ထွ	ထကွ ၊်	ထွက်၊

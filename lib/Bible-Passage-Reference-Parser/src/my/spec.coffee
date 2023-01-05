@@ -1992,6 +1992,8 @@ describe "Miscellaneous tests", ->
 	it "should handle verses (my)", ->
 		expect(p.parse("Exod 1:1 အခန်းငယ် 3").osis()).toEqual "Exod.1.1,Exod.1.3"
 		expect(p.parse("Phlm အခန်းငယ် 6").osis()).toEqual "Phlm.1.6"
+		expect(p.parse("Exod 1:1 း 3").osis()).toEqual "Exod.1.1,Exod.1.3"
+		expect(p.parse("Phlm း 6").osis()).toEqual "Phlm.1.6"
 	it "should handle 'and' (my)", ->
 		expect(p.parse("Exod 1:1 နှင့် 3").osis()).toEqual "Exod.1.1,Exod.1.3"
 		expect(p.parse("Phlm 2 နှင့် 6").osis()).toEqual "Phlm.1.2,Phlm.1.6"

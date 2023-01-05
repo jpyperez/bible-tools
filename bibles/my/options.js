@@ -1,5 +1,5 @@
 var options = {
-    "punctuation_strategy": "us"
+    "non_latin_digits_strategy":"replace"
 };
 
 module.exports = options;
