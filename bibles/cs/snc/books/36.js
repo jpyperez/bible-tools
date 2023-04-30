@@ -1,0 +1,66 @@
+var book = {
+	"name": "Sofonjáš",
+	"numChapters": 3,
+	"chapters": {
+		"1": {
+			"1": "<span>1</span> V době, kdy V Judsku vládl Amónův syn Jóšijáš, oslovil Hospodin proroka Sofonjáše (potomka Kúšiho, Gedaljáše, Amarjáše a Chizkijáše) a svěřil mu následující proroctví:",
+			"2": "<span>2</span> \"Hospodin prohlásil: \"Zničím na zemi všechno živé.",
+			"3": "<span>3</span> Smetu lidi i zvířata, ptáky v povětří i ryby ve vodách. Všechno zlé a nečisté nechám zahynout a vyhladím z povrchu země lidskou rasu.",
+			"4": "<span>4</span> Zasáhnu také proti Judsku a všem obyvatelům Jeruzaléma. Vymýtím z jejich středu všechny falešné bohy a zbytky pohanství včetně odpadlých kněží.",
+			"5": "<span>5</span> Zahubím všechny, kdo na střechách uctívají slunce a hvězdy, i ty, kdo mi naoko přísahají věrnost, ale přitom slouží Melekovi.",
+			"6": "<span>6</span> Zahynou všichni, kdo se ke mně obrátili zády a nedbají na to, že jsem Hospodin.",
+			"7": "<span>7</span> Jsem nejvyšší vládce, a proto zmlkněte, neboť den mého soudu se blíží.",
+			"8": "<span>8</span> Jsem připraven obětovat svůj lid a pozval jsem národy, které můj rozsudek vykonají. Až přijde ten den, ztrestám knížata i královské potomky a také všechny, kdo jednají po vzoru cizích národů.",
+			"9": "<span>9</span> Zúčtuji s těmi, kdo ctí pohanské zvyky, a kdo plní chrámy svých falešných bohů kořistí získanou násilím.",
+			"10": "<span>10</span> Tehdy uslyšíte nářek od jeruzalémské Rybné brány. Budou hořekovat také obyvatelé nových částí města a z čtvrtí na kopcích se bude ozývat hlasitý rachot.",
+			"11": "<span>11</span> Všichni, kdo žijí v údolí, pak hlasitě zanaříkají, protože obchodníci a penězoměnci budou mrtví.",
+			"12": "<span>12</span> Tehdy si posvítím na celý Jeruzalém a potrestám ty, kdo si pokojně a samolibě namlouvají, že jsem Hospodin, který stejně nikdy neudělá nic dobrého ani zlého.",
+			"13": "<span>13</span> Dám zničit jejich obydlí a vyplenit jejich bohatství. Nebudou žít v domech, které si vystavěli, a nebudou pít víno z hroznů, které vypěstovali.\"",
+			"14": "<span>14</span> Velký den Hospodinova soudu je blízko,\" pokračuje Sofonjáš, \"a přijde rychleji než se zdá. Bude tak strašný, že i ti nejstatečnější hořce zapláčí.",
+			"15": "<span>15</span> Bude to den hněvu, úzkosti a strachu, čas zkázy a neštěstí. Vše ztichne a potemní jako pod příkrovem černých mraků.",
+			"16": "<span>16</span> V ten den zazní polnice a povel k útoku proti opevněným městům a hradebním věžím.",
+			"17": "<span>17</span> Všechny, kdo se proti němu provinili, stihne Hospodin takovým soužením, že budou jako smyslů zbavení. Jejich krev se vylije do prachu a těla shnijí na holé zemi.",
+			"18": "<span>18</span> V den Hospodinova účtování jim nepomůže jejich bohatství, neboť plameny jeho rozhořčení pohltí celý svět. Rychle a znenadání skoncuje se všemi obyvateli země."
+		},
+		"2": {
+			"1": "<span>1</span> Vzchop se hanebný národe!",
+			"2": "<span>2</span> Dříve než přijde stanovený čas - rychle jako plevy hnané větrem a stihnou tě důsledky Hospodinova planoucího rozhořčení.",
+			"3": "<span>3</span> Přimkněte se k Hospodinu, všichni pokorní země, kteří zachováváte jeho přikázání. Jednejte spravedlivě a se zbožnou bázní a Hospodin vás snad v den svého soudu ochrání.",
+			"4": "<span>4</span> V Gáze nezůstane nikdo z obyvatel a z Aškalónu zbudou jen trosky. Ašdód zpustne uprostřed dne a Ekrón bude srovnán se zemí.",
+			"5": "<span>5</span> Také vás, Pelištejci, i vy, Keréťané, Hospodin odsoudil k zatracení a vyhladí všechny obyvatele Kenaanu až do posledního.",
+			"6": "<span>6</span> Na vašem území na pobřeží moře se usadí pastýři se svými stády.",
+			"7": "<span>7</span> Přímoří konečně připadne těm, kdo zůstanou z judského národa naživu. Budou tam pásat svá stáda a večer se uchýlí do opuštěných domů Aškalónu. Bude se o ně starat sám Hospodin, jejich Bůh, a vrátí jim slávu i bohatství.",
+			"8": "<span>8</span> \"Slyším, jak Moábci a Amónovci uráží a hanobí můj lid a ohrožují jeho zemi.",
+			"9": "<span>9</span> Proto jako všemocný Hospodin a Bůh Izraele přísahám, Moábci i Amónovci skončí stejně jako Sodoma a Gomora, po nichž navěky zůstala jen pustá a neúrodná země plná plevele. Sami Izraelci, kteří přežijí, vás vyplení a obsadí vaši zemi.\"",
+			"10": "<span>10</span> Tak odmění všemocný Hospodin Moábce a Amónovce za jejich pýchu a soužení jeho lidu.",
+			"11": "<span>11</span> Hospodin nelítostně udeří a zničí všechny falešné bohy světa. Potom se všechny národy na celé zemi budou klanět jen jemu.",
+			"12": "<span>12</span> Hospodin odsoudil k smrti i obyvatele Etiopie.",
+			"13": "<span>13</span> Zničí svou mocí také Asýrii na severu a promění její hlavní město Ninive v liduprázdnou poušť.",
+			"14": "<span>14</span> Na jeho troskách bude odpočívat zvěř a na zbytcích sloupů se usadí sovy. Z opuštěných oken se bude ozývat jejich houkání a dveře budou zasypány trámy a kamením.",
+			"15": "<span>15</span> Tak skončí to lehkomyslné a pyšné město, jehož obyvatelé se mylně cítí v bezpečí a namlouvají si, že jejich město nikdo nepřekoná. Zůstane z něj pusté zbořeniště, kde se usadí jen zvěř. Každý, kdo půjde kolem, jen projeví své opovržení a zalomí rukama."
+		},
+		"3": {
+			"1": "<span>1</span> Jeruzalém se stal městem násilí, vzdoru a zločinu a spěje k zatracení.",
+			"2": "<span>2</span> Jeho obyvatelé nejsou ochotni poslouchat žádná napomenutí, nedůvěřují Hospodinu a stále více se mu vzdalují.",
+			"3": "<span>3</span> Lidé, kteří stojí v čele, si počínají jako nenasytné a zákeřné šelmy, které nezajímá, co bude zítra.",
+			"4": "<span>4</span> Jeruzalémští proroci jsou troufalí a zrádní a kněží znesvěcují chrám i zákon.",
+			"5": "<span>5</span> Jediným spravedlivým ve městě zůstal Hospodin. Den za dnem prosazuje právo a nikdy neselhává, ale bezbožníci páchají své zlo bez jakýchkoliv zábran.",
+			"6": "<span>6</span> \"Jako Hospodin jsem vyhladil celé národy. Rozbořil jsem jejich pevnosti a vylidnil ulice měst. Zůstaly z nich trosky, v kterých nikdo nebydlí.",
+			"7": "<span>7</span> Řekl jsem obyvatelům Jeruzaléma, aby se z toho poučili a řídili se mými radami. Pak by nebyl důvod, abych město trestal za jeho provinění. Všichni ale stále jednali jen a jen zle.",
+			"8": "<span>8</span> Jednoho dne proto povstanu, abych soudil národy a království světa. Nechám je nést důsledky jejich vlastních provinění a sežehnu zkaženou zemi plameny svého rozhořčení.",
+			"9": "<span>9</span> Pak ale všechny národy uzdravím, aby mě společně mohly ctít jako svého Boha.",
+			"10": "<span>10</span> Tehdy mi přinesou své dary i věrní mého lidu, které jsem odvál do Etiopie.",
+			"11": "<span>11</span> Už se nebudete muset stydět za to, že jste se vůči mně provinili, protože vyhladím z Jeruzaléma všechny pyšné a domýšlivé. Nikdo z nich se již na mé svaté hoře nebude naparovat.",
+			"12": "<span>12</span> Ponechám ve městě jen mírné a pokorné, kteří mi důvěřují jako svému Hospodinu.",
+			"13": "<span>13</span> Ti, kdo přežijí, již nebudou jednat zle ani podvádět. Budou si užívat hojnosti a odpočívat s jistotou, že už je nikdo neohrozí.\"",
+			"14": "<span>14</span> Proto zpívejte a hlasitě jásejte, Izraelci! Radujte se, obyvatelé Jeruzaléma!",
+			"15": "<span>15</span> Vždyť Hospodin zahladí vaše nepřátele a všechno zlé vám odpustí. Hospodin, král Izraele, stojí při vás, a proto už se nebudete muset čehokoliv bát.",
+			"16": "<span>16</span> Přichází čas, Jeruzaléme, kdy ti oznámí: \"Neboj se, a neochabuj!",
+			"17": "<span>17</span> Vždyť Hospodin, tvůj Bůh, je s tebou a má moc, aby tě vysvobodil. Jsi pro něj velkým potěšením a jeho láska ti přinese pokoj. Bude nad tebou zpívat a jásat.\"",
+			"18": "<span>18</span> Sám Hospodin slíbil: \"Odstraním veškerá soužení, jež vás trápí a brání vašemu veselí.",
+			"19": "<span>19</span> Přichází čas, kdy zúčtuji se všemi, kdo vás utlačovali a shromáždím vaše raněné i odvlečené. V každé zemi, kde je ponižovali, jim provolám čest a slávu.",
+			"20": "<span>20</span> Až vás opět odvedu domů,\" dodává Hospodin, \"a před vašimi zraky obnovím vaše původní bohatství, získáte úctu a slávu mezi národy celého světa."
+		}
+	}
+};
+module.exports = book;
