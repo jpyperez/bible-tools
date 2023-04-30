@@ -1,6 +1,6 @@
 var book = {
 	"name": "Jóel",
-	"numChapters": 3,
+	"numChapters": 4,
 	"chapters": {
 		"1": {
 			"1": "<span>1</span> Slovo Hospodinovo, které se dostalo k Jóelovi, synu Petúelovu.",
@@ -59,6 +59,29 @@ var book = {
 			"3": "<span>3</span> Způsobím, že budou na nebi i na zemi divné úkazy: krev a oheň a sloupy dýmu.",
 			"4": "<span>4</span> Slunce se zastře tmou a měsíc krví, dříve než přijde den Hospodinův, veliký a hrozný.",
 			"5": "<span>5</span> Avšak každý, kdo vzývá Hospodinovo jméno, se zachrání. Na hoře Sijónu a v Jeruzalémě budou ti, kdo vyvázli, jak řekl Hospodin, spolu s těmi, kdo přežili, jež Hospodin povolá."
+		},
+		"4": {
+			"1": "<span>1</span> Hle, v oněch dnech a v onom čase, kdy změním úděl Judy a Jeruzaléma,",
+			"2": "<span>2</span> shromáždím všechny pronárody, svedu je do Doliny Jóšafatu (to je Hospodin bude soudit) a budu je tam soudit kvůli svému lidu, kvůli svému dědictví, kvůli Izraeli, kterého rozehnali mezi pronárody. Mou zemi rozdělili",
+			"3": "<span>3</span> a o můj lid losovali. Dávali chlapce za nevěstku a děvče prodávali za víno - a pili.",
+			"4": "<span>4</span> Co jste vy proti mně, Týre a Sidóne i všechny pelištejské kraje? Chystáte proti mně odvetu? Přikročíte-li k odvetě, rychle a bez meškání vám to vrátím na vaši hlavu.",
+			"5": "<span>5</span> Pobrali jste mé stříbro a zlato, mé nejkrásnější skvosty jste zanesli do svých chrámů.",
+			"6": "<span>6</span> Syny judské a jeruzalémské jste prodávali synům Jávanců, aby je zavlekli daleko od jejich území.",
+			"7": "<span>7</span> Hle, já je probudím k návratu z místa, kam jste je prodali, a co jste spáchali, vám vrátím na vaši hlavu:",
+			"8": "<span>8</span> Vydám vaše syny a vaše dcery napospas synům judským a oni je prodají Šebajcům, dalekému pronárodu. Tak promluvil Hospodin.",
+			"9": "<span>9</span> Provolejte mezi pronárody toto: Vyhlaste svatý boj, probuďte bohatýry! Ať nastoupí, ať přitáhnou všichni bojovníci!",
+			"10": "<span>10</span> Překujte své radlice v meče, vinařské nože v oštěpy! Slaboch ať zvolá: „Jsem bohatýr!“",
+			"11": "<span>11</span> Pospěšte na pomoc, všechny okolní pronárody, a shromážděte se! - Přiveď sem, Hospodine, své bohatýry!",
+			"12": "<span>12</span> - Ať se pronárody probudí a přitáhnou do Doliny Jóšafatu, zasednu tam a budu soudit všechny pronárody vůkol.",
+			"13": "<span>13</span> Chopte se srpu, již dozrála žeň, pojďte, šlapejte, lis je už plný, kádě přetékají. Jejich zlovůle je velká.",
+			"14": "<span>14</span> Davy a davy jsou v Dolině rozhodnutí a den Hospodinův v Dolině rozhodnutí je blízko.",
+			"15": "<span>15</span> Slunce a měsíc se zachmuří a hvězdy ztratí svou zář.",
+			"16": "<span>16</span> Hospodin vydá řev ze Sijónu, vydá hlas z Jeruzaléma, zachvějí se nebesa i země. Hospodin je útočiště svého lidu a záštita synů Izraele.",
+			"17": "<span>17</span> I poznáte, že jsem Hospodin, váš Bůh, že přebývám na Sijónu, na své svaté hoře. Jeruzalém bude opět svatý a nebudou jím už procházet cizáci.",
+			"18": "<span>18</span> A stane se v onen den, že z hor bude kanout mladé víno, z pahorků poteče mléko, všemi judskými potoky bude proudit voda, z Hospodinova domu vytryskne pramen a napojí Úval akácií.",
+			"19": "<span>19</span> Z Egypta bude zpustošený kraj, z Edómu zpustošená step za násilí na synech judských, za to, že v jejich vlastní zemi prolévali nevinnou krev.",
+			"20": "<span>20</span> Ale Judsko bude osídleno navěky, Jeruzalém od pokolení do pokolení.",
+			"21": "<span>21</span> Jejich krev prohlásím za nevinnou, nikoho nenechám bez trestu. Hospodin přebývá na Sijónu."
 		}
 	}
 };
