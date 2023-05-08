@@ -1,37 +1,37 @@
 var info = {
 	"lang": "cs",
-	"version": "cep",
+	"version": "pmp",
 	"books": [
 		{
-			"name": "1 Mojžíšova",
+			"name": "Genesis",
 			"numChapters": 50,
 			"synonyms": [
 				"Gen"
 			]
 		},
 		{
-			"name": "2 Mojžíšova",
+			"name": "Exodus",
 			"numChapters": 40,
 			"synonyms": [
 				"Exod"
 			]
 		},
 		{
-			"name": "3 Mojžíšova",
+			"name": "Leviticus",
 			"numChapters": 27,
 			"synonyms": [
 				"Lev"
 			]
 		},
 		{
-			"name": "4 Mojžíšova",
+			"name": "Numeri",
 			"numChapters": 36,
 			"synonyms": [
 				"Num"
 			]
 		},
 		{
-			"name": "5 Mojžíšova",
+			"name": "Deuteronomium",
 			"numChapters": 34,
 			"synonyms": [
 				"Deut"
@@ -52,49 +52,49 @@ var info = {
 			]
 		},
 		{
-			"name": "Rút",
+			"name": "Rut",
 			"numChapters": 4,
 			"synonyms": [
 				"Ruth"
 			]
 		},
 		{
-			"name": "1 Samuelova",
+			"name": "1. Samuelova",
 			"numChapters": 31,
 			"synonyms": [
 				"1Sam"
 			]
 		},
 		{
-			"name": "2 Samuelova",
+			"name": "2. Samuelova",
 			"numChapters": 24,
 			"synonyms": [
 				"2Sam"
 			]
 		},
 		{
-			"name": "1 Královská",
+			"name": "1. Královská",
 			"numChapters": 22,
 			"synonyms": [
 				"1Kgs"
 			]
 		},
 		{
-			"name": "2 Královská",
+			"name": "2. Královská",
 			"numChapters": 25,
 			"synonyms": [
 				"2Kgs"
 			]
 		},
 		{
-			"name": "1 Letopisu",
+			"name": "1. Paralipomenon",
 			"numChapters": 29,
 			"synonyms": [
 				"1Chr"
 			]
 		},
 		{
-			"name": "2 Letopisu",
+			"name": "2. Paralipomenon",
 			"numChapters": 36,
 			"synonyms": [
 				"2Chr"
@@ -108,7 +108,7 @@ var info = {
 			]
 		},
 		{
-			"name": "Nehemjáš",
+			"name": "Nehemiáš",
 			"numChapters": 13,
 			"synonyms": [
 				"Neh"
@@ -122,7 +122,7 @@ var info = {
 			]
 		},
 		{
-			"name": "Jób",
+			"name": "Job",
 			"numChapters": 42,
 			"synonyms": [
 				"Job"
@@ -150,28 +150,28 @@ var info = {
 			]
 		},
 		{
-			"name": "Píseň Písní",
+			"name": "Píseň písní",
 			"numChapters": 8,
 			"synonyms": [
 				"Song"
 			]
 		},
 		{
-			"name": "Izajáš",
+			"name": "Izaiáš",
 			"numChapters": 66,
 			"synonyms": [
 				"Isa"
 			]
 		},
 		{
-			"name": "Jeremjáš",
+			"name": "Jeremiáš",
 			"numChapters": 52,
 			"synonyms": [
 				"Jer"
 			]
 		},
 		{
-			"name": "Pláč",
+			"name": "Pláč Jeremiášův",
 			"numChapters": 5,
 			"synonyms": [
 				"Lam"
@@ -199,14 +199,14 @@ var info = {
 			]
 		},
 		{
-			"name": "Jóel",
+			"name": "Joel",
 			"numChapters": 4,
 			"synonyms": [
 				"Joel"
 			]
 		},
 		{
-			"name": "Ámos",
+			"name": "Amos",
 			"numChapters": 9,
 			"synonyms": [
 				"Amos"
@@ -248,21 +248,21 @@ var info = {
 			]
 		},
 		{
-			"name": "Sofonjáš",
+			"name": "Sofoniáš",
 			"numChapters": 3,
 			"synonyms": [
 				"Zeph"
 			]
 		},
 		{
-			"name": "Ageus",
+			"name": "Aggeus",
 			"numChapters": 2,
 			"synonyms": [
 				"Hag"
 			]
 		},
 		{
-			"name": "Zacharjáš",
+			"name": "Zachariáš",
 			"numChapters": 14,
 			"synonyms": [
 				"Zech"
@@ -304,7 +304,7 @@ var info = {
 			]
 		},
 		{
-			"name": "Skutky Apoštolské",
+			"name": "Skutky",
 			"numChapters": 28,
 			"synonyms": [
 				"Acts"
@@ -318,14 +318,14 @@ var info = {
 			]
 		},
 		{
-			"name": "1 Korintským",
+			"name": "1. Korintským",
 			"numChapters": 16,
 			"synonyms": [
 				"1Cor"
 			]
 		},
 		{
-			"name": "2 Korintským",
+			"name": "2. Korintským",
 			"numChapters": 13,
 			"synonyms": [
 				"2Cor"
@@ -346,42 +346,42 @@ var info = {
 			]
 		},
 		{
-			"name": "Filipským",
+			"name": "Filipenským",
 			"numChapters": 4,
 			"synonyms": [
 				"Phil"
 			]
 		},
 		{
-			"name": "Koloským",
+			"name": "Kolossenským",
 			"numChapters": 4,
 			"synonyms": [
 				"Col"
 			]
 		},
 		{
-			"name": "1 Tesalonickým",
+			"name": "1. Tessalonicenským",
 			"numChapters": 5,
 			"synonyms": [
 				"1Thess"
 			]
 		},
 		{
-			"name": "2 Tesalonickým",
+			"name": "2. Tessalonicenským",
 			"numChapters": 3,
 			"synonyms": [
 				"2Thess"
 			]
 		},
 		{
-			"name": "1 Timoteovi",
+			"name": "1. Timoteovi",
 			"numChapters": 6,
 			"synonyms": [
 				"1Tim"
 			]
 		},
 		{
-			"name": "2 Timoteovi",
+			"name": "2. Timoteovi",
 			"numChapters": 4,
 			"synonyms": [
 				"2Tim"
@@ -416,35 +416,35 @@ var info = {
 			]
 		},
 		{
-			"name": "1 Petrův",
+			"name": "1. Petrův",
 			"numChapters": 5,
 			"synonyms": [
 				"1Pet"
 			]
 		},
 		{
-			"name": "2 Petrův",
+			"name": "2. Petrův",
 			"numChapters": 3,
 			"synonyms": [
 				"2Pet"
 			]
 		},
 		{
-			"name": "1 Janův",
+			"name": "1. Janův",
 			"numChapters": 5,
 			"synonyms": [
 				"1John"
 			]
 		},
 		{
-			"name": "2 Janův",
+			"name": "2. Janův",
 			"numChapters": 1,
 			"synonyms": [
 				"2John"
 			]
 		},
 		{
-			"name": "3 Janův",
+			"name": "3. Janův",
 			"numChapters": 1,
 			"synonyms": [
 				"3John"
@@ -458,7 +458,7 @@ var info = {
 			]
 		},
 		{
-			"name": "Zjevení Janovo",
+			"name": "Zjevení",
 			"numChapters": 22,
 			"synonyms": [
 				"Rev"

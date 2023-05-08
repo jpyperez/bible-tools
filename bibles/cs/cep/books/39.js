@@ -1,6 +1,6 @@
 var book = {
 	"name": "Malachiáš",
-	"numChapters": 4,
+	"numChapters": 3,
 	"chapters": {
 		"1": {
 			"1": "<span>1</span> Výnos. Slovo Hospodinovo o Izraeli skrze Malachiáše.",
@@ -55,34 +55,13 @@ var book = {
 			"15": "<span>15</span> Proto za šťastné pokládáme opovážlivce. Mají úspěch, ač se dopouštějí svévolností, pokoušejí Boha, a přece uniknou.«\"",
 			"16": "<span>16</span> Tehdy ti, kteří se bojí Hospodina, o tom rozmlouvali; Hospodin to pozoroval a slyšel. A byla před ním sepsána pamětní kniha se jmény těch, kteří se bojí Hospodina a mají na mysli jeho jméno.",
 			"17": "<span>17</span> \"Ti budou, praví Hospodin zástupů, v den, který připravuji, mým zvláštním vlastnictvím, budu k nim shovívavý, jako bývá shovívavý otec k synu, jenž mu slouží.\"",
-			"18": "<span>18</span> Potom uvidíte rozdíl mezi spravedlivým a svévolníkem, mezi tím, kdo Bohu slouží, a tím, kdo mu sloužit nechce. [ (Malachi 3:19) \"Hle, přichází ten den hořící jako pec; a všichni opovážlivci i všichni, kdo páchají svévolnosti, se stanou strništěm. A ten přicházející den je sežehne, praví Hospodin zástupů; nezůstane po nich kořen ani větev. ] [ (Malachi 3:20) Ale vám, kdo se bojíte mého jména, vzejde slunce spravedlnosti se zdravím na paprscích. Rozběhnete se a budete poskakovat jako vykrmení býčci, ] [ (Malachi 3:21) rozšlapete svévolníky, že budou jako popel pod chodidly vašich nohou v ten den, který připravuji, praví Hospodin zástupů. ] [ (Malachi 3:22) Pamatujte na zákon mého služebníka Mojžíše, jemuž jsem vydal na Chorébu pro celého Izraele nařízení a práva. ] [ (Malachi 3:23) Hle, posílám k vám proroka Elijáše, dříve než přijde den Hospodinův veliký a hrozný. ] [ (Malachi 3:24) On obrátí srdce otců k synům a srdce synů k otcům, abych při svém příchodu nestihl zemi klatbou.\" ]"
-		},
-		"4": {
-			"1": "<span>1</span> Tehdy byl Ježíš Duchem vyveden na poušť, aby byl pokoušen od ďábla.",
-			"2": "<span>2</span> Postil se čtyřicet dní a čtyřicet nocí, až nakonec vyhladověl.",
-			"3": "<span>3</span> Tu přistoupil pokušitel a řekl mu: \"Jsi-li Syn Boží, řekni, ať z těchto kamenů jsou chleby.\"",
-			"4": "<span>4</span> On však odpověděl: \"Je psáno: 'Ne jenom chlebem bude člověk živ, ale každým slovem, které vychází z Božích úst.'\"",
-			"5": "<span>5</span> Tu ho vezme ďábel na do svatého města, postaví ho na vrcholek chrámu",
-			"6": "<span>6</span> a řekne mu: \"Jsi-li Syn Boží, vrhni se dolů; vždyť je psáno: 'Svým andělům dá příkaz a na ruce tě vezmou, abys nenarazil nohou na kámen'!\"",
-			"7": "<span>7</span> Ježíš mu pravil: \"Je také psáno: 'Nebudeš pokoušet Hospodina, Boha svého.'\"",
-			"8": "<span>8</span> Pak ho ďábel vezme na velmi vysokou horu, ukáže mu všechna království světa i jejich slávu",
-			"9": "<span>9</span> a řekne mu: \"Toto všechno ti dám, padneš-li přede mnou a budeš se mi klanět.\"",
-			"10": "<span>10</span> Tu mu Ježíš odpoví: \"Jdi z cesty, satane; neboť je psáno: 'Hospodinu, Bohu svému, se budeš klanět a jeho jediného uctívat.'",
-			"11": "<span>11</span> V té chvíli ho ďábel opustil, a hle, andělé přistoupili a obsluhovali ho.",
-			"12": "<span>12</span> Když Ježíš uslyšel, že Jan je uvězněn, odebral se do Galileje.",
-			"13": "<span>13</span> Opustil Nazaret a usadil se v Kafarnaum při moři, v území Zabulón a Neftalím,",
-			"14": "<span>14</span> aby se splnilo, co je řečeno ústy proroka Izaiáše:",
-			"15": "<span>15</span> 'Země Zabulón a Neftalím, směrem k moři za Jordánem, Galilea pohanů -",
-			"16": "<span>16</span> lid bydlící v temnotách uvidí veliké světlo; světlo vzejde těm, kdo seděli v krajině stínu smrti.'",
-			"17": "<span>17</span> Od té chvíle začal Ježíš kázat: \"Čiňte pokání, neboť se přiblížilo království nebeské.\"",
-			"18": "<span>18</span> Když procházel podél Galilejského moře, uviděl dva bratry, Šimona zvaného Petr a jeho bratra Ondřeje, jak vrhají síť do moře; byli totiž rybáři.",
-			"19": "<span>19</span> Řekl jim: \"Pojďte za mnou a učiním z vás rybáře lidí.\"",
-			"20": "<span>20</span> Oni hned nechali sítě a šli za ním.",
-			"21": "<span>21</span> O něco dále uviděl jiné dva bratry, Jakuba Zebedeova a jeho bratra Jana, jak na lodi se svým otcem Zebedeem spravují sítě; a povolal je.",
-			"22": "<span>22</span> Ihned opustili loď i svého otce a šli za ním.",
-			"23": "<span>23</span> Ježíš chodil po celé galileji, učil v jejich synagógách, kázal evangelium království Božího a uzdravoval každou nemoc a každou chorobu v lidu.",
-			"24": "<span>24</span> Pověst o něm se roznesla po celé Sýrii; přinášeli k němu všechny nemocné, postižené rozličnými neduhy a trápením, posedlé, náměsíčné, ochrnuté, a uzdravoval je.",
-			"25": "<span>25</span> A velké zástupy z Galileje, Desetiměstí, z Jeruzaléma, Judska i ze Zajordání ho následovaly."
+			"18": "<span>18</span> Potom uvidíte rozdíl mezi spravedlivým a svévolníkem, mezi tím, kdo Bohu slouží, a tím, kdo mu sloužit nechce.",
+            "19": "<span>19</span> \"Hle, přichází ten den hořící jako pec; a všichni opovážlivci i všichni, kdo páchají svévolnosti, se stanou strništěm. A ten přicházející den je sežehne, praví Hospodin zástupů; nezůstane po nich kořen ani větev.",
+            "20": "<span>20</span> Ale vám, kdo se bojíte mého jména, vzejde slunce spravedlnosti se zdravím na paprscích. Rozběhnete se a budete poskakovat jako vykrmení býčci,",
+            "21": "<span>21</span> rozšlapete svévolníky, že budou jako popel pod chodidly vašich nohou v ten den, který připravuji, praví Hospodin zástupů.",
+            "22": "<span>22</span> Pamatujte na zákon mého služebníka Mojžíše, jemuž jsem vydal na Chorébu pro celého Izraele nařízení a práva.",
+            "23": "<span>23</span> Hle, posílám k vám proroka Elijáše, dříve než přijde den Hospodinův veliký a hrozný.",
+            "24": "<span>24</span> On obrátí srdce otců k synům a srdce synů k otcům, abych při svém příchodu nestihl zemi klatbou.\""
 		}
 	}
 };

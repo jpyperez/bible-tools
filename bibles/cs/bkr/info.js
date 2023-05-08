@@ -1,6 +1,6 @@
 var info = {
 	"lang": "cs",
-	"version": "kralicka-1613",
+	"version": "bkr",
 	"books": [
 		{
 			"name": "1. Mojžišova",
