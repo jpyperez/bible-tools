@@ -40,7 +40,7 @@ Ps	Zsoltárok	Zsolt	Zsoltár
 Prov	Példabeszédek	Péld	Pld
 Eccl	Prédikátor	Préd	Pr
 Song	Salamon éneke	Énekek éneke	Én	Énekek
-Isa	Izajás	Éz?saiás	Iz	Ézs	Ésa	És
+Isa	Izajás	Éz?saiás	Iz	Ézs	Ésa
 Jer	Jeremiás	Jer
 Lam	Jeremiás siralmai	Siralmak	Siralm?	Jeremiás sir
 Ezek	Ezékiel	Ez	Ezék
