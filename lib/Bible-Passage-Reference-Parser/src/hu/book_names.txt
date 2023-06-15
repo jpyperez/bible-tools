@@ -910,9 +910,7 @@ Isa	Ezs
 Isa	Isa
 Isa	Ésa
 Isa	Ézs
-Isa	Es
 Isa	Iz
-Isa	És
 Jas	Jakab
 Jas	Jak
 Jas	Jas

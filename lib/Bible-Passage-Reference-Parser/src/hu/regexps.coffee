@@ -146,7 +146,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Isa"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:[E\xC9](?:zs(?:ai[a\xE1]s)?|s(?:ai[a\xE1]s|a)?)|I(?:zaj[a\xE1]s|sa|z))
+		(?:[E\xC9](?:zs(?:ai[a\xE1]s)?|sa(?:i[a\xE1]s)?)|I(?:zaj[a\xE1]s|sa|z))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Sam"]
