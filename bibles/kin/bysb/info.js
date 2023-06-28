@@ -31,7 +31,7 @@ var info = {
 			"numChapters": 36
 		},
 		{
-			"name": "Gutegeka Kwa Kabiri",
+			"name": "Gutegeka kwa Kabiri",
 			"synonyms": [
 				"Deut"
 			],
@@ -178,7 +178,7 @@ var info = {
 			"numChapters": 5
 		},
 		{
-			"name": "Ezekeiyeli",
+			"name": "Ezekiyeli",
 			"synonyms": [
 				"Ezek"
 			],
@@ -304,7 +304,7 @@ var info = {
 			"numChapters": 21
 		},
 		{
-			"name": "Ibyakozwe N Intumwa",
+			"name": "Ibyakozwe n'Intumwa",
 			"synonyms": [
 				"Acts"
 			],
@@ -458,7 +458,7 @@ var info = {
 			"numChapters": 1
 		},
 		{
-			"name": "Ibyahisuwe",
+			"name": "Ibyahishuwe",
 			"synonyms": [
 				"Rev"
 			],
