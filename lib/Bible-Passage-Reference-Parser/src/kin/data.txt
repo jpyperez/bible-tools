@@ -16,7 +16,7 @@ Gen	Itangiriro
 Exod	Kuva
 Lev	Abalewi
 Num	Kubara
-Deut	Gutegeka Kwa Kabiri
+Deut	Gutegeka kwa Kabiri
 Josh	Yosuwa
 Judg	Abacamanza
 Ruth	Rusi
@@ -37,7 +37,7 @@ Song	Indirimbo Ya Salomo
 Isa	Yesaya
 Jer	Yeremiya
 Lam	Amaganya Ya Yeremiya
-Ezek	Ezekeiyeli
+Ezek	Ezekiyeli
 Dan	Daniyeli
 Hos	Hoseya
 Joel	Yoweli
@@ -55,7 +55,7 @@ Matt	Matayo
 Mark	Mariko
 Luke	Luka
 John	Yohana
-Acts	Ibyakozwe N Intumwa
+Acts	Ibyakozwe n'Intumwa
 Rom	Abaroma
 1Cor	1 Abakorinto
 2Cor	2 Abakorinto
