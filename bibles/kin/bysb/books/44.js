@@ -1,5 +1,5 @@
 var book = {
-	"name": "Ibyakozwe N Intumwa",
+	"name": "Ibyakozwe n'Intumwa",
 	"numChapters": 28,
 	"chapters": {
 		"1": {
