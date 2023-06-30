@@ -199,7 +199,7 @@ describe "Localized book Deut (kin)", ->
 		p.include_apocrypha true
 	it "should handle book: Deut (kin)", ->
 		`
-		expect(p.parse("Gutegeka Kwa Kabiri 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("Gutegeka kwa Kabiri 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("Deut 1:1").osis()).toEqual("Deut.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("GUTEGEKA KWA KABIRI 1:1").osis()).toEqual("Deut.1.1")
@@ -554,10 +554,10 @@ describe "Localized book Ezek (kin)", ->
 		p.include_apocrypha true
 	it "should handle book: Ezek (kin)", ->
 		`
-		expect(p.parse("Ezekeiyeli 1:1").osis()).toEqual("Ezek.1.1")
+		expect(p.parse("Ezekiyeli 1:1").osis()).toEqual("Ezek.1.1")
 		expect(p.parse("Ezek 1:1").osis()).toEqual("Ezek.1.1")
 		p.include_apocrypha(false)
-		expect(p.parse("EZEKEIYELI 1:1").osis()).toEqual("Ezek.1.1")
+		expect(p.parse("EZEKIYELI 1:1").osis()).toEqual("Ezek.1.1")
 		expect(p.parse("EZEK 1:1").osis()).toEqual("Ezek.1.1")
 		`
 		true
@@ -869,10 +869,12 @@ describe "Localized book Acts (kin)", ->
 		p.include_apocrypha true
 	it "should handle book: Acts (kin)", ->
 		`
-		expect(p.parse("Ibyakozwe N Intumwa 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("Ibyakozwe n'Intumwa 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("Ibyakozwe n’Intumwa 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("Acts 1:1").osis()).toEqual("Acts.1.1")
 		p.include_apocrypha(false)
-		expect(p.parse("IBYAKOZWE N INTUMWA 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("IBYAKOZWE N'INTUMWA 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("IBYAKOZWE N’INTUMWA 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("ACTS 1:1").osis()).toEqual("Acts.1.1")
 		`
 		true
