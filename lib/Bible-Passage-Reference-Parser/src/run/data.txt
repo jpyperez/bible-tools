@@ -12,11 +12,11 @@ $TO	kugeza
 $VERSE	umurongo wa	umurongo
 $UNICODE_BLOCK	Latin
 
-Gen	Itangiriro
-Exod	Kuva
+Gen	Itanguriro
+Exod	Kuvayo
 Lev	Abalewi
-Num	Kubara
-Deut	Gutegeka kwa Kabiri
+Num	Guharura
+Deut	Gusubira mu Vyagezwe
 Josh	Yosuwa
 Judg	Abacamanza
 Ruth	Rusi
@@ -32,11 +32,11 @@ Esth	Esiteri
 Job	Yobu
 Ps	Zaburi
 Prov	Imigani
-Eccl	Umubwiriza
+Eccl	Umusiguzi
 Song	Indirimbo Ya Salomo
 Isa	Yesaya
 Jer	Yeremiya
-Lam	Amaganya Ya Yeremiya
+Lam	Gucura Intimba kwa Yeremiya
 Ezek	Ezekiyeli
 Dan	Daniyeli
 Hos	Hoseya
@@ -55,16 +55,16 @@ Matt	Matayo
 Mark	Mariko
 Luke	Luka
 John	Yohana
-Acts	Ibyakozwe n'Intumwa
+Acts	Ivyakozwe n'Intumwa
 Rom	Abaroma
-1Cor	1 Abakorinto
-2Cor	2 Abakorinto
-Gal	Abagalatiya
-Eph	Abefeso
-Phil	Abafilipi
-Col	Abakolosayi
-1Thess	1 Abatesalonike
-2Thess	2 Abatesalonike
+1Cor	1 Ab'i Korinto
+2Cor	2 Ab'i Korinto
+Gal	Ab'i Galatiya
+Eph	Abanyefeso
+Phil	Ab'i Filipi
+Col	Ab'i Kolosayi
+1Thess	1 Ab'i Tesalonike
+2Thess	2 Ab'i Tesalonike
 1Tim	1 Timoteyo
 2Tim	2 Timoteyo
 Titus	Tito
@@ -77,7 +77,7 @@ Jas	Yakobo
 2John	2 Yohana
 3John	3 Yohana
 Jude	Yuda
-Rev	Ibyahisuwe	Ibyahishuwe
+Rev	Ibyahisuwe	Ivyahishuriwe Yohana
 Tob	
 Jdt	
 GkEsth	
