@@ -1,16 +1,16 @@
 var info = {
-	"lang": "kin",
-	"version": "bysb",
+	"lang": "run",
+	"version": "byk",
 	"books": [
 		{
-			"name": "Itangiriro",
+			"name": "Itanguriro",
 			"synonyms": [
 				"Gen"
 			],
 			"numChapters": 50
 		},
 		{
-			"name": "Kuva",
+			"name": "Kuvayo",
 			"synonyms": [
 				"Exod"
 			],
@@ -24,14 +24,14 @@ var info = {
 			"numChapters": 27
 		},
 		{
-			"name": "Kubara",
+			"name": "Guharura",
 			"synonyms": [
 				"Num"
 			],
 			"numChapters": 36
 		},
 		{
-			"name": "Gutegeka kwa Kabiri",
+			"name": "Gusubira mu Vyagezwe",
 			"synonyms": [
 				"Deut"
 			],
@@ -143,7 +143,7 @@ var info = {
 			"numChapters": 31
 		},
 		{
-			"name": "Umubwiriza",
+			"name": "Umusiguzi",
 			"synonyms": [
 				"Eccl"
 			],
@@ -171,7 +171,7 @@ var info = {
 			"numChapters": 52
 		},
 		{
-			"name": "Amaganya Ya Yeremiya",
+			"name": "Gucura Intimba Kwa Yeremiya",
 			"synonyms": [
 				"Lam"
 			],
@@ -304,7 +304,7 @@ var info = {
 			"numChapters": 21
 		},
 		{
-			"name": "Ibyakozwe n'Intumwa",
+			"name": "Ivyakozwe n'Intumwa",
 			"synonyms": [
 				"Acts"
 			],
@@ -318,56 +318,56 @@ var info = {
 			"numChapters": 16
 		},
 		{
-			"name": "1 Abakorinto",
+			"name": "1 Ab'i Korinto",
 			"synonyms": [
 				"1Cor"
 			],
 			"numChapters": 16
 		},
 		{
-			"name": "2 Abakorinto",
+			"name": "2 Ab'i Korinto",
 			"synonyms": [
 				"2Cor"
 			],
 			"numChapters": 13
 		},
 		{
-			"name": "Abagalatiya",
+			"name": "Ab'i Galatiya",
 			"synonyms": [
 				"Gal"
 			],
 			"numChapters": 6
 		},
 		{
-			"name": "Abefeso",
+			"name": "Abanyefeso",
 			"synonyms": [
 				"Eph"
 			],
 			"numChapters": 6
 		},
 		{
-			"name": "Abafilipi",
+			"name": "Ab'i Filipi",
 			"synonyms": [
 				"Phil"
 			],
 			"numChapters": 4
 		},
 		{
-			"name": "Abakolosayi",
+			"name": "Ab'i Kolosayi",
 			"synonyms": [
 				"Col"
 			],
 			"numChapters": 4
 		},
 		{
-			"name": "1 Abatesalonike",
+			"name": "1 Ab'i Tesalonike",
 			"synonyms": [
 				"1Thess"
 			],
 			"numChapters": 5
 		},
 		{
-			"name": "2 Abatesalonike",
+			"name": "2 Ab'i Tesalonike",
 			"synonyms": [
 				"2Thess"
 			],
@@ -458,7 +458,7 @@ var info = {
 			"numChapters": 1
 		},
 		{
-			"name": "Ibyahishuwe",
+			"name": "Ivyahishuriwe Yohana",
 			"synonyms": [
 				"Rev"
 			],
