@@ -55,16 +55,16 @@ Matt	Matayo
 Mark	Mariko
 Luke	Luka
 John	Yohana
-Acts	Ivyakozwe n'Intumwa
+Acts	Ivyakozwe n'Intumwa	Ivyakozwe n‘Intumwa
 Rom	Abaroma
-1Cor	1 Ab'i Korinto
-2Cor	2 Ab'i Korinto
+1Cor	1 Ab'i Korinto	1 Ab‘i Korinto
+2Cor	2 Ab'i Korinto	2 Ab‘i Korinto
 Gal	Ab'i Galatiya
 Eph	Abanyefeso
 Phil	Ab'i Filipi
 Col	Ab'i Kolosayi
-1Thess	1 Ab'i Tesalonike
-2Thess	2 Ab'i Tesalonike
+1Thess	1 Ab'i Tesalonike	1 Ab‘i Tesalonike
+2Thess	2 Ab'i Tesalonike	2 Ab‘i Tesalonike
 1Tim	1 Timoteyo
 2Tim	2 Timoteyo
 Titus	Tito

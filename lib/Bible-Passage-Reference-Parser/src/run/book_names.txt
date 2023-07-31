@@ -1,6 +1,8 @@
 1Chr	1 Ngoma
 1Chr	1Chr
 1Cor	1 Ab'i Korinto
+1Cor	1 Ab‘i Korinto
+1Cor	1 Ab’i Korinto
 1Cor	1Cor
 1Esd	1Esd
 1John	1 Yohana
@@ -13,12 +15,16 @@
 1Sam	1 Samweli
 1Sam	1Sam
 1Thess	1 Ab'i Tesalonike
+1Thess	1 Ab‘i Tesalonike
+1Thess	1 Ab’i Tesalonike
 1Thess	1Thess
 1Tim	1 Timoteyo
 1Tim	1Tim
 2Chr	2 Ngoma
 2Chr	2Chr
 2Cor	2 Ab'i Korinto
+2Cor	2 Ab‘i Korinto
+2Cor	2 Ab’i Korinto
 2Cor	2Cor
 2Esd	2Esd
 2John	2 Yohana
@@ -31,6 +37,8 @@
 2Sam	2 Samweli
 2Sam	2Sam
 2Thess	2 Ab'i Tesalonike
+2Thess	2 Ab‘i Tesalonike
+2Thess	2 Ab’i Tesalonike
 2Thess	2Thess
 2Tim	2 Timoteyo
 2Tim	2Tim
@@ -39,6 +47,7 @@
 3Macc	3Macc
 4Macc	4Macc
 Acts	Ivyakozwe n'Intumwa
+Acts	Ivyakozwe n‘Intumwa
 Acts	Ivyakozwe n’Intumwa
 Acts	Acts
 Amos	Amosi
@@ -46,10 +55,11 @@ Amos	Amos
 Bar	Bar
 Bel	Bel
 Col	Ab'i Kolosayi
+Col	Ab’i Kolosayi
 Col	Col
 Dan	Daniyeli
 Dan	Dan
-Deut	Gusubira mu vyagezwe
+Deut	Gusubira mu Vyagezwe
 Deut	Deut
 Eccl	Umusiguzi
 Eccl	Eccl
@@ -58,13 +68,14 @@ Eph	Abanyefeso
 Eph	Eph
 Esth	Esiteri
 Esth	Esth
-Exod	Exod
 Exod	Kuvayo
+Exod	Exod
 Ezek	Ezekiyeli
 Ezek	Ezek
 Ezra	Ezira
 Ezra	Ezra
 Gal	Ab'i Galatiya
+Gal	Ab’i Galatiya
 Gal	Gal
 Gen	Itanguriro
 Gen	Gen
@@ -98,7 +109,7 @@ Jude	Jude
 Jude	Yuda
 Judg	Abacamanza
 Judg	Judg
-Lam	Gucura Intimba Kwa Yeremiya
+Lam	Gucura Intimba kwa Yeremiya
 Lam	Lam
 Lev	Abalewi
 Lev	Lev
@@ -121,6 +132,7 @@ Num	Num
 Obad	Obadiya
 Obad	Obad
 Phil	Ab'i Filipi
+Phil	Ab’i Filipi
 Phil	Phil
 Phlm	Filemoni
 Phlm	Phlm
@@ -131,7 +143,7 @@ Prov	Prov
 Ps	Zaburi
 Ps	Ps
 Rev	Ivyahishuriwe Yohana
-Rev	Ivyahishuriwe Yohana
+Rev	Ibyahisuwe
 Rev	Rev
 Rom	Abaroma
 Rom	Rom
