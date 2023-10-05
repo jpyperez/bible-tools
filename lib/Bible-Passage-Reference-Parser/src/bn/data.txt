@@ -10,7 +10,7 @@ $TITLE	title
 $TRANS	bn
 $TO	থেকে
 $VERSE	আয়াত
-$UNICODE_BLOCK	Latin
+$UNICODE_BLOCK	Bengali	Latin
 
 Gen	আদিপুস্তক	আদি
 Exod	যাত্রাপুস্তক	যাত্রা
