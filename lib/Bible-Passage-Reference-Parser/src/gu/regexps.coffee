@@ -54,7 +54,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Gen"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ઉત્(?:પત્તિ|ત)|Gen)
+		(?:ઉત્(?:પ(?:ત્|ા)તિ|ત)|Gen)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Exod"]
@@ -114,12 +114,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Deut"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:પ(?:ુનર્નિયમ|ૂન)|Deut)
+		(?:પ(?:ુન(?:ર્નિયમ)?|ૂન)|Deut)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Josh"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:યહો(?:શુઆ)?|Josh)
+		(?:યહો(?:શુઆ)?|જોશુઆ|Josh)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Judg"]
@@ -146,17 +146,17 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Isa"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:યશા(?:યા)?|Isa)
+		(?:યશા(?:યાહ?)?|Isa)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Sam"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:૨(?:[\s\xa0]*શમુએલ|શમું)|2(?:[\s\xa0]*શમુએલ|શમું|Sam))
+		(?:૨(?:[\s\xa0]*શમુએલ|શમું)|2(?:[\s\xa0]*શમ[ુૂ]એલ|શમું|Sam))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["1Sam"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:૧[\s\xa0]*શમુ(?:એલ|ં)|1(?:[\s\xa0]*શમુ(?:એલ|ં)|Sam))
+		(?:૧[\s\xa0]*શમુ(?:એલ|ં)|1(?:[\s\xa0]*શમ(?:ૂએલ|ુ(?:એલ|ં))|Sam))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Kgs"]
@@ -207,7 +207,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Ps"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ગી(?:તશાસ્‍?ત્ર|\.?શા)|Ps)
+		(?:ગી(?:ત(?:શાસ્‍?ત્ર)?|\.?શા)|Ps)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["PrAzar"]
@@ -223,7 +223,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Eccl"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:સભા(?:શિક્ષક)?|Eccl)
+		(?:સભા(?:શિક્ષક)?|Eccl|જુઓ)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["SgThree"]
@@ -244,12 +244,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Ezek"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:હઝ(?:કિયેલ)?|Ezek)
+		(?:હઝ(?:ક(?:િયેલ|ી(?:એલ)?))?|Ezek)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Dan"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:દાન(?:િયેલ|ી)|Dan)
+		(?:દાન(?:ી(?:યેલ)?|િયેલ)|Dan)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Hos"]
@@ -314,7 +314,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Matt"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:માથ્(?:થી)?|Matt)
+		(?:મા(?:થ્(?:થી)?|ત્થી)|Matt)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Mark"]
@@ -324,12 +324,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Luke"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Luke|લૂક)
+		(?:Luke|લ[ુૂ]ક)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["1John"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:યોહાનનો[\s\xa0]*પહેલો[\s\xa0]*પત્ર|1(?:John|યોહ)|૧યોહ)
+		(?:યોહાનનો[\s\xa0]*પહેલો[\s\xa0]*પત્ર|૧(?:[\s\xa0]*યોહાન|યોહ)|1(?:[\s\xa0]*યોહાન|યોહાન|John)|1યોહ)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2John"]
@@ -344,7 +344,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["John"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:યોહ(?:ાન)?|John)
+		(?:યોહ(?:ાન|ન)?|John)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Acts"]
@@ -354,7 +354,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Rom"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:રોમ(?:ન(?:ોને[\s\xa0]*પત્ર)?)?|Rom)
+		(?:ર(?:ોમ(?:ન(?:ોને[\s\xa0]*પત્ર)?)?|ૂમી)|Rom)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Cor"]
@@ -364,27 +364,27 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["1Cor"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:કરિંથીઓને[\s\xa0]*પહેલો[\s\xa0]*પત્ર|1(?:[\s\xa0]*કોરીંથી|કોરી|Cor)|૧કોરી)
+		(?:કરિંથીઓને[\s\xa0]*પહેલો[\s\xa0]*પત્ર|1(?:[\s\xa0]*કોરીંથી|કોરી|Cor)|1[\s\xa0]*કોરીં|૧(?:[\s\xa0]*કોરીં|કોરી))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Gal"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ગલા(?:તીઓને[\s\xa0]*પત્ર)?|Gal)
+		(?:ગલા(?:તી(?:ઓને[\s\xa0]*પત્ર)?)?|Gal)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Eph"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:એફે(?:સીઓને[\s\xa0]*પત્ર)?|Eph)
+		(?:એફે(?:સી(?:ઓને[\s\xa0]*પત્ર)?)?|Eph)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Phil"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ફિલિ(?:પીઓને[\s\xa0]*પત્ર)?|Phil)
+		(?:ફિલ(?:િ(?:પીઓને[\s\xa0]*પત્ર)?|ીપી)|Phil)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Col"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:ક(?:લોસીઓને[\s\xa0]*પત્ર|ૉલો)|Col)
+		(?:ક(?:લોસ(?:ીઓને[\s\xa0]*પત્ર|્સી)|્લોસી|ૉલો)|Col)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Thess"]
@@ -394,7 +394,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["1Thess"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:થેસ્સાલોનિકીઓને[\s\xa0]*પહેલો[\s\xa0]*પત્ર|1(?:Thess|થેસા)|૧થેસા)
+		(?:થેસ્સાલોનિકીઓને[\s\xa0]*પહેલો[\s\xa0]*પત્ર|1(?:[\s\xa0]*થેસ્સાલોનીકી|Thess|થેસા)|1[\s\xa0]*થેસ્સા|૧થેસા)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Tim"]
@@ -404,7 +404,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["1Tim"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:તિમોથીને[\s\xa0]*પહેલો[\s\xa0]*પત્ર|૧તીમો|1(?:તીમો|Tim))
+		(?:તિમોથીને[\s\xa0]*પહેલો[\s\xa0]*પત્ર|1(?:[\s\xa0]*તીમોથી|તીમો|Tim)|૧તીમો)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Titus"]
@@ -419,12 +419,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Heb"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:હ(?:િબ્રૂઓને[\s\xa0]*પત્ર|ીબ્રુ)|Heb)
+		(?:હ(?:િબ્રૂ(?:ઓને[\s\xa0]*પત્ર)?|ેબ્રી|ીબ્રુ)|Heb)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Jas"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:યાક(?:ૂબનો[\s\xa0]*પત્ર|ુ)|Jas)
+		(?:યાક(?:ૂબ(?:નો[\s\xa0]*પત્ર)?|ુ)|Jas)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["2Pet"]
@@ -434,12 +434,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["1Pet"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:પિતરનો[\s\xa0]*પહેલો[\s\xa0]*પત્ર|૧પીત્ત|1(?:પીત્ત|Pet)|1[\s\xa0]*પિતર)
+		(?:પિતરનો[\s\xa0]*પહેલો[\s\xa0]*પત્ર|1(?:\.[\s\xa0]*પીત્|[\s\xa0]*પ(?:ીત્|િ))તર|૧પીત્ત|1(?:પીત્ત|Pet))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Jude"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:યહ(?:ૂદાનો[\s\xa0]*પત્ર|ુ)|Jude)
+		(?:યહ(?:ૂદાનો[\s\xa0]*પત્ર|ુ(?:દા)?)|Jude)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Tob"]
