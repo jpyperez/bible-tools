@@ -464,6 +464,23 @@ describe "Localized book 1Chr (or)", ->
 		expect(p.parse("1 ବଂଶାବଳୀର 1:1").osis()).toEqual("1Chr.1.1")
 		expect(p.parse("1. ବଂଶାବଳୀ 1:1").osis()).toEqual("1Chr.1.1")
 		expect(p.parse("1 ବଂଶାବଳୀ 1:1").osis()).toEqual("1Chr.1.1")
+		expect(p.parse("1 ବଂଶା 1:1").osis()).toEqual("1Chr.1.1")
+		expect(p.parse("୧ ବଂଶା 1:1").osis()).toEqual("1Chr.1.1")
+		expect(p.parse("1Chr 1:1").osis()).toEqual("1Chr.1.1")
+		`
+		true
+	it "should handle non-Latin digits in book: 1Chr (or)", ->
+		p.set_options non_latin_digits_strategy: "replace"
+		`
+		expect(p.parse("ବଂଶାବଳୀର ପ୍ରଥମ ପୁସ୍ତକ 1:1").osis()).toEqual("1Chr.1.1")
+		expect(p.parse("ପ୍ରଥମ ବଂଶାବଳୀର 1:1").osis()).toEqual("1Chr.1.1")
+		expect(p.parse("ପ୍ରଥମ ବଂଶାବଳୀ 1:1").osis()).toEqual("1Chr.1.1")
+		expect(p.parse("1. ବଂଶାବଳୀର 1:1").osis()).toEqual("1Chr.1.1")
+		expect(p.parse("1 ବଂଶାବଳୀର 1:1").osis()).toEqual("1Chr.1.1")
+		expect(p.parse("1. ବଂଶାବଳୀ 1:1").osis()).toEqual("1Chr.1.1")
+		expect(p.parse("1 ବଂଶାବଳୀ 1:1").osis()).toEqual("1Chr.1.1")
+		expect(p.parse("1 ବଂଶା 1:1").osis()).toEqual("1Chr.1.1")
+		expect(p.parse("୧ ବଂଶା 1:1").osis()).toEqual("1Chr.1.1")
 		expect(p.parse("1Chr 1:1").osis()).toEqual("1Chr.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ବଂଶାବଳୀର ପ୍ରଥମ ପୁସ୍ତକ 1:1").osis()).toEqual("1Chr.1.1")
@@ -473,6 +490,8 @@ describe "Localized book 1Chr (or)", ->
 		expect(p.parse("1 ବଂଶାବଳୀର 1:1").osis()).toEqual("1Chr.1.1")
 		expect(p.parse("1. ବଂଶାବଳୀ 1:1").osis()).toEqual("1Chr.1.1")
 		expect(p.parse("1 ବଂଶାବଳୀ 1:1").osis()).toEqual("1Chr.1.1")
+		expect(p.parse("1 ବଂଶା 1:1").osis()).toEqual("1Chr.1.1")
+		expect(p.parse("୧ ବଂଶା 1:1").osis()).toEqual("1Chr.1.1")
 		expect(p.parse("1CHR 1:1").osis()).toEqual("1Chr.1.1")
 		`
 		true
@@ -562,11 +581,13 @@ describe "Localized book Ps (or)", ->
 		expect(p.parse("ଗୀତିସଂହିତା 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("ଗାତସଂହିତା 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("ଗୀତସଂହିତା 1:1").osis()).toEqual("Ps.1.1")
+		expect(p.parse("ଗୀତ 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("Ps 1:1").osis()).toEqual("Ps.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ଗୀତିସଂହିତା 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("ଗାତସଂହିତା 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("ଗୀତସଂହିତା 1:1").osis()).toEqual("Ps.1.1")
+		expect(p.parse("ଗୀତ 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("PS 1:1").osis()).toEqual("Ps.1.1")
 		`
 		true
@@ -862,10 +883,12 @@ describe "Localized book Hag (or)", ->
 	it "should handle book: Hag (or)", ->
 		`
 		expect(p.parse("ହାଗୟ ଭବିଷ୍ୟ‌ଦ୍‌ବକ୍ତାଙ୍କ ପୁସ୍ତକ 1:1").osis()).toEqual("Hag.1.1")
+		expect(p.parse("ହାଗାୟ 1:1").osis()).toEqual("Hag.1.1")
 		expect(p.parse("ହାଗୟ 1:1").osis()).toEqual("Hag.1.1")
 		expect(p.parse("Hag 1:1").osis()).toEqual("Hag.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ହାଗୟ ଭବିଷ୍ୟ‌ଦ୍‌ବକ୍ତାଙ୍କ ପୁସ୍ତକ 1:1").osis()).toEqual("Hag.1.1")
+		expect(p.parse("ହାଗାୟ 1:1").osis()).toEqual("Hag.1.1")
 		expect(p.parse("ହାଗୟ 1:1").osis()).toEqual("Hag.1.1")
 		expect(p.parse("HAG 1:1").osis()).toEqual("Hag.1.1")
 		`
@@ -971,12 +994,28 @@ describe "Localized book 1John (or)", ->
 		expect(p.parse("ପ୍ରଥମ ଯୋହନଙ 1:1").osis()).toEqual("1John.1.1")
 		expect(p.parse("1. ଯୋହନଙ 1:1").osis()).toEqual("1John.1.1")
 		expect(p.parse("1 ଯୋହନଙ 1:1").osis()).toEqual("1John.1.1")
+		expect(p.parse("1 ଯୋହନ 1:1").osis()).toEqual("1John.1.1")
+		expect(p.parse("୧ ଯୋହନ 1:1").osis()).toEqual("1John.1.1")
+		expect(p.parse("1John 1:1").osis()).toEqual("1John.1.1")
+		`
+		true
+	it "should handle non-Latin digits in book: 1John (or)", ->
+		p.set_options non_latin_digits_strategy: "replace"
+		`
+		expect(p.parse("ଯୋହନଙ୍କ ପ୍ରଥମ ପତ୍ର 1:1").osis()).toEqual("1John.1.1")
+		expect(p.parse("ପ୍ରଥମ ଯୋହନଙ 1:1").osis()).toEqual("1John.1.1")
+		expect(p.parse("1. ଯୋହନଙ 1:1").osis()).toEqual("1John.1.1")
+		expect(p.parse("1 ଯୋହନଙ 1:1").osis()).toEqual("1John.1.1")
+		expect(p.parse("1 ଯୋହନ 1:1").osis()).toEqual("1John.1.1")
+		expect(p.parse("୧ ଯୋହନ 1:1").osis()).toEqual("1John.1.1")
 		expect(p.parse("1John 1:1").osis()).toEqual("1John.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ଯୋହନଙ୍କ ପ୍ରଥମ ପତ୍ର 1:1").osis()).toEqual("1John.1.1")
 		expect(p.parse("ପ୍ରଥମ ଯୋହନଙ 1:1").osis()).toEqual("1John.1.1")
 		expect(p.parse("1. ଯୋହନଙ 1:1").osis()).toEqual("1John.1.1")
 		expect(p.parse("1 ଯୋହନଙ 1:1").osis()).toEqual("1John.1.1")
+		expect(p.parse("1 ଯୋହନ 1:1").osis()).toEqual("1John.1.1")
+		expect(p.parse("୧ ଯୋହନ 1:1").osis()).toEqual("1John.1.1")
 		expect(p.parse("1JOHN 1:1").osis()).toEqual("1John.1.1")
 		`
 		true
@@ -1123,6 +1162,25 @@ describe "Localized book 1Cor (or)", ->
 		expect(p.parse("1 କରିନ୍ଥୀୟଙ୍କ 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("1. କରିନ୍ଥୀୟ 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("1 କରିନ୍ଥୀୟ 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("1କରନ୍ଥୀୟ 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("୧କରନ୍ଥୀୟ 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("1Cor 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("1କରି 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("1କର 1:1").osis()).toEqual("1Cor.1.1")
+		`
+		true
+	it "should handle non-Latin digits in book: 1Cor (or)", ->
+		p.set_options non_latin_digits_strategy: "replace"
+		`
+		expect(p.parse("କରିନ୍ଥୀୟଙ୍କ ପ୍ରତି ପ୍ରଥମ ପତ୍ର 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("ପ୍ରଥମ କରିନ୍ଥୀୟଙ୍କ 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("1. କରିନ୍ଥୀୟଙ୍କ 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("ପ୍ରଥମ କରିନ୍ଥୀୟ 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("1 କରିନ୍ଥୀୟଙ୍କ 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("1. କରିନ୍ଥୀୟ 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("1 କରିନ୍ଥୀୟ 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("1କରନ୍ଥୀୟ 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("୧କରନ୍ଥୀୟ 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("1Cor 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("1କରି 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("1କର 1:1").osis()).toEqual("1Cor.1.1")
@@ -1134,6 +1192,8 @@ describe "Localized book 1Cor (or)", ->
 		expect(p.parse("1 କରିନ୍ଥୀୟଙ୍କ 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("1. କରିନ୍ଥୀୟ 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("1 କରିନ୍ଥୀୟ 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("1କରନ୍ଥୀୟ 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("୧କରନ୍ଥୀୟ 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("1COR 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("1କରି 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("1କର 1:1").osis()).toEqual("1Cor.1.1")
@@ -1149,10 +1209,14 @@ describe "Localized book Gal (or)", ->
 		`
 		expect(p.parse("ଗାଲାତୀୟଙ୍କ ପ୍ରତି ପତ୍ର 1:1").osis()).toEqual("Gal.1.1")
 		expect(p.parse("ଗାଲାତୀୟଙ୍କ 1:1").osis()).toEqual("Gal.1.1")
+		expect(p.parse("ଗାଲାତୀୟ 1:1").osis()).toEqual("Gal.1.1")
+		expect(p.parse("ଗାଲା 1:1").osis()).toEqual("Gal.1.1")
 		expect(p.parse("Gal 1:1").osis()).toEqual("Gal.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ଗାଲାତୀୟଙ୍କ ପ୍ରତି ପତ୍ର 1:1").osis()).toEqual("Gal.1.1")
 		expect(p.parse("ଗାଲାତୀୟଙ୍କ 1:1").osis()).toEqual("Gal.1.1")
+		expect(p.parse("ଗାଲାତୀୟ 1:1").osis()).toEqual("Gal.1.1")
+		expect(p.parse("ଗାଲା 1:1").osis()).toEqual("Gal.1.1")
 		expect(p.parse("GAL 1:1").osis()).toEqual("Gal.1.1")
 		`
 		true
@@ -1168,11 +1232,13 @@ describe "Localized book Eph (or)", ->
 		expect(p.parse("ଏଫିସୀୟଙ୍କ 1:1").osis()).toEqual("Eph.1.1")
 		expect(p.parse("ଏଫିସ 1:1").osis()).toEqual("Eph.1.1")
 		expect(p.parse("Eph 1:1").osis()).toEqual("Eph.1.1")
+		expect(p.parse("ଏଫି 1:1").osis()).toEqual("Eph.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ଏଫିସୀୟଙ୍କ ପ୍ରତି ପତ୍ର 1:1").osis()).toEqual("Eph.1.1")
 		expect(p.parse("ଏଫିସୀୟଙ୍କ 1:1").osis()).toEqual("Eph.1.1")
 		expect(p.parse("ଏଫିସ 1:1").osis()).toEqual("Eph.1.1")
 		expect(p.parse("EPH 1:1").osis()).toEqual("Eph.1.1")
+		expect(p.parse("ଏଫି 1:1").osis()).toEqual("Eph.1.1")
 		`
 		true
 describe "Localized book Phil (or)", ->
@@ -1185,11 +1251,15 @@ describe "Localized book Phil (or)", ->
 		`
 		expect(p.parse("ଫିଲି‌ପ୍‌ପୀୟଙ୍କ ପ୍ରତି ପତ୍ର 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("ଫିଲି‌ପ୍‌ପୀୟଙ୍କ 1:1").osis()).toEqual("Phil.1.1")
+		expect(p.parse("ଫିଲିପ୍ପୀୟ 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("Phil 1:1").osis()).toEqual("Phil.1.1")
+		expect(p.parse("ଫିଲି 1:1").osis()).toEqual("Phil.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ଫିଲି‌ପ୍‌ପୀୟଙ୍କ ପ୍ରତି ପତ୍ର 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("ଫିଲି‌ପ୍‌ପୀୟଙ୍କ 1:1").osis()).toEqual("Phil.1.1")
+		expect(p.parse("ଫିଲିପ୍ପୀୟ 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("PHIL 1:1").osis()).toEqual("Phil.1.1")
+		expect(p.parse("ଫିଲି 1:1").osis()).toEqual("Phil.1.1")
 		`
 		true
 describe "Localized book Col (or)", ->
@@ -1354,10 +1424,12 @@ describe "Localized book Jas (or)", ->
 		`
 		expect(p.parse("ଯାକୁବଙ୍କ ପତ୍ର 1:1").osis()).toEqual("Jas.1.1")
 		expect(p.parse("ଯାକୁବଙ୍କ 1:1").osis()).toEqual("Jas.1.1")
+		expect(p.parse("ଯାକୁବ 1:1").osis()).toEqual("Jas.1.1")
 		expect(p.parse("Jas 1:1").osis()).toEqual("Jas.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ଯାକୁବଙ୍କ ପତ୍ର 1:1").osis()).toEqual("Jas.1.1")
 		expect(p.parse("ଯାକୁବଙ୍କ 1:1").osis()).toEqual("Jas.1.1")
+		expect(p.parse("ଯାକୁବ 1:1").osis()).toEqual("Jas.1.1")
 		expect(p.parse("JAS 1:1").osis()).toEqual("Jas.1.1")
 		`
 		true
