@@ -98,9 +98,11 @@ describe "Localized book Lev (hy)", ->
 	it "should handle book: Lev (hy)", ->
 		`
 		expect(p.parse("Ղեւտական 1:1").osis()).toEqual("Lev.1.1")
+		expect(p.parse("Ղևտական 1:1").osis()).toEqual("Lev.1.1")
 		expect(p.parse("Ղևտացոց 1:1").osis()).toEqual("Lev.1.1")
 		expect(p.parse("Lev 1:1").osis()).toEqual("Lev.1.1")
 		p.include_apocrypha(false)
+		expect(p.parse("ՂԵՒՏԱԿԱՆ 1:1").osis()).toEqual("Lev.1.1")
 		expect(p.parse("ՂԵՒՏԱԿԱՆ 1:1").osis()).toEqual("Lev.1.1")
 		expect(p.parse("ՂԵՒՏԱՑՈՑ 1:1").osis()).toEqual("Lev.1.1")
 		expect(p.parse("LEV 1:1").osis()).toEqual("Lev.1.1")
@@ -211,10 +213,12 @@ describe "Localized book Deut (hy)", ->
 		`
 		expect(p.parse("Երկրորդ Օինաց 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("Երկրորդ Օրէնք 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("Բ Օրենք 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("Deut 1:1").osis()).toEqual("Deut.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ԵՐԿՐՈՐԴ ՕԻՆԱՑ 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("ԵՐԿՐՈՐԴ ՕՐԷՆՔ 1:1").osis()).toEqual("Deut.1.1")
+		expect(p.parse("Բ ՕՐԵՆՔ 1:1").osis()).toEqual("Deut.1.1")
 		expect(p.parse("DEUT 1:1").osis()).toEqual("Deut.1.1")
 		`
 		true
@@ -227,10 +231,12 @@ describe "Localized book Josh (hy)", ->
 	it "should handle book: Josh (hy)", ->
 		`
 		expect(p.parse("Նաւէի որդի Յեսուի գիրքը 1:1").osis()).toEqual("Josh.1.1")
+		expect(p.parse("Հեսու 1:1").osis()).toEqual("Josh.1.1")
 		expect(p.parse("Յեսու 1:1").osis()).toEqual("Josh.1.1")
 		expect(p.parse("Josh 1:1").osis()).toEqual("Josh.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ՆԱՒԷԻ ՈՐԴԻ ՅԵՍՈՒԻ ԳԻՐՔԸ 1:1").osis()).toEqual("Josh.1.1")
+		expect(p.parse("ՀԵՍՈՒ 1:1").osis()).toEqual("Josh.1.1")
 		expect(p.parse("ՅԵՍՈՒ 1:1").osis()).toEqual("Josh.1.1")
 		expect(p.parse("JOSH 1:1").osis()).toEqual("Josh.1.1")
 		`
@@ -315,12 +321,14 @@ describe "Localized book 2Sam (hy)", ->
 	it "should handle book: 2Sam (hy)", ->
 		`
 		expect(p.parse("Թագաւորութիւններ Բ 1:1").osis()).toEqual("2Sam.1.1")
+		expect(p.parse("Բ Թագավորների 1:1").osis()).toEqual("2Sam.1.1")
 		expect(p.parse("2. Թագավորաց 1:1").osis()).toEqual("2Sam.1.1")
 		expect(p.parse("2 Թագավորաց 1:1").osis()).toEqual("2Sam.1.1")
 		expect(p.parse("Բ Թագավորաց 1:1").osis()).toEqual("2Sam.1.1")
 		expect(p.parse("2Sam 1:1").osis()).toEqual("2Sam.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ԹԱԳԱՒՈՐՈՒԹԻՒՆՆԵՐ Բ 1:1").osis()).toEqual("2Sam.1.1")
+		expect(p.parse("Բ ԹԱԳԱՎՈՐՆԵՐԻ 1:1").osis()).toEqual("2Sam.1.1")
 		expect(p.parse("2. ԹԱԳԱՎՈՐԱՑ 1:1").osis()).toEqual("2Sam.1.1")
 		expect(p.parse("2 ԹԱԳԱՎՈՐԱՑ 1:1").osis()).toEqual("2Sam.1.1")
 		expect(p.parse("Բ ԹԱԳԱՎՈՐԱՑ 1:1").osis()).toEqual("2Sam.1.1")
@@ -336,12 +344,14 @@ describe "Localized book 1Sam (hy)", ->
 	it "should handle book: 1Sam (hy)", ->
 		`
 		expect(p.parse("Թագաւորութիւններ Ա 1:1").osis()).toEqual("1Sam.1.1")
+		expect(p.parse("Ա Թագավորների 1:1").osis()).toEqual("1Sam.1.1")
 		expect(p.parse("1. Թագավորաց 1:1").osis()).toEqual("1Sam.1.1")
 		expect(p.parse("1 Թագավորաց 1:1").osis()).toEqual("1Sam.1.1")
 		expect(p.parse("Ա Թագավորաց 1:1").osis()).toEqual("1Sam.1.1")
 		expect(p.parse("1Sam 1:1").osis()).toEqual("1Sam.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ԹԱԳԱՒՈՐՈՒԹԻՒՆՆԵՐ Ա 1:1").osis()).toEqual("1Sam.1.1")
+		expect(p.parse("Ա ԹԱԳԱՎՈՐՆԵՐԻ 1:1").osis()).toEqual("1Sam.1.1")
 		expect(p.parse("1. ԹԱԳԱՎՈՐԱՑ 1:1").osis()).toEqual("1Sam.1.1")
 		expect(p.parse("1 ԹԱԳԱՎՈՐԱՑ 1:1").osis()).toEqual("1Sam.1.1")
 		expect(p.parse("Ա ԹԱԳԱՎՈՐԱՑ 1:1").osis()).toEqual("1Sam.1.1")
@@ -357,12 +367,14 @@ describe "Localized book 2Kgs (hy)", ->
 	it "should handle book: 2Kgs (hy)", ->
 		`
 		expect(p.parse("Թագաւորութիւններ Դ 1:1").osis()).toEqual("2Kgs.1.1")
+		expect(p.parse("Դ Թագավորների 1:1").osis()).toEqual("2Kgs.1.1")
 		expect(p.parse("4. Թագավորաց 1:1").osis()).toEqual("2Kgs.1.1")
 		expect(p.parse("4 Թագավորաց 1:1").osis()).toEqual("2Kgs.1.1")
 		expect(p.parse("Դ Թագավորաց 1:1").osis()).toEqual("2Kgs.1.1")
 		expect(p.parse("2Kgs 1:1").osis()).toEqual("2Kgs.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ԹԱԳԱՒՈՐՈՒԹԻՒՆՆԵՐ Դ 1:1").osis()).toEqual("2Kgs.1.1")
+		expect(p.parse("Դ ԹԱԳԱՎՈՐՆԵՐԻ 1:1").osis()).toEqual("2Kgs.1.1")
 		expect(p.parse("4. ԹԱԳԱՎՈՐԱՑ 1:1").osis()).toEqual("2Kgs.1.1")
 		expect(p.parse("4 ԹԱԳԱՎՈՐԱՑ 1:1").osis()).toEqual("2Kgs.1.1")
 		expect(p.parse("Դ ԹԱԳԱՎՈՐԱՑ 1:1").osis()).toEqual("2Kgs.1.1")
@@ -378,12 +390,14 @@ describe "Localized book 1Kgs (hy)", ->
 	it "should handle book: 1Kgs (hy)", ->
 		`
 		expect(p.parse("Թագաւորութիւններ Գ 1:1").osis()).toEqual("1Kgs.1.1")
+		expect(p.parse("Գ Թագավորների 1:1").osis()).toEqual("1Kgs.1.1")
 		expect(p.parse("3. Թագավորաց 1:1").osis()).toEqual("1Kgs.1.1")
 		expect(p.parse("3 Թագավորաց 1:1").osis()).toEqual("1Kgs.1.1")
 		expect(p.parse("Գ Թագավորաց 1:1").osis()).toEqual("1Kgs.1.1")
 		expect(p.parse("1Kgs 1:1").osis()).toEqual("1Kgs.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ԹԱԳԱՒՈՐՈՒԹԻՒՆՆԵՐ Գ 1:1").osis()).toEqual("1Kgs.1.1")
+		expect(p.parse("Գ ԹԱԳԱՎՈՐՆԵՐԻ 1:1").osis()).toEqual("1Kgs.1.1")
 		expect(p.parse("3. ԹԱԳԱՎՈՐԱՑ 1:1").osis()).toEqual("1Kgs.1.1")
 		expect(p.parse("3 ԹԱԳԱՎՈՐԱՑ 1:1").osis()).toEqual("1Kgs.1.1")
 		expect(p.parse("Գ ԹԱԳԱՎՈՐԱՑ 1:1").osis()).toEqual("1Kgs.1.1")
@@ -514,10 +528,12 @@ describe "Localized book Ps (hy)", ->
 	it "should handle book: Ps (hy)", ->
 		`
 		expect(p.parse("Դաւթի սաղմոսների գիրքը 1:1").osis()).toEqual("Ps.1.1")
+		expect(p.parse("Սաղմոսներ 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("Սաղմոս 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("Ps 1:1").osis()).toEqual("Ps.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ԴԱՒԹԻ ՍԱՂՄՈՍՆԵՐԻ ԳԻՐՔԸ 1:1").osis()).toEqual("Ps.1.1")
+		expect(p.parse("ՍԱՂՄՈՍՆԵՐ 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("ՍԱՂՄՈՍ 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("PS 1:1").osis()).toEqual("Ps.1.1")
 		`
@@ -636,10 +652,12 @@ describe "Localized book Dan (hy)", ->
 	it "should handle book: Dan (hy)", ->
 		`
 		expect(p.parse("Դանիէլի մարգարէութիւնը 1:1").osis()).toEqual("Dan.1.1")
+		expect(p.parse("Դանիել 1:1").osis()).toEqual("Dan.1.1")
 		expect(p.parse("Դանիէլ 1:1").osis()).toEqual("Dan.1.1")
 		expect(p.parse("Dan 1:1").osis()).toEqual("Dan.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ԴԱՆԻԷԼԻ ՄԱՐԳԱՐԷՈՒԹԻՒՆԸ 1:1").osis()).toEqual("Dan.1.1")
+		expect(p.parse("ԴԱՆԻԵԼ 1:1").osis()).toEqual("Dan.1.1")
 		expect(p.parse("ԴԱՆԻԷԼ 1:1").osis()).toEqual("Dan.1.1")
 		expect(p.parse("DAN 1:1").osis()).toEqual("Dan.1.1")
 		`
@@ -998,11 +1016,13 @@ describe "Localized book Rom (hy)", ->
 	it "should handle book: Rom (hy)", ->
 		`
 		expect(p.parse("Պողոս Առաքեալի թուղթը հռոմէացիներին 1:1").osis()).toEqual("Rom.1.1")
+		expect(p.parse("Հռոմեացիներին 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("Հռոմէացիներին 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("Հռոմեացիս 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("Rom 1:1").osis()).toEqual("Rom.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ՊՈՂՈՍ ԱՌԱՔԵԱԼԻ ԹՈՒՂԹԸ ՀՌՈՄԷԱՑԻՆԵՐԻՆ 1:1").osis()).toEqual("Rom.1.1")
+		expect(p.parse("ՀՌՈՄԵԱՑԻՆԵՐԻՆ 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("ՀՌՈՄԷԱՑԻՆԵՐԻՆ 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("ՀՌՈՄԵԱՑԻՍ 1:1").osis()).toEqual("Rom.1.1")
 		expect(p.parse("ROM 1:1").osis()).toEqual("Rom.1.1")
@@ -1017,6 +1037,7 @@ describe "Localized book 2Cor (hy)", ->
 	it "should handle book: 2Cor (hy)", ->
 		`
 		expect(p.parse("Պողոս Առաքեալի երկրորդ թուղթը կորնթացիներին 1:1").osis()).toEqual("2Cor.1.1")
+		expect(p.parse("Բ Կորնթացիներին 1:1").osis()).toEqual("2Cor.1.1")
 		expect(p.parse("Կորնթացիներին Բ 1:1").osis()).toEqual("2Cor.1.1")
 		expect(p.parse("2. Կորնթացիս 1:1").osis()).toEqual("2Cor.1.1")
 		expect(p.parse("2 Կորնթացիս 1:1").osis()).toEqual("2Cor.1.1")
@@ -1024,6 +1045,7 @@ describe "Localized book 2Cor (hy)", ->
 		expect(p.parse("2Cor 1:1").osis()).toEqual("2Cor.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ՊՈՂՈՍ ԱՌԱՔԵԱԼԻ ԵՐԿՐՈՐԴ ԹՈՒՂԹԸ ԿՈՐՆԹԱՑԻՆԵՐԻՆ 1:1").osis()).toEqual("2Cor.1.1")
+		expect(p.parse("Բ ԿՈՐՆԹԱՑԻՆԵՐԻՆ 1:1").osis()).toEqual("2Cor.1.1")
 		expect(p.parse("ԿՈՐՆԹԱՑԻՆԵՐԻՆ Բ 1:1").osis()).toEqual("2Cor.1.1")
 		expect(p.parse("2. ԿՈՐՆԹԱՑԻՍ 1:1").osis()).toEqual("2Cor.1.1")
 		expect(p.parse("2 ԿՈՐՆԹԱՑԻՍ 1:1").osis()).toEqual("2Cor.1.1")
@@ -1040,6 +1062,7 @@ describe "Localized book 1Cor (hy)", ->
 	it "should handle book: 1Cor (hy)", ->
 		`
 		expect(p.parse("Պողոս Առաքեալի առաջին թուղթը կորնթացիներին 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("Ա Կորնթացիներին 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("Կորնթացիներին Ա 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("1. Կորնթացիս 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("1 Կորնթացիս 1:1").osis()).toEqual("1Cor.1.1")
@@ -1047,6 +1070,7 @@ describe "Localized book 1Cor (hy)", ->
 		expect(p.parse("1Cor 1:1").osis()).toEqual("1Cor.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ՊՈՂՈՍ ԱՌԱՔԵԱԼԻ ԱՌԱՋԻՆ ԹՈՒՂԹԸ ԿՈՐՆԹԱՑԻՆԵՐԻՆ 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("Ա ԿՈՐՆԹԱՑԻՆԵՐԻՆ 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("ԿՈՐՆԹԱՑԻՆԵՐԻՆ Ա 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("1. ԿՈՐՆԹԱՑԻՍ 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("1 ԿՈՐՆԹԱՑԻՍ 1:1").osis()).toEqual("1Cor.1.1")
@@ -1101,11 +1125,13 @@ describe "Localized book Phil (hy)", ->
 	it "should handle book: Phil (hy)", ->
 		`
 		expect(p.parse("Պողոս Առաքեալի թուղթը փիլիպեցիներին 1:1").osis()).toEqual("Phil.1.1")
+		expect(p.parse("Փիլիպպեցիներին 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("Փիլիպեցիներին 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("Փիլիպպեցիս 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("Phil 1:1").osis()).toEqual("Phil.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ՊՈՂՈՍ ԱՌԱՔԵԱԼԻ ԹՈՒՂԹԸ ՓԻԼԻՊԵՑԻՆԵՐԻՆ 1:1").osis()).toEqual("Phil.1.1")
+		expect(p.parse("ՓԻԼԻՊՊԵՑԻՆԵՐԻՆ 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("ՓԻԼԻՊԵՑԻՆԵՐԻՆ 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("ՓԻԼԻՊՊԵՑԻՍ 1:1").osis()).toEqual("Phil.1.1")
 		expect(p.parse("PHIL 1:1").osis()).toEqual("Phil.1.1")
@@ -1139,6 +1165,7 @@ describe "Localized book 2Thess (hy)", ->
 	it "should handle book: 2Thess (hy)", ->
 		`
 		expect(p.parse("Պողոս Առաքեալի երկրորդ թուղթը թեսաղոնիկեցիներին 1:1").osis()).toEqual("2Thess.1.1")
+		expect(p.parse("Բ Թեսաղոնիկեցիներին 1:1").osis()).toEqual("2Thess.1.1")
 		expect(p.parse("Թեսաղոնիկեցիներին Բ 1:1").osis()).toEqual("2Thess.1.1")
 		expect(p.parse("2. Թեսաղոնիկեցիս 1:1").osis()).toEqual("2Thess.1.1")
 		expect(p.parse("2 Թեսաղոնիկեցիս 1:1").osis()).toEqual("2Thess.1.1")
@@ -1146,6 +1173,7 @@ describe "Localized book 2Thess (hy)", ->
 		expect(p.parse("2Thess 1:1").osis()).toEqual("2Thess.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ՊՈՂՈՍ ԱՌԱՔԵԱԼԻ ԵՐԿՐՈՐԴ ԹՈՒՂԹԸ ԹԵՍԱՂՈՆԻԿԵՑԻՆԵՐԻՆ 1:1").osis()).toEqual("2Thess.1.1")
+		expect(p.parse("Բ ԹԵՍԱՂՈՆԻԿԵՑԻՆԵՐԻՆ 1:1").osis()).toEqual("2Thess.1.1")
 		expect(p.parse("ԹԵՍԱՂՈՆԻԿԵՑԻՆԵՐԻՆ Բ 1:1").osis()).toEqual("2Thess.1.1")
 		expect(p.parse("2. ԹԵՍԱՂՈՆԻԿԵՑԻՍ 1:1").osis()).toEqual("2Thess.1.1")
 		expect(p.parse("2 ԹԵՍԱՂՈՆԻԿԵՑԻՍ 1:1").osis()).toEqual("2Thess.1.1")
@@ -1162,6 +1190,7 @@ describe "Localized book 1Thess (hy)", ->
 	it "should handle book: 1Thess (hy)", ->
 		`
 		expect(p.parse("Պողոս Առաքեալի առաջին թուղթը թեսաղոնիկեցիներին 1:1").osis()).toEqual("1Thess.1.1")
+		expect(p.parse("Ա Թեսաղոնիկեցիներին 1:1").osis()).toEqual("1Thess.1.1")
 		expect(p.parse("Թեսաղոնիկեցիներին Ա 1:1").osis()).toEqual("1Thess.1.1")
 		expect(p.parse("1. Թեսաղոնիկեցիս 1:1").osis()).toEqual("1Thess.1.1")
 		expect(p.parse("1 Թեսաղոնիկեցիս 1:1").osis()).toEqual("1Thess.1.1")
@@ -1169,6 +1198,7 @@ describe "Localized book 1Thess (hy)", ->
 		expect(p.parse("1Thess 1:1").osis()).toEqual("1Thess.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ՊՈՂՈՍ ԱՌԱՔԵԱԼԻ ԱՌԱՋԻՆ ԹՈՒՂԹԸ ԹԵՍԱՂՈՆԻԿԵՑԻՆԵՐԻՆ 1:1").osis()).toEqual("1Thess.1.1")
+		expect(p.parse("Ա ԹԵՍԱՂՈՆԻԿԵՑԻՆԵՐԻՆ 1:1").osis()).toEqual("1Thess.1.1")
 		expect(p.parse("ԹԵՍԱՂՈՆԻԿԵՑԻՆԵՐԻՆ Ա 1:1").osis()).toEqual("1Thess.1.1")
 		expect(p.parse("1. ԹԵՍԱՂՈՆԻԿԵՑԻՍ 1:1").osis()).toEqual("1Thess.1.1")
 		expect(p.parse("1 ԹԵՍԱՂՈՆԻԿԵՑԻՍ 1:1").osis()).toEqual("1Thess.1.1")
@@ -1185,10 +1215,12 @@ describe "Localized book 2Tim (hy)", ->
 	it "should handle book: 2Tim (hy)", ->
 		`
 		expect(p.parse("Պողոս Առաքեալի երկրորդ թուղթը Տիմոթէոսին 1:1").osis()).toEqual("2Tim.1.1")
+		expect(p.parse("Բ Տիմոթեոսին 1:1").osis()).toEqual("2Tim.1.1")
 		expect(p.parse("Տիմոթէոսին Բ 1:1").osis()).toEqual("2Tim.1.1")
 		expect(p.parse("2Tim 1:1").osis()).toEqual("2Tim.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ՊՈՂՈՍ ԱՌԱՔԵԱԼԻ ԵՐԿՐՈՐԴ ԹՈՒՂԹԸ ՏԻՄՈԹԷՈՍԻՆ 1:1").osis()).toEqual("2Tim.1.1")
+		expect(p.parse("Բ ՏԻՄՈԹԵՈՍԻՆ 1:1").osis()).toEqual("2Tim.1.1")
 		expect(p.parse("ՏԻՄՈԹԷՈՍԻՆ Բ 1:1").osis()).toEqual("2Tim.1.1")
 		expect(p.parse("2TIM 1:1").osis()).toEqual("2Tim.1.1")
 		`
@@ -1202,10 +1234,12 @@ describe "Localized book 1Tim (hy)", ->
 	it "should handle book: 1Tim (hy)", ->
 		`
 		expect(p.parse("Պողոս Առաքեալի առաջին թուղթը Տիմոթէոսին 1:1").osis()).toEqual("1Tim.1.1")
+		expect(p.parse("Ա Տիմոթեոսին 1:1").osis()).toEqual("1Tim.1.1")
 		expect(p.parse("Տիմոթէոսին Ա 1:1").osis()).toEqual("1Tim.1.1")
 		expect(p.parse("1Tim 1:1").osis()).toEqual("1Tim.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ՊՈՂՈՍ ԱՌԱՔԵԱԼԻ ԱՌԱՋԻՆ ԹՈՒՂԹԸ ՏԻՄՈԹԷՈՍԻՆ 1:1").osis()).toEqual("1Tim.1.1")
+		expect(p.parse("Ա ՏԻՄՈԹԵՈՍԻՆ 1:1").osis()).toEqual("1Tim.1.1")
 		expect(p.parse("ՏԻՄՈԹԷՈՍԻՆ Ա 1:1").osis()).toEqual("1Tim.1.1")
 		expect(p.parse("1TIM 1:1").osis()).toEqual("1Tim.1.1")
 		`
@@ -1253,11 +1287,13 @@ describe "Localized book Heb (hy)", ->
 	it "should handle book: Heb (hy)", ->
 		`
 		expect(p.parse("Թուղթ եբրայեցիներին 1:1").osis()).toEqual("Heb.1.1")
+		expect(p.parse("Եբրայեցիներին թղթի 1:1").osis()).toEqual("Heb.1.1")
 		expect(p.parse("Եբրայեցիներին 1:1").osis()).toEqual("Heb.1.1")
 		expect(p.parse("Եբրայեցիս 1:1").osis()).toEqual("Heb.1.1")
 		expect(p.parse("Heb 1:1").osis()).toEqual("Heb.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ԹՈՒՂԹ ԵԲՐԱՅԵՑԻՆԵՐԻՆ 1:1").osis()).toEqual("Heb.1.1")
+		expect(p.parse("ԵԲՐԱՅԵՑԻՆԵՐԻՆ ԹՂԹԻ 1:1").osis()).toEqual("Heb.1.1")
 		expect(p.parse("ԵԲՐԱՅԵՑԻՆԵՐԻՆ 1:1").osis()).toEqual("Heb.1.1")
 		expect(p.parse("ԵԲՐԱՅԵՑԻՍ 1:1").osis()).toEqual("Heb.1.1")
 		expect(p.parse("HEB 1:1").osis()).toEqual("Heb.1.1")
@@ -1337,10 +1373,12 @@ describe "Localized book Jude (hy)", ->
 	it "should handle book: Jude (hy)", ->
 		`
 		expect(p.parse("Յուդա Առաքեալի ընդհանրական թուղթը 1:1").osis()).toEqual("Jude.1.1")
+		expect(p.parse("Հուդա 1:1").osis()).toEqual("Jude.1.1")
 		expect(p.parse("Յուդա 1:1").osis()).toEqual("Jude.1.1")
 		expect(p.parse("Jude 1:1").osis()).toEqual("Jude.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("ՅՈՒԴԱ ԱՌԱՔԵԱԼԻ ԸՆԴՀԱՆՐԱԿԱՆ ԹՈՒՂԹԸ 1:1").osis()).toEqual("Jude.1.1")
+		expect(p.parse("ՀՈՒԴԱ 1:1").osis()).toEqual("Jude.1.1")
 		expect(p.parse("ՅՈՒԴԱ 1:1").osis()).toEqual("Jude.1.1")
 		expect(p.parse("JUDE 1:1").osis()).toEqual("Jude.1.1")
 		`
