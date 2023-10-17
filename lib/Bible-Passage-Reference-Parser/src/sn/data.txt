@@ -7,75 +7,75 @@ $AND	na
 $CHAPTER	chitsauko
 $FF	ff
 $TITLE	title
-$TRANS	bdsc
+$TRANS	BDSC
 $TO	kushika
-$VERSE	vesi
+$VERSE	vesi	vs.	ver.	v
 $UNICODE_BLOCK	Latin
 
-Gen	Genesisi
-Exod	Ekisodho	Eks
+Gen	Genesisi	Genesi	Gen
+Exod	Ekisodho	Eks	Ekisodo
 Lev	Revhitiko
-Num	Numeri
+Num	Numeri	Num
 Deut	Dhuteronomi	Deuteronomio
 Josh	Joshua	Josh
 Judg	Vatongi
-Ruth	Rute
-1Sam	1 Samueri	1 Sam
-2Sam	2 Samueri	2 Sam
-1Kgs	1 Madzimambo
-2Kgs	2 Madzimambo
-1Chr	1 Makoronike
-2Chr	2 Makoronike
+Ruth	Rute	Rut
+1Sam	$FIRST Samueri	$FIRST Sam
+2Sam	$SECOND Samueri	$SECOND Sam
+1Kgs	$FIRST Madzimambo
+2Kgs	$SECOND Madzimambo
+1Chr	$FIRST Makoronike	$FIRST Vakoronike
+2Chr	$SECOND Makoronike	$SECOND Vakoronike
 Ezra	Ezira
-Neh	Nehemia
+Neh	Nehemia	Neh
 Esth	Esteri	Est
-Job	Jobho
+Job	Jobho	Job
 Ps	Mapisarema
 Prov	Zvirevo
 Eccl	Muparidzi
 Song	Rwiyo Rukuru rwaSoromoni	Rwiyo
-Isa	Isaya Isaya
+Isa	Isaya
 Jer	Jeremia
-Lam	Kuungudza kwaJeremia
+Lam	Kuungudza kwaJeremia	Kuungudza
 Ezek	Ezekieri	Eze
-Dan	Dhanieri	Dhani
+Dan	Dhanieri	Dhani	Danieri	Dan
 Hos	Hosea
 Joel	Joere
-Amos	Amosi
+Amos	Amosi	Amos
 Obad	Obhadhia	Obhad
 Jonah	Jona
 Mic	Mika
-Nah	Nahumi
+Nah	Nahumi	Nahume	Naume
 Hab	Habhakuki	Habha
 Zeph	Zefania	Zef
 Hag	Hagai
 Zech	Zekaria	Zakaria
 Mal	Maraki
-Matt	Mateo
-Mark	Mako
+Matt	Mateo	Matteo	Mat
+Mark	Mako	Marko	Mak
 Luke	Ruka
 John	Johani
 Acts	Mabasa
 Rom	VaRoma	Roma
-1Cor	1 VaKorinde	1 Korinde
-2Cor	2 VaKorinde	2 Korinde
-Gal	VaGaratia	Garatia
+1Cor	$FIRST VaKorinde	$FIRST Korinde
+2Cor	$SECOND VaKorinde	$SECOND Korinde
+Gal	VaGaratia	Garatia	Vagaratiya
 Eph	VaEfeso	Efeso
 Phil	VaFiripi	Firipi
 Col	VaKorose	Korose
-1Thess	1 VaTesaronika	1 Tesaronika	1 VaTeseronika	
-2Thess	2 VaTesaronika	2 Tesaronika	2 VaTeseronika	
-1Tim	1 Timoti	1 Timo
-2Tim	2 Timoti	2 Timo
+1Thess	$FIRST VaTesaronika	$FIRST Tesaronika	$FIRST VaTeseronika	
+2Thess	$SECOND VaTesaronika	$SECOND Tesaronika	$SECOND VaTeseronika	
+1Tim	$FIRST Timoti	$FIRST Timo
+2Tim	$SECOND Timoti	$SECOND Timo
 Titus	Tito
 Phlm	Firimoni
 Heb	VaHebheru	Hebheru
-Jas	Jakobho
-1Pet	1 Petro
-2Pet	2 Petro
-1John	1 Johani
-2John	2 Johani
-3John	3 Johani
+Jas	Jakobho	Jakobo
+1Pet	$FIRST Petro
+2Pet	$SECOND Petro
+1John	$FIRST Johani
+2John	$SECOND Johani
+3John	$THIRD Johani
 Jude	Judha
 Rev	Zvakazarurwa
 Tob
@@ -96,10 +96,6 @@ EpJer
 1Esd
 2Esd
 PrMan
-
-Jonah,Job,Josh,Joel
-Judg,Jude
-Phil,Phlm
 
 # Order
 =Gen
