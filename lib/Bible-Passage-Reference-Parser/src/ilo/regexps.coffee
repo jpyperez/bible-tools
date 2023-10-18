@@ -244,7 +244,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Ezek"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Eze(?:quiel|k)?)
+		(?:Eze(?:quiel|kiel|k)?)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Dan"]
@@ -359,12 +359,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["2Cor"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:II(?:\.[\s\xa0]*(?:Taga[\s\xa0]*Corinto|Cor(?:into)?)|[\s\xa0]*(?:Taga[\s\xa0]*Corinto|Cor(?:into)?))|2(?:\.[\s\xa0]*(?:Taga[\s\xa0]*Corinto|Cor(?:into)?)|[\s\xa0]*(?:Taga[\s\xa0]*Corinto|Cor(?:into)?)|Cor))
+		(?:II(?:\.[\s\xa0]*(?:Taga[\s\xa0]*Corinto|Cor(?:int[ho])?)|[\s\xa0]*(?:Taga[\s\xa0]*Corinto|Cor(?:int[ho])?))|2(?:\.[\s\xa0]*(?:Taga[\s\xa0]*Corinto|Cor(?:int[ho])?)|[\s\xa0]*(?:Taga[\s\xa0]*Corinto|Cor(?:int[ho])?)|Cor))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["1Cor"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:I(?:\.[\s\xa0]*(?:Taga[\s\xa0]*Corinto|Cor(?:into)?)|[\s\xa0]*(?:Taga[\s\xa0]*Corinto|Cor(?:into)?))|1(?:\.[\s\xa0]*(?:Taga[\s\xa0]*Corinto|Cor(?:into)?)|[\s\xa0]*(?:Taga[\s\xa0]*Corinto|Cor(?:into)?)|Cor))
+		(?:I(?:\.[\s\xa0]*(?:Taga[\s\xa0]*Corinto|Cor(?:int[ho])?)|[\s\xa0]*(?:Taga[\s\xa0]*Corinto|Cor(?:int[ho])?))|1(?:\.[\s\xa0]*(?:Taga[\s\xa0]*Corinto|Cor(?:int[ho])?)|[\s\xa0]*(?:Taga[\s\xa0]*Corinto|Cor(?:int[ho])?)|Cor))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Gal"]
@@ -379,7 +379,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Phil"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Taga[\s\xa0]*Filipos|Filipos|Fili?|Phil)
+		(?:Taga[\s\xa0]*Filipos|Filipios|Filipos|Fili?|Phil)
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Col"]

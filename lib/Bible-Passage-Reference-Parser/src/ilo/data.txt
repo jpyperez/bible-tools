@@ -39,7 +39,7 @@ Song	Canta ni Salomon	C. ni Sal
 Isa	Isaias	Isa
 Jer	Jeremias	Jer
 Lam	Dagiti Un-unnoy	D. Un
-Ezek	Ezequiel	Eze
+Ezek	Ezequiel	Eze	Ezekiel
 Dan	Daniel	Dan
 Hos	Oseas	Os
 Joel	Joel	Joel
@@ -59,11 +59,11 @@ Luke	Lucas	Luc
 John	Juan	Juan
 Acts	Dagiti Aramid	Aramid	D. Ara	Ara
 Rom	Taga Roma	Roma	Rom
-1Cor	$FIRST Taga Corinto	$FIRST Corinto	$FIRST Cor
-2Cor	$SECOND Taga Corinto	$SECOND Corinto	$SECOND Cor
+1Cor	$FIRST Taga Corinto	$FIRST Corinto	$FIRST Cor	$FIRST Corinth
+2Cor	$SECOND Taga Corinto	$SECOND Corinto	$SECOND Cor	$SECOND Corinth
 Gal	Taga Galacia	Galacia	Gal
 Eph	Taga Efeso	Efeso	Efe
-Phil	Taga Filipos	Filipos	Fili	Fil
+Phil	Taga Filipos	Filipos	Fili	Fil	Filipios
 Col	Taga Colosas	Colosas	Col
 1Thess	$FIRST Tesalonica	$FIRST Tes
 2Thess	$SECOND Tesalonica	$SECOND Tes

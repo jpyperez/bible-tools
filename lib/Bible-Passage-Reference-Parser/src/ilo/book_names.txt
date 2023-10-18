@@ -11,9 +11,13 @@
 1Cor	I. Taga Corinto
 1Cor	1 Taga Corinto
 1Cor	I Taga Corinto
+1Cor	1. Corinth
 1Cor	1. Corinto
+1Cor	I. Corinth
 1Cor	I. Corinto
+1Cor	1 Corinth
 1Cor	1 Corinto
+1Cor	I Corinth
 1Cor	I Corinto
 1Cor	1. Cor
 1Cor	I. Cor
@@ -85,9 +89,13 @@
 2Cor	2. Taga Corinto
 2Cor	II Taga Corinto
 2Cor	2 Taga Corinto
+2Cor	II. Corinth
 2Cor	II. Corinto
+2Cor	2. Corinth
 2Cor	2. Corinto
+2Cor	II Corinth
 2Cor	II Corinto
+2Cor	2 Corinth
 2Cor	2 Corinto
 2Cor	II. Cor
 2Cor	2. Cor
@@ -184,6 +192,7 @@ Exod	Exodo
 Exod	Exod
 Exod	Exo
 Ezek	Ezequiel
+Ezek	Ezekiel
 Ezek	Ezek
 Ezek	Eze
 Ezra	Esdras
@@ -258,6 +267,7 @@ Obad	Abdias
 Obad	Obad
 Obad	Ab
 Phil	Taga Filipos
+Phil	Filipios
 Phil	Filipos
 Phil	Fili
 Phil	Phil
