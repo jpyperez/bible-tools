@@ -59,11 +59,11 @@ Luke	Lu[ck]as	Ebanghelyo ayon kay Lu[ck]as	Ebanghelyo ayon kay San Lu[ck]as	Eban
 John	Juan	Ebanghelyo ayon kay Juan	Ebanghelyo ayon kay San Juan	Ebanghelyo ni San Juan	Mabuting Balita ayon kay San Juan	Mabuting Balita ayon kay Juan	Jn
 Acts	Mga Gawa	Mga Gawa ng mga Alagad	Mga Gawa ng mga Apostol	Mga Gawa ng mga Apostoles	Gawa ng Apostoles	Gawa ng mga Apostol	Mga Gawain	Ebanghelyo ng Espiritu Santo	Mabuting Balita ayon sa Espiritu Santo	Mabuting Balita ng Espiritu Santo	Gw	Gawa
 Rom	Mga Taga-? Roma	Sulat sa mga Romano	Ro	Roma	Taga-? Roma
-1Cor	$FIRST Mga Taga-? Corinto	$FIRST [CK]orinti?o	Ika-? 1 Sulat sa mga Corinti?o	$FIRST Sulat sa mga Corinti?o	1 Cor	$FIRST Corinto
-2Cor	$SECOND Mga Taga-? Corinto	$SECOND [CK]orinti?o	Ika-? 2 Sulat sa mga Corinti?o	SECOND Sulat sa mga Corinti?o	2 Cor	$SECOND Corinto
+1Cor	$FIRST Mga Taga-? Corinto	$FIRST [CK]orinti?o	Ika-? 1 Sulat sa mga Corinti?o	$FIRST Sulat sa mga Corinti?o	1 Cor	$FIRST Corinto	$FIRST Corinth
+2Cor	$SECOND Mga Taga-? Corinto	$SECOND [CK]orinti?o	Ika-? 2 Sulat sa mga Corinti?o	SECOND Sulat sa mga Corinti?o	2 Cor	$SECOND Corinto	$SECOND Corinth
 Gal	Mga Taga-? Galacia	Sulat sa mga taga Galacia	Sulat sa mga Galacia	Mga Taga-? Galasya	Galasyano	Gal?	Taga-? Galacia	Galacia
 Eph	Mga Taga-? E[fp]esi?o	Sulat sa mga E[fp]esi?o	Mga E[fp]esi?o	E[fp]esi?o	Ef	Taga-? E[fp]esi?o	Efeso
-Phil	Mga Taga-? [FP]ilipos	Sulat sa mga [FP]ilipense	Mga [FP]ilipense	Sulat sa mga Pilipyano	Mga Pilipyano	[FP]ilipos	Fil	Taga-? [FP]ilipos
+Phil	Mga Taga-? [FP]ilipos	Sulat sa mga [FP]ilipense	Mga [FP]ilipense	Sulat sa mga Pilipyano	Mga Pilipyano	[FP]ilipos	Fil	Taga-? [FP]ilipos	Filipios
 Col	Mga Taga-? [CK]olosas	Sulat sa mga [CK]olon?sense	Mga [CK]olon?sense	[CK]olosas	Co	Taga-? Colosas
 1Thess	$FIRST Mga Taga-? Tesaloni[ck]a	$FIRST Mga Tesaloni[cs]ense	$FIRST Tesaloni[ck]a	$FIRST Tesaloni[cs]ense	1 Th?es
 2Thess	$SECOND Mga Taga-? Tesaloni[ck]a	$SECOND Mga Tesaloni[cs]ense	$SECOND Tesaloni[ck]a	$SECOND Tesaloni[cs]ense	2 Th?es
