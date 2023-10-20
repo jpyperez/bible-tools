@@ -279,7 +279,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Mic"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:Mi(?:queas|ka|k|c))
+		(?:Mi(?:quei?as|ka|k|c))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Nah"]
@@ -349,7 +349,7 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["Acts"]
 		regexp: ///(^|#{bcv_parser::regexps.pre_book})(
-		(?:B(?:uhat[\s\xa0]*sa[\s\xa0]*mga[\s\xa0]*Apostoles|in(?:uhatan)?)|A(?:ng[\s\xa0]*Mga[\s\xa0]*Binuhatan|cts))
+		(?:B(?:uhat(?:[\s\xa0]*sa[\s\xa0]*mga[\s\xa0]*Apostoles)?|in(?:uhatan)?)|A(?:ng[\s\xa0]*Mga[\s\xa0]*Binuhatan|cts))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Rom"]
@@ -399,12 +399,12 @@ bcv_parser::regexps.get_books = (include_apocrypha, case_sensitive) ->
 	,
 		osis: ["2Tim"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:2(?:\.[\s\xa0]*(?:Kang[\s\xa0]*)?Timoteo|[\s\xa0]*(?:Kang[\s\xa0]*)?Timoteo|Tim))
+		(?:2(?:\.[\s\xa0]*(?:Kang[\s\xa0]*Timoteo|Tim(?:oteo)?)|[\s\xa0]*(?:Kang[\s\xa0]*Timoteo|Tim(?:oteo)?)|Tim))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["1Tim"]
 		regexp: ///(^|[^0-9A-Za-zªµºÀ-ÖØ-öø-ɏḀ-ỿⱠ-ⱿꜢ-ꞈꞋ-ꞎꞐ-ꞓꞠ-Ɦꟸ-ꟿ])(
-		(?:1(?:\.[\s\xa0]*(?:Kang[\s\xa0]*)?Timoteo|[\s\xa0]*(?:Kang[\s\xa0]*)?Timoteo|Tim))
+		(?:1(?:\.[\s\xa0]*(?:Kang[\s\xa0]*Timoteo|Tim(?:oteo)?)|[\s\xa0]*(?:Kang[\s\xa0]*Timoteo|Tim(?:oteo)?)|Tim))
 			)(?:(?=[\d\s\xa0.:,;\x1e\x1f&\(\)\uff08\uff09\[\]/"'\*=~\-\u2013\u2014])|$)///gi
 	,
 		osis: ["Titus"]

@@ -803,11 +803,13 @@ describe "Localized book Mic (ceb)", ->
 		p.include_apocrypha true
 	it "should handle book: Mic (ceb)", ->
 		`
+		expect(p.parse("Miqueias 1:1").osis()).toEqual("Mic.1.1")
 		expect(p.parse("Miqueas 1:1").osis()).toEqual("Mic.1.1")
 		expect(p.parse("Mika 1:1").osis()).toEqual("Mic.1.1")
 		expect(p.parse("Mic 1:1").osis()).toEqual("Mic.1.1")
 		expect(p.parse("Mik 1:1").osis()).toEqual("Mic.1.1")
 		p.include_apocrypha(false)
+		expect(p.parse("MIQUEIAS 1:1").osis()).toEqual("Mic.1.1")
 		expect(p.parse("MIQUEAS 1:1").osis()).toEqual("Mic.1.1")
 		expect(p.parse("MIKA 1:1").osis()).toEqual("Mic.1.1")
 		expect(p.parse("MIC 1:1").osis()).toEqual("Mic.1.1")
@@ -1070,12 +1072,14 @@ describe "Localized book Acts (ceb)", ->
 		expect(p.parse("Buhat sa mga Apostoles 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("Ang Mga Binuhatan 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("Binuhatan 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("Buhat 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("Acts 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("Bin 1:1").osis()).toEqual("Acts.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("BUHAT SA MGA APOSTOLES 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("ANG MGA BINUHATAN 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("BINUHATAN 1:1").osis()).toEqual("Acts.1.1")
+		expect(p.parse("BUHAT 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("ACTS 1:1").osis()).toEqual("Acts.1.1")
 		expect(p.parse("BIN 1:1").osis()).toEqual("Acts.1.1")
 		`
@@ -1373,12 +1377,16 @@ describe "Localized book 2Tim (ceb)", ->
 		expect(p.parse("2 Kang Timoteo 1:1").osis()).toEqual("2Tim.1.1")
 		expect(p.parse("2. Timoteo 1:1").osis()).toEqual("2Tim.1.1")
 		expect(p.parse("2 Timoteo 1:1").osis()).toEqual("2Tim.1.1")
+		expect(p.parse("2. Tim 1:1").osis()).toEqual("2Tim.1.1")
+		expect(p.parse("2 Tim 1:1").osis()).toEqual("2Tim.1.1")
 		expect(p.parse("2Tim 1:1").osis()).toEqual("2Tim.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("2. KANG TIMOTEO 1:1").osis()).toEqual("2Tim.1.1")
 		expect(p.parse("2 KANG TIMOTEO 1:1").osis()).toEqual("2Tim.1.1")
 		expect(p.parse("2. TIMOTEO 1:1").osis()).toEqual("2Tim.1.1")
 		expect(p.parse("2 TIMOTEO 1:1").osis()).toEqual("2Tim.1.1")
+		expect(p.parse("2. TIM 1:1").osis()).toEqual("2Tim.1.1")
+		expect(p.parse("2 TIM 1:1").osis()).toEqual("2Tim.1.1")
 		expect(p.parse("2TIM 1:1").osis()).toEqual("2Tim.1.1")
 		`
 		true
@@ -1394,12 +1402,16 @@ describe "Localized book 1Tim (ceb)", ->
 		expect(p.parse("1 Kang Timoteo 1:1").osis()).toEqual("1Tim.1.1")
 		expect(p.parse("1. Timoteo 1:1").osis()).toEqual("1Tim.1.1")
 		expect(p.parse("1 Timoteo 1:1").osis()).toEqual("1Tim.1.1")
+		expect(p.parse("1. Tim 1:1").osis()).toEqual("1Tim.1.1")
+		expect(p.parse("1 Tim 1:1").osis()).toEqual("1Tim.1.1")
 		expect(p.parse("1Tim 1:1").osis()).toEqual("1Tim.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("1. KANG TIMOTEO 1:1").osis()).toEqual("1Tim.1.1")
 		expect(p.parse("1 KANG TIMOTEO 1:1").osis()).toEqual("1Tim.1.1")
 		expect(p.parse("1. TIMOTEO 1:1").osis()).toEqual("1Tim.1.1")
 		expect(p.parse("1 TIMOTEO 1:1").osis()).toEqual("1Tim.1.1")
+		expect(p.parse("1. TIM 1:1").osis()).toEqual("1Tim.1.1")
+		expect(p.parse("1 TIM 1:1").osis()).toEqual("1Tim.1.1")
 		expect(p.parse("1TIM 1:1").osis()).toEqual("1Tim.1.1")
 		`
 		true

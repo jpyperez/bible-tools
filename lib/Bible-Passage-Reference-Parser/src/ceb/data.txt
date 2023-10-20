@@ -44,7 +44,7 @@ Joel	Joel
 Amos	Amós	Amos
 Obad	Abdías	Obadia
 Jonah	Jonás
-Mic	Miqueas	Mika	Mik
+Mic	Miqueas	Mika	Mik	Miqueias
 Nah	Nahum
 Hab	Habacuc	Habakuk
 Zeph	Sofonías	Zefania
@@ -55,7 +55,7 @@ Matt	Mateo	Sulat ni San Mateo	Mt	Mat
 Mark	Marcos	Sulat ni San Marcos	M[ck]	Markos
 Luke	Lucas	Sulat ni San Lucas	Lu	Lukas
 John	Juan	Sulat ni San Juan	Jn
-Acts	Buhat sa mga Apostoles	Ang Mga Binuhatan	Binuhatan	Bin
+Acts	Buhat sa mga Apostoles	Ang Mga Binuhatan	Binuhatan	Bin	Buhat
 Rom	Mga Taga-Roma	Roma
 1Cor	$FIRST Mga Taga-Corinto	$FIRST Taga-Corinto	$FIRST Corinto	1 Cor?
 2Cor	$SECOND Mga Taga-Corinto	$SECOND Taga-Corinto	$SECOND Corinto	2 Cor?
@@ -65,8 +65,8 @@ Phil	Taga-Filipos	Mga Taga-Filipos	Filipos	Fil
 Col	Taga-Colosas	Mga Taga-Colosas	Colosas
 1Thess	$FIRST Mga Taga-Tesalóni[ck]a	$FIRST Taga-Tesalóni[ck]a	$FIRST Tesalóni[ck]a
 2Thess	$SECOND Mga Taga-Tesalóni[ck]a	$SECOND Taga-Tesalóni[ck]a	$SECOND Tesalóni[ck]a
-1Tim	$FIRST Kang Timoteo	$FIRST Timoteo
-2Tim	$SECOND Kang Timoteo	$SECOND Timoteo
+1Tim	$FIRST Kang Timoteo	$FIRST Timoteo	$FIRST Tim
+2Tim	$SECOND Kang Timoteo	$SECOND Timoteo	$SECOND Tim
 Titus	Kang Tito	Tito
 Phlm	Kang Filemón	Filemón
 Heb	Mga Ebreo	Mga Hebrohanon	Hebreohanon
