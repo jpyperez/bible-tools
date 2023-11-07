@@ -54,7 +54,7 @@ var getBookByOSIS = function(lang, version, book_osis, b){
     }
 };
 
-var search = function(lang, version, text) {
+var search = function(lang, version, text, markdown) {
     var options = {};
     try {
         options = require("./bibles/" + lang + "/options")
@@ -80,8 +80,13 @@ var search = function(lang, version, text) {
         var match = parsed_entitites[i],
           verse = match.osis.replace(/\./g, '');
 
-        output = [output.slice(0, match["indices"][1]), "</a>", output.slice(match["indices"][1])].join('');
-        output = [output.slice(0, match["indices"][0]), "<a class=\"verse\" verse=\""+verse+"\">", output.slice(match["indices"][0])].join('');
+        if (markdown) {
+            output = [output.slice(0, match["indices"][1]), "](sspmBible://"+verse+")", output.slice(match["indices"][1])].join('');
+            output = [output.slice(0, match["indices"][0]), "[", output.slice(match["indices"][0])].join('');
+        } else {
+            output = [output.slice(0, match["indices"][1]), "</a>", output.slice(match["indices"][1])].join('');
+            output = [output.slice(0, match["indices"][0]), "<a class=\"verse\" verse=\""+verse+"\">", output.slice(match["indices"][0])].join('');
+        }
 
         var match_verses = "";
 
