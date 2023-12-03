@@ -98,16 +98,23 @@ var search = function(lang, version, text, markdown) {
 
             if (!bibleBook) break;
 
+            console.log(entity.type)
+
             switch(entity.type) {
                 case "cv": {
                     for (var _verseIterator = entity.start.v; _verseIterator <= entity.end.v; _verseIterator++){
                         var _verse = _verseIterator.toString().customTrim(" "),
                           _chapter = entity.start.c.toString().customTrim(" "),
-                          _header = "<h2>" + bibleBook.name + " " + _chapter + cv_delimeter + _verse + "</h2>";
+                          _header =
+                              markdown
+                                  ? "### " + bibleBook.name + " " + _chapter + cv_delimeter + _verse + "\n\n"
+                                  : "<h2>" + bibleBook.name + " " + _chapter + cv_delimeter + _verse + "</h2>";
 
                         if (_verse in bibleBook.chapters[_chapter]){
 
-                            match_verses += _header + bibleBook.chapters[_chapter][_verse];
+                            match_verses += markdown
+                                ? "\n\n" +  _header + " " + bibleBook.chapters[_chapter][_verse]
+                                : _header + " " + bibleBook.chapters[_chapter][_verse];
                         }
                     }
 
@@ -117,12 +124,16 @@ var search = function(lang, version, text, markdown) {
                 case "bc": {
                     for (var _chapterIterator = entity.start.c; _chapterIterator <= entity.end.c; _chapterIterator++){
                         var _chapter = _chapterIterator.toString().customTrim(" "),
-                          _header = "<h2>" + bibleBook.name + " " + _chapter + "</h2>";
+                          _header = markdown
+                              ? "### " + bibleBook.name + " " + _chapter + "\n\n"
+                              : "<h2>" + bibleBook.name + " " + _chapter + "</h2>";
 
-                        match_verses += _header;
+                        match_verses += markdown
+                            ? "\n\n" + _header
+                            : _header;
 
                         for (var key in bibleBook.chapters[_chapter]) {
-                            match_verses += bibleBook.chapters[_chapter][key];
+                            match_verses += " " + bibleBook.chapters[_chapter][key];
                         }
                     }
 
@@ -134,7 +145,9 @@ var search = function(lang, version, text, markdown) {
                 case "bcv":
                 case "range": {
 
-                    var _header = "<h2>" + bibleBook.name + " ";
+                    var _header = markdown
+                        ? "### " + bibleBook.name + " "
+                        : "<h2>" + bibleBook.name + " ";
 
                     if (entity.type === "range" || ((entity.start.c !== entity.end.c) || (entity.start.c === entity.end.c && entity.start.v !== entity.end.v))){
                         if (entity.start.c === entity.end.c){
@@ -146,9 +159,13 @@ var search = function(lang, version, text, markdown) {
                         _header += entity.start.c + cv_delimeter + entity.start.v;
                     }
 
-                    _header += "</h2>";
+                    _header += markdown
+                    ? "\n\n"
+                    : "</h2>"
 
-                    match_verses += _header;
+                    match_verses += markdown
+                    ? "\n\n"+_header
+                    : _header
 
                     for (var chapterIterator = entity.start.c; chapterIterator <= entity.end.c; chapterIterator++){
                         var _chapter = chapterIterator.toString().customTrim(" "),
@@ -158,7 +175,7 @@ var search = function(lang, version, text, markdown) {
 
                         for (var key in bibleBook.chapters[_chapter]) {
                             if (parseInt(key) >= verseIteratorStart && parseInt(key) <= verseIteratorEnd){
-                                match_verses += bibleBook.chapters[_chapter][key];
+                                match_verses += " " + bibleBook.chapters[_chapter][key];
                             }
                         }
                     }
@@ -171,7 +188,7 @@ var search = function(lang, version, text, markdown) {
 
         if (match_verses){
             var _verse = {};
-            _verse[verse] = match_verses;
+            _verse[verse] = match_verses.customTrim("\n");
             verses.push(_verse);
         }
     }
