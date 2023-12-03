@@ -98,8 +98,6 @@ var search = function(lang, version, text, markdown) {
 
             if (!bibleBook) break;
 
-            console.log(entity.type)
-
             switch(entity.type) {
                 case "cv": {
                     for (var _verseIterator = entity.start.v; _verseIterator <= entity.end.v; _verseIterator++){
