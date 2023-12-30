@@ -116,9 +116,11 @@ describe "Localized book Num (ca)", ->
 		`
 		expect(p.parse("Nombres 1:1").osis()).toEqual("Num.1.1")
 		expect(p.parse("Num 1:1").osis()).toEqual("Num.1.1")
+		expect(p.parse("Núm 1:1").osis()).toEqual("Num.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("NOMBRES 1:1").osis()).toEqual("Num.1.1")
 		expect(p.parse("NUM 1:1").osis()).toEqual("Num.1.1")
+		expect(p.parse("NÚM 1:1").osis()).toEqual("Num.1.1")
 		`
 		true
 describe "Localized book Sir (ca)", ->
@@ -178,9 +180,11 @@ describe "Localized book Rev (ca)", ->
 	it "should handle book: Rev (ca)", ->
 		`
 		expect(p.parse("Apocalipsi 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("Apoc 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("Rev 1:1").osis()).toEqual("Rev.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("APOCALIPSI 1:1").osis()).toEqual("Rev.1.1")
+		expect(p.parse("APOC 1:1").osis()).toEqual("Rev.1.1")
 		expect(p.parse("REV 1:1").osis()).toEqual("Rev.1.1")
 		`
 		true
@@ -366,10 +370,14 @@ describe "Localized book 2Chr (ca)", ->
 		`
 		expect(p.parse("2 Croniques 1:1").osis()).toEqual("2Chr.1.1")
 		expect(p.parse("2 Cròniques 1:1").osis()).toEqual("2Chr.1.1")
+		expect(p.parse("2 Cron 1:1").osis()).toEqual("2Chr.1.1")
+		expect(p.parse("2 Cròn 1:1").osis()).toEqual("2Chr.1.1")
 		expect(p.parse("2Chr 1:1").osis()).toEqual("2Chr.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("2 CRONIQUES 1:1").osis()).toEqual("2Chr.1.1")
 		expect(p.parse("2 CRÒNIQUES 1:1").osis()).toEqual("2Chr.1.1")
+		expect(p.parse("2 CRON 1:1").osis()).toEqual("2Chr.1.1")
+		expect(p.parse("2 CRÒN 1:1").osis()).toEqual("2Chr.1.1")
 		expect(p.parse("2CHR 1:1").osis()).toEqual("2Chr.1.1")
 		`
 		true
@@ -383,10 +391,14 @@ describe "Localized book 1Chr (ca)", ->
 		`
 		expect(p.parse("1 Croniques 1:1").osis()).toEqual("1Chr.1.1")
 		expect(p.parse("1 Cròniques 1:1").osis()).toEqual("1Chr.1.1")
+		expect(p.parse("1 Cron 1:1").osis()).toEqual("1Chr.1.1")
+		expect(p.parse("1 Cròn 1:1").osis()).toEqual("1Chr.1.1")
 		expect(p.parse("1Chr 1:1").osis()).toEqual("1Chr.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("1 CRONIQUES 1:1").osis()).toEqual("1Chr.1.1")
 		expect(p.parse("1 CRÒNIQUES 1:1").osis()).toEqual("1Chr.1.1")
+		expect(p.parse("1 CRON 1:1").osis()).toEqual("1Chr.1.1")
+		expect(p.parse("1 CRÒN 1:1").osis()).toEqual("1Chr.1.1")
 		expect(p.parse("1CHR 1:1").osis()).toEqual("1Chr.1.1")
 		`
 		true
@@ -468,10 +480,14 @@ describe "Localized book Ps (ca)", ->
 	it "should handle book: Ps (ca)", ->
 		`
 		expect(p.parse("Salms 1:1").osis()).toEqual("Ps.1.1")
+		expect(p.parse("Salm 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("Ps 1:1").osis()).toEqual("Ps.1.1")
+		expect(p.parse("Sl 1:1").osis()).toEqual("Ps.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("SALMS 1:1").osis()).toEqual("Ps.1.1")
+		expect(p.parse("SALM 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("PS 1:1").osis()).toEqual("Ps.1.1")
+		expect(p.parse("SL 1:1").osis()).toEqual("Ps.1.1")
 		`
 		true
 describe "Localized book PrAzar (ca)", ->
@@ -922,9 +938,11 @@ describe "Localized book 2Cor (ca)", ->
 	it "should handle book: 2Cor (ca)", ->
 		`
 		expect(p.parse("2 Corintis 1:1").osis()).toEqual("2Cor.1.1")
+		expect(p.parse("2 Cor 1:1").osis()).toEqual("2Cor.1.1")
 		expect(p.parse("2Cor 1:1").osis()).toEqual("2Cor.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("2 CORINTIS 1:1").osis()).toEqual("2Cor.1.1")
+		expect(p.parse("2 COR 1:1").osis()).toEqual("2Cor.1.1")
 		expect(p.parse("2COR 1:1").osis()).toEqual("2Cor.1.1")
 		`
 		true
@@ -937,9 +955,11 @@ describe "Localized book 1Cor (ca)", ->
 	it "should handle book: 1Cor (ca)", ->
 		`
 		expect(p.parse("1 Corintis 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("1 Cor 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("1Cor 1:1").osis()).toEqual("1Cor.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("1 CORINTIS 1:1").osis()).toEqual("1Cor.1.1")
+		expect(p.parse("1 COR 1:1").osis()).toEqual("1Cor.1.1")
 		expect(p.parse("1COR 1:1").osis()).toEqual("1Cor.1.1")
 		`
 		true
@@ -1134,9 +1154,11 @@ describe "Localized book 2Pet (ca)", ->
 	it "should handle book: 2Pet (ca)", ->
 		`
 		expect(p.parse("2 Pere 1:1").osis()).toEqual("2Pet.1.1")
+		expect(p.parse("2 Pet 1:1").osis()).toEqual("2Pet.1.1")
 		expect(p.parse("2Pet 1:1").osis()).toEqual("2Pet.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("2 PERE 1:1").osis()).toEqual("2Pet.1.1")
+		expect(p.parse("2 PET 1:1").osis()).toEqual("2Pet.1.1")
 		expect(p.parse("2PET 1:1").osis()).toEqual("2Pet.1.1")
 		`
 		true
@@ -1149,9 +1171,11 @@ describe "Localized book 1Pet (ca)", ->
 	it "should handle book: 1Pet (ca)", ->
 		`
 		expect(p.parse("1 Pere 1:1").osis()).toEqual("1Pet.1.1")
+		expect(p.parse("1 Pet 1:1").osis()).toEqual("1Pet.1.1")
 		expect(p.parse("1Pet 1:1").osis()).toEqual("1Pet.1.1")
 		p.include_apocrypha(false)
 		expect(p.parse("1 PERE 1:1").osis()).toEqual("1Pet.1.1")
+		expect(p.parse("1 PET 1:1").osis()).toEqual("1Pet.1.1")
 		expect(p.parse("1PET 1:1").osis()).toEqual("1Pet.1.1")
 		`
 		true

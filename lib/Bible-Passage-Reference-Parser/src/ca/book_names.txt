@@ -1,7 +1,10 @@
 1Chr	1 Croniques
 1Chr	1 Cròniques
+1Chr	1 Cron
+1Chr	1 Cròn
 1Chr	1Chr
 1Cor	1 Corintis
+1Cor	1 Cor
 1Cor	1Cor
 1Esd	1Esd
 1John	1 Joan
@@ -10,6 +13,7 @@
 1Kgs	1Kgs
 1Macc	1Macc
 1Pet	1 Pere
+1Pet	1 Pet
 1Pet	1Pet
 1Sam	1 Samuel
 1Sam	1Sam
@@ -19,8 +23,11 @@
 1Tim	1Tim
 2Chr	2 Croniques
 2Chr	2 Cròniques
+2Chr	2 Cron
+2Chr	2 Cròn
 2Chr	2Chr
 2Cor	2 Corintis
+2Cor	2 Cor
 2Cor	2Cor
 2Esd	2Esd
 2John	2 Joan
@@ -29,6 +36,7 @@
 2Kgs	2Kgs
 2Macc	2Macc
 2Pet	2 Pere
+2Pet	2 Pet
 2Pet	2Pet
 2Sam	2 Samuel
 2Sam	2Sam
@@ -127,6 +135,7 @@ Neh	Nehemies
 Neh	Neh
 Num	Nombres
 Num	Num
+Num	Núm
 Obad	Abdies
 Obad	Obad
 Phil	Filipencs
@@ -139,8 +148,11 @@ PrMan	PrMan
 Prov	Proverbis
 Prov	Prov
 Ps	Salms
+Ps	Salm
 Ps	Ps
+Ps	Sl
 Rev	Apocalipsi
+Rev	Apoc
 Rev	Rev
 Rom	Romans
 Rom	Rom
