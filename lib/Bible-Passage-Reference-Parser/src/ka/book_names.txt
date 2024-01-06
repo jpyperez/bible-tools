@@ -188,6 +188,7 @@ Prov	იგავ
 Ps	ფსალმუნები
 Ps	ფსალმ
 Ps	Ps
+Ps	ფს
 Rev	გამოცხადება
 Rev	გამოცხ
 Rev	Rev
