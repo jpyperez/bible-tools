@@ -1,0 +1,275 @@
+$FIRST	1
+$SECOND	2
+$THIRD	3
+$FOURTH	4
+$AB	[a-e]
+$AND	আৰু
+$CHAPTER	অধ্যায়
+$FF	ff
+$TITLE	title
+$TRANS	irv
+$TO	লৈ
+$VERSE	পদ
+$UNICODE_BLOCK	Latin
+
+Gen	আদিপুস্তক	আদি
+Exod	যাত্ৰা পুস্তক	যাত্ৰা
+Lev	লেবীয়া পুস্তক	লেবীয়া
+Num	গননা পুস্তক	গননা
+Deut	দ্বিতীয় বিৱৰণ	দ্বি.বি.
+Josh	যিহোচূৱা	যিহো
+Judg	বিচাৰকর্তাবিলাক	বিচাৰ
+Ruth	ৰূথ	ৰূথ
+1Sam	1 চমূৱেল	1 চমূ
+2Sam	2 চমূৱেল	2 চমূ
+1Kgs	1 ৰাজাৱলী	1 ৰাজা
+2Kgs	2 ৰাজাৱলি	2 ৰাজা
+1Chr	1 বংশাৱলি	1 বংশা
+2Chr	2 বংশাৱলি	2 বংশা
+Ezra	ইজ্ৰা	ইজ্ৰা
+Neh	নহিমিয়া	নহি
+Esth	ইষ্টেৰ	ইষ্ট
+Job	ইয়োব	ইয়ো
+Ps	গীতমালা	গীত
+Prov	হিতোপদেশ	হিতো
+Eccl	উপদেশক	উপ
+Song	পৰমগীত	পৰম
+Isa	যিচয়া	যিচ
+Jer	যিৰিমিয়া	যিৰি
+Lam	বিলাপ	বিলা
+Ezek	যিহিষ্কেল	যিহি
+Dan	দানিয়েল	দানি
+Hos	হোচেয়া	হোচ
+Joel	যোৱেল	যোৱে
+Amos	আমোচ	আমো
+Obad	ওবদিয়া	ওবদি
+Jonah	যোনা	যোনা
+Mic	মীখা	মীখ
+Nah	নহূম	নহূ
+Hab	হবক্কুক	হব
+Zeph	চফনিয়া	চফ
+Hag	হ্গ্গয়	হ্গ্গ
+Zech	জখৰিয়া	জখ
+Mal	মলাখী	মলা
+Matt	মথিয়ে লিখা শুভবাৰ্তা	মথি
+Mark	মাৰ্কে লিখা শুভবাৰ্তা	মাৰ্ক
+Luke	লূকে লিখা শুভবার্তা	লূক
+John	যোহনে লিখা শুভবাৰ্তা	যোহন
+Acts	পাঁচনি সকলৰ কৰ্ম	পাঁচনি
+Rom	ৰোমীয়াসকলৰ প্ৰতি পত্ৰ	ৰোমীয়া
+1Cor	1 কৰিন্থীয়া	1 কৰি
+2Cor	2 কৰিন্থীয়া	2 কৰি
+Gal	গালাতীয়া পত্র	গালাতীয়া
+Eph	ইফিচীয়া পত্ৰ	ইফিচীয়া
+Phil	ফিলিপীয়া পত্ৰ	ফিলিপীয়া
+Col	কলচীয়া পত্ৰ	কলচীয়া
+1Thess	1 থিচলনীকীয়া	1 থিচলনীকীয়া
+2Thess	2 থিচলনীকীয়া	2 থিচলনীকীয়া
+1Tim	1 তীমথিয়	1 তীমথিয়
+2Tim	2 তীমথিয়	2 তীমথিয়
+Titus	তীতৰ প্ৰতি পত্ৰ	তীত
+Phlm	ফিলীমনৰ প্ৰতি পত্ৰ	ফিলীমন
+Heb	ইব্ৰীসকলৰ প্ৰতি পত্ৰ	ইব্ৰী
+Jas	যাকোবৰ পত্ৰ	যাকোব
+1Pet	1 পিতৰ	1 পিতৰ
+2Pet	2 পিতৰ	2 পিতৰ
+1John	1 যোহন	1 যোহন
+2John	2 যোহন	2 যোহন
+3John	3 যোহন	3 যোহন
+Jude	যিহূদাৰ পত্ৰ	যিহূদা
+Rev	প্ৰকাশিত বাক্য	প্ৰকাশিত বাক্য
+Tob	
+Jdt	
+GkEsth	
+Wis	
+Sir	
+Bar	
+PrAzar	
+Sus	
+Bel	
+SgThree	
+EpJer	
+1Macc	
+2Macc	
+3Macc	
+4Macc	
+1Esd	
+2Esd	
+PrMan	
+
+Jonah,Job,Josh,Joel	
+Judg,Jude	
+Phil,Phlm	
+
+# Order
+=Gen
+=Exod
+=Bel
+=Lev
+=Num
+=Sir
+=Wis
+=Lam
+=EpJer
+=Rev
+=PrMan
+=Deut
+=Josh
+=Judg
+=Ruth
+=1Esd
+=2Esd
+=Isa
+=2Sam
+=1Sam
+=2Kgs
+=1Kgs
+=2Chr
+=1Chr
+=Ezra
+=Neh
+=GkEsth
+=Esth
+=Job
+=Ps
+=PrAzar
+=Prov
+=Eccl
+=SgThree
+=Song
+=Jer
+=Ezek
+=Dan
+=Hos
+=Joel
+=Amos
+=Obad
+=Jonah
+=Mic
+=Nah
+=Hab
+=Zeph
+=Hag
+=Zech
+=Mal
+=Matt
+=Mark
+=Luke
+=1John
+=2John
+=3John
+=John
+=Acts
+=Rom
+=2Cor
+=1Cor
+=Gal
+=Eph
+=Phil
+=Col
+=2Thess
+=1Thess
+=2Tim
+=1Tim
+=Titus
+=Phlm
+=Heb
+=Jas
+=2Pet
+=1Pet
+=Jude
+=Tob
+=Jdt
+=Bar
+=Sus
+=2Macc
+=3Macc
+=4Macc
+=1Macc
+
+# Preferred names
+# OSIS	Long	Short	Shorter	Single (Ps)
+*Gen	
+*Exod	
+*Lev	
+*Num	
+*Deut	
+*Josh	
+*Judg	
+*Ruth	
+*1Sam	
+*2Sam	
+*1Kgs	
+*2Kgs	
+*1Chr	
+*2Chr	
+*Ezra	
+*Neh	
+*Esth	
+*Job	
+*Ps	
+*Prov	
+*Eccl	
+*Song	
+*Isa	
+*Jer	
+*Lam	
+*Ezek	
+*Dan	
+*Hos	
+*Joel	
+*Amos	
+*Obad	
+*Jonah	
+*Mic	
+*Nah	
+*Hab	
+*Zeph	
+*Hag	
+*Zech	
+*Mal	
+*Matt	
+*Mark	
+*Luke	
+*John	
+*Acts	
+*Rom	
+*1Cor	
+*2Cor	
+*Gal	
+*Eph	
+*Phil	
+*Col	
+*1Thess	
+*2Thess	
+*1Tim	
+*2Tim	
+*Titus	
+*Phlm	
+*Heb	
+*Jas	
+*1Pet	
+*2Pet	
+*1John	
+*2John	
+*3John	
+*Jude	
+*Rev	
+*Tob	
+*Jdt	
+*GkEsth	
+*Wis	
+*Sir	
+*Bar	
+*PrAzar	
+*Sus	
+*Bel	
+*SgThree	
+*EpJer	
+*1Macc	
+*2Macc	
+*3Macc	
+*4Macc	
+*1Esd	
+*2Esd	
+*PrMan	
