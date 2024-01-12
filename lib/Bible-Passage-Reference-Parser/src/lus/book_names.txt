@@ -2,6 +2,7 @@
 1Chr	1 Chro
 1Chr	1Chr
 1Cor	1 Korinth
+1Cor	1 Korin
 1Cor	1 Kor
 1Cor	1Cor
 1Esd	1Esd
@@ -28,6 +29,7 @@
 2Chr	2 Chro
 2Chr	2Chr
 2Cor	2 Korinth
+2Cor	2 Korin
 2Cor	2 Kor
 2Cor	2Cor
 2Esd	2Esd
@@ -63,10 +65,12 @@ Amos	Amos
 Bar	Bar
 Bel	Bel
 Col	Kolossa
+Col	Kolosa
 Col	Col
 Col	Kol
 Dan	Daniela
 Dan	Dan
+Deut	Deuteronomi
 Deut	Deuteronomy
 Deut	Deut
 Eccl	Thuhriltu
@@ -153,6 +157,7 @@ Nah	Nah
 Neh	Nehemia
 Neh	Neh
 Num	Numbers
+Num	Nambar
 Num	Num
 Obad	Obadia
 Obad	Obad
@@ -167,10 +172,12 @@ Prov	Thufingte
 Prov	Prov
 Prov	Thuf
 Ps	Sam
+Ps	Sâm
 Ps	Ps
 Rev	Thu Puan
 Rev	Thup
 Rev	Rev
+Rom	Rome
 Rom	Rom
 Ruth	Ruthi
 Ruth	Ruth

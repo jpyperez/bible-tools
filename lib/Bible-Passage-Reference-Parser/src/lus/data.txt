@@ -15,8 +15,8 @@ $UNICODE_BLOCK	Latin
 Gen	Genesis	Gen
 Exod	Exodus	Ex
 Lev	Leviticus	Lev
-Num	Numbers	Num
-Deut	Deuteronomy	Deut
+Num	Numbers	Num	Nambar
+Deut	Deuteronomy	Deut	Deuteronomi
 Josh	Josua	Jos
 Judg	Roreltute	Ro
 Ruth	Ruthi	Rut
@@ -30,7 +30,7 @@ Ezra	Ezra	Ezr
 Neh	Nehemia	Neh
 Esth	Estheri	Est
 Job	Joba	Job
-Ps	Sam	Sam
+Ps	Sam	Sam	Sâm
 Prov	Thufingte	Thuf
 Eccl	Thuhriltu	Thur
 Song	Hla Thlan Khawmte	HKT
@@ -56,13 +56,13 @@ Mark	Marka	Mk
 Luke	Luka	Lk
 John	Johana	Joh
 Acts	Tirhkohte	Tirh
-Rom	Rom	Rom
-1Cor	1 Korinth	1 Kor
-2Cor	2 Korinth	2 Kor
+Rom	Rom	Rome
+1Cor	1 Korinth	1 Kor	1 Korin
+2Cor	2 Korinth	2 Kor	2 Korin
 Gal	Galatia	Gal
 Eph	Ephesi	Eph
 Phil	Philippi	Phil
-Col	Kolossa	Kol
+Col	Kolossa	Kol	Kolosa
 1Thess	1 Thessalonika	1 Thes
 2Thess	2 Thessalonika	2 Thes
 1Tim	1 Timothea	1 Tim
