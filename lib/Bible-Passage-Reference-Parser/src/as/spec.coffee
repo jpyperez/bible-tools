@@ -639,12 +639,16 @@ describe "Localized book Ps (as)", ->
 		p.include_apocrypha true
 	it "should handle book: Ps (as)", ->
 		`
+		expect(p.parse("গীতমালাল 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("গীতমালা 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("গীত 1:1").osis()).toEqual("Ps.1.1")
+		expect(p.parse("দীত 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("Ps 1:1").osis()).toEqual("Ps.1.1")
 		p.include_apocrypha(false)
+		expect(p.parse("গীতমালাল 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("গীতমালা 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("গীত 1:1").osis()).toEqual("Ps.1.1")
+		expect(p.parse("দীত 1:1").osis()).toEqual("Ps.1.1")
 		expect(p.parse("PS 1:1").osis()).toEqual("Ps.1.1")
 		`
 		true

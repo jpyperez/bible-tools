@@ -235,8 +235,10 @@ PrMan	PrMan
 Prov	হিতোপদেশ
 Prov	Prov
 Prov	হিতো
+Ps	গীতমালাল
 Ps	গীতমালা
 Ps	গীত
+Ps	দীত
 Ps	Ps
 Rev	প্ৰকাশিত বাক্য
 Rev	Rev
