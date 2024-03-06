@@ -680,7 +680,7 @@ var book = {
 		"23": {
 			"1": "<span class=\"chapternum\">23 </span>Estas são as últimas palavras de Davi: “Palavras de Davi, filho de Jessé; palavras do homem que foi exaltado, do ungido pelo Deus de Jacó, do cantor dos cânticos de Israel: ",
 			"2": "<sup class=\"versenum\">2 </sup>“O Espírito do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>falou por meu intermédio; sua palavra esteve em minha língua. ",
-			"3": "<sup class=\"versenum\">3 </sup>O Deus de Israel falou, a Rocha de Israel me disse:‘Quem governa o povo com justiça, quem o governa com o temor de Deus, ",
+			"3": "<sup class=\"versenum\">3 </sup>O Deus de Israel falou, a Rocha de Israel me disse: ‘Quem governa o povo com justiça, quem o governa com o temor de Deus, ",
 			"4": "<sup class=\"versenum\">4 </sup>é como a luz da manhã ao nascer do sol, numa manhã sem nuvens. É como a claridade depois da chuva, que faz crescer as plantas da terra’. ",
 			"5": "<sup class=\"versenum\">5 </sup>“A minha dinastia está de bem com Deus. Ele fez uma aliança eterna comigo, firmada e garantida em todos os aspectos. Certamente me fará prosperar em tudo e me concederá tudo quanto eu desejo. ",
 			"6": "<sup class=\"versenum\">6 </sup>Mas os perversos serão lançados fora como espinhos, que não se ajuntam com as mãos; ",

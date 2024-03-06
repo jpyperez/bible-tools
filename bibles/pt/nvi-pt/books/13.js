@@ -631,7 +631,7 @@ var book = {
 			"28": "<sup class=\"versenum\">28 </sup>Deem ao <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, ó famílias das nações, deem ao <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> glória e força! ",
 			"29": "<sup class=\"versenum\">29 </sup>Deem ao <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>a glória devida ao seu nome. Tragam ofertas e venham à sua presença. Adorem o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>no esplendor da sua santidade, ",
 			"30": "<sup class=\"versenum\">30 </sup>tremam diante dele, todas as nações! Firmou o mundo, e este não se abalará! ",
-			"31": "<sup class=\"versenum\">31 </sup>Que os céus se alegrem e a terra exulte, e diga-se entre as nações:‘O <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> reina!’ ",
+			"31": "<sup class=\"versenum\">31 </sup>Que os céus se alegrem e a terra exulte, e diga-se entre as nações: ‘O <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> reina!’ ",
 			"32": "<sup class=\"versenum\">32 </sup>Ressoe o mar, e tudo o que nele existe; exultem os campos, e tudo o que neles há! ",
 			"33": "<sup class=\"versenum\">33 </sup>Então as árvores da floresta cantarão de alegria, cantarão diante do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, pois ele vem julgar a terra. ",
 			"34": "<sup class=\"versenum\">34 </sup>“Rendam graças ao <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, pois ele é bom; o seu amor dura para sempre. ",

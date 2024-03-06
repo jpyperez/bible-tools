@@ -427,7 +427,7 @@ var book = {
 			"6": "<sup class=\"versenum\">6 </sup>“<span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, a tua mão direita foi majestosa em poder.<span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, a tua mão direita despedaçou o inimigo. ",
 			"7": "<sup class=\"versenum\">7 </sup>Em teu triunfo grandioso, derrubaste os teus adversários. Enviaste o teu furor flamejante, que os consumiu como palha. ",
 			"8": "<sup class=\"versenum\">8 </sup>Pelo forte sopro das tuas narinas as águas se amontoaram. As águas turbulentas firmaram-se como muralha; as águas profundas congelaram-se no coração do mar. ",
-			"9": "<sup class=\"versenum\">9 </sup>“O inimigo se gloriava:‘Eu os perseguirei e os alcançarei, dividirei o despojo e os devorarei. Com a espada na mão, eu os destruirei’. ",
+			"9": "<sup class=\"versenum\">9 </sup>“O inimigo se gloriava: ‘Eu os perseguirei e os alcançarei, dividirei o despojo e os devorarei. Com a espada na mão, eu os destruirei’. ",
 			"10": "<sup class=\"versenum\">10 </sup>Mas enviaste o teu sopro, e o mar os encobriu. Afundaram como chumbo nas águas volumosas. ",
 			"11": "<sup class=\"versenum\">11 </sup>“Quem entre os deuses é semelhante a ti, <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>? Quem é semelhante a ti? Majestoso em santidade, terrível em feitos gloriosos, autor de maravilhas? ",
 			"12": "<sup class=\"versenum\">12 </sup>Estendes a tua mão direita e a terra os engole. ",
