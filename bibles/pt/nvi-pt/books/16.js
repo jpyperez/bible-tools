@@ -17,7 +17,7 @@ var book = {
 		},
 		"2": {
 			"1": "<span class=\"chapternum\">2 </span>No mês de nisã do vigésimo ano do rei Artaxerxes, na hora de servir-lhe o vinho, levei-o ao rei. Nunca antes eu tinha estado triste na presença dele; ",
-			"2": "<sup class=\"versenum\">2 </sup>por isso o rei me perguntou: “Por que o seu rosto parece tão triste, se você não está doente? Essa tristeza só pode ser do coração!”Com muito medo, ",
+			"2": "<sup class=\"versenum\">2 </sup>por isso o rei me perguntou: “Por que o seu rosto parece tão triste, se você não está doente? Essa tristeza só pode ser do coração!” Com muito medo, ",
 			"3": "<sup class=\"versenum\">3 </sup>eu disse ao rei: Que o rei viva para sempre! Como não estaria triste o meu rosto, se a cidade em que estão sepultados os meus pais está em ruínas, e as suas portas foram destruídas pelo fogo? ",
 			"4": "<sup class=\"versenum\">4 </sup>O rei me disse: “O que você gostaria de pedir?”Então orei ao Deus dos céus, ",
 			"5": "<sup class=\"versenum\">5 </sup>e respondi ao rei: Se for do agrado do rei e se o seu servo puder contar com a sua benevolência, que ele me deixe ir à cidade onde meus pais estão enterrados, em Judá, para que eu possa reconstruí-la. ",

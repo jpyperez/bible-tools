@@ -593,7 +593,7 @@ var book = {
 			"34": "<sup class=\"versenum\">34 </sup>E morou Abraão na terra dos filisteus por longo tempo."
 		},
 		"22": {
-			"1": "<span class=\"chapternum\">22 </span>Passado algum tempo, Deus pôs Abraão à prova, dizendo-lhe: “Abraão!”Ele respondeu: “Eis-me aqui”. ",
+			"1": "<span class=\"chapternum\">22 </span>Passado algum tempo, Deus pôs Abraão à prova, dizendo-lhe: “Abraão!” Ele respondeu: “Eis-me aqui”. ",
 			"2": "<sup class=\"versenum\">2 </sup>Então disse Deus: “Tome seu filho, seu único filho, Isaque, a quem você ama, e vá para a região de Moriá. Sacrifique-o ali como holocausto num dos montes que lhe indicarei”. ",
 			"3": "<sup class=\"versenum\">3 </sup>Na manhã seguinte, Abraão levantou-se e preparou o seu jumento. Levou consigo dois de seus servos e Isaque, seu filho. Depois de cortar lenha para o holocausto, partiu em direção ao lugar que Deus lhe havia indicado. ",
 			"4": "<sup class=\"versenum\">4 </sup>No terceiro dia de viagem, Abraão olhou e viu o lugar ao longe. ",
@@ -783,7 +783,7 @@ var book = {
 			"35": "<sup class=\"versenum\">35 </sup>Elas amarguraram a vida de Isaque e de Rebeca."
 		},
 		"27": {
-			"1": "<span class=\"chapternum\">27 </span>Tendo Isaque envelhecido, seus olhos ficaram tão fracos que ele já não podia enxergar. Certo dia chamou Esaú, seu filho mais velho, e lhe disse: “Meu filho!”Ele respondeu: “Estou aqui”. ",
+			"1": "<span class=\"chapternum\">27 </span>Tendo Isaque envelhecido, seus olhos ficaram tão fracos que ele já não podia enxergar. Certo dia chamou Esaú, seu filho mais velho, e lhe disse: “Meu filho!” Ele respondeu: “Estou aqui”. ",
 			"2": "<sup class=\"versenum\">2 </sup>Disse-lhe Isaque: “Já estou velho e não sei o dia da minha morte. ",
 			"3": "<sup class=\"versenum\">3 </sup>Pegue agora suas armas, o arco e a aljava, e vá ao campo caçar alguma coisa para mim. ",
 			"4": "<sup class=\"versenum\">4 </sup>Prepare-me aquela comida saborosa que tanto aprecio e traga-me, para que eu a coma e o abençoe antes de morrer”. ",
@@ -1568,7 +1568,7 @@ var book = {
 			"17": "<sup class=\"versenum\">17 </sup>Quando José viu seu pai colocar a mão direita sobre a cabeça de Efraim, não gostou; por isso pegou a mão do pai, a fim de mudá-la da cabeça de Efraim para a de Manassés, ",
 			"18": "<sup class=\"versenum\">18 </sup>e lhe disse: “Não, meu pai, este aqui é o mais velho; ponha a mão direita sobre a cabeça dele”. ",
 			"19": "<sup class=\"versenum\">19 </sup>Mas seu pai recusou-se e respondeu: “Eu sei, meu filho, eu sei. Ele também se tornará um povo, também será grande. Apesar disso, seu irmão mais novo será maior do que ele, e seus descendentes se tornarão muitos povos”. ",
-			"20": "<sup class=\"versenum\">20 </sup>Assim, Jacó os abençoou naquele dia, dizendo: “O povo de Israel usará os seus nomes para abençoar uns aos outros com esta expressão: Que Deus faça a você como fez a Efraim e a Manassés!”E colocou Efraim à frente de Manassés. ",
+			"20": "<sup class=\"versenum\">20 </sup>Assim, Jacó os abençoou naquele dia, dizendo: “O povo de Israel usará os seus nomes para abençoar uns aos outros com esta expressão: Que Deus faça a você como fez a Efraim e a Manassés!” E colocou Efraim à frente de Manassés. ",
 			"21": "<sup class=\"versenum\">21 </sup>A seguir, Israel disse a José: “Estou para morrer, mas Deus estará com vocês e os levará de volta à terra de seus antepassados. ",
 			"22": "<sup class=\"versenum\">22 </sup>E a você, como alguém que está acima de seus irmãos, dou a região montanhosa que tomei dos amorreus com a minha espada e com o meu arco”. "
 		},

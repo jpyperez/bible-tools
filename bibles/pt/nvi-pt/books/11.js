@@ -131,7 +131,7 @@ var book = {
 			"23": "<sup class=\"versenum\">23 </sup>O rei disse: “Esta afirma: ‘Meu filho está vivo, e o seu filho está morto’, enquanto aquela diz: ‘Não! Seu filho está morto, e o meu está vivo’ ”. ",
 			"24": "<sup class=\"versenum\">24 </sup>Então o rei ordenou: “Tragam-me uma espada”. Trouxeram-lhe. ",
 			"25": "<sup class=\"versenum\">25 </sup>Ele ordenou: “Cortem a criança viva ao meio e deem metade a uma e metade à outra”. ",
-			"26": "<sup class=\"versenum\">26 </sup>A mãe do filho que estava vivo, movida pela compaixão materna, clamou: “Por favor, meu senhor, dê a criança viva a ela! Não a mate!”A outra, porém, disse: “Não será nem minha nem sua. Cortem-na ao meio!” ",
+			"26": "<sup class=\"versenum\">26 </sup>A mãe do filho que estava vivo, movida pela compaixão materna, clamou: “Por favor, meu senhor, dê a criança viva a ela! Não a mate!” A outra, porém, disse: “Não será nem minha nem sua. Cortem-na ao meio!” ",
 			"27": "<sup class=\"versenum\">27 </sup>Então o rei deu o seu veredicto: “Não matem a criança! Deem-na à primeira mulher. Ela é a mãe”. ",
 			"28": "<sup class=\"versenum\">28 </sup>Quando todo o Israel ouviu o veredicto do rei, passou a respeitá-lo profundamente, pois viu que a sabedoria de Deus estava nele para fazer justiça."
 		},
@@ -474,7 +474,7 @@ var book = {
 			"13": "<sup class=\"versenum\">13 </sup>E o rei lhes respondeu asperamente. Rejeitando o conselho das autoridades de Israel, ",
 			"14": "<sup class=\"versenum\">14 </sup>seguiu o conselho dos jovens e disse: “Meu pai lhes tornou pesado o jugo; eu o tornarei ainda mais pesado. Meu pai os castigou com simples chicotes; eu os castigarei com chicotes pontiagudos”. ",
 			"15": "<sup class=\"versenum\">15 </sup>E o rei não ouviu o povo, pois esta mudança nos acontecimentos vinha da parte do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, para que se cumprisse a palavra que o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> havia falado a Jeroboão, filho de Nebate, por meio do silonita Aías. ",
-			"16": "<sup class=\"versenum\">16 </sup>Quando todo o Israel viu que o rei se recusava a ouvi-los, respondeu ao rei: “Que temos em comum com Davi? Que temos em comum com o filho de Jessé? Para as suas tendas, ó Israel! Cuide da sua própria casa, ó Davi!”E assim os israelitas foram para as suas casas. ",
+			"16": "<sup class=\"versenum\">16 </sup>Quando todo o Israel viu que o rei se recusava a ouvi-los, respondeu ao rei: “Que temos em comum com Davi? Que temos em comum com o filho de Jessé? Para as suas tendas, ó Israel! Cuide da sua própria casa, ó Davi!” E assim os israelitas foram para as suas casas. ",
 			"17": "<sup class=\"versenum\">17 </sup>Quanto, porém, aos israelitas que moravam nas cidades de Judá, Roboão continuou como rei deles. ",
 			"18": "<sup class=\"versenum\">18 </sup>O rei Roboão enviou Adonirão, chefe do trabalho forçado, mas todo o Israel o apedrejou até a morte. O rei, contudo, conseguiu subir em sua carruagem e fugir para Jerusalém. ",
 			"19": "<sup class=\"versenum\">19 </sup>Dessa forma Israel se rebelou contra a dinastia de Davi, e assim permanece até hoje. ",

@@ -301,7 +301,7 @@ var book = {
 			"10": "<sup class=\"versenum\">10 </sup>Por isso, a espada nunca se afastará de sua família, pois você me desprezou e tomou a mulher de Urias, o hitita, para ser sua mulher’. ",
 			"11": "<sup class=\"versenum\">11 </sup>“Assim diz o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>: ‘De sua própria família trarei desgraça sobre você. Tomarei as suas mulheres diante dos seus próprios olhos e as darei a outro; e ele se deitará com elas em plena luz do dia. ",
 			"12": "<sup class=\"versenum\">12 </sup>Você fez isso às escondidas, mas eu o farei diante de todo o Israel, em plena luz do dia’ ”. ",
-			"13": "<sup class=\"versenum\">13 </sup>Então Davi disse a Natã: “Pequei contra o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>!”E Natã respondeu: “O <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> perdoou o seu pecado. Você não morrerá. ",
+			"13": "<sup class=\"versenum\">13 </sup>Então Davi disse a Natã: “Pequei contra o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>!” E Natã respondeu: “O <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> perdoou o seu pecado. Você não morrerá. ",
 			"14": "<sup class=\"versenum\">14 </sup>Entretanto, uma vez que você insultou o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, o menino morrerá”. ",
 			"15": "<sup class=\"versenum\">15 </sup>Depois que Natã foi para casa, o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> fez adoecer o filho que a mulher de Urias dera a Davi. ",
 			"16": "<sup class=\"versenum\">16 </sup>E Davi implorou a Deus em favor da criança. Ele jejuou e, entrando em casa, passou a noite deitado no chão. ",
@@ -570,7 +570,7 @@ var book = {
 			"40": "<sup class=\"versenum\">40 </sup>O rei seguiu para Gilgal; e com ele foi Quimã. Todo o exército de Judá e a metade do exército de Israel acompanharam o rei. ",
 			"41": "<sup class=\"versenum\">41 </sup>Logo os homens de Israel chegaram ao rei para reclamar: “Por que os nossos irmãos, os de Judá, sequestraram o rei e o levaram para o outro lado do Jordão, como também a família dele e todos os seus homens?” ",
 			"42": "<sup class=\"versenum\">42 </sup>Todos os homens de Judá responderam aos israelitas: “Fizemos isso porque o rei é nosso parente mais chegado. Por que vocês estão irritados? Acaso comemos das provisões do rei ou tomamos dele alguma coisa?” ",
-			"43": "<sup class=\"versenum\">43 </sup>Então os israelitas disseram aos homens de Judá: “Somos dez com o rei; e muito maior é o nosso direito sobre Davi do que o de vocês. Por que nos desprezam? Nós fomos os primeiros a propor o retorno do nosso rei!”Mas os homens de Judá falaram ainda mais asperamente do que os israelitas."
+			"43": "<sup class=\"versenum\">43 </sup>Então os israelitas disseram aos homens de Judá: “Somos dez com o rei; e muito maior é o nosso direito sobre Davi do que o de vocês. Por que nos desprezam? Nós fomos os primeiros a propor o retorno do nosso rei!” Mas os homens de Judá falaram ainda mais asperamente do que os israelitas."
 		},
 		"20": {
 			"1": "<span class=\"chapternum\">20 </span>Também estava lá um desordeiro chamado Seba, filho de Bicri, de Benjamim. Ele tocou a trombeta e gritou: “Não temos parte alguma com Davi, nenhuma herança com o filho de Jessé! Para casa todos, ó Israel!” ",
@@ -679,7 +679,7 @@ var book = {
 		},
 		"23": {
 			"1": "<span class=\"chapternum\">23 </span>Estas são as últimas palavras de Davi: “Palavras de Davi, filho de Jessé; palavras do homem que foi exaltado, do ungido pelo Deus de Jacó, do cantor dos cânticos de Israel: ",
-			"2": "<sup class=\"versenum\">2 </sup>“O Espírito do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>falou por meu intermédio; sua palavra esteve em minha língua. ",
+			"2": "<sup class=\"versenum\">2 </sup>“O Espírito do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> falou por meu intermédio; sua palavra esteve em minha língua. ",
 			"3": "<sup class=\"versenum\">3 </sup>O Deus de Israel falou, a Rocha de Israel me disse: ‘Quem governa o povo com justiça, quem o governa com o temor de Deus, ",
 			"4": "<sup class=\"versenum\">4 </sup>é como a luz da manhã ao nascer do sol, numa manhã sem nuvens. É como a claridade depois da chuva, que faz crescer as plantas da terra’. ",
 			"5": "<sup class=\"versenum\">5 </sup>“A minha dinastia está de bem com Deus. Ele fez uma aliança eterna comigo, firmada e garantida em todos os aspectos. Certamente me fará prosperar em tudo e me concederá tudo quanto eu desejo. ",
