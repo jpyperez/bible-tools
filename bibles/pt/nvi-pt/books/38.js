@@ -44,7 +44,7 @@ var book = {
 			"1": "<span class=\"chapternum\">3 </span>Depois disso ele me mostrou o sumo sacerdote Josué diante do anjo do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, e Satanás, à sua direita, para acusá-lo. ",
 			"2": "<sup class=\"versenum\">2 </sup>O anjo do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> disse a Satanás: “O <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> o repreenda, Satanás! O <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> que escolheu Jerusalém o repreenda! Este homem não parece um tição tirado do fogo?” ",
 			"3": "<sup class=\"versenum\">3 </sup>Ora, Josué, vestido de roupas impuras, estava em pé diante do anjo. ",
-			"4": "<sup class=\"versenum\">4 </sup>O anjo disse aos que estavam diante dele: “Tirem as roupas impuras dele”.Depois disse a Josué: “Veja, eu tirei de você o seu pecado, e coloquei vestes nobres sobre você”. ",
+			"4": "<sup class=\"versenum\">4 </sup>O anjo disse aos que estavam diante dele: “Tirem as roupas impuras dele”. Depois disse a Josué: “Veja, eu tirei de você o seu pecado, e coloquei vestes nobres sobre você”. ",
 			"5": "<sup class=\"versenum\">5 </sup>Disse também: “Coloquem um turbante limpo em sua cabeça”. Colocaram o turbante nele e o vestiram, enquanto o anjo do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> observava. ",
 			"6": "<sup class=\"versenum\">6 </sup>O anjo do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> exortou Josué, dizendo: ",
 			"7": "<sup class=\"versenum\">7 </sup>“Assim diz o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> dos Exércitos: ‘Se você andar nos meus caminhos e obedecer aos meus preceitos, você governará a minha casa e também estará encarregado das minhas cortes, e eu lhe darei um lugar entre estes que estão aqui. ",
@@ -62,11 +62,11 @@ var book = {
 			"7": "<sup class=\"versenum\">7 </sup>“Quem você pensa que é, ó montanha majestosa? Diante de Zorobabel você se tornará uma planície. Ele colocará a pedra principal aos gritos de ‘Deus abençoe! Deus abençoe!’ ” ",
 			"8": "<sup class=\"versenum\">8 </sup>Então o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> me falou: ",
 			"9": "<sup class=\"versenum\">9 </sup>“As mãos de Zorobabel colocaram os fundamentos deste templo; suas mãos também o terminarão. Assim saberão que o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> dos Exércitos me enviou a vocês. ",
-			"10": "<sup class=\"versenum\">10 </sup>“Pois aqueles que desprezaram o dia das pequenas coisas terão grande alegria ao verem a pedra principal nas mãos de Zorobabel”.Então ele me disse: “Estas sete lâmpadas são os olhos do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, que sondam toda a terra”. ",
+			"10": "<sup class=\"versenum\">10 </sup>“Pois aqueles que desprezaram o dia das pequenas coisas terão grande alegria ao verem a pedra principal nas mãos de Zorobabel”. Então ele me disse: “Estas sete lâmpadas são os olhos do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, que sondam toda a terra”. ",
 			"11": "<sup class=\"versenum\">11 </sup>A seguir perguntei ao anjo: O que significam estas duas oliveiras à direita e à esquerda do candelabro? ",
 			"12": "<sup class=\"versenum\">12 </sup>E perguntei também: O que significam estes dois ramos de oliveira ao lado dos dois tubos de ouro que derramam azeite dourado? ",
 			"13": "<sup class=\"versenum\">13 </sup>Ele disse: “Você não sabe?”Não, meu senhor, respondi. ",
-			"14": "<sup class=\"versenum\">14 </sup>Então ele me disse: “São os dois homens que foram ungidos para servir ao Soberano de toda a terra!”"
+			"14": "<sup class=\"versenum\">14 </sup>Então ele me disse: “São os dois homens que foram ungidos para servir ao Soberano de toda a terra!” "
 		},
 		"5": {
 			"1": "<span class=\"chapternum\">5 </span>Levantei novamente os olhos, e vi diante de mim um pergaminho que voava. ",
@@ -112,7 +112,7 @@ var book = {
 			"11": "<sup class=\"versenum\">11 </sup>Mas eles se recusaram a dar atenção; teimosamente viraram as costas e taparam os ouvidos. ",
 			"12": "<sup class=\"versenum\">12 </sup>Endureceram o coração e não ouviram a Lei e as palavras que o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> dos Exércitos tinha falado, pelo seu Espírito, por meio dos antigos profetas. Por isso o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> dos Exércitos irou-se muito. ",
 			"13": "<sup class=\"versenum\">13 </sup>“Quando eu os chamei, não me deram ouvidos; por isso, quando eles me chamarem, também não os ouvirei”, diz o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> dos Exércitos. ",
-			"14": "<sup class=\"versenum\">14 </sup>“Eu os espalhei com um vendaval entre nações que eles nem conhecem. A terra que deixaram para trás ficou tão destruída que ninguém podia atravessá-la. Foi assim que transformaram a terra aprazível em ruínas.”"
+			"14": "<sup class=\"versenum\">14 </sup>“Eu os espalhei com um vendaval entre nações que eles nem conhecem. A terra que deixaram para trás ficou tão destruída que ninguém podia atravessá-la. Foi assim que transformaram a terra aprazível em ruínas.” "
 		},
 		"8": {
 			"1": "<span class=\"chapternum\">8 </span>Mais uma vez veio a mim a palavra do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> dos Exércitos. ",
@@ -145,37 +145,37 @@ var book = {
 			"3": "<sup class=\"versenum\">3 </sup>Tiro construiu para si uma fortaleza; acumulou prata como pó, e ouro como lama das ruas. ",
 			"4": "<sup class=\"versenum\">4 </sup>Mas o Senhor se apossará dela e lançará no mar suas riquezas, e ela será consumida pelo fogo. ",
 			"5": "<sup class=\"versenum\">5 </sup>Ao ver isso Ascalom ficará com medo; Gaza também se contorcerá de agonia, assim como Ecrom, porque a sua esperança fracassou. Gaza perderá o seu rei, e Ascalom ficará deserta. ",
-			"6": "<sup class=\"versenum\">6 </sup>Um povo bastardo ocupará Asdode, e assim eu acabareicom o orgulho dos filisteus. ",
-			"7": "<sup class=\"versenum\">7 </sup>Tirarei o sangue de suas bocas, e a comida proibidadentre os seus dentes. Aquele que restar pertenceráao nosso Deus e se tornará chefe em Judá, e Ecrom será como os jebuseus. ",
-			"8": "<sup class=\"versenum\">8 </sup>Defenderei a minha casacontra os invasores. Nunca mais um opressorpassará por cima do meu povo, porque agora eu vejo issocom os meus próprios olhos. ",
+			"6": "<sup class=\"versenum\">6 </sup>Um povo bastardo ocupará Asdode, e assim eu acabarei com o orgulho dos filisteus. ",
+			"7": "<sup class=\"versenum\">7 </sup>Tirarei o sangue de suas bocas, e a comida proibida dentre os seus dentes. Aquele que restar pertencerá ao nosso Deus e se tornará chefe em Judá, e Ecrom será como os jebuseus. ",
+			"8": "<sup class=\"versenum\">8 </sup>Defenderei a minha casa contra os invasores. Nunca mais um opressor passará por cima do meu povo, porque agora eu vejo isso com os meus próprios olhos. ",
 			"9": "<sup class=\"versenum\">9 </sup>Alegre-se muito, cidade de Sião! Exulte, Jerusalém! Eis que o seu rei vem a você, justo e vitorioso, humilde e montado num jumento, um jumentinho, cria de jumenta. ",
-			"10": "<sup class=\"versenum\">10 </sup>Ele destruiráos carros de guerra de Efraime os cavalos de Jerusalém, e os arcos de batalha serão quebrados. Ele proclamará paz às nações e dominará de um mar a outro, e do Eufrates até os confins da terra. ",
-			"11": "<sup class=\"versenum\">11 </sup>Quanto a você, por causa do sangueda minha aliança com você, libertarei os seus prisioneirosde um poço sem água. ",
-			"12": "<sup class=\"versenum\">12 </sup>Voltem à sua fortaleza, ó prisioneiros da esperança; pois hoje mesmo anuncio que restaurareitudo em dobro para vocês. ",
-			"13": "<sup class=\"versenum\">13 </sup>Quando eu curvar Judá como se curva um arcoe usar Efraim como flecha, levantarei os filhos de Siãocontra os filhos da Grécia, e farei Sião semelhanteà espada de um guerreiro. ",
-			"14": "<sup class=\"versenum\">14 </sup>Então o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> aparecerá sobre eles; sua flecha brilhará como o relâmpago. O Soberano, o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, tocará a trombetae marchará em meio àstempestades do sul; ",
-			"15": "<sup class=\"versenum\">15 </sup>o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> dos Exércitos os protegerá.Eles pisotearão e destruirãoas pedras das atiradeiras. Eles beberão o sangue do inimigocomo se fosse vinho; estarão cheios como a baciausada para aspergir águanos cantos do altar. ",
-			"16": "<sup class=\"versenum\">16 </sup>Naquele dia o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, o seu Deus, os salvará como rebanho do seu povo, e como joias de uma coroabrilharão em sua terra. ",
+			"10": "<sup class=\"versenum\">10 </sup>Ele destruirá os carros de guerra de Efraim e os cavalos de Jerusalém, e os arcos de batalha serão quebrados. Ele proclamará paz às nações e dominará de um mar a outro, e do Eufrates até os confins da terra. ",
+			"11": "<sup class=\"versenum\">11 </sup>Quanto a você, por causa do sangue da minha aliança com você, libertarei os seus prisioneiros de um poço sem água. ",
+			"12": "<sup class=\"versenum\">12 </sup>Voltem à sua fortaleza, ó prisioneiros da esperança; pois hoje mesmo anuncio que restaurarei tudo em dobro para vocês. ",
+			"13": "<sup class=\"versenum\">13 </sup>Quando eu curvar Judá como se curva um arco e usar Efraim como flecha, levantarei os filhos de Sião contra os filhos da Grécia, e farei Sião semelhante à espada de um guerreiro. ",
+			"14": "<sup class=\"versenum\">14 </sup>Então o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> aparecerá sobre eles; sua flecha brilhará como o relâmpago. O Soberano, o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, tocará a trombeta e marchará em meio às tempestades do sul; ",
+			"15": "<sup class=\"versenum\">15 </sup>o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> dos Exércitos os protegerá. Eles pisotearão e destruirão as pedras das atiradeiras. Eles beberão o sangue do inimigo como se fosse vinho; estarão cheios como a bacia usada para aspergir água nos cantos do altar. ",
+			"16": "<sup class=\"versenum\">16 </sup>Naquele dia o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, o seu Deus, os salvará como rebanho do seu povo, e como joias de uma coroa brilharão em sua terra. ",
 			"17": "<sup class=\"versenum\">17 </sup>Ah! Como serão belos! Como serão formosos! O trigo dará vigor aos rapazes, e o vinho novo às moças."
 		},
 		"10": {
 			"1": "<span class=\"chapternum\">10 </span>Peça ao <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> chuva de primavera, pois é o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> quem faz o trovão, quem envia a chuva aos homens e lhes dá as plantas do campo. ",
-			"2": "<sup class=\"versenum\">2 </sup>Porque os ídolos falam mentiras, os adivinhadores têm falsas visõese contam sonhos enganadores; o consolo que trazem é vão. Por isso o povo vagueia como ovelhasaflitas pela falta de um pastor. ",
-			"3": "<sup class=\"versenum\">3 </sup>“Contra os pastoresacende-se a minha ira, e contra os líderes eu agirei.”Porque o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> dos Exércitoscuidará de seu rebanho, o povo de Judá, ele fará dele o seu brioso corcelna batalha. ",
+			"2": "<sup class=\"versenum\">2 </sup>Porque os ídolos falam mentiras, os adivinhadores têm falsas visões e contam sonhos enganadores; o consolo que trazem é vão. Por isso o povo vagueia como ovelhas aflitas pela falta de um pastor. ",
+			"3": "<sup class=\"versenum\">3 </sup>“Contra os pastores acende-se a minha ira, e contra os líderes eu agirei.” Porque o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> dos Exércitos cuidará de seu rebanho, o povo de Judá, ele fará dele o seu brioso corcel na batalha. ",
 			"4": "<sup class=\"versenum\">4 </sup>Dele virão a pedra fundamental, e a estaca da tenda, o arco da batalha e os governantes. ",
-			"5": "<sup class=\"versenum\">5 </sup>Juntos serão como guerreirosque pisam a lama das ruasna batalha. Lutarão e derrubarão os cavaleirosporque o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> estará com eles. ",
-			"6": "<sup class=\"versenum\">6 </sup>“Assim, eu fortalecerei a tribo de Judá e salvarei a casa de José. Eu os restaurareiporque tenho compaixão deles. Eles serão como seeu nunca os tivesse rejeitado, porque eu sou o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, o Deus deles, e lhes responderei. ",
-			"7": "<sup class=\"versenum\">7 </sup>Efraim será como um homem poderoso; seu coração se alegrarácomo se fosse com vinho, seus filhos o verão e se alegrarão; seus corações exultarão no <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>. ",
+			"5": "<sup class=\"versenum\">5 </sup>Juntos serão como guerreiros que pisam a lama das ruas na batalha. Lutarão e derrubarão os cavaleiros porque o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> estará com eles. ",
+			"6": "<sup class=\"versenum\">6 </sup>“Assim, eu fortalecerei a tribo de Judá e salvarei a casa de José. Eu os restaurarei porque tenho compaixão deles. Eles serão como se eu nunca os tivesse rejeitado, porque eu sou o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, o Deus deles, e lhes responderei. ",
+			"7": "<sup class=\"versenum\">7 </sup>Efraim será como um homem poderoso; seu coração se alegrará como se fosse com vinho, seus filhos o verão e se alegrarão; seus corações exultarão no <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>. ",
 			"8": "<sup class=\"versenum\">8 </sup>Assobiarei para eles e os ajuntarei, pois eu já os resgatei. Serão numerosos como antes. ",
-			"9": "<sup class=\"versenum\">9 </sup>Embora eu os espalhe por entreos povos de terras distantes, eles se lembrarão de mim. Criarão seus filhos e voltarão. ",
-			"10": "<sup class=\"versenum\">10 </sup>Eu os farei retornar do Egitoe os ajuntarei de volta da Assíria. Eu os levarei para as terras de Gileade e do Líbano, e mesmo assim não haverá espaçosuficiente para eles. ",
-			"11": "<sup class=\"versenum\">11 </sup>Vencerei o mar da aflição, ferirei o mar revoltoso, e as profundezas do Nilo se secarão. O orgulho da Assíria será abatidoe o poder do Egito será derrubado. ",
+			"9": "<sup class=\"versenum\">9 </sup>Embora eu os espalhe por entre os povos de terras distantes, eles se lembrarão de mim. Criarão seus filhos e voltarão. ",
+			"10": "<sup class=\"versenum\">10 </sup>Eu os farei retornar do Egito e os ajuntarei de volta da Assíria. Eu os levarei para as terras de Gileade e do Líbano, e mesmo assim não haverá espaço suficiente para eles. ",
+			"11": "<sup class=\"versenum\">11 </sup>Vencerei o mar da aflição, ferirei o mar revoltoso, e as profundezas do Nilo se secarão. O orgulho da Assíria será abatido e o poder do Egito será derrubado. ",
 			"12": "<sup class=\"versenum\">12 </sup>Eu os fortalecerei no <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, e em meu nome marcharão”, diz o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>."
 		},
 		"11": {
 			"1": "<span class=\"chapternum\">11 </span>Abra as suas portas, ó Líbano, para que o fogo devore os seus cedros. ",
-			"2": "<sup class=\"versenum\">2 </sup>Agonize, ó pinheiro, porque o cedro caiue as majestosas árvoresforam devastadas. Agonizem, carvalhos de Basã, pois a floresta densaestá sendo derrubada. ",
-			"3": "<sup class=\"versenum\">3 </sup>Ouçam o gemido dos pastores; os seus formosos pastosforam devastados. Ouçam o rugido dos leões; pois a rica floresta do Jordãofoi destruída. ",
+			"2": "<sup class=\"versenum\">2 </sup>Agonize, ó pinheiro, porque o cedro caiu e as majestosas árvores foram devastadas. Agonizem, carvalhos de Basã, pois a floresta densa está sendo derrubada. ",
+			"3": "<sup class=\"versenum\">3 </sup>Ouçam o gemido dos pastores; os seus formosos pastos foram devastados. Ouçam o rugido dos leões; pois a rica floresta do Jordão foi destruída. ",
 			"4": "<sup class=\"versenum\">4 </sup>Assim diz o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, o meu Deus: “Pastoreie o rebanho destinado à matança, ",
 			"5": "<sup class=\"versenum\">5 </sup>porque os seus compradores o matam e ninguém os castiga. Aqueles que o vendem dizem: ‘Bendito seja o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, estou rico!’ Nem os próprios pastores poupam o rebanho. ",
 			"6": "<sup class=\"versenum\">6 </sup>Por isso, não pouparei mais os habitantes desta terra”, diz o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>. “Entregarei cada um ao seu próximo e ao seu rei. Eles acabarão com a terra e eu não livrarei ninguém das suas mãos”. ",
@@ -189,7 +189,7 @@ var book = {
 			"14": "<sup class=\"versenum\">14 </sup>Depois disso, quebrei minha segunda vara, chamada União, rompendo a relação de irmãos entre Judá e Israel. ",
 			"15": "<sup class=\"versenum\">15 </sup>Então o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> me disse: “Pegue novamente os utensílios de um pastor insensato. ",
 			"16": "<sup class=\"versenum\">16 </sup>Porque levantarei nesta terra um pastor que não se preocupará com as ovelhas perdidas, nem procurará a que está solta, nem curará as machucadas, nem alimentará as sadias, mas comerá a carne das ovelhas mais gordas, arrancando as suas patas. ",
-			"17": "<sup class=\"versenum\">17 </sup>“Ai do pastor imprestável, que abandona o rebanho! Que a espada fira o seu braçoe fure o seu olho direito! Que o seu braço seque completamente, e fique totalmente cego o seu olho direito!”"
+			"17": "<sup class=\"versenum\">17 </sup>“Ai do pastor imprestável, que abandona o rebanho! Que a espada fira o seu braço e fure o seu olho direito! Que o seu braço seque completamente, e fique totalmente cego o seu olho direito!” "
 		},
 		"12": {
 			"1": "<span class=\"chapternum\">12 </span>Esta é a palavra do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> para Israel; palavra do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> que estende o céu, assenta o alicerce da terra e forma o espírito do homem dentro dele: ",
@@ -214,9 +214,9 @@ var book = {
 			"4": "<sup class=\"versenum\">4 </sup>“Naquele dia todo profeta se envergonhará de sua visão profética. Não usará o manto de profeta, feito de pele, para enganar. ",
 			"5": "<sup class=\"versenum\">5 </sup>Ele dirá: ‘Eu não sou profeta. Sou um homem do campo; a terra tem sido o meu sustento desde a minha mocidade’. ",
 			"6": "<sup class=\"versenum\">6 </sup>Se alguém lhe perguntar: ‘Que feridas são estas no seu corpo?’, ele responderá: ‘Fui ferido na casa de meus amigos’. ",
-			"7": "<sup class=\"versenum\">7 </sup>“Levante-se, ó espada, contra o meu pastor, contra o meu companheiro!”, declara o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> dos Exércitos. “Fira o pastor, e as ovelhas se dispersarão, e voltarei minha mãopara os pequeninos. ",
-			"8": "<sup class=\"versenum\">8 </sup>Na terra toda, dois terçosserão ceifados e morrerão; todavia a terça parte permanecerá”, diz o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>. ",
-			"9": "<sup class=\"versenum\">9 </sup>“Colocarei essa terça parte no fogo, e a refinarei como prata, e a purificarei como ouro. Ela invocará o meu nome, e eu lhe responderei. É o meu povo, direi; e ela dirá: ‘O <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> é o meu Deus’.”"
+			"7": "<sup class=\"versenum\">7 </sup>“Levante-se, ó espada, contra o meu pastor, contra o meu companheiro!”, declara o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> dos Exércitos. “Fira o pastor, e as ovelhas se dispersarão, e voltarei minha mão para os pequeninos. ",
+			"8": "<sup class=\"versenum\">8 </sup>Na terra toda, dois terços serão ceifados e morrerão; todavia a terça parte permanecerá”, diz o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>. ",
+			"9": "<sup class=\"versenum\">9 </sup>“Colocarei essa terça parte no fogo, e a refinarei como prata, e a purificarei como ouro. Ela invocará o meu nome, e eu lhe responderei. É o meu povo, direi; e ela dirá: ‘O <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> é o meu Deus’.” "
 		},
 		"14": {
 			"1": "<span class=\"chapternum\">14 </span>Vejam, o dia do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> virá, quando no meio de vocês os seus bens serão divididos. ",

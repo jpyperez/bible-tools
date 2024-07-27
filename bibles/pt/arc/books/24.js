@@ -1241,7 +1241,7 @@ var book = {
 			"8": "<sup class=\"versenum\">8 </sup>Porque virá o destruidor sobre cada uma das cidades, e nenhuma escapará, e perecerá o vale, e destruir-se-á a campina, porque o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> o disse. ",
 			"9": "<sup class=\"versenum\">9 </sup>Dai asas a Moabe, porque, voando, sairá, e as suas cidades se tornarão em assolação, e ninguém morará nelas. ",
 			"10": "<sup class=\"versenum\">10 </sup>Maldito aquele que fizer a obra do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> fraudulentamente! E maldito aquele que preserva a sua espada do sangue! ",
-			"11": "<sup class=\"versenum\">11 </sup>Moabe esteve descansado desde a sua mocidade, e as suas fezes repousaram; não foi mudado de vasilha para vasilha, nem foi para o cativeiro; por isso, conservou o seu sabor, e o seu cheiro não se alterou. ",
+			"11": "<sup class=\"versenum\">11 </sup>Moabe esteve descansado desde a sua mocidade, e as suas fez es repousaram; não foi mudado de vasilha para vasilha, nem foi para o cativeiro; por isso, conservou o seu sabor, e o seu cheiro não se alterou. ",
 			"12": "<sup class=\"versenum\">12 </sup>Portanto, eis que dias vêm, diz o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, em que lhe enviarei derramadores que o farão andar a grandes passos; e despejarão as suas vasilhas e romperão os seus odres. ",
 			"13": "<sup class=\"versenum\">13 </sup>E Moabe terá vergonha de Quemos, como se envergonhou a casa de Israel de Betel, sua confiança. ",
 			"14": "<sup class=\"versenum\">14 </sup>Como direis: Somos valentes e homens fortes para guerra? ",

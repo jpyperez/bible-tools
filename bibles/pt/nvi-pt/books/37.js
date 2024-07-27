@@ -4,7 +4,7 @@ var book = {
 	"chapters": {
 		"1": {
 			"1": "<span class=\"chapternum\">1 </span>No primeiro dia do sexto mês do segundo ano do reinado de Dario, a palavra do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> veio por meio do profeta Ageu ao governador de Judá, Zorobabel, filho de Sealtiel, e ao sumo sacerdote Josué, filho de Jeozadaque, dizendo: ",
-			"2": "<sup class=\"versenum\">2 </sup>“Assim diz o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> dos Exércitos: Este povo afirma: ‘Ainda não chegou o tempo de reconstruir a casa do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>’ ”. ",
+			"2": "<sup class=\"versenum\">2 </sup>“Assim diz o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> dos Exércitos: Este povo afirma: ‘Ainda não chegou o tempo de reconstruir a casa do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>’”. ",
 			"3": "<sup class=\"versenum\">3 </sup>Por isso, a palavra do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> veio novamente por meio do profeta Ageu: ",
 			"4": "<sup class=\"versenum\">4 </sup>“Acaso é tempo de vocês morarem em casas de fino acabamento, enquanto a minha casa continua destruída?” ",
 			"5": "<sup class=\"versenum\">5 </sup>Agora, assim diz o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> dos Exércitos: “Vejam aonde os seus caminhos os levaram. ",
@@ -42,7 +42,7 @@ var book = {
 			"20": "<sup class=\"versenum\">20 </sup>A palavra do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> veio a Ageu pela segunda vez, no vigésimo quarto dia do nono mês: ",
 			"21": "<sup class=\"versenum\">21 </sup>“Diga a Zorobabel, governador de Judá, que eu farei tremer o céu e a terra. ",
 			"22": "<sup class=\"versenum\">22 </sup>Derrubarei tronos e destruirei o poder dos reinos estrangeiros. Virarei os carros e os seus condutores; os cavalos e os seus cavaleiros cairão, cada um pela espada do seu companheiro. ",
-			"23": "<sup class=\"versenum\">23 </sup>“Naquele dia”, declara o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> dos Exércitos, “eu o tomarei, meu servo Zorobabel, filho de Sealtiel”, declara o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, “e farei de você um anel de selar, porque o tenho escolhido”, declara o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> dos Exércitos."
+			"23": "<sup class=\"versenum\">23 </sup>“Naquele dia”, declara o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> dos Exércitos, “eu o tomarei, meu servo Zorobabel, filho de Sealtiel”, declara o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, “e farei de você um anel de selar, porque o tenho escolhido”, declara o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> dos Exércitos. "
 		}
 	}
 };

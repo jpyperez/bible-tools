@@ -20,7 +20,7 @@ var book = {
 			"15": "<sup class=\"versenum\">15 </sup>até que o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> conceda um lugar de descanso para eles, como deu a vocês, e até que eles também tenham tomado posse da terra que o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, o seu Deus, lhes dá. Depois disso vocês poderão voltar e ocupar a sua própria terra, que Moisés, servo do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, lhes deu a leste do Jordão, na direção do nascer do sol”. ",
 			"16": "<sup class=\"versenum\">16 </sup>Então eles responderam a Josué: “Tudo o que você nos ordenar faremos, e aonde quer que nos enviar iremos. ",
 			"17": "<sup class=\"versenum\">17 </sup>Assim como obedecemos totalmente a Moisés, também obedeceremos a você. Somente que o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, o seu Deus, seja com você, como foi com Moisés. ",
-			"18": "<sup class=\"versenum\">18 </sup>Todo aquele que se rebelar contra as suas instruções e não obedecer às suas ordens, seja o que for que você lhe ordenar, será morto. Somente seja forte e corajoso!”"
+			"18": "<sup class=\"versenum\">18 </sup>Todo aquele que se rebelar contra as suas instruções e não obedecer às suas ordens, seja o que for que você lhe ordenar, será morto. Somente seja forte e corajoso!” "
 		},
 		"2": {
 			"1": "<span class=\"chapternum\">2 </span>Então Josué, filho de Num, enviou secretamente de Sitim dois espiões e lhes disse: “Vão examinar a terra, especialmente Jericó”. Eles foram e entraram na casa de uma prostituta chamada Raabe, e ali passaram a noite. ",

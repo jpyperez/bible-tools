@@ -84,7 +84,7 @@ var book = {
 			"16": "<sup class=\"versenum\">16 </sup>Eúde havia feito uma espada de dois gumes, de quarenta e cinco centímetros de comprimento, e a tinha amarrado na coxa direita, debaixo da roupa. ",
 			"17": "<sup class=\"versenum\">17 </sup>Ele entregou o tributo a Eglom, rei de Moabe, homem muito gordo. ",
 			"18": "<sup class=\"versenum\">18 </sup>Em seguida, Eúde mandou embora os carregadores. ",
-			"19": "<sup class=\"versenum\">19 </sup>Junto aos ídolos que estão perto de Gilgal, ele voltou e disse: “Tenho uma mensagem secreta para ti, ó rei”.O rei respondeu: “Calado!” E todos os seus auxiliares saíram de sua presença. ",
+			"19": "<sup class=\"versenum\">19 </sup>Junto aos ídolos que estão perto de Gilgal, ele voltou e disse: “Tenho uma mensagem secreta para ti, ó rei”. OO rei respondeu: “Calado!” E todos os seus auxiliares saíram de sua presença. ",
 			"20": "<sup class=\"versenum\">20 </sup>Eúde aproximou-se do rei, que estava sentado sozinho na sala superior do palácio de verão, e repetiu: “Tenho uma mensagem de Deus para ti”. Quando o rei se levantou do trono, ",
 			"21": "<sup class=\"versenum\">21 </sup>Eúde estendeu a mão esquerda, apanhou a espada de sua coxa direita e cravou-a na barriga do rei. ",
 			"22": "<sup class=\"versenum\">22 </sup>Até o cabo penetrou com a lâmina; e, como não tirou a espada, a gordura se fechou sobre ela. ",
@@ -155,7 +155,7 @@ var book = {
 			"28": "<sup class=\"versenum\">28 </sup>“Pela janela olhava a mãe de Sísera; atrás da grade ela exclamava: ‘Por que o seu carros e demora tanto? Por que custa a chegar o ruído de seus carros?’ ",
 			"29": "<sup class=\"versenum\">29 </sup>As mais sábias de suas damas respondiam, e ela continuava falando consigo mesma: ",
 			"30": "<sup class=\"versenum\">30 </sup>‘Estarão achando e repartindo os despojos? Uma ou duas moças para cada homem, roupas coloridas como despojo para Sísera, roupas coloridas e bordadas, tecidos bordados para o meu pescoço, tudo isso como despojo?’ ",
-			"31": "<sup class=\"versenum\">31 </sup>“Assim pereçam todos os teus inimigos, ó <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>! Mas os que te amam sejam como o sol quando se levanta na sua força”.E a terra teve paz durante quarenta anos."
+			"31": "<sup class=\"versenum\">31 </sup>“Assim pereçam todos os teus inimigos, ó <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>! Mas os que te amam sejam como o sol quando se levanta na sua força”. E a terra teve paz durante quarenta anos."
 		},
 		"6": {
 			"1": "<span class=\"chapternum\">6 </span>De novo os israelitas fizeram o que o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> reprova, e durante sete anos ele os entregou nas mãos dos midianitas. ",
@@ -175,7 +175,7 @@ var book = {
 			"15": "<sup class=\"versenum\">15 </sup>“Ah, Senhor”, respondeu Gideão, “como posso libertar Israel? Meu clã é o menos importante de Manassés, e eu sou o menor da minha família.” ",
 			"16": "<sup class=\"versenum\">16 </sup>“Eu estarei com você”, respondeu o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, “e você derrotará todos os midianitas como se fossem um só homem”. ",
 			"17": "<sup class=\"versenum\">17 </sup>E Gideão prosseguiu: “Se de fato posso contar com o teu favor, dá-me um sinal de que és tu que estás falando comigo. ",
-			"18": "<sup class=\"versenum\">18 </sup>Peço-te que não vás embora até que eu volte e traga minha oferta e a coloque diante de ti”.E o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> respondeu: “Esperarei até você voltar”. ",
+			"18": "<sup class=\"versenum\">18 </sup>Peço-te que não vás embora até que eu volte e traga minha oferta e a coloque diante de ti”. E o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> respondeu: “Esperarei até você voltar”. ",
 			"19": "<sup class=\"versenum\">19 </sup>Gideão foi para casa, preparou um cabrito, e com uma arroba de farinha fez pães sem fermento. Pôs a carne num cesto e o caldo numa panela, trouxe-os para fora e ofereceu-os a ele sob a grande árvore. ",
 			"20": "<sup class=\"versenum\">20 </sup>E o Anjo de Deus lhe disse: “Apanhe a carne e os pães sem fermento, ponha-os sobre esta rocha e derrame o caldo”. Gideão assim o fez. ",
 			"21": "<sup class=\"versenum\">21 </sup>Com a ponta do cajado que estava em sua mão, o Anjo do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> tocou a carne e os pães sem fermento. Fogo subiu da rocha, consumindo a carne e os pães. E o Anjo do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> desapareceu. ",
@@ -223,7 +223,7 @@ var book = {
 			"21": "<sup class=\"versenum\">21 </sup>Cada homem mantinha a sua posição em torno do acampamento, e todos os midianitas fugiam correndo e gritando. ",
 			"22": "<sup class=\"versenum\">22 </sup>Quando as trezentas trombetas soaram, o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> fez que em todo o acampamento os homens se voltassem uns contra os outros com as suas espadas. Mas muitos fugiram para Bete-Sita, na direção de Zererá, até a fronteira de Abel-Meolá, perto de Tabate. ",
 			"23": "<sup class=\"versenum\">23 </sup>Os israelitas de Naftali, de Aser e de todo o Manassés foram convocados, e perseguiram os midianitas. ",
-			"24": "<sup class=\"versenum\">24 </sup>Gideão enviou mensageiros a todos os montes de Efraim, dizendo: “Desçam para atacar os midianitas e cerquem as águas do Jordão à frente deles até Bete-Bara”.Foram, pois, convocados todos os homens de Efraim, e eles ocuparam as águas do Jordão até Bete-Bara. ",
+			"24": "<sup class=\"versenum\">24 </sup>Gideão enviou mensageiros a todos os montes de Efraim, dizendo: “Desçam para atacar os midianitas e cerquem as águas do Jordão à frente deles até Bete-Bara”. Foram, pois, convocados todos os homens de Efraim, e eles ocuparam as águas do Jordão até Bete-Bara. ",
 			"25": "<sup class=\"versenum\">25 </sup>Eles prenderam dois líderes midianitas, Orebe e Zeebe. Mataram Orebe na rocha de Orebe, e Zeebe no tanque de prensar uvas de Zeebe. E, depois de perseguir os midianitas, trouxeram a cabeça de Orebe e a de Zeebe a Gideão, que estava do outro lado do Jordão."
 		},
 		"8": {
@@ -442,7 +442,7 @@ var book = {
 			"11": "<sup class=\"versenum\">11 </sup>Quando ele chegou, trouxeram-lhe trinta rapazes para o acompanharem na festa. ",
 			"12": "<sup class=\"versenum\">12 </sup>“Vou propor-lhes um enigma”, disse-lhes Sansão. “Se vocês puderem dar-me a resposta certa durante os sete dias da festa, então eu lhes darei trinta vestes de linho e trinta mudas de roupas. ",
 			"13": "<sup class=\"versenum\">13 </sup>Se não conseguirem dar-me a resposta, vocês me darão trinta vestes de linho e trinta mudas de roupas.” “Proponha-nos o seu enigma”, disseram. “Vamos ouvi-lo.” ",
-			"14": "<sup class=\"versenum\">14 </sup>Disse ele então: “Do que come saiu comida; do que é forte saiu doçura”.Durante três dias eles não conseguiram dar a resposta. ",
+			"14": "<sup class=\"versenum\">14 </sup>Disse ele então: “Do que come saiu comida; do que é forte saiu doçura”. Durante três dias eles não conseguiram dar a resposta. ",
 			"15": "<sup class=\"versenum\">15 </sup>No quarto dia disseram à mulher de Sansão: “Convença o seu marido a explicar o enigma. Caso contrário, poremos fogo em você e na família de seu pai, e vocês morrerão. Você nos convidou para nos roubar?” ",
 			"16": "<sup class=\"versenum\">16 </sup>Então a mulher de Sansão implorou-lhe aos prantos: “Você me odeia! Você não me ama! Você deu ao meu povo um enigma, mas não me contou a resposta!” “Nem a meu pai nem à minha mãe expliquei o enigma”, respondeu ele. “Por que deveria explicá-lo a você?” ",
 			"17": "<sup class=\"versenum\">17 </sup>Ela chorou durante o restante da semana da festa. Por fim, no sétimo dia, ele lhe contou, pois ela continuava a perturbá-lo. Ela, por sua vez, revelou o enigma ao seu povo. ",
@@ -462,7 +462,7 @@ var book = {
 			"9": "<sup class=\"versenum\">9 </sup>Os filisteus foram para Judá e lá acamparam, espalhando-se pelas proximidades de Leí. ",
 			"10": "<sup class=\"versenum\">10 </sup>Os homens de Judá perguntaram: “Por que vocês vieram lutar contra nós?”Eles responderam: “Queremos levar Sansão amarrado, para tratá-lo como ele nos tratou”. ",
 			"11": "<sup class=\"versenum\">11 </sup>Três mil homens de Judá desceram então à caverna da rocha de Etã e disseram a Sansão: “Você não sabe que os filisteus dominam sobre nós? Você viu o que nos fez?”Ele respondeu: “Fiz a eles apenas o que eles me fizeram”. ",
-			"12": "<sup class=\"versenum\">12 </sup>Disseram-lhe: “Viemos amarrá-lo para entregá-lo aos filisteus”.Sansão disse: “Jurem-me que vocês mesmos não me matarão”. ",
+			"12": "<sup class=\"versenum\">12 </sup>Disseram-lhe: “Viemos amarrá-lo para entregá-lo aos filisteus”. Sansão disse: “Jurem-me que vocês mesmos não me matarão”. ",
 			"13": "<sup class=\"versenum\">13 </sup>“Certamente que não!”, responderam. “Somente vamos amarrá-lo e entregá-lo nas mãos deles. Não o mataremos.” E o prenderam com duas cordas novas e o fizeram sair da rocha. ",
 			"14": "<sup class=\"versenum\">14 </sup>Quando ia chegando a Leí, os filisteus foram ao encontro dele aos gritos. Mas o Espírito do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> apossou-se dele. As cordas em seus braços se tornaram como fibra de linho queimada, e os laços caíram das suas mãos. ",
 			"15": "<sup class=\"versenum\">15 </sup>Encontrando a carcaça de um jumento, pegou a queixada e com ela matou mil homens. ",
@@ -485,7 +485,7 @@ var book = {
 			"10": "<sup class=\"versenum\">10 </sup>Disse Dalila a Sansão: “Você me fez de boba; mentiu para mim! Agora conte-me, por favor, como você pode ser amarrado”. ",
 			"11": "<sup class=\"versenum\">11 </sup>Ele disse: “Se me amarrarem firmemente com cordas que nunca tenham sido usadas, ficarei tão fraco quanto qualquer outro homem”. ",
 			"12": "<sup class=\"versenum\">12 </sup>Dalila o amarrou com cordas novas. Depois, tendo homens escondidos no quarto, ela o chamou: “Sansão, os filisteus o estão atacando!” Mas ele arrebentou as cordas de seus braços como se fossem uma linha. ",
-			"13": "<sup class=\"versenum\">13 </sup>Disse Dalila a Sansão: “Até agora você me fez de boba e mentiu para mim. Diga-me como pode ser amarrado”.Ele respondeu: “Se você tecer num pano as sete tranças da minha cabeça e o prender com uma lançadeira, ficarei tão fraco quanto qualquer outro homem”. Assim, enquanto ele dormia, Dalila teceu as sete tranças da sua cabeça num pano ",
+			"13": "<sup class=\"versenum\">13 </sup>Disse Dalila a Sansão: “Até agora você me fez de boba e mentiu para mim. Diga-me como pode ser amarrado”. Ele respondeu: “Se você tecer num pano as sete tranças da minha cabeça e o prender com uma lançadeira, ficarei tão fraco quanto qualquer outro homem”. Assim, enquanto ele dormia, Dalila teceu as sete tranças da sua cabeça num pano ",
 			"14": "<sup class=\"versenum\">14 </sup>e o prendeu com a lançadeira. Novamente ela o chamou: “Sansão, os filisteus o estão atacando!” Ele despertou do sono e arrancou a lançadeira e o tear, com os fios. ",
 			"15": "<sup class=\"versenum\">15 </sup>Então ela lhe disse: “Como você pode dizer que me ama, se não confia em mim? Esta é a terceira vez que você me fez de boba e não contou o segredo da sua grande força”. ",
 			"16": "<sup class=\"versenum\">16 </sup>Importunando-o o tempo todo, ela o cansava dia após dia, ficando ele a ponto de morrer. ",
@@ -507,7 +507,7 @@ var book = {
 		},
 		"17": {
 			"1": "<span class=\"chapternum\">17 </span>Havia um homem chamado Mica, dos montes de Efraim, ",
-			"2": "<sup class=\"versenum\">2 </sup>que disse certa vez à sua mãe: “Os treze quilos de prata que lhe foram roubados e pelos quais eu a ouvi pronunciar uma maldição, na verdade a prata está comigo; eu a peguei”.Disse-lhe sua mãe: “O <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> o abençoe, meu filho!” ",
+			"2": "<sup class=\"versenum\">2 </sup>que disse certa vez à sua mãe: “Os treze quilos de prata que lhe foram roubados e pelos quais eu a ouvi pronunciar uma maldição, na verdade a prata está comigo; eu a peguei”. Disse-lhe sua mãe: “O <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> o abençoe, meu filho!” ",
 			"3": "<sup class=\"versenum\">3 </sup>Quando ele devolveu os treze quilos de prata à mãe, ela disse: “Consagro solenemente a minha prata ao <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> para que o meu filho faça uma imagem esculpida e um ídolo de metal. Eu a devolvo a você”. ",
 			"4": "<sup class=\"versenum\">4 </sup>Mas ele devolveu a prata à sua mãe, e ela separou dois quilos e quatrocentos gramas, e os deu a um ourives, que deles fez a imagem e o ídolo. E estes foram postos na casa de Mica. ",
 			"5": "<sup class=\"versenum\">5 </sup>Ora, esse homem, Mica, possuía um santuário, fez um manto sacerdotal e alguns ídolos da família e pôs um dos seus filhos como seu sacerdote. ",
@@ -522,7 +522,7 @@ var book = {
 		},
 		"18": {
 			"1": "<span class=\"chapternum\">18 </span>Naquela época não havia rei em Israel, e a tribo de Dã estava procurando um local onde estabelecer-se, pois ainda não tinha recebido herança entre as tribos de Israel. ",
-			"2": "<sup class=\"versenum\">2 </sup>Então enviaram cinco guerreiros de Zorá e de Estaol para espionarem a terra e explorá-la. Esses homens representavam todos os clãs da tribo. Disseram-lhes: “Vão, explorem a terra”.Os homens chegaram aos montes de Efraim e foram à casa de Mica, onde passaram a noite. ",
+			"2": "<sup class=\"versenum\">2 </sup>Então enviaram cinco guerreiros de Zorá e de Estaol para espionarem a terra e explorá-la. Esses homens representavam todos os clãs da tribo. Disseram-lhes: “Vão, explorem a terra”. Os homens chegaram aos montes de Efraim e foram à casa de Mica, onde passaram a noite. ",
 			"3": "<sup class=\"versenum\">3 </sup>Quando estavam perto da casa de Mica, reconheceram a voz do jovem levita; aproximaram-se e lhe perguntaram: “Quem o trouxe para cá? O que você está fazendo neste lugar? Por que você está aqui?” ",
 			"4": "<sup class=\"versenum\">4 </sup>O jovem lhes contou o que Mica fizera por ele, e disse: “Ele me contratou, e eu sou seu sacerdote”. ",
 			"5": "<sup class=\"versenum\">5 </sup>Então eles lhe pediram: “Pergunte a Deus se a nossa viagem será bem-sucedida”. ",
@@ -583,7 +583,7 @@ var book = {
 			"27": "<sup class=\"versenum\">27 </sup>Quando o seu senhor se levantou de manhã, abriu a porta da casa e saiu para prosseguir viagem, lá estava a sua concubina, caída à entrada da casa, com as mãos na soleira da porta. ",
 			"28": "<sup class=\"versenum\">28 </sup>Ele lhe disse: “Levante-se, vamos!” Não houve resposta. Então o homem a pôs em seu jumento e foi para casa. ",
 			"29": "<sup class=\"versenum\">29 </sup>Quando chegou, apanhou uma faca e cortou o corpo da sua concubina em doze partes, e as enviou a todas as regiões de Israel. ",
-			"30": "<sup class=\"versenum\">30 </sup>Todos os que viram isso disseram: “Nunca se viu nem se fez uma coisa dessas desde o dia em que os israelitas saíram do Egito. Pensem! Reflitam! Digam o que se deve fazer!”"
+			"30": "<sup class=\"versenum\">30 </sup>Todos os que viram isso disseram: “Nunca se viu nem se fez uma coisa dessas desde o dia em que os israelitas saíram do Egito. Pensem! Reflitam! Digam o que se deve fazer!” "
 		},
 		"20": {
 			"1": "<span class=\"chapternum\">20 </span>Então todos os israelitas, de Dã a Berseba, e de Gileade, saíram como um só homem e se reuniram em assembleia perante o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, em Mispá. ",
@@ -598,7 +598,7 @@ var book = {
 			"10": "<sup class=\"versenum\">10 </sup>de cada cem homens dez, de cada mil homens cem, de cada dez mil homens mil, para conseguirem provisões para o exército poder chegar a Gibeá de Benjamim e dar a eles o que merecem por esse ato vergonhoso cometido em Israel”. ",
 			"11": "<sup class=\"versenum\">11 </sup>E todos os israelitas se ajuntaram e se uniram como um só homem contra a cidade. ",
 			"12": "<sup class=\"versenum\">12 </sup>As tribos de Israel enviaram homens a toda a tribo de Benjamim, dizendo: “O que vocês dizem dessa maldade terrível que foi cometida no meio de vocês? ",
-			"13": "<sup class=\"versenum\">13 </sup>Agora, entreguem esses canalhas de Gibeá, para que os matemos e eliminemos esse mal de Israel”.Mas os benjamitas não quiseram ouvir seus irmãos israelitas. ",
+			"13": "<sup class=\"versenum\">13 </sup>Agora, entreguem esses canalhas de Gibeá, para que os matemos e eliminemos esse mal de Israel”. Mas os benjamitas não quiseram ouvir seus irmãos israelitas. ",
 			"14": "<sup class=\"versenum\">14 </sup>Vindos de suas cidades, reuniram-se em Gibeá para lutar contra os israelitas. ",
 			"15": "<sup class=\"versenum\">15 </sup>Naquele dia os benjamitas mobilizaram vinte e seis mil homens armados de espada que vieram das suas cidades, além dos setecentos melhores soldados que viviam em Gibeá. ",
 			"16": "<sup class=\"versenum\">16 </sup>Dentre todos esses soldados havia setecentos canhotos, muito hábeis, e cada um deles podia atirar com a funda uma pedra num cabelo sem errar. ",

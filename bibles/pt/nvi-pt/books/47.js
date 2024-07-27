@@ -18,7 +18,7 @@ var book = {
 			"13": "<sup class=\"versenum\">13 </sup>Pois nada lhes escrevemos que vocês não sejam capazes de ler ou entender. E espero que, ",
 			"14": "<sup class=\"versenum\">14 </sup>assim como vocês nos entenderam em parte, venham a entender plenamente que podem orgulhar-se de nós, assim como nos orgulharemos de vocês no dia do Senhor Jesus. ",
 			"15": "<sup class=\"versenum\">15 </sup>Confiando nisso, e para que vocês fossem duplamente beneficiados, planejava primeiro visitá-los ",
-			"16": "<sup class=\"versenum\">16 </sup>em minha ida à Macedônia e voltar a vocês vindo de lá, para que me ajudassem em minha viagem para a Judéia. ",
+			"16": "<sup class=\"versenum\">16 </sup>em minha ida à Macedônia e voltar a vocês vindo de lá, para que me ajudassem em minha viagem para a Judeia. ",
 			"17": "<sup class=\"versenum\">17 </sup>Quando planejei isso, será que o fiz levianamente? Ou será que faço meus planos de modo mundano, dizendo ao mesmo tempo “sim” e “não”? ",
 			"18": "<sup class=\"versenum\">18 </sup>Todavia, como Deus é fiel, nossa mensagem a vocês não é “sim” e “não”, ",
 			"19": "<sup class=\"versenum\">19 </sup>pois o Filho de Deus, Jesus Cristo, pregado entre vocês por mim e também por Silvano e Timóteo, não foi “sim” e “não”, mas nele sempre houve “sim”; ",
@@ -38,7 +38,7 @@ var book = {
 			"7": "<sup class=\"versenum\">7 </sup>Agora, ao contrário, vocês devem perdoar-lhe e consolá-lo, para que ele não seja dominado por excessiva tristeza. ",
 			"8": "<sup class=\"versenum\">8 </sup>Portanto, eu lhes recomendo que reafirmem o amor que têm por ele. ",
 			"9": "<sup class=\"versenum\">9 </sup>Eu lhes escrevi com o propósito de saber se vocês seriam aprovados, isto é, se seriam obedientes em tudo. ",
-			"10": "<sup class=\"versenum\">10 </sup>Se vocês perdoam a alguém, eu também perdôo; e aquilo que perdoei, se é que havia alguma coisa para perdoar, perdoei na presença de Cristo, por amor a vocês, ",
+			"10": "<sup class=\"versenum\">10 </sup>Se vocês perdoam a alguém, eu também perdoo; e aquilo que perdoei, se é que havia alguma coisa para perdoar, perdoei na presença de Cristo, por amor a vocês, ",
 			"11": "<sup class=\"versenum\">11 </sup>a fim de que Satanás não tivesse vantagem sobre nós; pois não ignoramos as suas intenções. ",
 			"12": "<sup class=\"versenum\">12 </sup>Quando cheguei a Trôade para pregar o evangelho de Cristo e vi que o Senhor me havia aberto uma porta, ",
 			"13": "<sup class=\"versenum\">13 </sup>ainda assim, não tive sossego em meu espírito, porque não encontrei ali meu irmão Tito. Por isso, despedi-me deles e fui para a Macedônia. ",
@@ -112,7 +112,7 @@ var book = {
 		},
 		"6": {
 			"1": "<span class=\"chapternum\">6 </span>Como cooperadores de Deus, insistimos com vocês para não receberem em vão a graça de Deus. ",
-			"2": "<sup class=\"versenum\">2 </sup>Pois ele diz: “Eu o ouvi no tempo favorávele o socorri no dia da salvação”.Digo-lhes que agora é o tempo favorável, agora é o dia da salvação! ",
+			"2": "<sup class=\"versenum\">2 </sup>Pois ele diz: “Eu o ouvi no tempo favorável e o socorri no dia da salvação”. Digo-lhes que agora é o tempo favorável, agora é o dia da salvação! ",
 			"3": "<sup class=\"versenum\">3 </sup>Não damos motivo de escândalo a ninguém, em circunstância alguma, para que o nosso ministério não caia em descrédito. ",
 			"4": "<sup class=\"versenum\">4 </sup>Ao contrário, como servos de Deus, recomendamo-nos de todas as formas: em muita perseverança; em sofrimentos, privações e tristezas; ",
 			"5": "<sup class=\"versenum\">5 </sup>em açoites, prisões e tumultos; em trabalhos árduos, noites sem dormir e jejuns; ",
@@ -127,7 +127,7 @@ var book = {
 			"14": "<sup class=\"versenum\">14 </sup>Não se ponham em jugo desigual com descrentes. Pois o que têm em comum a justiça e a maldade? Ou que comunhão pode ter a luz com as trevas? ",
 			"15": "<sup class=\"versenum\">15 </sup>Que harmonia entre Cristo e Belial? Que há de comum entre o crente e o descrente? ",
 			"16": "<sup class=\"versenum\">16 </sup>Que acordo há entre o templo de Deus e os ídolos? Pois somos santuário do Deus vivo. Como disse Deus: “Habitarei com eles e entre eles andarei; serei o seu Deus, e eles serão o meu povo”. ",
-			"17": "<sup class=\"versenum\">17 </sup>Portanto, “saiam do meio deles e separem-se”, diz o Senhor. “Não toquemem coisas impuras, e eu os receberei” ",
+			"17": "<sup class=\"versenum\">17 </sup>Portanto, “saiam do meio deles e separem-se”, diz o Senhor. “Não toquem em coisas impuras, e eu os receberei” ",
 			"18": "<sup class=\"versenum\">18 </sup>“e lhes serei Pai, e vocês serão meus filhos e minhas filhas”, diz o Senhor todo-poderoso."
 		},
 		"7": {

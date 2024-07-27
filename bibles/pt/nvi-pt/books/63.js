@@ -3,7 +3,7 @@ var book = {
 	"numChapters": 1,
 	"chapters": {
 		"1": {
-			"1": "<sup class=\"versenum\">1 </sup>O presbíteroà senhora eleita e aos seus filhos, a quem amo na verdade, — e não apenas eu os amo, mas também todos os que conhecem a verdade — ",
+			"1": "<sup class=\"versenum\">1 </sup>O presbítero à senhora eleita e aos seus filhos, a quem amo na verdade, — e não apenas eu os amo, mas também todos os que conhecem a verdade — ",
 			"2": "<sup class=\"versenum\">2 </sup>por causa da verdade que permanece em nós e estará conosco para sempre. ",
 			"3": "<sup class=\"versenum\">3 </sup>A graça, a misericórdia e a paz da parte de Deus Pai e de Jesus Cristo, seu Filho, estarão conosco em verdade e em amor. ",
 			"4": "<sup class=\"versenum\">4 </sup>Ao encontrar alguns dos seus filhos, muito me alegrei, pois eles estão andando na verdade, conforme o mandamento que recebemos do Pai. ",

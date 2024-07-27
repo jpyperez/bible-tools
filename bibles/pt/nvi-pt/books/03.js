@@ -255,7 +255,7 @@ var book = {
 		"10": {
 			"1": "<span class=\"chapternum\">10 </span>Nadabe e Abiú, filhos de Arão, pegaram cada um o seu incensário, nos quais acenderam fogo, acrescentaram incenso, e trouxeram fogo profano perante o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, sem que tivessem sido autorizados. ",
 			"2": "<sup class=\"versenum\">2 </sup>Então saiu fogo da presença do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> e os consumiu. Morreram perante o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>. ",
-			"3": "<sup class=\"versenum\">3 </sup>Moisés então disse a Arão: “Foi isto que o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> disse: ‘Aos que de mim se aproximam santo me mostrarei;à vista de todo o povo glorificado serei’ ”.Arão, porém, ficou em silêncio. ",
+			"3": "<sup class=\"versenum\">3 </sup>Moisés então disse a Arão: “Foi isto que o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> disse: ‘Aos que de mim se aproximam santo me mostrarei;à vista de todo o povo glorificado serei’ ”. Arão, porém, ficou em silêncio. ",
 			"4": "<sup class=\"versenum\">4 </sup>Então Moisés chamou Misael e Elzafã, filhos de Uziel, tio de Arão, e lhes disse: “Venham cá; tirem os seus primos da frente do santuário e levem-nos para fora do acampamento”. ",
 			"5": "<sup class=\"versenum\">5 </sup>Eles foram e os puxaram pelas túnicas, para fora do acampamento, conforme Moisés tinha ordenado. ",
 			"6": "<sup class=\"versenum\">6 </sup>Então Moisés disse a Arão e a seus filhos Eleazar e Itamar: “Não andem descabelados, nem rasguem as roupas em sinal de luto, senão vocês morrerão e a ira do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> cairá sobre toda a comunidade. Mas os seus parentes, e toda a nação de Israel, poderão chorar por aqueles que o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> destruiu pelo fogo. ",
@@ -522,7 +522,7 @@ var book = {
 			"31": "<sup class=\"versenum\">31 </sup>Este lhes será um sábado de descanso, quando vocês se humilharão; é um decreto perpétuo. ",
 			"32": "<sup class=\"versenum\">32 </sup>O sacerdote que for ungido e ordenado para suceder seu pai como sumo sacerdote fará a propiciação. Porá as vestes sagradas de linho ",
 			"33": "<sup class=\"versenum\">33 </sup>e fará propiciação pelo Lugar Santíssimo, pela Tenda do Encontro, pelo altar, por todos os sacerdotes e por todo o povo da assembleia. ",
-			"34": "<sup class=\"versenum\">34 </sup>“Este é um decreto perpétuo para vocês: A propiciação será feita uma vez por ano, por todos os pecados dos israelitas”.E tudo foi feito conforme o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> tinha ordenado a Moisés."
+			"34": "<sup class=\"versenum\">34 </sup>“Este é um decreto perpétuo para vocês: A propiciação será feita uma vez por ano, por todos os pecados dos israelitas”. E tudo foi feito conforme o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> tinha ordenado a Moisés."
 		},
 		"17": {
 			"1": "<span class=\"chapternum\">17 </span>O <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> disse a Moisés: ",

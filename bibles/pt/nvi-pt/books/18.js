@@ -14,7 +14,7 @@ var book = {
 			"9": "<sup class=\"versenum\">9 </sup>“Será que Jó não tem razões para temer a Deus?”, respondeu Satanás. ",
 			"10": "<sup class=\"versenum\">10 </sup>“Acaso não puseste uma cerca em volta dele, da família dele e de tudo o que ele possui? Tu mesmo tens abençoado tudo o que ele faz, de modo que os seus rebanhos estão espalhados por toda a terra. ",
 			"11": "<sup class=\"versenum\">11 </sup>Mas estende a tua mão e fere tudo o que ele tem, e com certeza ele te amaldiçoará na tua face.” ",
-			"12": "<sup class=\"versenum\">12 </sup>O <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> disse a Satanás: “Pois bem, tudo o que ele possui está nas suas mãos; apenas não toque nele”.Então Satanás saiu da presença do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>. ",
+			"12": "<sup class=\"versenum\">12 </sup>O <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> disse a Satanás: “Pois bem, tudo o que ele possui está nas suas mãos; apenas não toque nele”. Então Satanás saiu da presença do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>. ",
 			"13": "<sup class=\"versenum\">13 </sup>Certo dia, quando os filhos e as filhas de Jó estavam num banquete, comendo e bebendo vinho na casa do irmão mais velho, ",
 			"14": "<sup class=\"versenum\">14 </sup>um mensageiro veio dizer a Jó: “Os bois estavam arando e os jumentos estavam pastando por perto, ",
 			"15": "<sup class=\"versenum\">15 </sup>quando os sabeus os atacaram e os levaram embora. Mataram à espada os empregados, e eu fui o único que escapou para lhe contar!” ",
@@ -83,7 +83,7 @@ var book = {
 			"11": "<sup class=\"versenum\">11 </sup>O leão morre por falta de presa, e os filhotes da leoa se dispersam. ",
 			"12": "<sup class=\"versenum\">12 </sup>“Disseram-me uma palavra em segredo, da qual os meus ouvidos captaram um murmúrio. ",
 			"13": "<sup class=\"versenum\">13 </sup>Em meio a sonhos perturbadores da noite, quando cai sono profundo sobre os homens, ",
-			"14": "<sup class=\"versenum\">14 </sup>temor e tremor se apoderaram de mime fizeram estremecer todos os meus ossos. ",
+			"14": "<sup class=\"versenum\">14 </sup>temor e tremor se apoderaram de mim e fizeram estremecer todos os meus ossos. ",
 			"15": "<sup class=\"versenum\">15 </sup>Um espírito roçou o meu rosto, e os pelos do meu corpo se arrepiaram. ",
 			"16": "<sup class=\"versenum\">16 </sup>Ele parou, mas não pude identificá-lo. Um vulto se pôs diante dos meus olhos, e ouvi uma voz suave, que dizia: ",
 			"17": "<sup class=\"versenum\">17 </sup>‘Poderá algum mortal ser mais justo que Deus? Poderá algum homem ser mais puro que o seu Criador? ",
@@ -254,7 +254,7 @@ var book = {
 			"14": "<sup class=\"versenum\">14 </sup>Se eu pecasse, estarias me observando e não deixarias sem punição a minha ofensa. ",
 			"15": "<sup class=\"versenum\">15 </sup>Se eu fosse culpado, ai de mim! Mesmo sendo inocente, não posso erguer a cabeça, pois estou dominado pela vergonha e mergulhado na minha aflição. ",
 			"16": "<sup class=\"versenum\">16 </sup>Se mantenho a cabeça erguida, ficas à minha espreita como um leão, e de novo manifestas contra mimo teu poder tremendo. ",
-			"17": "<sup class=\"versenum\">17 </sup>Trazes novas testemunhas contra mime contra mim aumentas a tua ira; teus exércitos atacam-me em batalhões sucessivos. ",
+			"17": "<sup class=\"versenum\">17 </sup>Trazes novas testemunhas contra mim e contra mim aumentas a tua ira; teus exércitos atacam-me em batalhões sucessivos. ",
 			"18": "<sup class=\"versenum\">18 </sup>“Então, por que me fizeste sair do ventre? Eu preferia ter morrido antes que alguém pudesse ver-me. ",
 			"19": "<sup class=\"versenum\">19 </sup>Se tão-somente eu jamais tivesse existido, ou fosse levado direto do ventre para a sepultura! ",
 			"20": "<sup class=\"versenum\">20 </sup>Já estariam no fim os meus poucos dias? Afasta-te de mim, para que eu tenha um instante de alegria, ",
@@ -441,7 +441,7 @@ var book = {
 			"13": "<sup class=\"versenum\">13 </sup>Ora, se o único lar pelo qual espero é a sepultura, se estendo a minha cama nas trevas, ",
 			"14": "<sup class=\"versenum\">14 </sup>se digo à corrupção mortal: Você é o meu pai, e se aos vermes digo: Vocês são minha mãe e minha irmã, ",
 			"15": "<sup class=\"versenum\">15 </sup>onde está então minha esperança? Quem poderá ver alguma esperança para mim? ",
-			"16": "<sup class=\"versenum\">16 </sup>Descerá ela às portas do Sheol? Desceremos juntos ao pó?”"
+			"16": "<sup class=\"versenum\">16 </sup>Descerá ela às portas do Sheol? Desceremos juntos ao pó?” "
 		},
 		"18": {
 			"1": "<span class=\"chapternum\">18 </span>Então Bildade, de Suá, respondeu: ",
@@ -471,7 +471,7 @@ var book = {
 			"2": "<sup class=\"versenum\">2 </sup>“Até quando vocês continuarão a atormentar-me, e a esmagar-me com palavras? ",
 			"3": "<sup class=\"versenum\">3 </sup>Vocês já me repreenderam dez vezes; não se envergonham de agredir-me! ",
 			"4": "<sup class=\"versenum\">4 </sup>Se é verdade que me desviei, meu erro só interessa a mim. ",
-			"5": "<sup class=\"versenum\">5 </sup>Se de fato vocês se exaltam acima de mime usam contra mima minha humilhação, ",
+			"5": "<sup class=\"versenum\">5 </sup>Se de fato vocês se exaltam acima de mim e usam contra mima minha humilhação, ",
 			"6": "<sup class=\"versenum\">6 </sup>saibam que foi Deus que me tratou male me envolveu em sua rede. ",
 			"7": "<sup class=\"versenum\">7 </sup>“Se grito: É injustiça! Não obtenho resposta; clamo por socorro, todavia não há justiça. ",
 			"8": "<sup class=\"versenum\">8 </sup>Ele bloqueou o meu caminho, e não consigo passar; cobriu de trevas as minhas veredas. ",
@@ -484,7 +484,7 @@ var book = {
 			"15": "<sup class=\"versenum\">15 </sup>Os meus hóspedes e as minhas servas consideram-me estrangeiro; veem-me como um estranho. ",
 			"16": "<sup class=\"versenum\">16 </sup>Chamo o meu servo, mas ele não me responde, ainda que eu lhe implore pessoalmente. ",
 			"17": "<sup class=\"versenum\">17 </sup>Minha mulher acha repugnante o meu hálito; meus próprios irmãos têm nojo de mim. ",
-			"18": "<sup class=\"versenum\">18 </sup>Até os meninos zombam de mime dão risada quando apareço. ",
+			"18": "<sup class=\"versenum\">18 </sup>Até os meninos zombam de mim e dão risada quando apareço. ",
 			"19": "<sup class=\"versenum\">19 </sup>Todos os meus amigos chegados me detestam; aqueles a quem amo voltaram-se contra mim. ",
 			"20": "<sup class=\"versenum\">20 </sup>Não passo de pele e ossos; escapei só com a pele dos meus dentes. ",
 			"21": "<sup class=\"versenum\">21 </sup>“Misericórdia, meus amigos! Misericórdia! Pois a mão de Deus me feriu. ",
@@ -562,7 +562,7 @@ var book = {
 			"31": "<sup class=\"versenum\">31 </sup>Quem o acusa, lançando em rosto a sua conduta? Quem lhe retribui o mal que fez? ",
 			"32": "<sup class=\"versenum\">32 </sup>Pois o levam para o túmulo, e vigiam a sua sepultura. ",
 			"33": "<sup class=\"versenum\">33 </sup>Para ele é macio o terreno do vale; todos o seguem, e uma multidão incontável o precede. ",
-			"34": "<sup class=\"versenum\">34 </sup>“Por isso, como podem vocês consolar-me com esses absurdos? O que sobra das suas respostas é pura falsidade!”"
+			"34": "<sup class=\"versenum\">34 </sup>“Por isso, como podem vocês consolar-me com esses absurdos? O que sobra das suas respostas é pura falsidade!” "
 		},
 		"22": {
 			"1": "<span class=\"chapternum\">22 </span>Então, Elifaz, de Temã, respondeu: ",
@@ -640,7 +640,7 @@ var book = {
 			"22": "<sup class=\"versenum\">22 </sup>Mas Deus, por seu poder, os arranca; embora firmemente estabelecidos, a vida deles não tem segurança. ",
 			"23": "<sup class=\"versenum\">23 </sup>Ele poderá deixá-los descansar, sentindo-se seguros, mas atento os vigia nos caminhos que seguem. ",
 			"24": "<sup class=\"versenum\">24 </sup>Por um breve instante são exaltados, e depois se vão, colhidos como todos os demais, ceifados como espigas de cereal. ",
-			"25": "<sup class=\"versenum\">25 </sup>“Se não é assim, quem poderá provar que minto e reduzir a nada as minhas palavras?”"
+			"25": "<sup class=\"versenum\">25 </sup>“Se não é assim, quem poderá provar que minto e reduzir a nada as minhas palavras?” "
 		},
 		"25": {
 			"1": "<span class=\"chapternum\">25 </span>Então Bildade, de Suá, respondeu: ",
@@ -648,7 +648,7 @@ var book = {
 			"3": "<sup class=\"versenum\">3 </sup>Seria possível contar os seus exércitos? E a sua luz, sobre quem não se levanta? ",
 			"4": "<sup class=\"versenum\">4 </sup>Como pode então o homem ser justo diante de Deus? Como pode ser puro quem nasce de mulher? ",
 			"5": "<sup class=\"versenum\">5 </sup>Se nem a lua é brilhante e nem as estrelas são puras aos olhos dele, ",
-			"6": "<sup class=\"versenum\">6 </sup>muito menos o será o homem, que não passa de larva, o filho do homem, que não passa de verme!”"
+			"6": "<sup class=\"versenum\">6 </sup>muito menos o será o homem, que não passa de larva, o filho do homem, que não passa de verme!” "
 		},
 		"26": {
 			"1": "<span class=\"chapternum\">26 </span>Então Jó respondeu: ",
@@ -664,7 +664,7 @@ var book = {
 			"11": "<sup class=\"versenum\">11 </sup>As colunas dos céus estremecem e ficam perplexas diante da sua repreensão. ",
 			"12": "<sup class=\"versenum\">12 </sup>Com seu poder agitou violentamente o mar; com sua sabedoria despedaçou o Monstro dos Mares. ",
 			"13": "<sup class=\"versenum\">13 </sup>Com seu sopro os céus ficaram límpidos; sua mão feriu a serpente arisca. ",
-			"14": "<sup class=\"versenum\">14 </sup>E isso tudo é apenas a borda de suas obras! Um suave sussurro é o que ouvimos dele. Mas quem poderá compreender o trovão do seu poder?”"
+			"14": "<sup class=\"versenum\">14 </sup>E isso tudo é apenas a borda de suas obras! Um suave sussurro é o que ouvimos dele. Mas quem poderá compreender o trovão do seu poder?” "
 		},
 		"27": {
 			"1": "<span class=\"chapternum\">27 </span>E Jó prosseguiu em seu discurso: ",
@@ -819,9 +819,9 @@ var book = {
 			"35": "<sup class=\"versenum\">35 </sup>(“Ah, se alguém me ouvisse! Agora assino a minha defesa. Que o Todo-poderoso me responda; que o meu acusador faça a denúncia por escrito. ",
 			"36": "<sup class=\"versenum\">36 </sup>Eu bem que a levaria nos ombros e a usaria como coroa. ",
 			"37": "<sup class=\"versenum\">37 </sup>Eu lhe falaria sobre todos os meus passos; como um príncipe eu me aproximaria dele.) ",
-			"38": "<sup class=\"versenum\">38 </sup>“Se a minha terra se queixar de mime todos os seus sulcos chorarem, ",
+			"38": "<sup class=\"versenum\">38 </sup>“Se a minha terra se queixar de mim e todos os seus sulcos chorarem, ",
 			"39": "<sup class=\"versenum\">39 </sup>se consumi os seus produtos sem nada pagar, ou se causei desânimo aos seus ocupantes, ",
-			"40": "<sup class=\"versenum\">40 </sup>que me venham espinhos em lugar de trigo e ervas daninhas em lugar de cevada”.Aqui terminam as palavras de Jó."
+			"40": "<sup class=\"versenum\">40 </sup>que me venham espinhos em lugar de trigo e ervas daninhas em lugar de cevada”. Aqui terminam as palavras de Jó."
 		},
 		"32": {
 			"1": "<span class=\"chapternum\">32 </span>Então esses três homens pararam de responder a Jó, pois este se julgava justo. ",
@@ -843,7 +843,7 @@ var book = {
 			"17": "<sup class=\"versenum\">17 </sup>Também vou dar a minha opinião, também vou dizer o que sei, ",
 			"18": "<sup class=\"versenum\">18 </sup>pois não me faltam palavras, e dentro de mim o espírito me impulsiona. ",
 			"19": "<sup class=\"versenum\">19 </sup>Por dentro estou como vinho arrolhado, como odres novos prestes a romper. ",
-			"20": "<sup class=\"versenum\">20 </sup>Tenho que falar; isso me aliviará.Tenho que abrir os lábios e responder. ",
+			"20": "<sup class=\"versenum\">20 </sup>Tenho que falar; isso me aliviará. Tenho que abrir os lábios e responder. ",
 			"21": "<sup class=\"versenum\">21 </sup>Não serei parcial com ninguém, e a ninguém bajularei, ",
 			"22": "<sup class=\"versenum\">22 </sup>porque não sou bom em bajular; se fosse, o meu Criador em breve me levaria."
 		},
@@ -998,7 +998,7 @@ var book = {
 			"21": "<sup class=\"versenum\">21 </sup>Ninguém pode olhar para o fulgor do sol nos céus, depois que o vento os clareia. ",
 			"22": "<sup class=\"versenum\">22 </sup>Do norte vem luz dourada; Deus vem em temível majestade. ",
 			"23": "<sup class=\"versenum\">23 </sup>Fora de nosso alcance está o Todo-poderoso, exaltado em poder; mas, em sua justiça e retidão, não oprime ninguém. ",
-			"24": "<sup class=\"versenum\">24 </sup>Por isso os homens o temem; não dá ele atenção a todos os sábios de coração?”"
+			"24": "<sup class=\"versenum\">24 </sup>Por isso os homens o temem; não dá ele atenção a todos os sábios de coração?” "
 		},
 		"38": {
 			"1": "<span class=\"chapternum\">38 </span>Então o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> respondeu a Jó do meio da tempestade e disse: ",
@@ -1068,7 +1068,7 @@ var book = {
 			"22": "<sup class=\"versenum\">22 </sup>Ele ri do medo e nada teme; não recua diante da espada. ",
 			"23": "<sup class=\"versenum\">23 </sup>A aljava balança ao seu lado, com a lança e o dardo flamejantes. ",
 			"24": "<sup class=\"versenum\">24 </sup>Num furor frenético ele devora o chão; não consegue esperar pelo toque da trombeta. ",
-			"25": "<sup class=\"versenum\">25 </sup>Ao ouvi-lo, ele relincha: ‘Eia!’De longe sente cheiro de combate, o brado de comando e o grito de guerra. ",
+			"25": "<sup class=\"versenum\">25 </sup>Ao ouvi-lo, ele relincha: ‘Eia!’ De longe sente cheiro de combate, o brado de comando e o grito de guerra. ",
 			"26": "<sup class=\"versenum\">26 </sup>“É graças à inteligência que você tem que o falcão alça voo e estende as asas rumo ao sul? ",
 			"27": "<sup class=\"versenum\">27 </sup>É por sua ordem, que a águia se eleva e no alto constrói o seu ninho? ",
 			"28": "<sup class=\"versenum\">28 </sup>Um penhasco é sua morada, e ali passa a noite; uma escarpa rochosa é a sua fortaleza. ",
@@ -1140,7 +1140,7 @@ var book = {
 		"42": {
 			"1": "<span class=\"chapternum\">42 </span>Então Jó respondeu ao <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>: ",
 			"2": "<sup class=\"versenum\">2 </sup>“Sei que podes fazer todas as coisas; nenhum dos teus planos pode ser frustrado. ",
-			"3": "<sup class=\"versenum\">3 </sup>Tu perguntaste: ‘Quem é esse que obscurece o meu conselhos em conhecimento?’Certo é que falei de coisas que eu não entendia, coisas tão maravilhosas que eu não poderia saber. ",
+			"3": "<sup class=\"versenum\">3 </sup>Tu perguntaste: ‘Quem é esse que obscurece o meu conselhos em conhecimento?’ Certo é que falei de coisas que eu não entendia, coisas tão maravilhosas que eu não poderia saber. ",
 			"4": "<sup class=\"versenum\">4 </sup>“Tu disseste: ‘Agora escute, e eu falarei; vou fazer-lhe perguntas, e você me responderá’. ",
 			"5": "<sup class=\"versenum\">5 </sup>Meus ouvidos já tinham ouvido a teu respeito, mas agora os meus olhos te viram. ",
 			"6": "<sup class=\"versenum\">6 </sup>Por isso menosprezo a mim mesmo e me arrependo no pó e na cinza”. ",

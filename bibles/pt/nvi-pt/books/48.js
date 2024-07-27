@@ -24,7 +24,7 @@ var book = {
 			"19": "<sup class=\"versenum\">19 </sup>Não vi nenhum dos outros apóstolos, a não ser Tiago, irmão do Senhor. ",
 			"20": "<sup class=\"versenum\">20 </sup>Quanto ao que lhes escrevo, afirmo diante de Deus que não minto. ",
 			"21": "<sup class=\"versenum\">21 </sup>A seguir, fui para as regiões da Síria e da Cilícia. ",
-			"22": "<sup class=\"versenum\">22 </sup>Eu não era pessoalmente conhecido pelas igrejas da Judéia que estão em Cristo. ",
+			"22": "<sup class=\"versenum\">22 </sup>Eu não era pessoalmente conhecido pelas igrejas da Judeia que estão em Cristo. ",
 			"23": "<sup class=\"versenum\">23 </sup>Apenas ouviam dizer: “Aquele que antes nos perseguia, agora está anunciando a fé que outrora procurava destruir”. ",
 			"24": "<sup class=\"versenum\">24 </sup>E glorificavam a Deus por minha causa."
 		},
@@ -49,7 +49,7 @@ var book = {
 			"18": "<sup class=\"versenum\">18 </sup>Se reconstruo o que destruí, provo que sou transgressor. ",
 			"19": "<sup class=\"versenum\">19 </sup>Pois, por meio da Lei eu morri para a Lei, a fim de viver para Deus. ",
 			"20": "<sup class=\"versenum\">20 </sup>Fui crucificado com Cristo. Assim, já não sou eu quem vive, mas Cristo vive em mim. A vida que agora vivo no corpo, vivo-a pela fé no filho de Deus, que me amou e se entregou por mim. ",
-			"21": "<sup class=\"versenum\">21 </sup>Não anulo a graça de Deus; pois, se a justiça vem pela Lei, Cristo morreu inutilmente!”"
+			"21": "<sup class=\"versenum\">21 </sup>Não anulo a graça de Deus; pois, se a justiça vem pela Lei, Cristo morreu inutilmente!” "
 		},
 		"3": {
 			"1": "<span class=\"chapternum\">3 </span>Ó gálatas insensatos! Quem os enfeitiçou? Não foi diante dos seus olhos que Jesus Cristo foi exposto como crucificado? ",
@@ -73,7 +73,7 @@ var book = {
 			"19": "<sup class=\"versenum\">19 </sup>Qual era então o propósito da Lei? Foi acrescentada por causa das transgressões, até que viesse o Descendente a quem se referia a promessa, e foi promulgada por meio de anjos, pela mão de um mediador. ",
 			"20": "<sup class=\"versenum\">20 </sup>Contudo, o mediador representa mais de um; Deus, porém, é um. ",
 			"21": "<sup class=\"versenum\">21 </sup>Então, a Lei opõe-se às promessas de Deus? De maneira nenhuma! Pois, se tivesse sido dada uma lei que pudesse conceder vida, certamente a justiça viria da lei. ",
-			"22": "<sup class=\"versenum\">22 </sup>Mas a Escritura encerrou tudo debaixo do pecado, a fim de que a promessa, que é pela fé em Jesus Cristo, fosse dada aos que crêem. ",
+			"22": "<sup class=\"versenum\">22 </sup>Mas a Escritura encerrou tudo debaixo do pecado, a fim de que a promessa, que é pela fé em Jesus Cristo, fosse dada aos que creem. ",
 			"23": "<sup class=\"versenum\">23 </sup>Antes que viesse essa fé, estávamos sob a custódia da Lei, nela encerrados, até que a fé que haveria de vir fosse revelada. ",
 			"24": "<sup class=\"versenum\">24 </sup>Assim, a Lei foi o nosso tutor até Cristo, para que fôssemos justificados pela fé. ",
 			"25": "<sup class=\"versenum\">25 </sup>Agora, porém, tendo chegado a fé, já não estamos mais sob o controle do tutor. ",
@@ -109,7 +109,7 @@ var book = {
 			"24": "<sup class=\"versenum\">24 </sup>Isto é usado aqui como uma ilustração; estas mulheres representam duas alianças. Uma aliança procede do monte Sinai e gera filhos para a escravidão: esta é Hagar. ",
 			"25": "<sup class=\"versenum\">25 </sup>Hagar representa o monte Sinai, na Arábia, e corresponde à atual cidade de Jerusalém, que está escravizada com os seus filhos. ",
 			"26": "<sup class=\"versenum\">26 </sup>Mas a Jerusalém do alto é livre, e é a nossa mãe. ",
-			"27": "<sup class=\"versenum\">27 </sup>Pois está escrito: “Regozije-se, ó estéril, você que nunca teve um filho; grite de alegria, você que nunca esteveem trabalho de parto; porque mais são os filhosda mulher abandonadado que os daquelaque tem marido”. ",
+			"27": "<sup class=\"versenum\">27 </sup>Pois está escrito: “Regozije-se, ó estéril, você que nunca teve um filho; grite de alegria, você que nunca esteve em trabalho de parto; porque mais são os filhos da mulher abandonada do que os daquela que tem marido”. ",
 			"28": "<sup class=\"versenum\">28 </sup>Vocês, irmãos, são filhos da promessa, como Isaque. ",
 			"29": "<sup class=\"versenum\">29 </sup>Naquele tempo, o filho nascido de modo natural perseguiu o filho nascido segundo o Espírito. O mesmo acontece agora. ",
 			"30": "<sup class=\"versenum\">30 </sup>Mas o que diz a Escritura? “Mande embora a escrava e o seu filho, porque o filho da escrava jamais será herdeiro com o filho da livre”. ",

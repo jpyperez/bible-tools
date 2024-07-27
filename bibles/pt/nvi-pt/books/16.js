@@ -108,7 +108,7 @@ var book = {
 			"9": "<sup class=\"versenum\">9 </sup>Por isso prossegui: O que vocês estão fazendo não está certo. Vocês devem andar no temor do nosso Deus para evitar a zombaria dos outros povos, os nossos inimigos. ",
 			"10": "<sup class=\"versenum\">10 </sup>Eu, os meus irmãos e os meus homens de confiança também estamos emprestando dinheiro e trigo ao povo. Mas vamos acabar com a cobrança de juros! ",
 			"11": "<sup class=\"versenum\">11 </sup>Devolvam-lhes imediatamente suas terras, suas vinhas, suas oliveiras e suas casas, e também os juros que cobraram deles, a centésima parte do dinheiro, do trigo, do vinho e do azeite. ",
-			"12": "<sup class=\"versenum\">12 </sup>E eles responderam: “Nós devolveremos tudo o que você citou, e não exigiremos mais nada deles. Vamos fazer o que você está pedindo”.Então convoquei os sacerdotes e os fiz declarar sob juramento que cumpririam a promessa feita. ",
+			"12": "<sup class=\"versenum\">12 </sup>E eles responderam: “Nós devolveremos tudo o que você citou, e não exigiremos mais nada deles. Vamos fazer o que você está pedindo”. Então convoquei os sacerdotes e os fiz declarar sob juramento que cumpririam a promessa feita. ",
 			"13": "<sup class=\"versenum\">13 </sup>Também sacudi a dobra do meu manto e disse: Deus assim sacuda de sua casa e de seus bens todo aquele que não mantiver a sua promessa. Tal homem seja sacudido e esvaziado! Toda a assembleia disse: “Amém!”, e louvou o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>. E o povo cumpriu o que prometeu. ",
 			"14": "<sup class=\"versenum\">14 </sup>Além disso, desde o vigésimo ano do rei Artaxerxes, quando fui nomeado governador deles na terra de Judá, até o trigésimo segundo ano do seu reinado, durante doze anos, nem eu nem meus irmãos comemos a comida destinada ao governador. ",
 			"15": "<sup class=\"versenum\">15 </sup>Mas os governantes anteriores, aqueles que me precederam, puseram um peso sobre o povo e tomavam dele quatrocentos e oitenta gramas de prata, além de comida e vinho. Até os seus auxiliares oprimiam o povo. Mas, por temer a Deus, não agi dessa maneira. ",
@@ -119,14 +119,14 @@ var book = {
 		},
 		"6": {
 			"1": "<span class=\"chapternum\">6 </span>Quando Sambalate, Tobias, Gesém, o árabe, e o restante de nossos inimigos souberam que eu havia reconstruído o muro e que não havia ficado nenhuma brecha, embora até então eu ainda não tivesse colocado as portas nos seus lugares, ",
-			"2": "<sup class=\"versenum\">2 </sup>Sambalate e Gesém mandaram-me a seguinte mensagem: “Venha, vamos nos encontrar num dos povoados da planície de Ono”.Eles, contudo, estavam tramando fazer-me mal; ",
+			"2": "<sup class=\"versenum\">2 </sup>Sambalate e Gesém mandaram-me a seguinte mensagem: “Venha, vamos nos encontrar num dos povoados da planície de Ono”. Eles, contudo, estavam tramando fazer-me mal; ",
 			"3": "<sup class=\"versenum\">3 </sup>por isso enviei-lhes mensageiros com esta resposta: “Estou executando um grande projeto e não posso descer. Por que parar a obra para ir encontrar-me com vocês?” ",
 			"4": "<sup class=\"versenum\">4 </sup>Eles me mandaram quatro vezes a mesma mensagem, e todas as vezes lhes dei a mesma resposta. ",
 			"5": "<sup class=\"versenum\">5 </sup>Então, na quinta vez, Sambalate mandou-me um dos seus homens de confiança com a mesma mensagem; ele tinha na mão uma carta aberta ",
 			"6": "<sup class=\"versenum\">6 </sup>em que estava escrito: “Dizem entre as nações, e Gesém diz que é verdade, que você e os judeus estão tramando uma revolta e que, por isso, estão reconstruindo o muro. Além disso, conforme dizem, você está na iminência de se tornar o rei deles, ",
 			"7": "<sup class=\"versenum\">7 </sup>e até nomeou profetas para fazerem em Jerusalém a seguinte proclamação a seu respeito: ‘Há um rei em Judá!’ Ora, essa informação será levada ao rei; por isso, vamos conversar”. ",
 			"8": "<sup class=\"versenum\">8 </sup>Eu lhe mandei esta resposta: Nada disso que você diz está acontecendo; é pura invenção sua. ",
-			"9": "<sup class=\"versenum\">9 </sup>Estavam todos tentando intimidar-nos, pensando: “Eles serão enfraquecidos e não concluirão a obra”.Eu, porém, orei pedindo: Fortalece agora as minhas mãos! ",
+			"9": "<sup class=\"versenum\">9 </sup>Estavam todos tentando intimidar-nos, pensando: “Eles serão enfraquecidos e não concluirão a obra”. Eu, porém, orei pedindo: Fortalece agora as minhas mãos! ",
 			"10": "<sup class=\"versenum\">10 </sup>Um dia fui à casa de Semaías, filho de Delaías, neto de Meetabel, que estava trancado portas adentro. Ele disse: “Vamos encontrar-nos na casa de Deus, no templo, a portas fechadas, pois estão querendo matá-lo; eles virão esta noite”. ",
 			"11": "<sup class=\"versenum\">11 </sup>Todavia, eu lhe respondi: Acha que um homem como eu deveria fugir? Alguém como eu deveria entrar no templo para salvar a vida? Não, eu não irei! ",
 			"12": "<sup class=\"versenum\">12 </sup>Percebi que Deus não o tinha enviado, e que ele tinha profetizado contra mim porque Tobias e Sambalate o tinham contratado. ",
@@ -301,7 +301,7 @@ var book = {
 			"25": "<sup class=\"versenum\">25 </sup>Reum, Hasabna, Maaséias, ",
 			"26": "<sup class=\"versenum\">26 </sup>Aías, Hanã, Anã, ",
 			"27": "<sup class=\"versenum\">27 </sup>Maluque, Harim e Baaná. ",
-			"28": "<sup class=\"versenum\">28 </sup>“O restante do povo — sacerdotes, levitas, porteiros, cantores, servidores do templo e todos os que se separaram dos povos vizinhos por amor à Lei de Deus, com suas mulheres e com todos os seus filhos e filhas capazes de entender— ",
+			"28": "<sup class=\"versenum\">28 </sup>“O restante do povo — sacerdotes, levitas, porteiros, cantores, servidores do templo e todos os que se separaram dos povos vizinhos por amor à Lei de Deus, com suas mulheres e com todos os seus filhos e filhas capazes de entender — ",
 			"29": "<sup class=\"versenum\">29 </sup>agora se une a seus irmãos, os nobres, e se obrigam sob maldição e sob juramento a seguir a Lei de Deus dada por meio do servo de Deus, Moisés, e a obedecer fielmente a todos os mandamentos, ordenanças e decretos do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, o nosso Senhor. ",
 			"30": "<sup class=\"versenum\">30 </sup>“Prometemos não dar nossas filhas em casamento aos povos vizinhos nem aceitar que as filhas deles se casem com os nossos filhos. ",
 			"31": "<sup class=\"versenum\">31 </sup>“Quando os povos vizinhos trouxerem mercadorias ou cereal para venderem no sábado ou em dia de festa, não compraremos deles nesses dias. Cada sete anos abriremos mão de trabalhar a terra e cancelaremos todas as dívidas. ",
@@ -312,7 +312,7 @@ var book = {
 			"36": "<sup class=\"versenum\">36 </sup>“Conforme também está escrito na Lei, traremos o primeiro de nossos filhos e a primeira cria de nossos rebanhos, tanto de ovelhas como de bois, para o templo de nosso Deus, para os sacerdotes que ali estiverem ministrando. ",
 			"37": "<sup class=\"versenum\">37 </sup>“Além do mais, traremos para os depósitos do templo de nosso Deus, para os sacerdotes, a nossa primeira massa de cereal moído, e as nossas primeiras ofertas de cereal, do fruto de todas as nossas árvores e de nosso vinho e azeite. E traremos o dízimo das nossas colheitas para os levitas, pois são eles que recolhem os dízimos em todas as cidades onde trabalhamos. ",
 			"38": "<sup class=\"versenum\">38 </sup>Um sacerdote descendente de Arão acompanhará os levitas quando receberem os dízimos, e os levitas terão que trazer um décimo dos dízimos ao templo de nosso Deus, aos depósitos do templo. ",
-			"39": "<sup class=\"versenum\">39 </sup>O povo de Israel, inclusive os levitas, deverão trazer ofertas de cereal, de vinho novo e de azeite aos depósitos onde se guardam os utensílios para o santuário. É onde os sacerdotes ministram e onde os porteiros e os cantores ficam. “Não negligenciaremos o templo de nosso Deus.”"
+			"39": "<sup class=\"versenum\">39 </sup>O povo de Israel, inclusive os levitas, deverão trazer ofertas de cereal, de vinho novo e de azeite aos depósitos onde se guardam os utensílios para o santuário. É onde os sacerdotes ministram e onde os porteiros e os cantores ficam. “Não negligenciaremos o templo de nosso Deus.” "
 		},
 		"11": {
 			"1": "<span class=\"chapternum\">11 </span>Os líderes do povo passaram a morar em Jerusalém, e o restante do povo fez um sorteio para que, de cada dez pessoas, uma viesse morar em Jerusalém, a santa cidade; as outras nove deveriam ficar em suas próprias cidades. ",

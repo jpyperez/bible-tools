@@ -92,7 +92,7 @@ var book = {
 			"2": "<sup class=\"versenum\">2 </sup>Quando viu a rainha Ester ali no pátio, teve misericórdia dela e estendeu-lhe o cetro de ouro que tinha na mão. Ester aproximou-se e tocou a ponta do cetro. ",
 			"3": "<sup class=\"versenum\">3 </sup>E o rei lhe perguntou: “Que há, rainha Ester? Qual é o seu pedido? Mesmo que seja a metade do reino, lhe será dado”. ",
 			"4": "<sup class=\"versenum\">4 </sup>Respondeu Ester: “Se for do agrado do rei, venha com Hamã a um banquete que lhe preparei”. ",
-			"5": "<sup class=\"versenum\">5 </sup>Disse o rei: “Tragam Hamã imediatamente, para que ele atenda ao pedido de Ester”.Então o rei e Hamã foram ao banquete que Ester havia preparado. ",
+			"5": "<sup class=\"versenum\">5 </sup>Disse o rei: “Tragam Hamã imediatamente, para que ele atenda ao pedido de Ester”. Então o rei e Hamã foram ao banquete que Ester havia preparado. ",
 			"6": "<sup class=\"versenum\">6 </sup>Enquanto bebiam vinho, o rei tornou a perguntar a Ester: “Qual é o seu pedido? Você será atendida. Qual o seu desejo? Mesmo que seja a metade do reino, lhe será concedido”. ",
 			"7": "<sup class=\"versenum\">7 </sup>E Ester respondeu: “Este é o meu pedido e o meu desejo: ",
 			"8": "<sup class=\"versenum\">8 </sup>Se o rei tem consideração por mim, e se lhe agrada atender e conceder o meu pedido, que o rei e Hamã venham amanhã ao banquete que lhes prepararei. Então responderei à pergunta do rei”. ",
@@ -125,10 +125,10 @@ var book = {
 			"3": "<sup class=\"versenum\">3 </sup>Então a rainha Ester respondeu: “Se posso contar com o favor do rei, e se isto lhe agrada, poupe a minha vida e a vida do meu povo; este é o meu pedido e o meu desejo. ",
 			"4": "<sup class=\"versenum\">4 </sup>Pois eu e meu povo fomos vendidos para destruição, morte e aniquilação. Se apenas tivéssemos sido vendidos como escravos e escravas, eu teria ficado em silêncio, porque nenhuma aflição como essa justificaria perturbar o rei”. ",
 			"5": "<sup class=\"versenum\">5 </sup>O rei Xerxes perguntou à rainha Ester: “Quem se atreveu a uma coisa dessas? Onde está ele?” ",
-			"6": "<sup class=\"versenum\">6 </sup>Respondeu Ester: “O adversário e inimigo é Hamã, esse perverso”.Diante disso, Hamã ficou apavorado na presença do rei e da rainha. ",
+			"6": "<sup class=\"versenum\">6 </sup>Respondeu Ester: “O adversário e inimigo é Hamã, esse perverso”. Diante disso, Hamã ficou apavorado na presença do rei e da rainha. ",
 			"7": "<sup class=\"versenum\">7 </sup>Furioso, o rei levantou-se, deixou o vinho, saiu dali e foi para o jardim do palácio. E percebendo Hamã que o rei já tinha decidido condená-lo, ficou ali para implorar por sua vida à rainha Ester. ",
 			"8": "<sup class=\"versenum\">8 </sup>E voltando o rei do jardim do palácio ao salão do banquete, viu Hamã caído sobre o assento onde Ester estava reclinada. E então exclamou: “Chegaria ele ao cúmulo de violentar a rainha na minha presença e em minha própria casa?”Mal o rei terminou de dizer isso, alguns oficiais cobriram o rosto de Hamã. ",
-			"9": "<sup class=\"versenum\">9 </sup>E um deles, chamado Harbona, que estava a serviço do rei, disse: “Há uma forca de mais de vinte metros de altura junto à casa de Hamã, que ele fez para Mardoqueu, aquele que intercedeu pela vida do rei”.Então o rei ordenou: “Enforquem-no nela!” ",
+			"9": "<sup class=\"versenum\">9 </sup>E um deles, chamado Harbona, que estava a serviço do rei, disse: “Há uma forca de mais de vinte metros de altura junto à casa de Hamã, que ele fez para Mardoqueu, aquele que intercedeu pela vida do rei”. Então o rei ordenou: “Enforquem-no nela!” ",
 			"10": "<sup class=\"versenum\">10 </sup>Assim Hamã morreu na forca que tinha preparado para Mardoqueu; e a ira do rei se acalmou."
 		},
 		"8": {

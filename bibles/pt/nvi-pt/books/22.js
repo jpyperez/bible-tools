@@ -4,7 +4,7 @@ var book = {
 	"chapters": {
 		"1": {
 			"1": "<span class=\"chapternum\">1 </span>Cântico dos Cânticos de Salomão. ",
-			"2": "<sup class=\"versenum\">2 </sup>Ah, se ele me beijasse, se a sua boca me cobrisse de beijos ...Sim, as suas carícias são mais agradáveis que o vinho. ",
+			"2": "<sup class=\"versenum\">2 </sup>Ah, se ele me beijasse, se a sua boca me cobrisse de beijos ... Sim, as suas carícias são mais agradáveis que o vinho. ",
 			"3": "<sup class=\"versenum\">3 </sup>A fragrância dos seus perfumes é suave; o seu nome é como perfume derramado. Não é à toa que as jovens o amam! ",
 			"4": "<sup class=\"versenum\">4 </sup>Leve-me com você! Vamos depressa! Leve-me o rei para os seus aposentos! Estamos alegres e felizes por sua causa; celebraremos o seu amor mais do que o vinho. Com toda a razão você é amado! ",
 			"5": "<sup class=\"versenum\">5 </sup>Estou escura, mas sou bela, ó mulheres de Jerusalém; escura como as tendas de Quedar, bela como as cortinas de Salomão. ",

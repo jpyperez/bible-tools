@@ -1290,7 +1290,7 @@ var book = {
 			"5": "<sup class=\"versenum\">5 </sup>não levanteis a fronte altiva, <i class=\"added\">nem</i> faleis com cerviz dura. ",
 			"6": "<sup class=\"versenum\">6 </sup>Porque nem do Oriente, nem do Ocidente, nem do deserto <i class=\"added\">vem</i> a exaltação. ",
 			"7": "<sup class=\"versenum\">7 </sup>Mas Deus <i class=\"added\">é</i> o juiz; a um abate e a outro exalta. ",
-			"8": "<sup class=\"versenum\">8 </sup>Porque na mão do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> <i class=\"added\">há um</i> cálice cujo vinho ferve, cheio de mistura, e dá a beber dele; certamente todos os ímpios da terra sorverão <i class=\"added\">e</i> beberão as suas fezes. ",
+			"8": "<sup class=\"versenum\">8 </sup>Porque na mão do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> <i class=\"added\">há um</i> cálice cujo vinho ferve, cheio de mistura, e dá a beber dele; certamente todos os ímpios da terra sorverão <i class=\"added\">e</i> beberão as suas fez es. ",
 			"9": "<sup class=\"versenum\">9 </sup>Mas, quanto a mim, exultarei para sempre; cantarei louvores ao Deus de Jacó. ",
 			"10": "<sup class=\"versenum\">10 </sup>E quebrantarei todas as forças dos ímpios, <i class=\"added\">mas</i> as forças dos justos serão exaltadas."
 		},

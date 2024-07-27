@@ -24,13 +24,13 @@ var book = {
 		"2": {
 			"1": "<span class=\"chapternum\">2 </span>Dentro do peixe, Jonas orou ao <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, o seu Deus. ",
 			"2": "<sup class=\"versenum\">2 </sup>E disse: “Em meu desespero clamei ao <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, e ele me respondeu. Do ventre da morte gritei por socorro, e ouviste o meu clamor. ",
-			"3": "<sup class=\"versenum\">3 </sup>Jogaste-me nas profundezas, no coração dos mares; correntezas formavam um turbilhãoao meu redor; todas as tuas ondas e vagaspassaram sobre mim. ",
-			"4": "<sup class=\"versenum\">4 </sup>Eu disse: Fui expulso da tua presença; contudo, olharei de novopara o teu santo templo. ",
+			"3": "<sup class=\"versenum\">3 </sup>Jogaste-me nas profundezas, no coração dos mares; correntezas formavam um turbilhão ao meu redor; todas as tuas ondas e vagas passaram sobre mim. ",
+			"4": "<sup class=\"versenum\">4 </sup>Eu disse: Fui expulso da tua presença; contudo, olharei de novo para o teu santo templo. ",
 			"5": "<sup class=\"versenum\">5 </sup>As águas agitadas me envolveram, o abismo me cercou, as algas marinhasse enrolaram em minha cabeça. ",
-			"6": "<sup class=\"versenum\">6 </sup>Afundei até chegar aos fundamentosdos montes;à terra embaixo, cujas trancasme aprisionaram para sempre. Mas tu trouxeste a minha vidade volta da sepultura, ó <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> meu Deus! ",
+			"6": "<sup class=\"versenum\">6 </sup>Afundei até chegar aos fundamentos dos montes;à terra embaixo, cujas trancas me aprisionaram para sempre. Mas tu trouxeste a minha vida de volta da sepultura, ó <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> meu Deus! ",
 			"7": "<sup class=\"versenum\">7 </sup>“Quando a minha vida já se apagava, eu me lembrei de ti, <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, e a minha oração subiu a ti, ao teu santo templo. ",
-			"8": "<sup class=\"versenum\">8 </sup>“Aqueles que acreditamem ídolos inúteisdesprezam a misericórdia. ",
-			"9": "<sup class=\"versenum\">9 </sup>Mas eu, com um cântico de gratidão, oferecerei sacrifício a ti. O que eu prometicumprirei totalmente. A salvação vem do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>”. ",
+			"8": "<sup class=\"versenum\">8 </sup>“Aqueles que acreditam em ídolos inúteis desprezam a misericórdia. ",
+			"9": "<sup class=\"versenum\">9 </sup>Mas eu, com um cântico de gratidão, oferecerei sacrifício a ti. O que eu prometi cumprirei totalmente. A salvação vem do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>”. ",
 			"10": "<sup class=\"versenum\">10 </sup>E o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> deu ordens ao peixe, e ele vomitou Jonas em terra firme."
 		},
 		"3": {
@@ -56,7 +56,7 @@ var book = {
 			"8": "<sup class=\"versenum\">8 </sup>Ao nascer do sol, Deus trouxe um vento oriental muito quente, e o sol bateu na cabeça de Jonas, ao ponto de ele quase desmaiar. Com isso ele desejou morrer, e disse: “Para mim seria melhor morrer do que viver”. ",
 			"9": "<sup class=\"versenum\">9 </sup>Mas Deus disse a Jonas: “Você tem alguma razão para estar tão furioso por causa da planta?”Respondeu ele: “Sim, tenho! E estou furioso ao ponto de querer morrer”. ",
 			"10": "<sup class=\"versenum\">10 </sup>Mas o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> lhe disse: “Você tem pena dessa planta, embora não a tenha podado nem a tenha feito crescer. Ela nasceu numa noite e numa noite morreu. ",
-			"11": "<sup class=\"versenum\">11 </sup>Contudo, Nínive tem mais de cento e vinte mil pessoas que não sabem nem distinguir a mão direita da esquerda, além de muitos rebanhos. Não deveria eu ter pena dessa grande cidade?”"
+			"11": "<sup class=\"versenum\">11 </sup>Contudo, Nínive tem mais de cento e vinte mil pessoas que não sabem nem distinguir a mão direita da esquerda, além de muitos rebanhos. Não deveria eu ter pena dessa grande cidade?” "
 		}
 	}
 };

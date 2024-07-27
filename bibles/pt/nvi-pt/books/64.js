@@ -3,7 +3,7 @@ var book = {
 	"numChapters": 1,
 	"chapters": {
 		"1": {
-			"1": "<sup class=\"versenum\">1 </sup>O presbíteroao amado Gaio, a quem amo na verdade. ",
+			"1": "<sup class=\"versenum\">1 </sup>O presbítero ao amado Gaio, a quem amo na verdade. ",
 			"2": "<sup class=\"versenum\">2 </sup>Amado, oro para que você tenha boa saúde e tudo lhe corra bem, assim como vai bem a sua alma. ",
 			"3": "<sup class=\"versenum\">3 </sup>Muito me alegrei ao receber a visita de alguns irmãos que falaram a respeito da sua fidelidade, de como você continua andando na verdade. ",
 			"4": "<sup class=\"versenum\">4 </sup>Não tenho alegria maior do que ouvir que meus filhos estão andando na verdade. ",

@@ -618,7 +618,7 @@ var book = {
 			"21": "<sup class=\"versenum\">21 </sup>A herança que se obtém com ganância no princípio, no final não será abençoada. ",
 			"22": "<sup class=\"versenum\">22 </sup>Não diga: “Eu o farei pagar pelo mal que me fez!” Espere pelo <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, e ele dará a vitória a você. ",
 			"23": "<sup class=\"versenum\">23 </sup>O <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> detesta pesos adulterados, e balanças falsificadas não o agradam. ",
-			"24": "<sup class=\"versenum\">24 </sup>Os passos do homem são dirigidos pelo <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>.Como poderia alguém discernir o seu próprio caminho? ",
+			"24": "<sup class=\"versenum\">24 </sup>Os passos do homem são dirigidos pelo <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>. Como poderia alguém discernir o seu próprio caminho? ",
 			"25": "<sup class=\"versenum\">25 </sup>É uma armadilha consagrar algo precipitadamente, e só pensar nas consequências depois que se fez o voto. ",
 			"26": "<sup class=\"versenum\">26 </sup>O rei sábio abana os ímpios, e passa sobre eles a roda de debulhar. ",
 			"27": "<sup class=\"versenum\">27 </sup>O espírito do homem é a lâmpada do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>, e vasculha cada parte do seu ser. ",
@@ -725,7 +725,7 @@ var book = {
 			"32": "<sup class=\"versenum\">32 </sup>No fim, ele morde como serpente e envenena como víbora. ",
 			"33": "<sup class=\"versenum\">33 </sup>Seus olhos verão coisas estranhas, e sua mente imaginará coisas distorcidas. ",
 			"34": "<sup class=\"versenum\">34 </sup>Você será como quem dorme no meio do mar, como quem se deita no alto das cordas do mastro. ",
-			"35": "<sup class=\"versenum\">35 </sup>E dirá: “Espancaram-me, mas eu nada senti! Bateram em mim, mas nem percebi! Quando acordarei para que possa beber mais uma vez?”"
+			"35": "<sup class=\"versenum\">35 </sup>E dirá: “Espancaram-me, mas eu nada senti! Bateram em mim, mas nem percebi! Quando acordarei para que possa beber mais uma vez?” "
 		},
 		"24": {
 			"1": "<span class=\"chapternum\">24 </span>Não tenha inveja dos ímpios, nem deseje a companhia deles; ",
@@ -920,7 +920,7 @@ var book = {
 			"6": "<sup class=\"versenum\">6 </sup>Nada acrescente às palavras dele, do contrário, ele o repreenderá e mostrará que você é mentiroso. ",
 			"7": "<sup class=\"versenum\">7 </sup>“Duas coisas peço que me dês antes que eu morra: ",
 			"8": "<sup class=\"versenum\">8 </sup>Mantém longe de mima falsidade e a mentira; não me dês nem pobreza nem riqueza; dá-me apenas o alimento necessário. ",
-			"9": "<sup class=\"versenum\">9 </sup>Se não, tendo demais, eu te negaria e te deixaria, e diria: ‘Quem é o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>?’Se eu ficasse pobre, poderia vir a roubar, desonrando assim o nome do meu Deus. ",
+			"9": "<sup class=\"versenum\">9 </sup>Se não, tendo demais, eu te negaria e te deixaria, e diria: ‘Quem é o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>?’ Se eu ficasse pobre, poderia vir a roubar, desonrando assim o nome do meu Deus. ",
 			"10": "<sup class=\"versenum\">10 </sup>“Não fale mal do servo ao seu senhor; do contrário, o servo o amaldiçoará, e você levará a culpa. ",
 			"11": "<sup class=\"versenum\">11 </sup>“Existem os que amaldiçoam seu pai e não abençoam sua mãe; ",
 			"12": "<sup class=\"versenum\">12 </sup>os que são puros aos seus próprios olhos e que ainda não foram purificados da sua impureza; ",

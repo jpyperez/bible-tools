@@ -80,7 +80,7 @@ var book = {
 		"4": {
 			"1": "<span class=\"chapternum\">4 </span>Moisés respondeu: “E se eles não acreditarem em mim nem quiserem me ouvir e disserem: ‘O <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> não lhe apareceu’?” ",
 			"2": "<sup class=\"versenum\">2 </sup>Então o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> lhe perguntou: “Que é isso em sua mão?” “Uma vara”, respondeu ele. ",
-			"3": "<sup class=\"versenum\">3 </sup>Disse o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>: “Jogue-a ao chão”.Moisés jogou-a, e ela se transformou numa serpente. Moisés fugiu dela, ",
+			"3": "<sup class=\"versenum\">3 </sup>Disse o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>: “Jogue-a ao chão”. Moisés jogou-a, e ela se transformou numa serpente. Moisés fugiu dela, ",
 			"4": "<sup class=\"versenum\">4 </sup>mas o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> lhe disse: “Estenda a mão e pegue-a pela cauda”. Moisés estendeu a mão, pegou a serpente e esta se transformou numa vara em sua mão. ",
 			"5": "<sup class=\"versenum\">5 </sup>E disse o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>: “Isso é para que eles acreditem que o Deus dos seus antepassados, o Deus de Abraão, o Deus de Isaque, o Deus de Jacó, apareceu a você”. ",
 			"6": "<sup class=\"versenum\">6 </sup>Disse-lhe mais o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>: “Coloque a mão no peito”. Moisés obedeceu e, quando a retirou, ela estava leprosa; parecia neve. ",
@@ -95,7 +95,7 @@ var book = {
 			"15": "<sup class=\"versenum\">15 </sup>Você falará com ele e lhe dirá o que ele deve dizer; eu estarei com vocês quando falarem, e lhes direi o que fazer. ",
 			"16": "<sup class=\"versenum\">16 </sup>Assim como Deus fala ao profeta, você falará a seu irmão, e ele será o seu porta-voz diante do povo. ",
 			"17": "<sup class=\"versenum\">17 </sup>E leve na mão esta vara; com ela você fará os sinais miraculosos”. ",
-			"18": "<sup class=\"versenum\">18 </sup>Depois Moisés voltou a Jetro, seu sogro, e lhe disse: “Preciso voltar ao Egito para ver se meus parentes ainda vivem”.Jetro lhe respondeu: “Vá em paz!” ",
+			"18": "<sup class=\"versenum\">18 </sup>Depois Moisés voltou a Jetro, seu sogro, e lhe disse: “Preciso voltar ao Egito para ver se meus parentes ainda vivem”. Jetro lhe respondeu: “Vá em paz!” ",
 			"19": "<sup class=\"versenum\">19 </sup>Ora, o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> tinha dito a Moisés, em Midiã: “Volte ao Egito, pois já morreram todos os que procuravam matá-lo”. ",
 			"20": "<sup class=\"versenum\">20 </sup>Então Moisés levou sua mulher e seus filhos montados num jumento e partiu de volta ao Egito. Levava na mão a vara de Deus. ",
 			"21": "<sup class=\"versenum\">21 </sup>Disse mais o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> a Moisés: “Quando você voltar ao Egito, tenha o cuidado de fazer diante do faraó todas as maravilhas que concedi a você o poder de realizar. Mas eu vou endurecer o coração dele, para não deixar o povo ir. ",
@@ -133,7 +133,7 @@ var book = {
 			"20": "<sup class=\"versenum\">20 </sup>Ao saírem da presença do faraó, encontraram-se com Moisés e Arão, que estavam à espera deles, ",
 			"21": "<sup class=\"versenum\">21 </sup>e lhes disseram: “O <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> os examine e os julgue! Vocês atraíram o ódio do faraó e dos seus conselheiros sobre nós, e lhes puseram nas mãos uma espada para que nos matem”. ",
 			"22": "<sup class=\"versenum\">22 </sup>Moisés voltou-se para o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> e perguntou: “Senhor, por que maltrataste este povo? Afinal, por que me enviaste? ",
-			"23": "<sup class=\"versenum\">23 </sup>Desde que me dirigi ao faraó para falar em teu nome, ele tem maltratado este povo, e tu de modo algum libertaste o teu povo!”"
+			"23": "<sup class=\"versenum\">23 </sup>Desde que me dirigi ao faraó para falar em teu nome, ele tem maltratado este povo, e tu de modo algum libertaste o teu povo!” "
 		},
 		"6": {
 			"1": "<span class=\"chapternum\">6 </span>Então o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> disse a Moisés: “Agora você verá o que farei ao faraó: Por minha mão poderosa, ele os deixará ir; por minha mão poderosa, ele os expulsará do seu país”. ",
@@ -165,7 +165,7 @@ var book = {
 			"27": "<sup class=\"versenum\">27 </sup>Foram eles, Moisés e Arão, que falaram ao faraó, rei do Egito, a fim de tirarem os israelitas do Egito. ",
 			"28": "<sup class=\"versenum\">28 </sup>Ora, quando o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> falou com Moisés no Egito, ",
 			"29": "<sup class=\"versenum\">29 </sup>disse-lhe: “Eu sou o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>. Diga ao faraó, rei do Egito, tudo o que eu lhe disser”. ",
-			"30": "<sup class=\"versenum\">30 </sup>Moisés, porém, perguntou ao <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>: “Como o faraó me dará ouvidos, se não tenho facilidade para falar?”"
+			"30": "<sup class=\"versenum\">30 </sup>Moisés, porém, perguntou ao <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>: “Como o faraó me dará ouvidos, se não tenho facilidade para falar?” "
 		},
 		"7": {
 			"1": "<span class=\"chapternum\">7 </span>O <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> lhe respondeu: “Dou-lhe a minha autoridade perante o faraó, e seu irmão Arão será seu porta-voz. ",
@@ -487,7 +487,7 @@ var book = {
 		},
 		"17": {
 			"1": "<span class=\"chapternum\">17 </span>Toda a comunidade de Israel partiu do deserto de Sim, andando de um lugar para outro, conforme a ordem do <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>. Acamparam em Refidim, mas lá não havia água para beber. ",
-			"2": "<sup class=\"versenum\">2 </sup>Por essa razão queixaram-se a Moisés e exigiram: “Dê-nos água para beber”.Ele respondeu: “Por que se queixam a mim? Por que colocam o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> à prova?” ",
+			"2": "<sup class=\"versenum\">2 </sup>Por essa razão queixaram-se a Moisés e exigiram: “Dê-nos água para beber”. Ele respondeu: “Por que se queixam a mim? Por que colocam o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span> à prova?” ",
 			"3": "<sup class=\"versenum\">3 </sup>Mas o povo estava sedento e reclamou a Moisés: “Por que você nos tirou do Egito? Foi para matar de sede a nós, aos nossos filhos e aos nossos rebanhos?” ",
 			"4": "<sup class=\"versenum\">4 </sup>Então Moisés clamou ao <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>: “Que farei com este povo? Estão a ponto de apedrejar-me!” ",
 			"5": "<sup class=\"versenum\">5 </sup>Respondeu-lhe o <span style=\"font-variant: small-caps\" class=\"small-caps divine-name\">Senhor</span>: “Passe à frente do povo. Leve com você algumas das autoridades de Israel, tenha na mão a vara com a qual você feriu o Nilo e vá adiante. ",

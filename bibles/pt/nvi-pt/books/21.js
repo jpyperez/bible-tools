@@ -37,7 +37,7 @@ var book = {
 			"12": "<sup class=\"versenum\">12 </sup>Então passei a refletir na sabedoria, na loucura e na insensatez. O que pode fazer o sucessor do rei, a não ser repetir o que já foi feito? ",
 			"13": "<sup class=\"versenum\">13 </sup>Percebi que a sabedoria é melhor que a insensatez, assim como a luz é melhor do que as trevas. ",
 			"14": "<sup class=\"versenum\">14 </sup>O homem sábio tem olhos que enxergam, mas o tolo anda nas trevas; todavia, percebi que ambos têm o mesmo destino. ",
-			"15": "<sup class=\"versenum\">15 </sup>Aí fiquei pensando: O que acontece ao tolo também me acontecerá.Que proveito eu tive em ser sábio? Então eu disse a mim mesmo: Isso não faz o menor sentido! ",
+			"15": "<sup class=\"versenum\">15 </sup>Aí fiquei pensando: O que acontece ao tolo também me acontecerá. Que proveito eu tive em ser sábio? Então eu disse a mim mesmo: Isso não faz o menor sentido! ",
 			"16": "<sup class=\"versenum\">16 </sup>Nem o sábio, nem o tolo serão lembrados para sempre; nos dias futuros ambos serão esquecidos. Como pode o sábio morrer como o tolo morre? ",
 			"17": "<sup class=\"versenum\">17 </sup>Por isso desprezei a vida, pois o trabalho que se faz debaixo do sol pareceu-me muito pesado. Tudo era inútil, era correr atrás do vento. ",
 			"18": "<sup class=\"versenum\">18 </sup>Desprezei todas as coisas pelas quais eu tanto me esforçara debaixo do sol, pois terei que deixá-las para aquele que me suceder. ",
@@ -157,7 +157,7 @@ var book = {
 			"26": "<sup class=\"versenum\">26 </sup>Descobri que muito mais amarga que a morte é a mulher que serve de laço, cujo coração é uma armadilha e cujas mãos são correntes. O homem que agrada a Deus escapará dela, mas o pecador ela apanhará. ",
 			"27": "<sup class=\"versenum\">27 </sup>“Veja”, diz o Mestre, “foi isto que descobri: Ao comparar uma coisa com outra para descobrir a sua razão de ser, ",
 			"28": "<sup class=\"versenum\">28 </sup>sim, durante essa minha busca que ainda não terminou, entre mil homens descobri apenas um que julgo digno, mas entre as mulheres não achei uma sequer. ",
-			"29": "<sup class=\"versenum\">29 </sup>Assim, cheguei a esta conclusão: Deus fez os homens justos, mas eles foram em busca de muitas intrigas.”"
+			"29": "<sup class=\"versenum\">29 </sup>Assim, cheguei a esta conclusão: Deus fez os homens justos, mas eles foram em busca de muitas intrigas.” "
 		},
 		"8": {
 			"1": "<span class=\"chapternum\">8 </span>Quem é como o sábio? Quem sabe interpretar as coisas? A sabedoria de um homem alcança o favor do rei e muda o seu semblante carregado. ",
